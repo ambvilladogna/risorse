@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Lepista inversa",
+  "autore": "(Scop.) Pat. 1887",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Paralepistaceae",
+  "nomeCorrente": "Paralepista flaccida",
+  "autoreCorrente": "(Sowerby) Vizzini 2012",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-11-03",
+      "collector": "Angelo Ballabeni",
+      "locality": "Percorso vita, Rovetta",
+      "localityCoordinates": "45.89368, 9.97672",
+      "habitat": "Bosco misto",
+      "determiner": "Angelo Ballabeni"
+    },
+    {
+      "collectionDate": "2025-09-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "17/09",
+    "raccoltaPiuTarda": "03/11",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "nomeCompleto": "Hypholoma fasciculare",
+  "autore": "(Huds.) P. Kumm. 1871",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-12-22",
+      "collector": "Fabio Locatelli",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Ceppaia",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-11-01",
+      "collector": "Pierino Bigoni",
+      "locality": "Parco avventura in Pineta, Clusone",
+      "localityCoordinates": "45.880916, 9.919919",
+      "habitat": "Bosco misto pino abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-09",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Pietro Centenari",
+      "locality": "Campos, Rovetta",
+      "localityCoordinates": "45.903515, 9.983604",
+      "habitat": "Abete rosso e castagno",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-10-02",
+      "collector": "Pierino Bigoni",
+      "locality": "Gròmèl, Oltressenda Alta",
+      "localityCoordinates": "45.924229, 9.951038",
+      "habitat": "Misto latifoglie  e  Abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-20",
+      "collector": "Pierino Bigoni",
+      "locality": "Parco avventura in Pineta, Clusone",
+      "localityCoordinates": "45.880916, 9.919919",
+      "habitat": "Misto pino e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-31",
+      "collector": "Maria Angela Maffeis",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-26",
+      "collector": "Pierino Bigoni",
+      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+      "localityCoordinates": "45.93408, 10.00331",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-06-28",
+      "collector": "Fabio Locatelli",
+      "locality": "Sentiero per il rifugio Coca, Valbondione",
+      "localityCoordinates": "46.050309, 10.013158",
+      "habitat": "Faggio",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-05-25",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero 'del Bot', Rovetta",
+      "localityCoordinates": "45.903819, 9.981142",
+      "habitat": "Bosco misto abete e pino",
+      "determiner": "Pietro Centenari"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "25/05",
+    "raccoltaPiuTarda": "22/12",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 1
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 2
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 3
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 1
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 10,
+    "campioniRaccolti": 10,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Censimento Specie Fungine</title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Censimento Specie Fungine</h1>
+            <p id="total-count">Caricamento in corso...</p>
+        </div>
+
+        <div class="search-section">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="free-search">Ricerca libera</button>
+                <button class="tab-button" data-tab="genus-species">Ricerca per genere e specie</button>
+            </div>
+
+            <div class="tab-content">
+                <!-- Free Search Tab -->
+                <div class="tab-pane active" id="free-search-pane">
+                    <form class="free-search-form" id="free-search-form">
+                        <div class="form-group">
+                            <div class="autocomplete-container">
+                                <input type="text" id="free-search-input"
+                                    placeholder="Inserisci genere, specie o qualsiasi taxon (es. Agaricus, sylvicola, Basidiomycota, Agaricales...)">
+                                <div class="autocomplete-list" id="autocomplete-list"></div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn-reset" id="free-reset-btn">Reset</button>
+                    </form>
+                </div>
+
+                <!-- Genus & Species Search Tab -->
+                <div class="tab-pane" id="genus-species-pane">
+                    <form class="search-form" id="search-form">
+                        <div class="form-group">
+                            <label for="genus-select">Genere:</label>
+                            <select id="genus-select">
+                                <option value="">Tutti i generi</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="species-select">Specie:</label>
+                            <select id="species-select">
+                                <option value="">Tutte le specie</option>
+                            </select>
+                        </div>
+
+                        <button type="button" class="btn-reset" id="reset-btn">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-section">
+            <div class="results-header">
+                <span id="results-count">Risultati: 0</span>
+            </div>
+            <div class="species-list" id="species-list">
+                <div class="no-results">Seleziona i criteri di ricerca</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/search.js"></script>
+</body>
+
+</html>

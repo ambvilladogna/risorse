@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Russula claroflava",
+  "autore": "Grove 1888",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-07-03",
+      "collector": "Fabio Locatelli",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Betulla",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-06-19",
+      "collector": "Fabio Locatelli",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Betulla",
+      "determiner": "Fabio Locatelli"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "19/06",
+    "raccoltaPiuTarda": "03/07",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}

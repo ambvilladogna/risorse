@@ -1,0 +1,89 @@
+{
+  "nomeCompleto": "Agrocybe aegerita",
+  "autore": "(V. Brig.) Singer 1951",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tubariaceae",
+  "nomeCorrente": "Cyclocybe cylindracea",
+  "autoreCorrente": "(DC.) Vizzini & Angelini 2014",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-08",
+      "collector": "Pierino Bigoni",
+      "locality": "Peschiera del Garda",
+      "localityCoordinates": "45.438945, 10.692017",
+      "habitat": "Ceppaia pino domestico",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-03",
+      "collector": "Pierino Bigoni",
+      "locality": "Peschiera del Garda",
+      "localityCoordinates": "45.438945, 10.692017",
+      "habitat": "Su cwppsia di pino",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Ceppaia latifoglie",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-16",
+      "collector": "Fabio Locatelli",
+      "locality": "Cuminí, Clusone",
+      "localityCoordinates": "45.88182, 9.94509",
+      "habitat": "Ceppaia latifoglie",
+      "determiner": "Fabio Locatelli"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "16/07",
+    "raccoltaPiuTarda": "08/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 1
+      },
+      {
+        "set": 2
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
+    "campioniExsiccata": 0
+  }
+}

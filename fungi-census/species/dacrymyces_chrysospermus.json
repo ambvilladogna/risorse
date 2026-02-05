@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Dacrymyces chrysospermus",
+  "autore": "Berk. & M.A. Curtis 1873",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Dacrymycetes > ordine: Dacrymycetales > famiglia: Dacrymycetaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-28",
+      "collector": "Fabio Locatelli",
+      "locality": "Loc. Ronchi, Schilpario",
+      "localityCoordinates": "46.01473, 10.13823",
+      "habitat": "Ceppaia abete",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-27",
+      "collector": "Angelo Ballabeni",
+      "locality": "Vilminore di Scalve",
+      "localityCoordinates": "45.997675, 10.092480",
+      "habitat": "Corteccia di conifere marcescente",
+      "determiner": "Angelo Ballabeni"
+    },
+    {
+      "collectionDate": "2025-07-27",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Abete rosso",
+      "determiner": "Fabio Locatelli"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "27/07",
+    "raccoltaPiuTarda": "28/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 2
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Oudemansiella radicata",
+  "autore": "(Relhan) Singer 1936",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+  "nomeCorrente": "Hymenopellis radicata",
+  "autoreCorrente": "(Relhan) R.H. Petersen 2010",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-07-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Roccolo Zuccone, San Lucio, Clusone",
+      "localityCoordinates": "45.867303, 9.950853",
+      "habitat": "Ai piedi di Fagus sylvatica",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-07",
+      "collector": "Pierino Bigoni",
+      "locality": "Colle Palazzo, Oltressenda Alta",
+      "localityCoordinates": "45.938839, 9.973808",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "07/07",
+    "raccoltaPiuTarda": "17/07",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 2
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}
