@@ -37,24 +37,12 @@ jobs:
 
       - name: Pull subtree updates
         run: |
-          # Adjust --prefix paths to match your repo layout
-          # git subtree pull --prefix=biblioteca biblioteca-remote main --squash
           git subtree pull --prefix=biblioteca biblioteca-remote main --squash -m "Update biblioteca subtree"
 
           #git subtree pull --prefix=fungi-census fungi-census-remote master --squash
-          git subtree pull --prefix=fungi-census fungi-census-remote master --squash -m "Update fungi-census subtree"
+          # git subtree pull --prefix=fungi-census fungi-census-remote master --squash -m "Update fungi-census subtree"
 
       - name: Push changes
         run: |
           # Only push if the local branch is ahead of origin
           git push origin HEAD
-
-      # - name: Commit and push if there are changes
-      #   run: |
-      #     if ! git diff --quiet; then
-      #       git commit -am "chore: nightly subtree update"
-      #       git push origin HEAD
-      #     else
-      #       echo "No subtree updates."
-      #     fi
-
