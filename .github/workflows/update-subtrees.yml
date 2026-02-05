@@ -1,0 +1,60 @@
+name: Nightly subtree update
+
+on:
+  # schedule:
+  #   - cron: '0 4 * * *'   # ~5:00 Europe/Rome in winter
+  workflow_dispatch:       # optional manual trigger
+
+jobs:
+  update-subtrees:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write      # needed to push back to the repo
+
+    steps:
+      - name: Checkout main repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Ensure subtree remotes exist
+        run: |
+          # biblioteca
+          git remote add biblioteca-remote https://github.com/ambvilladogna/biblioteca.git || true
+          # fungi-census
+          git remote add fungi-census-remote https://github.com/ambvilladogna/fungi-census.git || true
+
+      - name: Fetch subtree remotes
+        run: |
+          git fetch biblioteca-remote
+          # git fetch fungi-census-remote
+
+      - name: Pull subtree updates
+        run: |
+          # Adjust --prefix paths to match your repo layout
+          # git subtree pull --prefix=biblioteca biblioteca-remote main --squash
+          git subtree pull --prefix=biblioteca biblioteca-remote main --squash -m "Update biblioteca subtree"
+
+          #git subtree pull --prefix=fungi-census fungi-census-remote master --squash
+          git subtree pull --prefix=fungi-census fungi-census-remote master --squash -m "Update fungi-census subtree"
+
+      - name: Push changes
+        run: |
+          # Only push if the local branch is ahead of origin
+          git push origin HEAD
+
+      # - name: Commit and push if there are changes
+      #   run: |
+      #     if ! git diff --quiet; then
+      #       git commit -am "chore: nightly subtree update"
+      #       git push origin HEAD
+      #     else
+      #       echo "No subtree updates."
+      #     fi
+

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risorse - Resource Hub</title>
+    <link rel="stylesheet" href="shared/css/variables.css">
+    <link rel="stylesheet" href="shared/css/reset.css">
+    <link rel="stylesheet" href="shared/css/layout.css">
+    <link rel="stylesheet" href="shared/css/components.css">
+    <link rel="stylesheet" href="styles/risorse.css">
+</head>
+
+<body>
+    <!-- ============================================
+         HEADER SECTION
+         ============================================ -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">Risorse</div>
+            <div class="header__nav">A.M.B. Gruppo di Villa d'Ogna</div>
+        </div>
+    </header>
+
+
+    <!-- ============================================
+         RESOURCES SECTION
+         Uses component: .card, .grid
+         This pattern can be reused in subtrees
+         ============================================ -->
+    <section class="section section--alt" id="resources">
+        <div class="container">
+            <!-- ============================================
+            <h2
+                style="font-family: var(--font-family-heading); font-size: var(--font-size-h2); margin-bottom: var(--spacing-lg); text-align: center;">
+                Risorse Disponibili
+            </h2>
+            ============================================ -->
+
+            <div class="grid grid--2col">
+                <!-- Resource Card 1: Biblioteca -->
+                <div class="card" onclick="window.location.href='./biblioteca/index.html'">
+                    <img src="img/biblioteca.jpg" alt="Biblioteca" class="card__image">
+                    <h3 class="card__title">Biblioteca</h3>
+                    <p class="card__description">
+                        Il catalogo della biblioteca micologica del gruppo di Villa d'Ogna. Attualmente in fase di
+                        sviluppo
+                        con pagine di bozza che illustrano l'interfaccia e i modelli di navigazione.
+                    </p>
+                    <div class="card__meta">
+                        Status: <strong>In fase di sviluppo</strong> • Type: <strong>Biblioteca</strong>
+                    </div>
+                </div>
+
+                <!-- Resource Card 2: Fungi Census -->
+                <div class="card" onclick="window.location.href='./fungi-census/index.html'">
+                    <img src="img/database.jpg" alt="Fungi Census"
+                        class="card__image">
+                    <h3 class="card__title">Fungi Census</h3>
+                    <p class="card__description">
+                        Un database ricercabile di specie fungine con pagine di informazioni dettagliate.
+                        Include funzionalità di ricerca e visualizzazioni dettagliate delle specie.
+                    </p>
+                    <div class="card__meta">
+                        Status: <strong>Attivo</strong> • Type: <strong>Database</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         ABOUT SECTION
+         ============================================ -->
+    <section class="section" id="about">
+        <div class="container">
+            <h3
+                style="font-family: var(--font-family-heading); font-size: var(--font-size-h2); margin-bottom: var(--spacing-lg);">
+                Come Funziona
+            </h3>
+            <p>
+                Questa pagina di risorse fornisce accesso a database e strumenti specifici. Ogni risorsa opera in
+                modo indipendente con il proprio flusso di generazione dati, pur condividendo un framework di
+                progettazione comune per garantire la coerenza.
+            </p>
+            <p>&nbsp</p>
+
+            <div class="grid grid--3col">
+                <div>
+                    <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-sm);">
+                        Risorse Indipendenti
+                    </h3>
+                    <p>
+                        Ogni risorsa mantiene il proprio repository e può funzionare in modo indipendente
+                        con il proprio flusso di distribuzione.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-sm);">
+                        Componenti UI Condivisi
+                    </h3>
+                    <p>
+                        Elementi e stili UI comuni sono condivisi tra le risorse per garantire
+                        un'esperienza utente coerente.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-sm);">
+                        Architettura Modulare
+                    </h3>
+                    <p>
+                        Costruita usando subtrees per massima flessibilità, permettendo alle risorse di essere
+                        incorporate in siti web più grandi o utilizzate in modo autonomo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER SECTION
+         ============================================ -->
+    <footer class="footer">
+        <!-- ============================================
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="./biblioteca/index.html">Biblioteca</a></li>
+                        <li><a href="./fungi-census/index.html">Fungi Census</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Documentation</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#api">API Docs</a></li>
+                        <li><a href="#contribute">Contribute</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#contact">Get in Touch</a></li>
+                        <li><a href="#support">Support</a></li>
+                        <li><a href="#feedback">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+            ============================================ -->
+        <div class="footer__bottom">
+            <p>2026 - A.M.B. Gruppo di Villa d'Ogna</p>
+        </div>
+    </footer>
+
+    <script src="shared/js/utils.js"></script>
+    <script>
+        /**
+         * Card click handler - can be used for analytics or custom behavior
+         */
+        document.addEventListener('DOMContentLoaded', function () {
+            // Optional: Add custom behavior for card clicks
+            // Already handled with onclick in HTML for simplicity
+        });
+    </script>
+</body>
+
+</html>
