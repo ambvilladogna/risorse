@@ -1,0 +1,25 @@
+---
+layout: default
+title: Biblioteca
+---
+
+<div class="controls">
+    <input type="search" id="searchInput" placeholder="Cerca per titolo, autore, editore...">
+    <div class="filter-tags">
+        <button class="tag-filter" data-tag="monografia">Monografie</button>
+        <button class="tag-filter" data-tag="amb">AMB</button>
+        <button class="tag-filter" data-tag="russole">Russole</button>
+    </div>
+</div>
+
+<div class="stats">
+    Visualizzati <span id="visibleCount">115</span> di <span id="totalCount">115</span> volumi
+</div>
+
+<div class="books-grid" id="booksGrid">
+    <!-- Books will be inserted here by JavaScript -->
+</div>
+
+<div class="no-results" id="noResults" style="display: none;">
+    Nessun volume trovato con i criteri di ricerca selezionati.
+</div>
