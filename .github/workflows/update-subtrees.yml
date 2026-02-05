@@ -34,7 +34,7 @@ jobs:
       - name: Fetch subtree remotes
         run: |
           git fetch biblioteca-remote
-          # git fetch fungi-census-remote
+          git fetch fungi-census-remote
 
       - name: Pull subtree updates
         run: |
