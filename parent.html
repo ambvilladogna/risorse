@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Page with iframe Embedding</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .parent-header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .parent-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+
+        /* CENSIMENTO FUNGINO */
+
+        #census-container {
+            /* border: 2px solid #3498db;
+            border-radius: 8px; */
+            overflow: hidden;
+            background-color: white;
+        }
+
+        #embedded-frame {
+            width: 100%;
+            border: none;
+            display: block;
+        }
+
+        /* FINE CENSIMENTO FUNGINO */
+
+        .parent-footer {
+            background-color: #34495e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .control-buttons {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .control-buttons button {
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: none;
+            border-radius: 4px;
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+        }
+
+        .control-buttons button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent-header">
+        <h1>Parent Page</h1>
+        <p>This is the main parent page. The embedded content below runs in an isolated iframe.</p>
+    </div>
+
+    <!-- CENSIMENTO FUNGINO -->
+    <div id="census-container">
+        <iframe id="embedded-frame" src="fungi-census/search.html" title="Fungi Census Search Page">
+            <p>Your browser does not support iframes.</p>
+        </iframe>
+    </div>
+    <!-- FINE CENSIMENTO FUNGINO -->
+
+    <div class="parent-footer">
+        Parent page footer - unaffected by embedded content
+    </div>
+
+    <script>
+        // CENSIMENTO FUNGINO
+        function loadPage(pageName) {
+            const iframe = document.getElementById('embedded-frame');
+            iframe.src = pageName;
+            console.log(`Loading: ${pageName}`);
+        }
+
+        // Listen for messages from embedded pages
+        window.addEventListener('message', function (event) {
+            // For security, you might want to check event.origin
+            if (event.data.type === 'navigate') {
+                loadPage(event.data.page);
+                console.log(`Navigation request: ${event.data.page}`);
+            } else if (event.data.type === 'contentLoaded') {
+                iframe.style.height = event.data.height + 'px';
+                console.log(`iFrame height recalculated: ${event.data.height} px`);
+            }
+        });
+
+        // Optional: Handle iframe load events
+        const iframe = document.getElementById('embedded-frame');
+
+        iframe.addEventListener('load', function () {
+            // Scroll parent page to top
+            window.scrollTo(0, 0)
+            console.log('Embedded page loaded:', iframe.src);
+        });
+        // FINE CENSIMENTO FUNGINO
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+{
+  "nomeCompleto": "Macrolepiota procera",
+  "autore": "(Scop.) Singer 1948",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-09",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-09-21",
+      "collector": "Pietro Centenari",
+      "locality": "Costa del Parè, Rovetta",
+      "localityCoordinates": "45.916258, 9.985789",
+      "habitat": "Prato",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-04",
+      "collector": "Pietro Centenari",
+      "locality": "Cima Trifone, Songavazzo",
+      "localityCoordinates": "45.863856, 10.029163",
+      "habitat": "Bosco misto",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-07-20",
+      "collector": "Pierino Bigoni",
+      "locality": "Poieto, Aviatico",
+      "localityCoordinates": "45.798395, 9.782179",
+      "habitat": "Prato",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-20",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-07-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Roccolo Zuccone, San Lucio, Clusone",
+      "localityCoordinates": "45.867303, 9.950853",
+      "habitat": "Bosco rado di abete rosso e latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "17/07",
+    "raccoltaPiuTarda": "09/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 3
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 2
+      },
+      {
+        "ott": 2
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
+    "campioniExsiccata": 0
+  }
+}

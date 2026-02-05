@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Tremella mesenterica",
+  "autore": "Retz. 1769",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Tremellomycetes > ordine: Tremellales > famiglia: Tremellaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-12-07",
+      "collector": "Pierino Bigoni",
+      "locality": "Valsanguigno",
+      "localityCoordinates": "45.967216, 9.886552",
+      "habitat": "Su tronco di latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "07/12",
+    "raccoltaPiuTarda": "07/12",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 1
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

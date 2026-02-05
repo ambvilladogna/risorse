@@ -1,0 +1,113 @@
+{
+  "nomeCompleto": "Flammulina velutipes",
+  "autore": "(Curtis) Singer 1951",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-01-30",
+      "collector": "Pierino Bigoni",
+      "locality": "Bricconi Oltressenda Alta",
+      "localityCoordinates": "45.920360, 9.948130",
+      "habitat": "Su tronco morto di latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2026-01-26",
+      "collector": "Pietro Centenari",
+      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte",
+      "localityCoordinates": "45.9016, 9.9879",
+      "habitat": "Ceppaie e radici marcescenti",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-12-28",
+      "collector": "Pierino Bigoni",
+      "locality": "Bruseda, Piario",
+      "localityCoordinates": "45.8973, 9.9243",
+      "habitat": "Ceppaie marcescenti",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-12-22",
+      "collector": "Fabio Locatelli",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-11-20",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-11-13",
+      "collector": "Angelo Ballabeni",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.903911, 9.987838",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Angelo Ballabeni"
+    },
+    {
+      "collectionDate": "2025-11-01",
+      "collector": "Pierino Bigoni",
+      "locality": "loc. Conigliera, Pineta della Selva, Clusone",
+      "localityCoordinates": "45.884945, 9.921545",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "01/11",
+    "raccoltaPiuTarda": "30/01",
+    "campioniPerMese": [
+      {
+        "gen": 2
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 3
+      },
+      {
+        "dic": 2
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
+    "campioniExsiccata": 0
+  }
+}

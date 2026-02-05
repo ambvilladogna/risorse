@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Flammulina velutipes var. lactea",
+  "autore": "(Quél.) Bas 1983",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-02-01",
+      "collector": "Pietro Centenari",
+      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
+      "localityCoordinates": "45.903911, 9.987838",
+      "habitat": "Ceppaie marcescenti",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-11-13",
+      "collector": "Angelo Ballabeni",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.903911, 9.987838",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Angelo Ballabeni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "13/11",
+    "raccoltaPiuTarda": "01/02",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 1
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}
