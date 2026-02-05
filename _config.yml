@@ -1,0 +1,15 @@
+title: Biblioteca Micologica
+description: Catalogo della collezione del circolo
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+# IMPORTANT: Tell Jekyll not to use a theme
+theme: null
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
