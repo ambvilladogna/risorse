@@ -65,19 +65,7 @@ const books = [
         data: "",
         tags: [],
         note: ""
-    },
-    {
-        id: 90,
-        opera: "Mycena d'Europa",
-        volume: "2ª Edizione",
-        copie: 1,
-        autori: "Giovanni Robich",
-        editore: "AMB Fondazione Centro Studi Micologici",
-        data: "",
-        tags: [],
-        note: ""
     }
-
 ];
 
 const booksGrid = document.getElementById('booksGrid');
