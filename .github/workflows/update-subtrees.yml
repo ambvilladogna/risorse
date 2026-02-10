@@ -26,6 +26,8 @@ jobs:
 
       - name: Ensure subtree remotes exist
         run: |
+          # aggiornamenti-nomenclatura
+          git remote add aggiornamenti-IF-remote https://github.com/ambvilladogna/Aggiornamenti-Index-Fungorum.git || true
           # biblioteca
           git remote add biblioteca-remote https://github.com/ambvilladogna/biblioteca.git || true
           # fungi-census
@@ -33,11 +35,13 @@ jobs:
 
       - name: Fetch subtree remotes
         run: |
+          git fetch aggiornamenti-IF-remote
           git fetch biblioteca-remote
           git fetch fungi-census-remote
 
       - name: Pull subtree updates
         run: |
+          git subtree pull --prefix=aggiornamenti-nomenclatura aggiornamenti-IF-remote main --squash -m "Update aggiornamenti-nomenclatura subtree"
           git subtree pull --prefix=biblioteca biblioteca-remote main --squash -m "Update biblioteca subtree"
           git subtree pull --prefix=fungi-census fungi-census-remote master --squash -m "Update fungi-census subtree"
 
