@@ -1,34 +1,26 @@
 {
-  "nomeCompleto": "Ciboria caucus",
-  "autore": "(Rebent.) Fuckel 1870",
-  "filogenesi": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
+  "nomeCompleto": "Exidia glandulosa",
+  "autore": "(Bull.) Fr. 1822",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2026-02-08",
       "collector": "Pierino Bigoni",
-      "locality": "Basilè, Oltressenda Alta",
-      "localityCoordinates": "45.923093, 9.949515",
-      "habitat": "Su amenti di nocciolo in decomposizione",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2026-01-30",
-      "collector": "Pierino Bigoni",
-      "locality": "Livrè Oltressenda Alta",
-      "localityCoordinates": "45.921296, 9.950754",
-      "habitat": "Su amenti di nocciolo in decomposizione",
+      "locality": "Zanèl, Oltressenda Alta",
+      "localityCoordinates": "45.922674, 9.952497",
+      "habitat": "Su tronco di latifoglie",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "30/01",
+    "raccoltaPiuPrecoce": "08/02",
     "raccoltaPiuTarda": "08/02",
     "campioniPerMese": [
       {
-        "gen": 1
+        "gen": 0
       },
       {
         "feb": 1
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }

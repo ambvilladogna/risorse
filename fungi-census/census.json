@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-03T01:32:09.215Z",
-  "totalSpecies": 431,
+  "generatedAt": "2026-02-10T01:32:14.069Z",
+  "totalSpecies": 433,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1129,6 +1129,13 @@
       "currentAuthority": "(Quél.) T.J. Baroni, Largent & V. Hofst. 2011"
     },
     {
+      "genus": "Exidia",
+      "species": "glandulosa",
+      "fullName": "Exidia glandulosa",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+      "authority": "(Bull.) Fr. 1822"
+    },
+    {
       "genus": "Exobasidium",
       "species": "rhododendri",
       "fullName": "Exobasidium rhododendri",
@@ -2090,6 +2097,15 @@
       "fullName": "Melanoleuca subalpina",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
       "authority": "(Britzelm.) Bresinsky & Stangl 1976"
+    },
+    {
+      "genus": "Micromphale",
+      "species": "perforans",
+      "fullName": "Micromphale perforans",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+      "authority": "(Hoffm.) Gray 1821",
+      "currentName": "Paragymnopus perforans",
+      "currentAuthority": "(Hoffm.) J.S. Oliveira 2019"
     },
     {
       "genus": "Morchella",

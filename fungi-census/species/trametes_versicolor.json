@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-08",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "Su ceppaie marcescenti",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -25,13 +33,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "31/08",
-    "raccoltaPiuTarda": "09/10",
+    "raccoltaPiuTarda": "08/02",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 0
+        "feb": 1
       },
       {
         "mar": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
