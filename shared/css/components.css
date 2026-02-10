@@ -1,3 +1,113 @@
+/* ============================================
+   SECTION: HEADER
+   ============================================ */
+
+.header {
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--spacing-md) 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: padding 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--scrolled {
+    padding: var(--spacing-xs) 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo {
+    font-family: var(--font-family-heading);
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    transition: font-size 0.3s ease;
+}
+
+.header--scrolled .header__logo {
+    font-size: 1.5rem;
+}
+
+.header__nav {
+    display: flex;
+    gap: var(--spacing-lg);
+    list-style: none;
+}
+
+.header__nav a {
+    color: var(--color-text);
+    font-size: var(--font-size-base);
+    transition: color var(--transition-fast);
+}
+
+.header__nav a:hover {
+    color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .header__nav {
+        gap: var(--spacing-sm);
+        font-size: var(--font-size-small);
+    }
+    .header__nav a {
+        font-size: var(--font-size-small);
+    }
+}
+/* ============================================
+   SECTION: FOOTER
+   ============================================ */
+.footer {
+    background-color: var(--color-text);
+    color: #ffffff;
+    padding: var(--spacing-xl) 0 var(--spacing-md);
+    margin-top: var(--spacing-xxl);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.footer__section h3 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-primary-light);
+}
+
+.footer__section ul {
+    list-style: none;
+}
+
+.footer__section ul li {
+    margin-bottom: var(--spacing-xs);
+}
+
+.footer__section a {
+    color: #cccccc;
+}
+
+.footer__section a:hover {
+    color: #ffffff;
+}
+
+.footer__bottom {
+    border-top: 1px solid #444;
+    padding-top: var(--spacing-md);
+    text-align: center;
+    font-size: var(--font-size-small);
+    color: #999;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
