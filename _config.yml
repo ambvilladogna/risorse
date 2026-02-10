@@ -1,0 +1,34 @@
+title: Aggiornamenti Nomenclatura
+description: Aggiornamenti trimestrali tratti da Index Fungorum riferiti alle specie contenute nel Censimento delle specie di AMB Villa
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+# IMPORTANT: Tell Jekyll not to use a theme
+theme: null
+
+# Collections for reports
+collections:
+  reports:
+    output: true
+    permalink: /reports/:name.html
+
+# Default values for reports
+defaults:
+  - scope:
+      path: ""
+      type: "reports"
+    values:
+      layout: "report"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .github
+  - .git
+  - .vscode
+  - node_modules
+  - vendor
