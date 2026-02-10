@@ -6,6 +6,14 @@
   "autoreCorrente": "(Bull.) Quél. 1886",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-08",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "Su tronco di latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-12-03",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
@@ -57,13 +65,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/10",
-    "raccoltaPiuTarda": "03/12",
+    "raccoltaPiuTarda": "08/02",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 0
+        "feb": 1
       },
       {
         "mar": 0
@@ -98,8 +106,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 6,
-    "campioniRaccolti": 6,
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
     "campioniExsiccata": 0
   }
 }
