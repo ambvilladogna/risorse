@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca - Biblioteca Micologica</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/biblioteca/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="shared/css/variables.css">
+    <link rel="stylesheet" href="shared/css/reset.css">
+    <link rel="stylesheet" href="shared/css/layout.css">
+    <link rel="stylesheet" href="shared/css/components.css">
+
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-    <h1>Biblioteca Micologica</h1>
-    <p class="subtitle">Catalogo della collezione del circolo</p>
+    <header class="header">
+    <div class="container header__container">
+        <div class="header__logo">Biblioteca Micologica</div>
+        <div class="header__nav"><a href="https://www.ambvilladogna.it/index.html">A.M.B. Gruppo di Villa d'Ogna</a></div>
+    </div>
 </header>
-        
-        <div class="controls">
-    <input type="search" id="searchInput" placeholder="Cerca per titolo, autore, editore...">
-    <div class="filter-tags">
-        <button class="tag-filter" data-tag="monografia">Monografie</button>
-        <button class="tag-filter" data-tag="amb">AMB</button>
-        <button class="tag-filter" data-tag="russole">Russole</button>
+
+    <div class="container">
+    <div class="controls">
+        <input type="search" id="searchInput" placeholder="Cerca per titolo, autore, editore...">
+        <div class="filter-tags">
+            <button class="tag-filter" data-tag="monografia">Monografie</button>
+            <button class="tag-filter" data-tag="amb">AMB</button>
+            <button class="tag-filter" data-tag="russole">Russole</button>
+        </div>
+    </div>
+
+    <div class="stats">
+        Visualizzati <span id="visibleCount">115</span> di <span id="totalCount">115</span> volumi
+    </div>
+
+    <div class="books-grid" id="booksGrid">
+        <!-- Books will be inserted here by JavaScript -->
+    </div>
+
+    <div class="no-results" id="noResults" style="display: none;">
+        Nessun volume trovato con i criteri di ricerca selezionati.
     </div>
 </div>
 
-<div class="stats">
-    Visualizzati <span id="visibleCount">115</span> di <span id="totalCount">115</span> volumi
-</div>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+            <div class="footer__section">
+                <h3>Informazioni</h3>
+                <ul>
+                    <li><a href="https://www.ambvilladogna.it/index.html">Home page</a></li>
+                    <li><a href="https://www.ambvilladogna.it/html/chi_siamo.html">Chi siamo</a></li>
+                    <li><a href="https://www.ambvilladogna.it/html/contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3>Risorse</h3>
+                <ul>
+                    <li><a href="https://ambvilladogna.github.io/risorse/">Risorse</a></li>
+                    <li><a href="https://ambvilladogna.github.io/risorse/aggiornamenti-nomenclatura/index.html">Aggiornamenti Nomenclatura</a>
+                    <li><a href="https://ambvilladogna.github.io/risorse/biblioteca/index.html">Biblioteca</a></li>
+                    <li><a href="https://ambvilladogna.github.io/risorse/fungi-census/index.html">Fungi Census</a></li>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/gruppomicologicovilladogna">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
 
-<div class="books-grid" id="booksGrid">
-    <!-- Books will be inserted here by JavaScript -->
-</div>
-
-<div class="no-results" id="noResults" style="display: none;">
-    Nessun volume trovato con i criteri di ricerca selezionati.
-</div>
     </div>
-    
-    <script src="/biblioteca/js/script.js"></script>
+    <div class="footer__bottom">
+        <p>2026 - Associazione Micologica Bresadola - Gruppo di Villa d'Ogna</p>
+    </div>
+</footer>
+
+    <script src="shared/js/common.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

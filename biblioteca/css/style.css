@@ -1,52 +1,57 @@
+/* ============================================
+   PAGE-SPECIFIC OVERRIDES & CUSTOM STYLES
+   ============================================ */
+
+/* OVERRIDE: Custom color palette for mycological library theme */
 :root {
-    --paper: #f9f7f1;
-    --ink: #2a2419;
-    --mushroom: #8b6f47;
-    --spore: #d4a574;
-    --moss: #4a5f3a;
-    --accent: #c17a3f;
+    --color-primary: #8b6f47;
+    /* mushroom brown - overrides default green */
+    --color-primary-light: #c17a3f;
+    /* accent - overrides light green */
+    --color-accent: #d4a574;
+    /* spore color - kept from original */
+    --color-bg: #f9f7f1;
+    /* paper texture - overrides white */
+    --color-text: #2a2419;
+    /* ink - overrides default gray */
+    --color-text-light: #4a5f3a;
+    /* moss - for labels */
+    --color-border: #e0ddd5;
+    /* subtle border */
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* OVERRIDE: Custom serif fonts for library aesthetic */
 body {
     font-family: 'Crimson Pro', serif;
-    background: var(--paper);
-    color: var(--ink);
-    line-height: 1.6;
-    padding: 20px;
 }
 
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
+/* Custom header styling for library */
 header {
-    border-bottom: 3px solid var(--mushroom);
+    border-bottom: 3px solid var(--color-primary);
     padding-bottom: 30px;
     margin-bottom: 40px;
-    position: relative;
+}
+
+.header__logo {
+    font-family: 'Crimson Pro', serif;
+    font-size: 2.2rem;
 }
 
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: 3.5rem;
-    color: var(--mushroom);
+    color: var(--color-primary);
     margin-bottom: 10px;
     letter-spacing: -1px;
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: var(--moss);
+    color: var(--color-text-light);
     font-style: italic;
 }
 
+/* Search and filter controls */
 .controls {
     display: flex;
     gap: 15px;
@@ -59,7 +64,7 @@ input[type="search"] {
     flex: 1;
     min-width: 250px;
     padding: 12px 18px;
-    border: 2px solid var(--mushroom);
+    border: 2px solid var(--color-primary);
     background: white;
     font-family: 'Crimson Pro', serif;
     font-size: 1rem;
@@ -68,7 +73,7 @@ input[type="search"] {
 
 input[type="search"]:focus {
     outline: none;
-    border-color: var(--accent);
+    border-color: var(--color-primary-light);
     box-shadow: 0 0 0 3px rgba(193, 122, 63, 0.1);
 }
 
@@ -81,8 +86,8 @@ input[type="search"]:focus {
 .tag-filter {
     padding: 6px 14px;
     background: transparent;
-    border: 1.5px solid var(--moss);
-    color: var(--moss);
+    border: 1.5px solid var(--color-text-light);
+    color: var(--color-text-light);
     cursor: pointer;
     font-family: 'Crimson Pro', serif;
     font-size: 0.9rem;
@@ -90,31 +95,33 @@ input[type="search"]:focus {
 }
 
 .tag-filter:hover {
-    background: var(--moss);
-    color: var(--paper);
+    background: var(--color-text-light);
+    color: var(--color-bg);
 }
 
 .tag-filter.active {
-    background: var(--moss);
-    color: var(--paper);
-    border-color: var(--moss);
+    background: var(--color-text-light);
+    color: var(--color-bg);
+    border-color: var(--color-text-light);
 }
 
 .stats {
     font-size: 0.95rem;
-    color: var(--mushroom);
+    color: var(--color-primary);
     padding: 8px 0;
 }
 
+/* Books grid - uses shared .grid as base */
 .books-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     gap: 25px;
 }
 
+/* CUSTOM: Book card with distinctive left border accent */
 .book-card {
     background: white;
-    border: 1px solid #e0ddd5;
+    border: 1px solid var(--color-border);
     padding: 24px;
     transition: all 0.3s ease;
     position: relative;
@@ -133,25 +140,25 @@ input[type="search"]:focus {
     top: 0;
     height: 100%;
     width: 4px;
-    background: var(--spore);
+    background: var(--color-accent);
     transition: background 0.3s;
 }
 
 .book-card:hover::before {
-    background: var(--accent);
+    background: var(--color-primary-light);
 }
 
 .book-series {
     font-family: 'Libre Baskerville', serif;
     font-size: 1.3rem;
-    color: var(--ink);
+    color: var(--color-text);
     margin-bottom: 8px;
     line-height: 1.3;
 }
 
 .book-volume {
     font-size: 1rem;
-    color: var(--mushroom);
+    color: var(--color-primary);
     margin-bottom: 12px;
     font-style: italic;
 }
@@ -173,12 +180,12 @@ input[type="search"]:focus {
 
 .meta-label {
     font-weight: 600;
-    color: var(--moss);
+    color: var(--color-text-light);
     min-width: 70px;
 }
 
 .meta-value {
-    color: var(--ink);
+    color: var(--color-text);
 }
 
 .book-tags {
@@ -190,8 +197,8 @@ input[type="search"]:focus {
 
 .tag {
     padding: 3px 10px;
-    background: var(--spore);
-    color: var(--ink);
+    background: var(--color-accent);
+    color: var(--color-text);
     font-size: 0.85rem;
     border-radius: 2px;
 }
@@ -200,7 +207,7 @@ input[type="search"]:focus {
     position: absolute;
     top: 16px;
     right: 16px;
-    background: var(--moss);
+    background: var(--color-text-light);
     color: white;
     padding: 4px 10px;
     font-size: 0.85rem;
@@ -210,7 +217,7 @@ input[type="search"]:focus {
 .no-results {
     text-align: center;
     padding: 60px 20px;
-    color: var(--mushroom);
+    color: var(--color-primary);
     font-size: 1.2rem;
     font-style: italic;
 }
