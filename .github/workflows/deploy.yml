@@ -1,0 +1,42 @@
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]  # or your default branch
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Prepare site structure
+        run: |
+          mkdir -p _site
+          # Copy your main repo files
+          cp -r * _site/ || true
+          # Move the pre-built subtree sites
+          mv _site/aggiornamenti-nomenclatura/_site _site/aggiornamenti-nomenclatura-temp
+          mv _site/biblioteca/_site _site/biblioteca-temp
+          mv _site/fungi-census/_site _site/fungi-census-temp
+          rm -rf _site/aggiornamenti-nomenclatura
+          rm -rf _site/biblioteca
+          rm -rf _site/fungi-census
+          mv _site/aggiornamenti-nomenclatura-temp _site/aggiornamenti-nomenclatura
+          mv _site/biblioteca-temp _site/biblioteca
+          mv _site/fungi-census-temp _site/fungi-census
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+      
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
