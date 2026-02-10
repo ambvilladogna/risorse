@@ -1,30 +1,22 @@
 {
-  "nomeCompleto": "Daedaleopsis confragosa",
-  "autore": "(Bolton) J. Schröt. 1888",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
+  "nomeCompleto": "Micromphale perforans",
+  "autore": "(Hoffm.) Gray 1821",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+  "nomeCorrente": "Paragymnopus perforans",
+  "autoreCorrente": "(Hoffm.) J.S. Oliveira 2019",
   "campioniRaccolti": [
     {
       "collectionDate": "2026-02-08",
       "collector": "Antonio Guana",
       "locality": "Piazzolo, Ardesio",
       "localityCoordinates": "45.939095, 9.940667",
-      "habitat": "Su tronco di latifoglie",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-08-31",
-      "collector": "Angelo Fraschina",
-      "locality": "Spiazzi, Gromo",
-      "localityCoordinates": "45.970802, 9.963785",
-      "habitat": "Bosco misto abete bianco e abete rosso",
+      "habitat": "Su aghi di abete rosso",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "31/08",
+    "raccoltaPiuPrecoce": "08/02",
     "raccoltaPiuTarda": "08/02",
     "campioniPerMese": [
       {
@@ -49,7 +41,7 @@
         "lug": 0
       },
       {
-        "ago": 1
+        "ago": 0
       },
       {
         "set": 0
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }

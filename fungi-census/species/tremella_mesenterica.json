@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-08",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "Su tronco di latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-12-07",
       "collector": "Pierino Bigoni",
       "locality": "Valsanguigno",
@@ -17,13 +25,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "07/12",
-    "raccoltaPiuTarda": "07/12",
+    "raccoltaPiuTarda": "08/02",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 0
+        "feb": 1
       },
       {
         "mar": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
