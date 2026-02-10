@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="shared/css/layout.css">
     <link rel="stylesheet" href="shared/css/components.css">
     <link rel="stylesheet" href="styles/risorse.css">
+    <link rel="icon" type="image/webp" href="img/logo.webp"/>
 </head>
 
 <body>
     <header class="header">
         <div class="container header__container">
-            <div class="header__logo">Aggiornamenti Nomenclatura</div>
+            <div class="header__logo">Risorse</div>
             <div class="header__nav"><a href="https://www.ambvilladogna.it/index.html">A.M.B. Gruppo di Villa d'Ogna</a>
             </div>
         </div>
@@ -30,7 +31,20 @@
     <section class="section section--alt" id="resources">
         <div class="container">
             <div class="grid grid--2col">
-                <!-- Resource Card 1: Biblioteca -->
+                <!-- Resource Card: Aggiornamenti Nomenclatura -->
+                <div class="card" onclick="window.location.href='./Aggiornamenti-Index-Fungorum/_site/index.html'">
+                    <img src="img/nomenclatura.webp" alt="Aggiornamenti Nomenclatura" class="card__image">
+                    <h3 class="card__title">Aggiornamenti Nomenclatura</h3>
+                    <p class="card__description">
+                        Aggiornamenti trimestrali tratti da Index Fungorum riferiti alle specie contenute nel Censimento
+                        delle specie di AMB Villa d'Ogna.
+                    </p>
+                    <div class="card__meta">
+                        <strong>Attivo</strong>
+                    </div>
+                </div>
+
+                <!-- Resource Card: Biblioteca -->
                 <div class="card" onclick="window.location.href='./biblioteca/_site/index.html'">
                     <img src="img/biblioteca.webp" alt="Biblioteca" class="card__image">
                     <h3 class="card__title">Biblioteca</h3>
@@ -40,11 +54,11 @@
                         con pagine di bozza che illustrano l'interfaccia e i modelli di navigazione.
                     </p>
                     <div class="card__meta">
-                        Status: <strong>In fase di sviluppo</strong></strong>
+                        <strong>In fase di sviluppo</strong>
                     </div>
                 </div>
 
-                <!-- Resource Card 2: Fungi Census -->
+                <!-- Resource Card: Fungi Census -->
                 <div class="card" onclick="window.location.href='./fungi-census/index.html'">
                     <img src="img/database.webp" alt="Fungi Census" class="card__image">
                     <h3 class="card__title">Fungi Census</h3>
@@ -53,22 +67,10 @@
                         Include funzionalità di ricerca e visualizzazioni dettagliate delle specie.
                     </p>
                     <div class="card__meta">
-                        Status: <strong>Attivo</strong></strong>
+                        <strong>Attivo</strong>
                     </div>
                 </div>
 
-                <!-- Resource Card 2: Aggiornamenti Nomenclatura -->
-                <div class="card" onclick="window.location.href='./Aggiornamenti-Index-Fungorum/_site/index.html'">
-                    <img src="img/nomenclatura.webp" alt="Aggiornamenti Nomenclatura" class="card__image">
-                    <h3 class="card__title">Aggiornamenti Nomenclatura</h3>
-                    <p class="card__description">
-                        Aggiornamenti trimestrali tratti da Index Fungorum riferiti alle specie contenute nel Censimento
-                        delle specie di AMB Villa d'Ogna.
-                    </p>
-                    <div class="card__meta">
-                        Status: <strong>Attivo</strong></strong>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -82,6 +84,10 @@
                 style="font-family: var(--font-family-heading); font-size: var(--font-size-h2); margin-bottom: var(--spacing-lg);">
                 Come Funziona
             </h3>
+            <p>
+                <i>INFORMAZIONI PER GLI SVILUPATORI</i>
+            </p>
+            <p></p>
             <p>
                 Questa pagina di risorse fornisce accesso a database e strumenti specifici. Ogni risorsa opera in
                 modo indipendente con il proprio flusso di generazione dati, pur condividendo un framework di
@@ -156,7 +162,7 @@
         </div>
     </footer>
 
-    <script src="shared/js/utils.js"></script>
+    <script src="shared/js/common.js"></script>
     <script>
         /**
          * Card click handler - can be used for analytics or custom behavior
