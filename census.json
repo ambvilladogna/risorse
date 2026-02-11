@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-10T01:32:14.069Z",
+  "generatedAt": "2026-02-11T01:32:16.377Z",
   "totalSpecies": 433,
   "species": [
     {
@@ -458,7 +458,9 @@
       "species": "fracidus",
       "fullName": "Chamaemyces fracidus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
-      "authority": "(Fr.) Donk 1962"
+      "authority": "(Fr.) Donk 1962",
+      "currentName": "Lepiota fracida",
+      "currentAuthority": "(Fr.) R.L. Zhao & J.X. Li 2025"
     },
     {
       "genus": "Chlorociboria",
