@@ -18,7 +18,7 @@ function goBack() {
         // }, '*');
         window.history.back();
     } else {
-        window.location.href = 'index.html';
+        window.location.href = './index.html';
     }
 }
 
@@ -240,7 +240,7 @@ async function loadSpeciesData() {
     document.getElementById('species-name').textContent = species;
 
     try {
-        const response = await fetch(`species/${filename}`);
+        const response = await fetch(`./species/${filename}`);
 
         if (!response.ok) {
             throw new Error(`File non trovato: ${filename}`);
