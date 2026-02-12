@@ -3,7 +3,16 @@
    ============================================ */
 
 /* Search Section */
+/* ============================================
+   PAGE-SPECIFIC STYLES
+   ============================================ */
+
+/* Search Section */
 .search-section {
+    background: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-bottom: var(--spacing-lg);
     background: var(--color-bg);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
@@ -12,14 +21,18 @@
 }
 
 /* Tabs Navigation */
+/* Tabs Navigation */
 .tabs {
     display: flex;
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
     background-color: var(--color-bg);
     border-bottom: 1px solid var(--color-border);
 }
 
 .tab-button {
     flex: 1;
+    padding: var(--spacing-sm) var(--spacing-md);
     padding: var(--spacing-sm) var(--spacing-md);
     background: none;
     border: none;
@@ -38,9 +51,11 @@
 
 .tab-button:hover:not(.active) {
     background-color: var(--color-bg-alt);
+    background-color: var(--color-bg-alt);
 }
 
 .tab-content {
+    padding: var(--spacing-lg);
     padding: var(--spacing-lg);
 }
 
@@ -53,9 +68,11 @@
 }
 
 /* Search Forms */
+/* Search Forms */
 .search-form {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
+    gap: var(--spacing-sm);
     gap: var(--spacing-sm);
     align-items: end;
 }
@@ -63,6 +80,7 @@
 .free-search-form {
     display: flex;
     flex-direction: row;
+    gap: var(--spacing-sm);
     gap: var(--spacing-sm);
     align-items: end;
 }
@@ -80,10 +98,18 @@
     font-weight: 600;
     margin-bottom: var(--spacing-xs);
     color: var(--color-text);
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-text);
 }
 
 select,
 input {
+    padding: var(--spacing-xs);
+    background: var(--color-bg-alt);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-base);
+    transition: border-color var(--transition-base);
     padding: var(--spacing-xs);
     background: var(--color-bg-alt);
     border: 2px solid var(--color-border);
@@ -98,8 +124,10 @@ select:focus,
 input:focus {
     outline: none;
     border-color: var(--color-primary);
+    border-color: var(--color-primary);
 }
 
+/* Autocomplete */
 /* Autocomplete */
 .autocomplete-container {
     position: relative;
@@ -107,13 +135,17 @@ input:focus {
 
 .autocomplete-list {
     font-size: var(--font-size-base);
+    font-size: var(--font-size-base);
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background: var(--color-bg-alt);
     border: 2px solid var(--color-border);
+    background: var(--color-bg-alt);
+    border: 2px solid var(--color-border);
     border-top: none;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
     border-radius: 0 0 var(--border-radius) var(--border-radius);
     max-height: 200px;
     overflow-y: auto;
@@ -123,12 +155,15 @@ input:focus {
 
 .autocomplete-item {
     padding: 1px var(--spacing-xs);
+    padding: 1px var(--spacing-xs);
     cursor: pointer;
+    transition: background-color var(--transition-base);
     transition: background-color var(--transition-base);
 }
 
 .autocomplete-item:hover,
 .autocomplete-item.selected {
+    background-color: var(--color-primary);
     background-color: var(--color-primary);
     color: white;
 }
@@ -136,10 +171,17 @@ input:focus {
 /* override btn style to keep btn height consistent with input fields */
 .btn {
     padding: 11px 16px;
+/* override btn style to keep btn height consistent with input fields */
+.btn {
+    padding: 11px 16px;
 }
 
 /* Results Section */
+/* Results Section */
 .results-section {
+    background: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
     background: var(--color-bg);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
@@ -150,11 +192,16 @@ input:focus {
     padding: var(--spacing-sm) var(--spacing-md);
     background-color: var(--color-bg-alt);
     border-bottom: 1px solid var(--color-border);
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid var(--color-border);
     font-weight: 600;
+    color: var(--color-text-light);
     color: var(--color-text-light);
 }
 
 .species-list {
+    /* min-height: 600px; */
     /* min-height: 600px; */
     overflow-y: auto;
 }
@@ -163,9 +210,13 @@ input:focus {
     padding: var(--spacing-sm) var(--spacing-md);
     border-bottom: 1px solid var(--color-border);
     transition: background-color var(--transition-fast);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color var(--transition-fast);
 }
 
 .species-item:hover {
+    background-color: var(--color-bg-alt);
     background-color: var(--color-bg-alt);
 }
 
@@ -175,7 +226,10 @@ input:focus {
 
 .species-name {
     font-size: var(--font-size-base);
+    font-size: var(--font-size-base);
     font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-xs);
     color: var(--color-text);
     margin-bottom: var(--spacing-xs);
 }
@@ -188,27 +242,39 @@ input:focus {
     font-size: var(--font-size-small);
     color: var(--color-text);
     margin-bottom: var(--spacing-xs);
+    font-size: var(--font-size-small);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-xs);
 }
 
 .taxon-link {
     color: var(--color-text);
+    color: var(--color-text);
     text-decoration: none;
     border-bottom: 1px dotted var(--color-text-light);
+    border-bottom: 1px dotted var(--color-text-light);
     cursor: pointer;
+    transition: all var(--transition-fast);
     transition: all var(--transition-fast);
 }
 
 .taxon-link:hover {
     background-color: var(--color-text-light);
+    background-color: var(--color-text-light);
     color: white;
+    border-bottom-color: var(--color-border);
     border-bottom-color: var(--color-border);
 }
 
 /* Synonym Information Box */
+/* Synonym Information Box */
 .synonym-info {
     background-color: #fff3cd;
     padding: var(--spacing-xs) var(--spacing-sm);
+    padding: var(--spacing-xs) var(--spacing-sm);
     border-left: 4px solid #ffc107;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-small);
     border-radius: var(--border-radius);
     font-size: var(--font-size-small);
     color: #856404;
@@ -228,14 +294,22 @@ input:focus {
 
 .no-results {
     padding: var(--spacing-xl);
+    padding: var(--spacing-xl);
     text-align: center;
+    color: var(--color-text-light);
     color: var(--color-text-light);
 }
 
 /* ============================================
    RESPONSIVE DESIGN
    ============================================ */
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
 @media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+    }
     .tabs {
         flex-direction: column;
     }
@@ -247,6 +321,10 @@ input:focus {
     .free-search-form {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .header h1 {
+        font-size: var(--font-size-h2);
     }
 
     .header h1 {
