@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Calvatia gigantea",
+  "autore": "(Batsch) Lloyd 1904",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lycoperdaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-16",
+      "collector": "Pierino Bigoni",
+      "locality": "Fiorine, Clusone",
+      "localityCoordinates": "45.880420, 9.927367",
+      "habitat": "Prato",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Pierino Bigoni",
+      "locality": "Clusone",
+      "localityCoordinates": "45.887088, 9.949656",
+      "habitat": "Prato",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "04/08",
+    "raccoltaPiuTarda": "16/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 1
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}

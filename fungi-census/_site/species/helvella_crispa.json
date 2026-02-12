@@ -1,0 +1,66 @@
+{
+  "nomeCompleto": "Helvella crispa",
+  "autore": "(Scop.) Fr. 1822",
+  "filogenesi": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [],
+  "campioniExsiccata": [
+    {
+      "collectionDate": "2024-11-01",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e pino silvestre",
+      "determiner": "Pierino Bigoni",
+      "exsiccataCode": ""
+    }
+  ],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "01/11",
+    "raccoltaPiuTarda": "01/11",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 0,
+    "campioniExsiccata": 1
+  }
+}

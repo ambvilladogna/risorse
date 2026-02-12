@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Calvatia utriformis",
+  "autore": "(Bull.) Jaap 1918",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lycoperdaceae",
+  "nomeCorrente": "Bovistella utriformis",
+  "autoreCorrente": "(Bull.) Demoulin & Rebriev 2017",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-06-09",
+      "collector": "Pietro Centenari",
+      "locality": "Monte Guglielmo",
+      "localityCoordinates": "45.755847, 10.168357",
+      "habitat": "Prato",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "09/06",
+    "raccoltaPiuTarda": "09/06",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

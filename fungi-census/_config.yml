@@ -1,0 +1,20 @@
+title: Specie fungine della Valseriana
+description: Censimento delle specie di funghi in Valseriana - A.M.B. gruppo di Villa d'Ogna
+baseurl: ""
+url: ""
+
+markdown: kramdown
+
+# IMPORTANT: Tell Jekyll not to use a theme
+theme: null
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .github
+  - .git
+  - .vscode
+  - node_modules
+  - vendor

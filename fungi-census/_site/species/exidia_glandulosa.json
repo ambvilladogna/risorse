@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Exidia glandulosa",
+  "autore": "(Bull.) Fr. 1822",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-02-08",
+      "collector": "Pierino Bigoni",
+      "locality": "Zanèl, Oltressenda Alta",
+      "localityCoordinates": "45.922674, 9.952497",
+      "habitat": "Su tronco di latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "08/02",
+    "raccoltaPiuTarda": "08/02",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 1
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

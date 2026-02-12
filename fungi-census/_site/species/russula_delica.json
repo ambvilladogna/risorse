@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Russula delica",
+  "autore": "Fr. 1838",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-07-21",
+      "collector": "Antonio Guana",
+      "locality": "Ave, Ardesio",
+      "localityCoordinates": "45.945285, 9.963584",
+      "habitat": "Faggio",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-13",
+      "collector": "Pierino Bigoni",
+      "locality": "Mòschel, Oltressenda Alta",
+      "localityCoordinates": "45.945886, 10.010183",
+      "habitat": "Bordo del bosco misto Abete rosso e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-01",
+      "collector": "Pietro Centenari",
+      "locality": "Borno",
+      "localityCoordinates": "45.947330, 10.206404",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "01/07",
+    "raccoltaPiuTarda": "21/07",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 3
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

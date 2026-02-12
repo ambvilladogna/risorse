@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Xerocomus chrysenteron",
+  "autore": "(Bull.) Quél. 1888",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+  "nomeCorrente": "Xerocomellus chrysenteron",
+  "autoreCorrente": "(Bull.) Šutara 2008",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Tresoldi",
+      "locality": "Monte Pora, Castione della Presolana",
+      "localityCoordinates": "45.890641, 10.103017",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Fabio Tresoldi",
+      "locality": "Monte Pora, Castione della Presolana",
+      "localityCoordinates": "45.890641, 10.103017",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "22/09",
+    "raccoltaPiuTarda": "06/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}

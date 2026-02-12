@@ -1,0 +1,201 @@
+{
+  "nomeCompleto": "Boletus edulis",
+  "autore": "Bull. 1782",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-31",
+      "collector": "Rossi Luigi",
+      "locality": "Fogarolo, Rovetta",
+      "localityCoordinates": "45.845982, 9.960523",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Rossi luigi"
+    },
+    {
+      "collectionDate": "2025-10-14",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
+    },
+    {
+      "collectionDate": "2025-10-09",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggeta",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-10-02",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-10-02",
+      "collector": "Pierino Bigoni",
+      "locality": "Zanèl, Oltressenda Alta",
+      "localityCoordinates": "45.922674, 9.952497",
+      "habitat": "Misto latifoglie e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-23",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Sergio Lonati",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Sergio Lonati",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Pietro Centenari",
+      "locality": "Piazza di Golla, Premolo",
+      "localityCoordinates": "45.885467, 9.846477",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Pierino Bigoni",
+      "locality": "Piazza di Golla, Premolo",
+      "localityCoordinates": "45.885467, 9.846477",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggio",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-04",
+      "collector": "Pietro Centenari",
+      "locality": "Val Righenzuolo, Songavazzo",
+      "localityCoordinates": "45.86167, 10.03517",
+      "habitat": "Abete",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Abete rosso",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-08-01",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Abete rosso",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-22",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Abete rosso",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-03",
+      "collector": "Fabio Locatelli",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Castagno",
+      "determiner": "Fabio Locatelli"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "03/07",
+    "raccoltaPiuTarda": "31/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 2
+      },
+      {
+        "ago": 2
+      },
+      {
+        "set": 7
+      },
+      {
+        "ott": 7
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 18,
+    "campioniRaccolti": 18,
+    "campioniExsiccata": 0
+  }
+}
