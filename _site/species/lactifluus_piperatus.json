@@ -1,0 +1,89 @@
+{
+  "nomeCompleto": "Lactifluus piperatus",
+  "autore": "(L.) Roussel 1806",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggio",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-18",
+      "collector": "Antonio Guana",
+      "locality": "Ave, Ardesio",
+      "localityCoordinates": "45.945285, 9.963584",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Antonio Guana"
+    },
+    {
+      "collectionDate": "2025-07-07",
+      "collector": "Pierino Bigoni",
+      "locality": "Valsanguigno, Valgoglio",
+      "localityCoordinates": "45.967216, 9.886552",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-01",
+      "collector": "Fabio Locatelli",
+      "locality": "Valbondione",
+      "localityCoordinates": "46.034193, 10.005855",
+      "habitat": "Faggio",
+      "determiner": "Fabio Locatelli"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "01/07",
+    "raccoltaPiuTarda": "04/08",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 3
+      },
+      {
+        "ago": 1
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
+    "campioniExsiccata": 0
+  }
+}

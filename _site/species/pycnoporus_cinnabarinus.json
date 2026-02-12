@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Pycnoporus cinnabarinus",
+  "autore": "(Jacq.) P. Karst. 1881",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+  "nomeCorrente": "Trametes cinnabarina",
+  "autoreCorrente": "(Jacq.) Fr. 1849",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-06-16",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e pino silvestre",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "16/06",
+    "raccoltaPiuTarda": "16/06",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

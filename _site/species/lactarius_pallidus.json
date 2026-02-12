@@ -1,0 +1,97 @@
+{
+  "nomeCompleto": "Lactarius pallidus",
+  "autore": "Pers. 1797",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Faggio",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Fabio Rossi",
+      "locality": "Piazza di Golla, Premolo",
+      "localityCoordinates": "45.885467, 9.846477",
+      "habitat": "Bosco misto",
+      "determiner": "Renato Depressi"
+    },
+    {
+      "collectionDate": "2025-08-26",
+      "collector": "Pierino Bigoni",
+      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+      "localityCoordinates": "45.93408, 10.00331",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-26",
+      "collector": "Renato Depressi",
+      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+      "localityCoordinates": "45.93408, 10.00331",
+      "habitat": "Faggio",
+      "determiner": "Renato Depressi"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "26/08",
+    "raccoltaPiuTarda": "08/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 2
+      },
+      {
+        "set": 2
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
+    "campioniExsiccata": 0
+  }
+}

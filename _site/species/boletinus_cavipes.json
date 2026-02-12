@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Boletinus cavipes",
+  "autore": "(Klotzsch) Kalchbr. 1867",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-11-05",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e pino silvestre e larice",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggeta",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-09-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Larice",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "08/09",
+    "raccoltaPiuTarda": "05/11",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

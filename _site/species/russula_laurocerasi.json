@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Russula laurocerasi",
+  "autore": "Melzer 1920",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Russulaceae",
+  "nomeCorrente": "Russula grata",
+  "autoreCorrente": "Britzelm. 1893",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-09",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-26",
+      "collector": "Pierino Bigoni",
+      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+      "localityCoordinates": "45.93408, 10.00331",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-07-14",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "14/07",
+    "raccoltaPiuTarda": "09/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 1
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

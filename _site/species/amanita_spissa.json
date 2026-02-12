@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Amanita spissa",
+  "autore": "(Fr.) Opiz 1852",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
+  "nomeCorrente": "Amanita excelsa",
+  "autoreCorrente": "(Fr.) Bertill. 1866",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-21",
+      "collector": "Pietro Centenari",
+      "locality": "Campos, Rovetta",
+      "localityCoordinates": "45.903515, 9.983604",
+      "habitat": "Abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bordo sentiero",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "15/09",
+    "raccoltaPiuTarda": "21/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 3
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

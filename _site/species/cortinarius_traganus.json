@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Cortinarius traganus",
+  "autore": "(Fr.) Fr. 1838",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Cortinariaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Bosco misto",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Abete rosso",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "08/09",
+    "raccoltaPiuTarda": "06/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 2
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

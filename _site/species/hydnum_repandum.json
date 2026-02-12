@@ -1,0 +1,145 @@
+{
+  "nomeCompleto": "Hydnum repandum",
+  "autore": "L. 1753",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-24",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-10-09",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-02",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.90914, 9.97076",
+      "habitat": "Bosco misto",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-09-22",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Fabio Rossi",
+      "locality": "Piazza di Golla, Premolo",
+      "localityCoordinates": "45.885467, 9.846477",
+      "habitat": "Bosco misto",
+      "determiner": "Renato Depressi"
+    },
+    {
+      "collectionDate": "2025-09-08",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggio",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-31",
+      "collector": "Maria Angela Maffeis",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-26",
+      "collector": "Pierino Bigoni",
+      "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+      "localityCoordinates": "45.93408, 10.00331",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-01",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggio",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-14",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "14/07",
+    "raccoltaPiuTarda": "24/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 3
+      },
+      {
+        "set": 4
+      },
+      {
+        "ott": 3
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 11,
+    "campioniRaccolti": 11,
+    "campioniExsiccata": 0
+  }
+}

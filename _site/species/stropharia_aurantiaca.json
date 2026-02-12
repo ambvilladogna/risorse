@@ -1,0 +1,56 @@
+{
+  "nomeCompleto": "Stropharia aurantiaca",
+  "autore": "(Cooke) M. Imai 1938",
+  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+  "nomeCorrente": "Psilocybe aurantiaca",
+  "autoreCorrente": "(Cooke) Noordel. 1995",
+  "campioniRaccolti": [],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": null,
+    "raccoltaPiuTarda": null,
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 0,
+    "campioniRaccolti": 0,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "nomeCompleto": "Amanita phalloides",
+  "autore": "(Vaill. ex Fr.) Link 1833",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Amanitaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-10-10",
+      "collector": "Pierino Bigoni",
+      "locality": "Roccolo Sparpaì, Piario",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Pino abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Pietro Centenari",
+      "locality": "Campos, Rovetta",
+      "localityCoordinates": "45.903515, 9.983604",
+      "habitat": "Abete rosso e castagno",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2025-10-02",
+      "collector": "Pierino Bigoni",
+      "locality": "Zanèl, Oltressenda Alta",
+      "localityCoordinates": "45.922674, 9.952497",
+      "habitat": "Misto latifoglie e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-29",
+      "collector": "Fabio Rossi",
+      "locality": "Valcanale, Ardesio",
+      "localityCoordinates": "45.950207, 9.858819",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-21",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Misto latifoglie con pino e abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-20",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Nocciolo, pino e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-18",
+      "collector": "Pierino Bigoni",
+      "locality": "Roccolo Sparpaì, Piario",
+      "localityCoordinates": "45.882983, 9.918480",
+      "habitat": "Pino silvestre noccioli e abeti",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-05",
+      "collector": "Pietro Centenari",
+      "locality": "Vilmaggiore, Vilminore di Scalve",
+      "localityCoordinates": "46.004013, 10.109599",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Faggeta",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-07-03",
+      "collector": "Fabio Locatelli",
+      "locality": "Prat del sul, Clusone",
+      "localityCoordinates": "45.867941, 9.932321",
+      "habitat": "Bosco latifoglie",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-06-18",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "18/06",
+    "raccoltaPiuTarda": "10/10",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 1
+      },
+      {
+        "ago": 2
+      },
+      {
+        "set": 4
+      },
+      {
+        "ott": 3
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 11,
+    "campioniRaccolti": 11,
+    "campioniExsiccata": 0
+  }
+}

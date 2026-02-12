@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Rutstroemia echinophila",
+  "autore": "(Bull.) Höhn. 1917",
+  "filogenesi": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Rutstroemiaceae",
+  "nomeCorrente": "Lanzia echinophila",
+  "autoreCorrente": "(Bull.) Korf 1982",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-17",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "15/09",
+    "raccoltaPiuTarda": "17/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 2
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Hemitrichia serpula",
+  "autore": "(Scop.) Rostaf. 1873",
+  "filogenesi": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-01-30",
+      "collector": "Pierino Bigoni",
+      "locality": "Verso il Lò, Oltressenda Alta",
+      "localityCoordinates": "45.926879, 9.951403",
+      "habitat": "Su tronco morto di aghifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "30/01",
+    "raccoltaPiuTarda": "30/01",
+    "campioniPerMese": [
+      {
+        "gen": 1
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Phellinus ribis",
+  "autore": "(Schumach.) Quél. 1886",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Hymenochaetales > famiglia: Hymenochaetaceae",
+  "nomeCorrente": "Phylloporia ribis",
+  "autoreCorrente": "(Schumach.) Ryvarden 1978",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-11-26",
+      "collector": "Pierino Bigoni",
+      "locality": "Madonnina di Senda, Clusone",
+      "localityCoordinates": "45.896485, 9.934566",
+      "habitat": "Tronchi morti latifoglie",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "26/11",
+    "raccoltaPiuTarda": "26/11",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "nomeCompleto": "Macrolepiota mastoidea",
+  "autore": "(Fr.) Singer 1951",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-09-15",
+      "collector": "Pierino Bigoni",
+      "locality": "Zenier, Rovetta",
+      "localityCoordinates": "45.898619, 9.984853",
+      "habitat": "Bordo sentiero",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Pierino Bigoni",
+      "locality": "Piazza di Golla, Premolo",
+      "localityCoordinates": "45.885467, 9.846477",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-08-04",
+      "collector": "Fabio Locatelli",
+      "locality": "Ripa, Gromo",
+      "localityCoordinates": "45.976347, 9.928513",
+      "habitat": "Nocciolo",
+      "determiner": "Fabio Locatelli"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "04/08",
+    "raccoltaPiuTarda": "15/09",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 1
+      },
+      {
+        "set": 2
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
+    "campioniExsiccata": 0
+  }
+}

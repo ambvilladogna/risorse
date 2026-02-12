@@ -1,0 +1,89 @@
+{
+  "nomeCompleto": "Tricholoma vaccinum",
+  "autore": "(Schaeff.) P. Kumm. 1871",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-11-17",
+      "collector": "Antonio Guana",
+      "locality": "Ave, Ardesio",
+      "localityCoordinates": "45.945285, 9.963584",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-27",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-06",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.909548, 9.973256",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-09-14",
+      "collector": "Renato Depressi",
+      "locality": "Piazza di Golla, Premolo",
+      "localityCoordinates": "45.885467, 9.846477",
+      "habitat": "Bosco misto",
+      "determiner": "Renato Depressi"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "14/09",
+    "raccoltaPiuTarda": "17/11",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 1
+      },
+      {
+        "ott": 2
+      },
+      {
+        "nov": 1
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
+    "campioniExsiccata": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "nomeCompleto": "Tricholoma portentosum",
+  "autore": "(Fr.) Quél. 1873",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tricholomataceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-12-03",
+      "collector": "Fabio Locatelli",
+      "locality": "Fino del monte",
+      "localityCoordinates": "45.890368, 9.992619",
+      "habitat": "Pino silvestre",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-11-27",
+      "collector": "Fabio Locatelli",
+      "locality": "Fino del monte",
+      "localityCoordinates": "45.890368, 9.992619",
+      "habitat": "Pino silvestre",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2025-11-10",
+      "collector": "Pierino Bigoni",
+      "locality": "Parco avventura in Pineta, Clusone",
+      "localityCoordinates": "45.880916, 9.919919",
+      "habitat": "Bosco misto abete e pino silvestre",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-11-01",
+      "collector": "Pierino Bigoni",
+      "locality": "Parco avventura in Pineta, Clusone",
+      "localityCoordinates": "45.880916, 9.919919",
+      "habitat": "Bosco misto pino abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-27",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "27/10",
+    "raccoltaPiuTarda": "03/12",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 3
+      },
+      {
+        "dic": 1
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
+    "campioniExsiccata": 0
+  }
+}

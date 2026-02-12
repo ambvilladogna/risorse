@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Tremella mesenterica",
+  "autore": "Retz. 1769",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Tremellomycetes > ordine: Tremellales > famiglia: Tremellaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-02-08",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "parassita di Peniophora incarnata sul legno marcescente",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-12-07",
+      "collector": "Pierino Bigoni",
+      "locality": "Valsanguigno",
+      "localityCoordinates": "45.967216, 9.886552",
+      "habitat": "parassita di Peniophora incarnata su tronco di latifoglia",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "07/12",
+    "raccoltaPiuTarda": "08/02",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 1
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 1
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}

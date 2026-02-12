@@ -1,0 +1,73 @@
+{
+  "nomeCompleto": "Pleurotus ostreatus",
+  "autore": "(Jacq.) P. Kumm. 1871",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pleurotaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2025-12-28",
+      "collector": "Pierino Bigoni",
+      "locality": "Giardè, Villa d'Ogna",
+      "localityCoordinates": "45.92996, 9.91580",
+      "habitat": "Su pianta di noce",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-10-31",
+      "collector": "Pierino Bigoni",
+      "locality": "Dosso Fiorine, Clusone",
+      "localityCoordinates": "45.880420, 9.927367",
+      "habitat": "Ceppaia di noce",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "31/10",
+    "raccoltaPiuTarda": "28/12",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 1
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 1
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
+    "campioniExsiccata": 0
+  }
+}
