@@ -1,72 +1,43 @@
+// Global variables
 let allSpecies = [];
 let filteredSpecies = [];
-let allTaxons = new Set();
 let currentTab = 'genus-species';
 let selectedAutocompleteIndex = -1;
 
-// DOM elements
+// DOM Elements
+const totalCount = document.getElementById('total-count');
 const genusSelect = document.getElementById('genus-select');
 const speciesSelect = document.getElementById('species-select');
-const freeSearchInput = document.getElementById('free-search-input');
-const autocompleteList = document.getElementById('autocomplete-list');
+const resetBtn = document.getElementById('reset-btn');
+const freeSearchInput = document.getElementById('free-search');
+const freeResetBtn = document.getElementById('free-reset-btn');
 const speciesList = document.getElementById('species-list');
 const resultsCount = document.getElementById('results-count');
-const totalCount = document.getElementById('total-count');
-const resetBtn = document.getElementById('reset-btn');
-const freeResetBtn = document.getElementById('free-reset-btn');
 const tabButtons = document.querySelectorAll('.tab-button');
 const tabPanes = document.querySelectorAll('.tab-pane');
+const autocompleteList = document.getElementById('autocomplete-list');
 
-// Initialize the application
-function init() {
-    loadExternalData('./census.json');
-    setupEventListeners();
-}
-
-// Function to load external JSON data
-async function loadExternalData(jsonUrl) {
+// Initialize the app
+async function init() {
     try {
-        const response = await fetch(jsonUrl);
+        const response = await fetch('./census.json');
         const data = await response.json();
-        allSpecies = data.species.sort((a, b) => {
-            if (a.genus !== b.genus) return a.genus.localeCompare(b.genus);
-            return a.species.localeCompare(b.species);
-        });
+
+        allSpecies = data.species;
         filteredSpecies = [...allSpecies];
-        buildTaxonList();
-        populateDropdowns();
-        updateResults();
+
+        populateGenusDropdown();
         updateTotalCount(data);
+        updateResults();
+        setupEventListeners();
     } catch (error) {
         console.error('Error loading data:', error);
         speciesList.innerHTML = '<div class="no-results">Errore nel caricamento dei dati</div>';
     }
 }
 
-// Build complete taxon list for autocomplete
-function buildTaxonList() {
-    allSpecies.forEach(species => {
-        // Add genus and species
-        allTaxons.add(species.genus);
-        allTaxons.add(species.species);
-
-        // Parse lineage and add all taxons
-        const lineageParts = species.lineage.split(' > ');
-        lineageParts.forEach(part => {
-            const colonIndex = part.indexOf(':');
-            if (colonIndex !== -1) {
-                const taxonName = part.substring(colonIndex + 2).trim();
-                if (taxonName) {
-                    allTaxons.add(taxonName);
-                }
-            }
-        });
-    });
-}
-
-// Populate dropdown menus
-function populateDropdowns() {
-    // Get unique genera
+// Populate genus dropdown
+function populateGenusDropdown() {
     const genera = [...new Set(allSpecies.map(s => s.genus))].sort();
     genera.forEach(genus => {
         const option = document.createElement('option');
@@ -74,8 +45,6 @@ function populateDropdowns() {
         option.textContent = genus;
         genusSelect.appendChild(option);
     });
-
-    updateSpeciesDropdown();
 }
 
 // Update species dropdown based on selected genus
@@ -83,46 +52,67 @@ function updateSpeciesDropdown() {
     const selectedGenus = genusSelect.value;
     speciesSelect.innerHTML = '<option value="">Tutte le specie</option>';
 
-    let availableSpecies = allSpecies;
     if (selectedGenus) {
-        availableSpecies = allSpecies.filter(s => s.genus === selectedGenus);
-    }
+        const speciesInGenus = [...new Set(
+            allSpecies
+                .filter(s => s.genus === selectedGenus)
+                .map(s => s.species)
+        )].sort();
 
-    const species = [...new Set(availableSpecies.map(s => s.species))].sort();
-    species.forEach(spec => {
-        const option = document.createElement('option');
-        option.value = spec;
-        option.textContent = spec;
-        speciesSelect.appendChild(option);
-    });
+        speciesInGenus.forEach(species => {
+            const option = document.createElement('option');
+            option.value = species;
+            option.textContent = species;
+            speciesSelect.appendChild(option);
+        });
+    }
 }
 
-// Handle autocomplete for free search
+// Autocomplete functionality
 function handleAutocomplete(query) {
-    if (!query) {
+    if (!query.trim()) {
         hideAutocomplete();
+        performFreeSearch();
         return;
     }
 
-    const matches = [...allTaxons]
-        .filter(taxon => taxon.toLowerCase().includes(query.toLowerCase()))
-        .sort()
-        .slice(0, 10);
+    const lowerQuery = query.toLowerCase();
+    const suggestions = new Set();
 
-    if (matches.length === 0) {
-        hideAutocomplete();
-        return;
-    }
+    allSpecies.forEach(species => {
+        if (species.genus.toLowerCase().includes(lowerQuery)) {
+            suggestions.add(species.genus);
+        }
+        if (species.species.toLowerCase().includes(lowerQuery)) {
+            suggestions.add(`${species.genus} ${species.species}`);
+        }
 
-    showAutocomplete(matches);
+        const lineageParts = species.lineage.split(' > ');
+        lineageParts.forEach(part => {
+            const colonIndex = part.indexOf(':');
+            if (colonIndex !== -1) {
+                const taxonName = part.substring(colonIndex + 2).trim();
+                if (taxonName.toLowerCase().includes(lowerQuery)) {
+                    suggestions.add(taxonName);
+                }
+            }
+        });
+    });
+
+    showAutocomplete([...suggestions].slice(0, 10));
 }
 
-function showAutocomplete(matches) {
-    autocompleteList.innerHTML = matches.map((match, index) =>
-        `<div class="autocomplete-item" data-value="${match}" data-index="${index}">${match}</div>`
+function showAutocomplete(suggestions) {
+    if (suggestions.length === 0) {
+        hideAutocomplete();
+        return;
+    }
+
+    selectedAutocompleteIndex = -1;
+    autocompleteList.innerHTML = suggestions.map(s =>
+        `<div class="autocomplete-item" data-value="${s}">${s}</div>`
     ).join('');
     autocompleteList.style.display = 'block';
-    selectedAutocompleteIndex = -1;
 }
 
 function hideAutocomplete() {
@@ -136,7 +126,7 @@ function selectAutocompleteItem(value) {
     performFreeSearch();
 }
 
-// Filter species based on selections
+// Filter species by genus and species
 function filterSpecies() {
     const selectedGenus = genusSelect.value;
     const selectedSpecies = speciesSelect.value;
@@ -156,12 +146,46 @@ function performFreeSearch() {
 
     if (!query) {
         filteredSpecies = [...allSpecies];
-    } else {
+        updateResults();
+        return;
+    }
+
+    // Split query into words
+    const words = query.split(/\s+/);
+
+    if (words.length === 1) {
+        // Single word: search in genus, species, and lineage
         filteredSpecies = allSpecies.filter(species => {
             return species.genus.toLowerCase().includes(query) ||
                 species.species.toLowerCase().includes(query) ||
                 species.lineage.toLowerCase().includes(query);
         });
+    } else if (words.length === 2) {
+        // Two words: likely "genus species" - try exact match first, then fallback
+        const [word1, word2] = words;
+
+        filteredSpecies = allSpecies.filter(species => {
+            return species.fullName.toLowerCase().includes(query);
+        });
+    } else {
+        // Three or more words: start searching full query in fullName
+        filteredSpecies = allSpecies.filter(species => {
+            // Check if full query is in fullName
+            if (species.fullName.toLowerCase().includes(query)) return true;
+
+            return false;
+        });
+
+        if (filteredSpecies.length === 0) {
+            // If no results, try matching all words in any order
+            filteredSpecies = allSpecies.filter(species => {
+                return words.every(word =>
+                    species.genus.toLowerCase().includes(word) ||
+                    species.species.toLowerCase().includes(word) ||
+                    species.lineage.toLowerCase().includes(word)
+                );
+            });
+        }
     }
 
     updateResults();
@@ -207,13 +231,13 @@ function handleTaxonClick(taxonValue) {
 }
 
 function handleSpeciesClick(genus, species) {
-    parent.postMessage({
-        type: 'navigate',
-        page: `fungi-census/species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`
-    }, '*');
-    resetFreeSearch();
+    // parent.postMessage({
+    //     type: 'navigate',
+    //     page: `fungi-census/species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`
+    // }, '*');
     // Navigate to species detail page with parameters
-    // window.location.href = `species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
+    window.location.href = `species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
+    resetFreeSearch();
 }
 
 // Switch between tabs
@@ -292,10 +316,10 @@ function updateResults() {
     speciesList.innerHTML = html;
 
     // communicate the final height of the page to the parent 
-    window.parent.postMessage({
-        type: 'contentLoaded',
-        height: document.body.scrollHeight
-    }, '*');
+    // window.parent.postMessage({
+    //     type: 'contentLoaded',
+    //     height: document.body.scrollHeight
+    // }, '*');
 }
 
 // Update total count display
