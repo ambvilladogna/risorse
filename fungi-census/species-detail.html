@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dettaglio Specie - Census Funghi</title>
+    <!-- Shared CSS from repository -->
+    <link rel="stylesheet" href="shared/css/variables.css">
+    <link rel="stylesheet" href="shared/css/reset.css">
+    <link rel="stylesheet" href="shared/css/layout.css">
+    <link rel="stylesheet" href="shared/css/components.css">
+    <!-- Page-specific CSS -->
     <link rel="stylesheet" href="css/species.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -13,9 +19,6 @@
 
 <body>
     <div class="container">
-        <!-- Top back button -->
-        <button class="back-button" onclick="goBack()">Torna alla pagina di ricerca</button>
-
         <!-- Species header -->
         <div class="species-header">
             <div>
@@ -86,12 +89,12 @@
             </div>
         </div>
 
-        <!-- Bottom back button -->
-        <button class="back-button" onclick="goBack()">Torna alla pagina di ricerca</button>
+        <!-- Top back button -->
+        <a class="back-to-search" onclick="goBack()">Torna alla pagina di ricerca</a>
     </div>
 
+    <script src="shared/js/common.js"></script>
     <script src="js/species-detail.js"></script>
-
 </body>
 
 </html>

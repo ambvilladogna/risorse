@@ -12,11 +12,11 @@ function getUrlParameter(name) {
 // Go back function
 function goBack() {
     if (document.referrer && document.referrer.includes(window.location.hostname)) {
-        parent.postMessage({
-            type: 'navigate',
-            page: `fungi-census/search.html`
-        }, '*');
-        // window.history.back();
+        // parent.postMessage({
+        //     type: 'navigate',
+        //     page: `fungi-census/search.html`
+        // }, '*');
+        window.history.back();
     } else {
         window.location.href = 'index.html';
     }
@@ -298,10 +298,10 @@ function displaySpeciesData(data) {
     displayExsiccataList(data.campioniExsiccata || []);
 
     // communicate the final height of the page to the parent 
-    window.parent.postMessage({
-        type: 'contentLoaded',
-        height: document.body.scrollHeight
-    }, '*');
+    // window.parent.postMessage({
+    //     type: 'contentLoaded',
+    //     height: document.body.scrollHeight
+    // }, '*');
 }
 
 // Display total samples count

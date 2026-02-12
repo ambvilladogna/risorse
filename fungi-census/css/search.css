@@ -1,78 +1,47 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ============================================
+   PAGE-SPECIFIC STYLES
+   ============================================ */
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.header {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 20px 0;
-    border-bottom: 2px solid #e9ecef;
-}
-
-.header h1 {
-    color: #2c5530;
-    font-size: 2.2em;
-    margin-bottom: 10px;
-}
-
-.header p {
-    color: #6c757d;
-    font-size: 1.1em;
-}
-
+/* Search Section */
 .search-section {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    margin-bottom: 30px;
+    background: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    margin-bottom: var(--spacing-lg);
     overflow: visible;
 }
 
+/* Tabs Navigation */
 .tabs {
     display: flex;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #dee2e6;
+    background-color: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .tab-button {
     flex: 1;
-    padding: 15px 20px;
+    padding: var(--spacing-sm) var(--spacing-md);
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 16px;
-    font-weight: 600;
-    color: #b0b9c0;
-    transition: all 0.3s ease;
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    color: var(--color-text-light);
+    transition: all var(--transition-base);
 }
 
 .tab-button.active {
-    background-color: white;
-    color: #2c5530;
-    border-bottom: 3px solid #2c5530;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    border-bottom: 3px solid var(--color-primary);
 }
 
 .tab-button:hover:not(.active) {
-    background-color: #e9ecef;
+    background-color: var(--color-bg-alt);
 }
 
 .tab-content {
-    padding: 25px;
+    padding: var(--spacing-lg);
 }
 
 .tab-pane {
@@ -83,17 +52,18 @@ body {
     display: block;
 }
 
+/* Search Forms */
 .search-form {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
-    gap: 15px;
+    gap: var(--spacing-sm);
     align-items: end;
 }
 
 .free-search-form {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: var(--spacing-sm);
     align-items: end;
 }
 
@@ -108,17 +78,18 @@ body {
 
 .form-group label {
     font-weight: 600;
-    margin-bottom: 8px;
-    color: #495057;
+    margin-bottom: var(--spacing-xs);
+    color: var(--color-text);
 }
 
 select,
 input {
-    padding: 10px 12px;
-    border: 2px solid #dee2e6;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: border-color 0.3s ease;
+    padding: var(--spacing-xs);
+    background: var(--color-bg-alt);
+    border: 2px solid var(--color-border);
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-base);
+    transition: border-color var(--transition-base);
     position: relative;
     width: 100%;
 }
@@ -126,22 +97,24 @@ input {
 select:focus,
 input:focus {
     outline: none;
-    border-color: #2c5530;
+    border-color: var(--color-primary);
 }
 
+/* Autocomplete */
 .autocomplete-container {
     position: relative;
 }
 
 .autocomplete-list {
+    font-size: var(--font-size-base);
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
-    background: white;
-    border: 2px solid #2c5530;
+    background: var(--color-bg-alt);
+    border: 2px solid var(--color-border);
     border-top: none;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
     max-height: 200px;
     overflow-y: auto;
     z-index: 1000;
@@ -149,63 +122,51 @@ input:focus {
 }
 
 .autocomplete-item {
-    padding: 10px 12px;
+    padding: 1px var(--spacing-xs);
     cursor: pointer;
-    border-bottom: 1px solid #f0f0f0;
+    transition: background-color var(--transition-base);
 }
 
 .autocomplete-item:hover,
 .autocomplete-item.selected {
-    background-color: #f8f9fa;
-}
-
-.autocomplete-item:last-child {
-    border-bottom: none;
-}
-
-.btn-reset {
-    padding: 12px 16px;
-    background-color: #6c757d;
+    background-color: var(--color-primary);
     color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
 }
 
-.btn-reset:hover {
-    background-color: #5a6268;
+/* override btn style to keep btn height consistent with input fields */
+.btn {
+    padding: 11px 16px;
 }
 
+/* Results Section */
 .results-section {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    background: var(--color-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
     overflow: hidden;
 }
 
 .results-header {
-    padding: 15px 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #dee2e6;
+    padding: var(--spacing-sm) var(--spacing-md);
+    background-color: var(--color-bg-alt);
+    border-bottom: 1px solid var(--color-border);
     font-weight: 600;
-    color: #495057;
+    color: var(--color-text-light);
 }
 
 .species-list {
-    max-height: 600px;
+    /* min-height: 600px; */
     overflow-y: auto;
 }
 
 .species-item {
-    padding: 15px 20px;
-    border-bottom: 1px solid #f0f0f0;
-    transition: background-color 0.2s ease;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 1px solid var(--color-border);
+    transition: background-color var(--transition-fast);
 }
 
 .species-item:hover {
-    background-color: #f8f9fa;
+    background-color: var(--color-bg-alt);
 }
 
 .species-item:last-child {
@@ -213,10 +174,10 @@ input:focus {
 }
 
 .species-name {
-    font-size: 1.1em;
+    font-size: var(--font-size-base);
     font-weight: 600;
-    color: #2c5530;
-    margin-bottom: 5px;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-xs);
 }
 
 .species-name em {
@@ -224,31 +185,32 @@ input:focus {
 }
 
 .species-lineage {
-    font-size: 0.9em;
-    color: #6c757d;
-    margin-bottom: 5px;
+    font-size: var(--font-size-small);
+    color: var(--color-text);
+    margin-bottom: var(--spacing-xs);
 }
 
 .taxon-link {
-    color: #2c5530;
+    color: var(--color-text);
     text-decoration: none;
-    border-bottom: 1px dotted #2c5530;
+    border-bottom: 1px dotted var(--color-text-light);
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all var(--transition-fast);
 }
 
 .taxon-link:hover {
-    background-color: #2c5530;
+    background-color: var(--color-text-light);
     color: white;
-    border-bottom-color: white;
+    border-bottom-color: var(--color-border);
 }
 
+/* Synonym Information Box */
 .synonym-info {
     background-color: #fff3cd;
-    padding: 8px 12px;
+    padding: var(--spacing-xs) var(--spacing-sm);
     border-left: 4px solid #ffc107;
-    border-radius: 4px;
-    font-size: 0.9em;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-small);
     color: #856404;
 }
 
@@ -256,32 +218,38 @@ input:focus {
     font-weight: 600;
 }
 
-.no-results {
-    padding: 40px 20px;
+/* Info Display */
+.total-count {
     text-align: center;
-    color: #6c757d;
+    color: var(--color-text-light);
+    margin-bottom: var(--spacing-lg);
+    font-size: var(--font-size-small);
 }
 
+.no-results {
+    padding: var(--spacing-xl);
+    text-align: center;
+    color: var(--color-text-light);
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
 @media (max-width: 768px) {
+    .tabs {
+        flex-direction: column;
+    }
 
     .search-form {
         grid-template-columns: 1fr;
     }
 
-    .container {
-        padding: 15px;
-    }
-
-    .header h1 {
-        font-size: 1.8em;
-    }
-
-    .tabs {
-        flex-direction: column;
-    }
-
     .free-search-form {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .header h1 {
+        font-size: var(--font-size-h2);
     }
 }
