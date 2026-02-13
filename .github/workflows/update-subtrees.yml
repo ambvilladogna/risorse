@@ -16,7 +16,7 @@ jobs:
       - name: Checkout main repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AMB_SUBTREE_UPDATE_TOKEN }}
           fetch-depth: 0  # Get full history for subtree to work
 
       - name: Configure git identity
@@ -48,4 +48,6 @@ jobs:
       - name: Push changes
         run: |
           # Only push if the local branch is ahead of origin
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git push origin HEAD
