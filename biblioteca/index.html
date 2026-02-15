@@ -5,16 +5,43 @@ title: Biblioteca
 
 <div class="container">
     <div class="controls">
-        <input type="search" id="searchInput" placeholder="Cerca per titolo, autore, editore...">
-        <div class="filter-tags">
-            <button class="tag-filter" data-tag="monografia">Monografie</button>
-            <button class="tag-filter" data-tag="amb">AMB</button>
-            <button class="tag-filter" data-tag="russole">Russole</button>
+        <!-- Search bar -->
+        <div class="search-row">
+            <input type="search" id="searchInput" placeholder="Cerca per titolo, autore, editore...">
+        </div>
+
+        <!-- Filter section -->
+        <div class="filters-row">
+            <!-- Tag filters -->
+            <div class="filter-group">
+                <!-- <span class="filter-label">Categorie:</span> -->
+                <div class="filter-tags" id="filter-tags">
+                    <!-- tags will be inserted here by JavaScript 
+                    <button class="tag-filter" data-tag="monografia">Monografie</button>
+                    -->
+                </div>
+            </div>
+
+            <!-- Rating filters -->
+            <div class="filter-group">
+                <!-- <span class="filter-label">Valutazione:</span> -->
+                <div class="filter-ratings">
+                    <button class="rating-filter" data-rating="3" title="Consigliati">
+                        <span class="star">★★★</span>
+                    </button>
+                    <button class="rating-filter" data-rating="2" title="Standard">
+                        <span class="star">★★☆</span>
+                    </button>
+                    <button class="rating-filter" data-rating="1" title="Archivio">
+                        <span class="star">★☆☆</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="stats">
-        Visualizzati <span id="visibleCount">115</span> di <span id="totalCount">115</span> volumi
+        Visualizzati <span id="visibleCount">0</span> di <span id="totalCount">0</span> volumi
     </div>
 
     <div class="books-grid" id="booksGrid">
