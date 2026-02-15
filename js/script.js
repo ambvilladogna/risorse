@@ -1,82 +1,78 @@
-// Sample data (in production, this would be loaded from your CSV or converted JSON)
-const books = [
-    {
-        id: 1,
-        opera: "Monografia illustrata del Genere Russula in Europa",
-        volume: "Tomo Primo",
-        copie: 1,
-        autori: "Mauro Sarnari",
-        editore: "AMB Fondazione Centro Studi Micologici",
-        data: "2007",
-        tags: ["amb", "monografia"],
-        note: ""
-    },
-    {
-        id: 2,
-        opera: "Monografia illustrata del Genere Russula in Europa",
-        volume: "Tomo Secondo",
-        copie: 1,
-        autori: "Mauro Sarnari",
-        editore: "AMB Fondazione Centro Studi Micologici",
-        data: "2007",
-        tags: ["amb", "monografia"],
-        note: ""
-    },
-    {
-        id: 3,
-        opera: "Nuovo Trattato di Micologia",
-        volume: "*",
-        copie: 1,
-        autori: "Mario Galli",
-        editore: "MAZZOTTA",
-        data: "",
-        tags: [],
-        note: ""
-    },
-    {
-        id: 30,
-        opera: "Le guide des Champignos France et Europe",
-        volume: "",
-        copie: 1,
-        autori: "Guillaume Eyssartier, Pierre Roux",
-        editore: "",
-        data: "",
-        tags: [],
-        note: ""
-    },
-    {
-        id: 80,
-        opera: "Funghi Europaei",
-        volume: "1 – Agaricus L: Fr. (Psalliota Fr.)",
-        copie: 1,
-        autori: "A. Cappelli",
-        editore: "Candusso Editrice",
-        data: "1984",
-        tags: ["monografia"],
-        note: ""
-    },
-    {
-        id: 89,
-        opera: "Mycena d'Europa",
-        volume: "",
-        copie: 1,
-        autori: "Giovanni Robich",
-        editore: "AMB Fondazione Centro Studi Micologici",
-        data: "",
-        tags: ["monografia"],
-        note: ""
-    }
-];
+// Global state
+let books = [];
+let config = {};
+let activeTag = null;
+let activeRating = null;
 
+// DOM elements
 const booksGrid = document.getElementById('booksGrid');
 const searchInput = document.getElementById('searchInput');
-const tagFilters = document.querySelectorAll('.tag-filter');
+const tagsContainer = document.getElementById('filter-tags');
+const ratingFilters = document.querySelectorAll('.rating-filter');
 const visibleCount = document.getElementById('visibleCount');
 const totalCount = document.getElementById('totalCount');
 const noResults = document.getElementById('noResults');
 
-let activeTag = null;
+// Advanced sorting function that can handle multiple properties and sort directions
+// Example usage:
+// books = books.sort(advancedSort(['titolo', '-volume'])); 
+// Sort books by title (ascending) and volume (descending)
+//
+const advancedSort = (props) => {
+    return (a, b) => {
+        for (let prop of props) {
+            let desc = false;
+            if (prop.startsWith("-")) {
+                desc = true;
+                prop = prop.substr(1);
+            }
 
+            const valA = String(a[prop] || "");
+            const valB = String(b[prop] || "");
+
+            const comparison = valA.localeCompare(valB, undefined, {
+                numeric: true,
+                sensitivity: 'base'
+            });
+
+            if (comparison !== 0) {
+                return desc ? comparison * -1 : comparison;
+            }
+        }
+        return 0;
+    };
+};
+
+// Load data on page load
+async function loadData() {
+    try {
+        const [booksResponse, configResponse] = await Promise.all([
+            fetch('./data/books.json'),
+            fetch('./data/config.json')
+        ]);
+
+        books = await booksResponse.json();
+        books = books.sort(advancedSort(['titolo', 'volume']));
+        config = await configResponse.json();
+
+        initializeFilters();
+        renderBooks(books);
+    } catch (error) {
+        console.error('Error loading data:', error);
+        booksGrid.innerHTML = '<p style="text-align: center; color: var(--color-primary);">Errore nel caricamento dei dati.</p>';
+    }
+}
+
+// Initialize filter buttons from config
+function initializeFilters() {
+    totalCount.textContent = books.length;
+
+    tagsContainer.innerHTML = config.tags.map(tag =>
+        `<button class="tag-filter" data-tag="${tag.label}">${tag.label}</button>`
+    ).join('');
+}
+
+// Render books to the grid
 function renderBooks(filteredBooks) {
     booksGrid.innerHTML = '';
 
@@ -94,59 +90,110 @@ function renderBooks(filteredBooks) {
             const volumeDisplay = book.volume ? `<div class="book-volume">${book.volume}</div>` : '';
             const copiesDisplay = book.copie > 1 ? `<div class="copies-badge">${book.copie} copie</div>` : '';
 
+            // Rating stars display
+            const ratingStars = getRatingStars(book.rating);
+
             const tagsHtml = book.tags.length > 0 ?
                 `<div class="book-tags">${book.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>` : '';
 
             card.innerHTML = `
-                        ${copiesDisplay}
-                        <div class="book-series">${book.opera}</div>
-                        ${volumeDisplay}
-                        <div class="book-meta">
-                            ${book.autori ? `<div class="meta-row"><span class="meta-label">Autori:</span><span class="meta-value">${book.autori}</span></div>` : ''}
-                            ${book.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${book.editore}</span></div>` : ''}
-                            ${book.data ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${book.data}</span></div>` : ''}
-                        </div>
-                        ${tagsHtml}
-                    `;
+                ${copiesDisplay}
+                <div class="book-header">
+                    <div class="book-series">${book.titolo}</div>
+                    ${ratingStars}
+                </div>
+                ${volumeDisplay}
+                <div class="book-meta">
+                    ${book.autori ? `<div class="meta-row"><span class="meta-label">Autori:</span><span class="meta-value">${book.autori}</span></div>` : ''}
+                    ${book.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${book.editore}</span></div>` : ''}
+                    ${book.data ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${book.data}</span></div>` : ''}
+                </div>
+                ${tagsHtml}
+            `;
 
             booksGrid.appendChild(card);
         });
     }
 
     visibleCount.textContent = filteredBooks.length;
-    totalCount.textContent = books.length;
 }
 
+// Generate star rating HTML
+function getRatingStars(rating) {
+    if (!rating) return '';
+
+    const stars = [];
+    for (let i = 0; i < 3; i++) {
+        if (i < rating) {
+            stars.push('<span class="star star--filled">★</span>');
+        } else {
+            stars.push('<span class="star star--empty">☆</span>');
+        }
+    }
+
+    return `<div class="book-rating">${stars.join('')}</div>`;
+}
+
+// Filter books based on all active filters
 function filterBooks() {
-    const searchTerm = searchInput.value.toLowerCase();
+    const searchTokens = searchInput.value.toLowerCase().split(/\s+/).filter(t => t.length > 0);
 
     let filtered = books.filter(book => {
-        const matchesSearch = !searchTerm ||
-            book.opera.toLowerCase().includes(searchTerm) ||
-            (book.volume && book.volume.toLowerCase().includes(searchTerm)) ||
-            (book.autori && book.autori.toLowerCase().includes(searchTerm)) ||
-            (book.editore && book.editore.toLowerCase().includes(searchTerm));
+        const matchesSearch = searchTokens.every(token => {
+            return (
+                book.titolo.toLowerCase().includes(token) ||
+                (book.volume && book.volume.toLowerCase().includes(token)) ||
+                (book.autori && book.autori.toLowerCase().includes(token)) ||
+                (book.editore && book.editore.toLowerCase().includes(token)) ||
+                (book.data && book.data.toLowerCase().includes(token)) ||
+                (book.tags && book.tags.some(tag => tag.toLowerCase().includes(token)))
+            );
+        });
 
+        // Other filters remain the same
         const matchesTag = !activeTag || book.tags.includes(activeTag);
+        const matchesRating = !activeRating || book.rating === activeRating;
 
-        return matchesSearch && matchesTag;
+        return matchesSearch && matchesTag && matchesRating;
     });
 
     renderBooks(filtered);
 }
 
+// Event listeners
 searchInput.addEventListener('input', filterBooks);
 
-tagFilters.forEach(button => {
-    button.addEventListener('click', () => {
-        const tag = button.dataset.tag;
+// Tag filter buttons
+tagsContainer.addEventListener('click', (e) => {
+    const tagFilters = document.querySelectorAll('.tag-filter');
+    const button = e.target.closest('.tag-filter');
+    if (!button) return; // Ignore clicks that aren't on a button
 
-        if (activeTag === tag) {
-            activeTag = null;
+    const tag = button.dataset.tag;
+
+    if (activeTag === tag) {
+        activeTag = null;
+        button.classList.remove('active');
+    } else {
+        tagFilters.forEach(b => b.classList.remove('active'));
+        activeTag = tag;
+        button.classList.add('active');
+    }
+
+    filterBooks();
+});
+
+// Rating filter buttons
+ratingFilters.forEach(button => {
+    button.addEventListener('click', () => {
+        const rating = parseInt(button.dataset.rating);
+
+        if (activeRating === rating) {
+            activeRating = null;
             button.classList.remove('active');
         } else {
-            tagFilters.forEach(b => b.classList.remove('active'));
-            activeTag = tag;
+            ratingFilters.forEach(b => b.classList.remove('active'));
+            activeRating = rating;
             button.classList.add('active');
         }
 
@@ -154,5 +201,5 @@ tagFilters.forEach(button => {
     });
 });
 
-// Initial render
-renderBooks(books);
+// Initialize on page load
+loadData();

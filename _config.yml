@@ -13,3 +13,10 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - scripts
+  - README.md
+  - LICENSE
+  - .git
+  - .github
+  - .jekyll-cache
+  - .jekyll-metadata
