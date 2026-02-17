@@ -6,14 +6,6 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
-      "collectionDate": "2026-02-15",
-      "collector": "Pietro Centenari",
-      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
-      "localityCoordinates": "45.905575, 9.988640",
-      "habitat": "Su detriti marcescenti di abete rosso",
-      "determiner": "Pietro Centenari"
-    },
-    {
       "collectionDate": "2025-12-08",
       "collector": "Pierino Bigoni",
       "locality": "Parco avventura in Pineta, Clusone",
@@ -33,13 +25,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/10",
-    "raccoltaPiuTarda": "15/02",
+    "raccoltaPiuTarda": "08/12",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 1
+        "feb": 0
       },
       {
         "mar": 0
@@ -74,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }

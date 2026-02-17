@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) Gillet 1876",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-15",
+      "collector": "Pietro Centenari",
+      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
+      "localityCoordinates": "45.905575, 9.988640",
+      "habitat": "Su detriti marcescenti di abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-12-27",
       "collector": "Pierino Bigoni",
       "locality": "Bricconi  , Oltressenda Alta",
@@ -17,13 +25,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "27/12",
-    "raccoltaPiuTarda": "27/12",
+    "raccoltaPiuTarda": "15/02",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 0
+        "feb": 1
       },
       {
         "mar": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
