@@ -219,6 +219,12 @@ input:focus {
 }
 
 /* Info Display */
+.sub-title {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-lg);
+}
+
 .total-count {
     text-align: center;
     color: var(--color-text-light);
@@ -230,6 +236,10 @@ input:focus {
     padding: var(--spacing-xl);
     text-align: center;
     color: var(--color-text-light);
+}
+
+.hidden {
+    display: none;
 }
 
 /* ============================================
