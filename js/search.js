@@ -5,6 +5,7 @@ let currentTab = 'genus-species';
 let selectedAutocompleteIndex = -1;
 
 // DOM Elements
+const subTitle = document.getElementById('sub-title');
 const totalCount = document.getElementById('total-count');
 const genusSelect = document.getElementById('genus-select');
 const speciesSelect = document.getElementById('species-select');
@@ -19,14 +20,23 @@ const autocompleteList = document.getElementById('autocomplete-list');
 
 // Initialize the app
 async function init() {
+    const area = getUrlParameter('area');
+    let data;
     try {
-        const response = await fetch('./census.json');
-        const data = await response.json();
-
+        if (area) {
+            const response = await fetch(`./${area}.json`);
+            data = await response.json();
+        } else {
+            const response = await fetch('./census.json');
+            data = await response.json();
+        }
         allSpecies = data.species;
         filteredSpecies = [...allSpecies];
 
         populateGenusDropdown();
+        if (area) {
+            updateSubtitle(data);
+        }
         updateTotalCount(data);
         updateResults();
         setupEventListeners();
@@ -236,7 +246,12 @@ function handleSpeciesClick(genus, species) {
     //     page: `fungi-census/species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`
     // }, '*');
     // Navigate to species detail page with parameters
-    window.location.href = `./species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
+    const area = getUrlParameter('area');
+    if (area) {
+        window.location.href = `./species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}&area=${encodeURIComponent(area)}`;
+    } else {
+        window.location.href = `./species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}`;
+    }
     resetFreeSearch();
 }
 
@@ -323,8 +338,14 @@ function updateResults() {
 }
 
 // Update total count display
+function updateSubtitle(data) {
+    subTitle.textContent = data.title;
+    subTitle.classList.remove('hidden');
+}
+
+// Update total count display
 function updateTotalCount(data) {
-    totalCount.textContent = `${data.totalSpecies} specie censite - Ultimo aggiornamento: ${new Date(data.generatedAt).toLocaleDateString('it-IT')}`;
+    totalCount.textContent = `${data.totalSpecies} specie censite - ${data.totalSamples} campioni  - Ultimo aggiornamento: ${new Date(data.generatedAt).toLocaleDateString('it-IT')}`;
 }
 
 // Reset genus/species filters

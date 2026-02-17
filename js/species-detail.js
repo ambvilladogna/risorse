@@ -1,27 +1,6 @@
 let map;
 let seasonalityChart;
 
-// Get URL parameters
-function getUrlParameter(name) {
-    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-    const regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-    const results = regex.exec(location.search);
-    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-}
-
-// Go back function
-function goBack() {
-    if (document.referrer && document.referrer.includes(window.location.hostname)) {
-        // parent.postMessage({
-        //     type: 'navigate',
-        //     page: `fungi-census/search.html`
-        // }, '*');
-        window.history.back();
-    } else {
-        window.location.href = './index.html';
-    }
-}
-
 const getSpeciesFilename = (genus, species) => {
     const cleanGenus = genus.toLowerCase().replace(/[\s.]/g, '_');
     const cleanSpecies = species.toLowerCase().replace(/[\s.]/g, '_');
@@ -228,10 +207,70 @@ function createSeasonalityChart(monthlyData) {
     });
 }
 
+/**
+ * Recomputes "fenologia" and "statistiche" from a filtered subset of samples.
+ *
+ * Accepts the combined campioniRaccolti + campioniExsiccata arrays from the
+ * species JSON (already filtered by whatever geographic criteria the user has
+ * selected) and returns a fresh fenologia/statistiche block ready to replace
+ * the pre-computed one in the UI.
+ *
+ * @param {Array} campioniRaccolti  - filtered collected samples
+ * @param {Array} campioniExsiccata - filtered exsiccata samples
+ * @returns {{ fenologia: object, statistiche: object }}
+ */
+const computeFenologiaAndStatistiche = (campioniRaccolti = [], campioniExsiccata = []) => {
+
+    const monthNames = ['gen', 'feb', 'mar', 'apr', 'mag', 'giu',
+        'lug', 'ago', 'set', 'ott', 'nov', 'dic'];
+
+    const monthlyCount = monthNames.map(name => ({ [name]: 0 }));
+
+    let earliestDate = null;
+    let latestDate = null;
+
+    const processDate = (collectionDate) => {
+        if (!collectionDate) return;
+
+        const date = new Date(collectionDate);
+        if (isNaN(date.getTime())) return;
+
+        const month = date.getMonth(); // 0-based
+        monthlyCount[month][monthNames[month]]++;
+
+        if (!earliestDate || date < earliestDate) earliestDate = date;
+        if (!latestDate || date > latestDate) latestDate = date;
+    };
+
+    for (const sample of campioniRaccolti) processDate(sample.collectionDate);
+    for (const sample of campioniExsiccata) processDate(sample.collectionDate);
+
+    const formatPhenologyDate = (date) => {
+        if (!date) return null;
+        const day = date.getDate().toString().padStart(2, '0');
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        return `${day}/${month}`;
+    };
+
+    return {
+        fenologia: {
+            raccoltaPiuPrecoce: formatPhenologyDate(earliestDate),
+            raccoltaPiuTarda: formatPhenologyDate(latestDate),
+            campioniPerMese: monthlyCount
+        },
+        statistiche: {
+            totaleCampioni: campioniRaccolti.length + campioniExsiccata.length,
+            campioniRaccolti: campioniRaccolti.length,
+            campioniExsiccata: campioniExsiccata.length
+        }
+    };
+};
+
 // Load species data
 async function loadSpeciesData() {
     const genus = getUrlParameter('genus');
     const species = getUrlParameter('species');
+    const area = getUrlParameter('area');
     const filename = getSpeciesFilename(genus, species);
 
     // Update page title and header
@@ -247,6 +286,19 @@ async function loadSpeciesData() {
         }
 
         const data = await response.json();
+        if (area) {
+            const geojsonResponse = await fetch(`./area/${area}.geojson`);
+            if (!geojsonResponse.ok) {
+                throw new Error(`File GeoJSON non trovato: ${area}.geojson`);
+            }
+            const geojson = await geojsonResponse.json();
+            data.campioniRaccolti = filterSpecimensInArea(data.campioniRaccolti || [], geojson);
+            data.campioniExsiccata = filterSpecimensInArea(data.campioniExsiccata || [], geojson);
+            // Recompute fenologia and statistiche based on filtered samples
+            const { fenologia, statistiche } = computeFenologiaAndStatistiche(data.campioniRaccolti, data.campioniExsiccata);
+            data.fenologia = fenologia;
+            data.statistiche = statistiche;
+        }
         displaySpeciesData(data);
 
     } catch (error) {

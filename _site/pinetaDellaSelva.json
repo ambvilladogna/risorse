@@ -1,0 +1,453 @@
+{
+  "title": "Pineta della Selva",
+  "generatedAt": "2026-02-11T01:32:16.377Z",
+  "totalSamples": 1200,
+  "totalSpecies": 433,
+  "species": [
+    {
+      "genus": "Flammulina",
+      "species": "velutipes",
+      "fullName": "Flammulina velutipes",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Curtis) Singer 1951"
+    },
+    {
+      "genus": "Flammulina",
+      "species": "velutipes var. lactea",
+      "fullName": "Flammulina velutipes var. lactea",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
+      "authority": "(Quél.) Bas 1983"
+    },
+    {
+      "genus": "Fomes",
+      "species": "fomentarius",
+      "fullName": "Fomes fomentarius",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(L.) Fr. 1849"
+    },
+    {
+      "genus": "Fomitopsis",
+      "species": "pinicola",
+      "fullName": "Fomitopsis pinicola",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Fomitopsidaceae",
+      "authority": "(Sw.) P. Karst. 1881"
+    },
+    {
+      "genus": "Fuligo",
+      "species": "septica",
+      "fullName": "Fuligo septica",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Physarida > famiglia: Physaridae",
+      "authority": "(L.) F.H. Wigg. 1780"
+    },
+    {
+      "genus": "Galerina",
+      "species": "stylifera",
+      "fullName": "Galerina stylifera",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "authority": "(G.F. Atk.) A.H. Sm. & Singer 1958"
+    },
+    {
+      "genus": "Ganoderma",
+      "species": "adspersum",
+      "fullName": "Ganoderma adspersum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Schulzer) Donk 1969"
+    },
+    {
+      "genus": "Ganoderma",
+      "species": "lucidum",
+      "fullName": "Ganoderma lucidum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Curtis) P. Karst. 1881"
+    },
+    {
+      "genus": "Ganoderma",
+      "species": "resinaceum",
+      "fullName": "Ganoderma resinaceum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "Boud. 1889"
+    },
+    {
+      "genus": "Geastrum",
+      "species": "sessile",
+      "fullName": "Geastrum sessile",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Geastrales > famiglia: Geastraceae",
+      "authority": "Pouzar 1971",
+      "currentName": "Geastrum fimbriatum",
+      "currentAuthority": "Fr. 1829"
+    },
+    {
+      "genus": "Gloeophyllum",
+      "species": "odoratum",
+      "fullName": "Gloeophyllum odoratum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gloeophyllales > famiglia: Gloeophyllaceae",
+      "authority": "(Wulfen) Imazeki 1943"
+    },
+    {
+      "genus": "Gloeophyllum",
+      "species": "sepiarium",
+      "fullName": "Gloeophyllum sepiarium",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gloeophyllales > famiglia: Gloeophyllaceae",
+      "authority": "(Wulfen) P. Karst. 1882"
+    },
+    {
+      "genus": "Gomphidius",
+      "species": "glutinosus",
+      "fullName": "Gomphidius glutinosus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Gomphidiaceae",
+      "authority": "(Schaeff.) Fr. 1838"
+    },
+    {
+      "genus": "Gomphus",
+      "species": "clavatus",
+      "fullName": "Gomphus clavatus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gomphales > famiglia: Gomphaceae",
+      "authority": "(Pers.) Gray 1821"
+    },
+    {
+      "genus": "Gymnopilus",
+      "species": "penetrans",
+      "fullName": "Gymnopilus penetrans",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "authority": "(Fr.) Murrill 1912"
+    },
+    {
+      "genus": "Gymnopus",
+      "species": "hariolorum",
+      "fullName": "Gymnopus hariolorum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+      "authority": "(Bull.) Antonín, Halling & Noordel. 1997"
+    },
+    {
+      "genus": "Gymnopus",
+      "species": "ocior",
+      "fullName": "Gymnopus ocior",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+      "authority": "(Pers.) Antonín & Noordel. 1997"
+    },
+    {
+      "genus": "Hebeloma",
+      "species": "crustuliniforme",
+      "fullName": "Hebeloma crustuliniforme",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Bull.) Quél. 1872"
+    },
+    {
+      "genus": "Hebeloma",
+      "species": "sinapizans",
+      "fullName": "Hebeloma sinapizans",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Paulet) Gillet 1876"
+    },
+    {
+      "genus": "Helvella",
+      "species": "crispa",
+      "fullName": "Helvella crispa",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
+      "authority": "(Scop.) Fr. 1822"
+    },
+    {
+      "genus": "Helvella",
+      "species": "elastica",
+      "fullName": "Helvella elastica",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
+      "authority": "Bull. 1785"
+    },
+    {
+      "genus": "Helvella",
+      "species": "monachella",
+      "fullName": "Helvella monachella",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
+      "authority": "(Scop.) Fr. 1822"
+    },
+    {
+      "genus": "Helvella",
+      "species": "silvicola",
+      "fullName": "Helvella silvicola",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Helvellaceae",
+      "authority": "(Nannf.) Harmaja 1974",
+      "currentName": "Wynnella silvicola",
+      "currentAuthority": "Nannf. 1966"
+    },
+    {
+      "genus": "Hemitrichia",
+      "species": "clavata",
+      "fullName": "Hemitrichia clavata",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+      "authority": "(Pers.) Rostaf. 1873"
+    },
+    {
+      "genus": "Hemitrichia",
+      "species": "serpula",
+      "fullName": "Hemitrichia serpula",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+      "authority": "(Scop.) Rostaf. 1873"
+    },
+    {
+      "genus": "Heterobasidion",
+      "species": "parviporum",
+      "fullName": "Heterobasidion parviporum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Russulales > famiglia: Bondarzewiaceae",
+      "authority": "Niemelä & Korhonen 1998"
+    },
+    {
+      "genus": "Hirneola",
+      "species": "auricula-judae",
+      "fullName": "Hirneola auricula-judae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+      "authority": "(Bull.) Berk. 1860",
+      "currentName": "Auricularia auricula-judae",
+      "currentAuthority": "(Bull.) Quél. 1886"
+    },
+    {
+      "genus": "Hydnellum",
+      "species": "peckii",
+      "fullName": "Hydnellum peckii",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Thelephorales > famiglia: Bankeraceae",
+      "authority": "Banker 1912"
+    },
+    {
+      "genus": "Hydnellum",
+      "species": "scrobiculatum",
+      "fullName": "Hydnellum scrobiculatum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Thelephorales > famiglia: Bankeraceae",
+      "authority": "(Fr.) P. Karst. 1879"
+    },
+    {
+      "genus": "Hydnum",
+      "species": "repandum",
+      "fullName": "Hydnum repandum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
+      "authority": "L. 1753"
+    },
+    {
+      "genus": "Hydnum",
+      "species": "rufescens",
+      "fullName": "Hydnum rufescens",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Cantharellales > famiglia: Hydnaceae",
+      "authority": "Pers. 1800"
+    },
+    {
+      "genus": "Hygrocybe",
+      "species": "calyptriformis",
+      "fullName": "Hygrocybe calyptriformis",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Berk.) Fayod 1889",
+      "currentName": "Porpolomopsis calyptriformis",
+      "currentAuthority": "(Berk.) Bresinsky 2008"
+    },
+    {
+      "genus": "Hygrocybe",
+      "species": "conica",
+      "fullName": "Hygrocybe conica",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrocybaceae",
+      "authority": "(Schaeff.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Hygrocybe",
+      "species": "punicea",
+      "fullName": "Hygrocybe punicea",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrocybaceae",
+      "authority": "(Fr.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "agathosmus",
+      "fullName": "Hygrophorus agathosmus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) Fr. 1838"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "atramentosus",
+      "fullName": "Hygrophorus atramentosus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Alb. & Schwein.) H. Haas & R. Haller Aar. ex Bon 1985"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "capreolarius",
+      "fullName": "Hygrophorus capreolarius",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Kalchbr.) Sacc. 1887"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "discoideus",
+      "fullName": "Hygrophorus discoideus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Pers.) Fr. 1838"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "eburneus",
+      "fullName": "Hygrophorus eburneus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Bull.) Fr. 1838"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "erubescens",
+      "fullName": "Hygrophorus erubescens",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) Fr. 1838"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "lucorum",
+      "fullName": "Hygrophorus lucorum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "Kalchbr. 1874"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "pudorinus",
+      "fullName": "Hygrophorus pudorinus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) Fr. 1836"
+    },
+    {
+      "genus": "Hymenoscyphus",
+      "species": "scutula",
+      "fullName": "Hymenoscyphus scutula",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Helotiaceae",
+      "authority": "(Pers.) W. Phillips 1887"
+    },
+    {
+      "genus": "Hypholoma",
+      "species": "capnoides",
+      "fullName": "Hypholoma capnoides",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Fr.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Hypholoma",
+      "species": "fasciculare",
+      "fullName": "Hypholoma fasciculare",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Huds.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Hypholoma",
+      "species": "lateritium",
+      "fullName": "Hypholoma lateritium",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Schaeff.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Hypholoma",
+      "species": "sublateritium",
+      "fullName": "Hypholoma sublateritium",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Fr.) Quél. 1872"
+    },
+    {
+      "genus": "Hypoxylon",
+      "species": "fragiforme",
+      "fullName": "Hypoxylon fragiforme",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Sordariomycetes > ordine: Xylariales > famiglia: Hypoxylaceae",
+      "authority": "(Pers.) J. Kickx f. 1835"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "calamistrata",
+      "fullName": "Inocybe calamistrata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Fr.) Gillet 1876",
+      "currentName": "Inosperma calamistratum",
+      "currentAuthority": "(Fr.) Matheny & Esteve-Rav. 2019"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "cervicolor",
+      "fullName": "Inocybe cervicolor",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Pers.) Quél. 1886",
+      "currentName": "Inosperma cervicolor",
+      "currentAuthority": "(Pers.) Matheny & Esteve-Rav. 2019"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "fastigiata",
+      "fullName": "Inocybe fastigiata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Schaeff.) Kalchbr. 1867",
+      "currentName": "Pseudosperma rimosum",
+      "currentAuthority": "(Bull.) Matheny & Esteve-Rav. 2019"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "fibrosa",
+      "fullName": "Inocybe fibrosa",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Sowerby) Gillet 1876"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "geophylla",
+      "fullName": "Inocybe geophylla",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "P. Kumm. 1871"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "pyriodora",
+      "fullName": "Inocybe pyriodora",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Pers.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Inocybe",
+      "species": "rimosa",
+      "fullName": "Inocybe rimosa",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
+      "authority": "(Bull.) Kalchbr. 1867",
+      "currentName": "Pseudosperma rimosum",
+      "currentAuthority": "(Bull.) Matheny & Esteve-Rav. 2019"
+    },
+    {
+      "genus": "Ischnoderma",
+      "species": "benzoinum",
+      "fullName": "Ischnoderma benzoinum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Ischnodermataceae",
+      "authority": "(Wahlenb.) P. Karst. 1881"
+    },
+    {
+      "genus": "Kuehneromyces",
+      "species": "mutabilis",
+      "fullName": "Kuehneromyces mutabilis",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Schaeff.) Singer & A.H. Sm. 1946"
+    },
+    {
+      "genus": "Laccaria",
+      "species": "affinis",
+      "fullName": "Laccaria affinis",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+      "authority": "(Singer) Bon 1983",
+      "currentName": "Laccaria laccata",
+      "currentAuthority": "(Scop.) Cooke 1884"
+    },
+    {
+      "genus": "Laccaria",
+      "species": "amethystina",
+      "fullName": "Laccaria amethystina",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+      "authority": "Cooke 1884"
+    },
+    {
+      "genus": "Laccaria",
+      "species": "bicolor",
+      "fullName": "Laccaria bicolor",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+      "authority": "(Maire) P.D. Orton 1960"
+    },
+    {
+      "genus": "Laccaria",
+      "species": "laccata",
+      "fullName": "Laccaria laccata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hydnangiaceae",
+      "authority": "(Scop.) Cooke 1884"
+    }
+  ]
+}
