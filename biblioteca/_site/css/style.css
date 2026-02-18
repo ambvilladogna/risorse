@@ -277,6 +277,15 @@ input[type="search"]:focus {
     border-radius: 2px;
 }
 
+.copies-tag {
+    padding: 3px 10px;
+    background: var(--color-text-light);
+    color: white;
+    font-size: 0.85rem;
+    border-radius: 2px;
+}
+
+/*
 .copies-badge {
     position: absolute;
     top: 48px;
@@ -287,6 +296,7 @@ input[type="search"]:focus {
     font-size: 0.85rem;
     font-weight: 600;
 }
+*/
 
 .no-results {
     text-align: center;

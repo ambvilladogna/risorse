@@ -6,6 +6,11 @@
             "description": "Opere con tag \"A.M.B.\""
         },
         {
+            "id": "arte",
+            "label": "Arte",
+            "description": "Opere con tag \"Arte\""
+        },
+        {
             "id": "commestibilità",
             "label": "Commestibilità",
             "description": "Opere con tag \"Commestibilità\""
