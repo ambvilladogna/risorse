@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-17T17:48:38.257Z",
-  "totalSpecies": 433,
-  "totalSamples": 965,
+  "generatedAt": "2026-02-18T01:12:11.130Z",
+  "totalSpecies": 434,
+  "totalSamples": 966,
   "species": [
     {
       "genus": "Abortiporus",
@@ -3045,6 +3045,13 @@
       "authority": "(DC.) Donk 1958",
       "currentName": "Guepinia helvelloides",
       "currentAuthority": "(DC.) Fr. 1828"
+    },
+    {
+      "genus": "Trichia",
+      "species": "scabra",
+      "fullName": "Trichia scabra",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+      "authority": "Rostaf. 1875"
     },
     {
       "genus": "Tricholoma",

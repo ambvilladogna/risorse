@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Trichia scabra",
+  "autore": "Rostaf. 1875",
+  "filogenesi": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-02-15",
+      "collector": "Pietro Centenari",
+      "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
+      "localityCoordinates": "45.905575, 9.988640",
+      "habitat": "Su ceppaie marcescenti di abete rosso",
+      "determiner": "Pierino Bigoni"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "15/02",
+    "raccoltaPiuTarda": "15/02",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 1
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}
