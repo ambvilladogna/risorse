@@ -88,16 +88,20 @@ function renderBooks(filteredBooks) {
             card.className = 'book-card';
 
             const volumeDisplay = book.volume ? `<div class="book-volume">${book.volume}</div>` : '';
-            const copiesDisplay = book.copie > 1 ? `<div class="copies-badge">${book.copie} copie</div>` : '';
 
             // Rating stars display
             const ratingStars = getRatingStars(book.rating);
 
+            // add "copie" tag if there are multiple copies and merge with existing tags
+            if (book.copie > 1 && !book.tags?.some(tag => tag.includes("copie"))) {
+                book.tags = book.tags ? [...book.tags, `${book.copie} copie`] : [`${book.copie} copie`];
+            }
+
+            // format tags with special styling for "copie" tags
             const tagsHtml = book.tags.length > 0 ?
-                `<div class="book-tags">${book.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>` : '';
+                `<div class="book-tags">${book.tags.map(tag => `<span class="${tag.includes("copie") ? "copies-tag" : "tag"}">${tag}</span>`).join('')}</div>` : '';
 
             card.innerHTML = `
-                ${copiesDisplay}
                 <div class="book-header">
                     <div class="book-series">${book.titolo}</div>
                     ${ratingStars}
