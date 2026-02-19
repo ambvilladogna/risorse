@@ -11,17 +11,22 @@ function updateHeaderHeight() {
 updateHeaderHeight();
 
 // Update on scroll
+let isScrolled = false;
+
 window.addEventListener('scroll', () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (scrollTop > 50) {
+    // hysteresys to prevent flickering when scrolling around the threshold
+    if (!isScrolled && scrollTop > 60) {
+        isScrolled = true;
         header.classList.add('header--scrolled');
-    } else {
+        header.addEventListener('transitionend', updateHeaderHeight, { once: true });
+    } else if (isScrolled && scrollTop < 10) {
+        isScrolled = false;
         header.classList.remove('header--scrolled');
+        header.addEventListener('transitionend', updateHeaderHeight, { once: true });
     }
-
-    // Update height after class change (with small delay for transition)
-    setTimeout(updateHeaderHeight, 10);
+    // In the dead zone (10–60px): do nothing
 });
 
 // Update on window resize

@@ -184,6 +184,7 @@ tagsContainer.addEventListener('click', (e) => {
         button.classList.add('active');
     }
 
+    button.blur();
     filterBooks();
 });
 
@@ -201,6 +202,7 @@ ratingFilters.forEach(button => {
             button.classList.add('active');
         }
 
+        button.blur();
         filterBooks();
     });
 });

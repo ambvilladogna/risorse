@@ -120,7 +120,7 @@ input[type="search"]:focus {
 }
 
 .tag-filter:hover {
-    background: var(--color-text-light);
+    background: lightgray;
     color: var(--color-bg);
 }
 
@@ -143,8 +143,8 @@ input[type="search"]:focus {
 }
 
 .rating-filter:hover {
-    background: var(--color-accent);
-    color: white;
+    background: lightgray;
+    color: var(--color-text);
 }
 
 .rating-filter.active {
