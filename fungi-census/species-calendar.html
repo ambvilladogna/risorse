@@ -1,0 +1,59 @@
+---
+layout: calendar
+title: Calendario delle Specie
+---
+
+<section class="section section--alt">
+    <div class="container">
+        <h1 id="sub-title" class="sub-title">Calendario delle Specie</h1>
+
+        <!-- Sort controls -->
+        <div class="calendar-controls">
+            <label>Ordina per:</label>
+            <button class="sort-btn active" data-sort="earliest">Prima comparsa</button>
+            <button class="sort-btn" data-sort="latest">Ultima comparsa</button>
+        </div>
+
+        <!-- Dynamically populated by calendar.js -->
+        <div id="calendar-container">
+            <p class="no-species">Caricamento in corso…</p>
+        </div>
+    </div>
+</section>
+
+<!-- ── Modal ──────────────────────────────────────────────────────────── -->
+<div id="species-modal" role="dialog" aria-modal="true" aria-labelledby="modal-species-name" aria-hidden="true">
+    <div class="modal-box">
+        <div class="modal-header">
+            <div>
+                <div id="modal-species-name" class="modal-header__title"></div>
+                <div id="modal-authority" class="modal-header__authority"></div>
+            </div>
+            <button id="modal-close" class="modal-close" aria-label="Chiudi">✕</button>
+        </div>
+        <div class="modal-body">
+            <!-- Lineage -->
+            <div id="modal-lineage" class="modal-lineage"></div>
+
+            <!-- Totals -->
+            <div class="modal-meta-row">
+                <span class="modal-meta-badge" id="modal-total-samples"></span>
+                <span>campioni totali</span>
+            </div>
+
+            <!-- Monthly distribution -->
+            <div>
+                <div class="month-dist-label">Distribuzione mensile</div>
+                <div class="month-bars" id="modal-month-bars"></div>
+            </div>
+
+            <!-- Featured sample (earliest or latest, based on sort) -->
+            <div id="modal-featured-sample"></div>
+
+            <!-- The other endpoint -->
+            <div id="modal-other-sample"></div>
+        </div>
+    </div>
+</div>
+<div id="modal-overlay"></div>
+<!-- ── /Modal ─────────────────────────────────────────────────────────── -->

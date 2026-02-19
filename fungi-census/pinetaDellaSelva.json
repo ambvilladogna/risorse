@@ -1,8 +1,8 @@
 {
   "title": "Pineta della Selva",
-  "generatedAt": "2026-02-18T10:41:06.463Z",
-  "totalSpecies": 118,
-  "totalSamples": 163,
+  "generatedAt": "2026-02-19T17:19:54.109Z",
+  "totalSpecies": 117,
+  "totalSamples": 162,
   "species": [
     {
       "genus": "Amanita",
@@ -376,13 +376,6 @@
       "fullName": "Hygrocybe conica",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrocybaceae",
       "authority": "(Schaeff.) P. Kumm. 1871"
-    },
-    {
-      "genus": "Hygrocybe",
-      "species": "punicea",
-      "fullName": "Hygrocybe punicea",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrocybaceae",
-      "authority": "(Fr.) P. Kumm. 1871"
     },
     {
       "genus": "Hygrophorus",
