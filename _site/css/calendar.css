@@ -1,0 +1,352 @@
+/* calendar.css */
+
+/* ── Page title ──────────────────────────────────────────────────────────── */
+.sub-title {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-lg);
+}
+
+/* ── Sort controls ───────────────────────────────────────────────────────── */
+.calendar-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xl);
+}
+
+.calendar-controls label {
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.sort-btn {
+    padding: var(--spacing-xs) var(--spacing-md);
+    border: 2px solid var(--color-primary);
+    background: transparent;
+    color: var(--color-primary);
+    border-radius: 20px;
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.sort-btn:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+.sort-btn.active {
+    background: var(--color-primary);
+    color: white;
+}
+
+/* ── Month sections ──────────────────────────────────────────────────────── */
+.month-section {
+    margin-bottom: var(--spacing-xl);
+}
+
+.month-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    padding-bottom: var(--font-size-small);
+    border-bottom: 3px solid var(--color-primary);
+}
+
+.month-icon {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    margin-right: var(--spacing-sm);
+    flex-shrink: 0;
+}
+
+.month-title {
+    font-size: var(--font-size-h3);
+    color: var(--color-primary);
+    font-weight: 300;
+}
+
+.month-count {
+    margin-left: auto;
+    background: var(--color-bg);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: 20px;
+    color: var(--color-primary);
+    font-size: var(--font-size-base);
+}
+
+/* ── Species cards ───────────────────────────────────────────────────────── */
+.card-row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: var(--spacing-md);
+}
+
+.species-name {
+    font-style: italic;
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.dayOfMonth {
+    width: var(--font-size-h3);
+    height: var(--font-size-h3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary-light);
+    color: white;
+    border-radius: 50%;
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.card-samples {
+    margin-top: var(--spacing-xs);
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+    padding-left: calc(var(--font-size-h3) + var(--spacing-md));
+}
+
+.no-species {
+    text-align: center;
+    padding: var(--spacing-xl);
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+/* ── Modal overlay ───────────────────────────────────────────────────────── */
+#modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 3000;
+    backdrop-filter: blur(2px);
+}
+
+#species-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 3100;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-md);
+    pointer-events: none;
+}
+
+#species-modal.is-open,
+#species-modal.is-open ~ #modal-overlay,
+#modal-overlay.is-open {
+    display: flex;
+}
+
+/* Show overlay when modal is open */
+#species-modal.is-open + #modal-overlay {
+    display: block;
+}
+
+.modal-box {
+    background: var(--color-bg);
+    border-radius: 12px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 640px;
+    max-height: 90vh;
+    overflow-y: auto;
+    pointer-events: all;
+    animation: modal-in 0.2s ease;
+}
+
+@keyframes modal-in {
+    from { opacity: 0; transform: translateY(16px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-header {
+    position: sticky;
+    top: 0;
+    background: var(--color-primary);
+    color: white;
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--spacing-sm);
+    z-index: 1;
+}
+
+.modal-header__title {
+    font-size: var(--font-size-h3);
+    font-style: italic;
+    font-weight: 600;
+    color: white;
+}
+
+.modal-header__authority {
+    font-size: var(--font-size-small);
+    color: rgba(255,255,255,0.75);
+    margin-top: 2px;
+}
+
+.modal-close {
+    background: rgba(255,255,255,0.15);
+    border: none;
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background var(--transition-fast);
+}
+
+.modal-close:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.modal-body {
+    padding: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+/* lineage breadcrumb */
+.modal-lineage {
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+    line-height: 1.6;
+    border-left: 3px solid var(--color-primary-light);
+    padding-left: var(--spacing-sm);
+}
+
+/* totals row */
+.modal-meta-row {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+}
+
+.modal-meta-badge {
+    background: var(--color-primary);
+    color: white;
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-weight: 700;
+    font-size: var(--font-size-small);
+}
+
+/* monthly distribution bars */
+.month-dist-label {
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: var(--spacing-xs);
+}
+
+.month-bars {
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+    height: 48px;
+}
+
+.month-bar-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 3px;
+}
+
+.month-bar {
+    width: 100%;
+    min-height: 2px;
+    background: var(--color-border);
+    border-radius: 3px 3px 0 0;
+    transition: background var(--transition-fast);
+}
+
+.month-bar.has-data {
+    background: var(--color-primary-light);
+}
+
+.month-bar-label {
+    font-size: 10px;
+    color: var(--color-text-light);
+    text-transform: uppercase;
+}
+
+/* sample blocks */
+.sample-block {
+    background: var(--color-bg-alt);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-md);
+}
+
+.sample-label {
+    font-size: var(--font-size-small);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.sample-dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4px var(--spacing-md);
+    font-size: var(--font-size-small);
+}
+
+.sample-dl dt {
+    color: var(--color-text-light);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.sample-dl dd {
+    color: var(--color-text);
+}
+
+.sample-dl a {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+/* ── Body lock when modal open ───────────────────────────────────────────── */
+body.modal-open {
+    overflow: hidden;
+}

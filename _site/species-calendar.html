@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario delle Specie - Specie fungine della Valseriana</title>
+    <!-- Shared CSS -->
+    <link rel="stylesheet" href="shared/css/variables.css">
+    <link rel="stylesheet" href="shared/css/reset.css">
+    <link rel="stylesheet" href="shared/css/layout.css">
+    <link rel="stylesheet" href="shared/css/components.css">
+
+    <!-- Page-specific CSS -->
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+
+<body>
+    <header class="header">
+    <div class="container header__container">
+        <div class="header__logo">Specie fungine della Valseriana</div>
+        <div class="header__nav"><a href="https://www.ambvilladogna.it/index.html">A.M.B. Gruppo di Villa d'Ogna</a></div>
+    </div>
+</header>
+
+    <section class="section section--alt">
+    <div class="container">
+        <h1 id="sub-title" class="sub-title">Calendario delle Specie</h1>
+
+        <!-- Sort controls -->
+        <div class="calendar-controls">
+            <label>Ordina per:</label>
+            <button class="sort-btn active" data-sort="earliest">Prima comparsa</button>
+            <button class="sort-btn" data-sort="latest">Ultima comparsa</button>
+        </div>
+
+        <!-- Dynamically populated by calendar.js -->
+        <div id="calendar-container">
+            <p class="no-species">Caricamento in corso…</p>
+        </div>
+    </div>
+</section>
+
+<!-- ── Modal ──────────────────────────────────────────────────────────── -->
+<div id="species-modal" role="dialog" aria-modal="true" aria-labelledby="modal-species-name" aria-hidden="true">
+    <div class="modal-box">
+        <div class="modal-header">
+            <div>
+                <div id="modal-species-name" class="modal-header__title"></div>
+                <div id="modal-authority" class="modal-header__authority"></div>
+            </div>
+            <button id="modal-close" class="modal-close" aria-label="Chiudi">✕</button>
+        </div>
+        <div class="modal-body">
+            <!-- Lineage -->
+            <div id="modal-lineage" class="modal-lineage"></div>
+
+            <!-- Totals -->
+            <div class="modal-meta-row">
+                <span class="modal-meta-badge" id="modal-total-samples"></span>
+                <span>campioni totali</span>
+            </div>
+
+            <!-- Monthly distribution -->
+            <div>
+                <div class="month-dist-label">Distribuzione mensile</div>
+                <div class="month-bars" id="modal-month-bars"></div>
+            </div>
+
+            <!-- Featured sample (earliest or latest, based on sort) -->
+            <div id="modal-featured-sample"></div>
+
+            <!-- The other endpoint -->
+            <div id="modal-other-sample"></div>
+        </div>
+    </div>
+</div>
+<div id="modal-overlay"></div>
+<!-- ── /Modal ─────────────────────────────────────────────────────────── -->
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+            <div class="footer__section">
+                <h3>Informazioni</h3>
+                <ul>
+                    <li><a href="https://www.ambvilladogna.it/index.html">Home page</a></li>
+                    <li><a href="https://www.ambvilladogna.it/html/chi_siamo.html">Chi siamo</a></li>
+                    <li><a href="https://www.ambvilladogna.it/html/contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3>Risorse</h3>
+                <ul>
+                    <li><a href="https://ambvilladogna.github.io/risorse/">Risorse Home</a></li>
+                    <li><a href="https://ambvilladogna.github.io/risorse/aggiornamenti-nomenclatura/_site/index.html">Aggiornamenti
+                            Nomenclatura</a>
+                    <li><a href="https://ambvilladogna.github.io/risorse/biblioteca/_site/index.html">Biblioteca</a>
+                    </li>
+                    <li><a href="https://ambvilladogna.github.io/risorse/fungi-census/_site/index.html">Specie fungine
+                            della Valseriana</a></li>
+                    </li>
+                    <li><a href="https://ambvilladogna.github.io/risorse/fungi-census/_site/index.html">Specie fungine
+                            della Pineta di Clusone</a></li>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/gruppomicologicovilladogna">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer__bottom">
+        <p>2026 - Associazione Micologica Bresadola - Gruppo di Villa d'Ogna</p>
+    </div>
+</footer>
+
+    <script src="shared/js/common.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
