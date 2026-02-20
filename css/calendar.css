@@ -1,5 +1,9 @@
 /* calendar.css */
 
+.hidden {
+    display: none;
+}
+
 /* ── Page title ──────────────────────────────────────────────────────────── */
 .sub-title {
     text-align: center;
@@ -154,13 +158,13 @@
 }
 
 #species-modal.is-open,
-#species-modal.is-open ~ #modal-overlay,
+#species-modal.is-open~#modal-overlay,
 #modal-overlay.is-open {
     display: flex;
 }
 
 /* Show overlay when modal is open */
-#species-modal.is-open + #modal-overlay {
+#species-modal.is-open+#modal-overlay {
     display: block;
 }
 
@@ -171,14 +175,23 @@
     width: 100%;
     max-width: 640px;
     max-height: 90vh;
-    overflow-y: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     pointer-events: all;
     animation: modal-in 0.2s ease;
 }
 
 @keyframes modal-in {
-    from { opacity: 0; transform: translateY(16px) scale(0.97); }
-    to   { opacity: 1; transform: translateY(0) scale(1); }
+    from {
+        opacity: 0;
+        transform: translateY(16px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
 
 .modal-header {
@@ -204,12 +217,12 @@
 
 .modal-header__authority {
     font-size: var(--font-size-small);
-    color: rgba(255,255,255,0.75);
+    color: rgba(255, 255, 255, 0.75);
     margin-top: 2px;
 }
 
 .modal-close {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255, 255, 255, 0.15);
     border: none;
     color: white;
     width: 32px;
@@ -226,7 +239,7 @@
 }
 
 .modal-close:hover {
-    background: rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .modal-body {
@@ -234,6 +247,13 @@
     display: flex;
     flex-direction: column;
     gap: var(--spacing-lg);
+    overflow-y: auto;
+}
+
+.modal-header__current_name {
+    border-left: 3px solid var(--color-primary-light);
+    margin-top: var(--spacing-sm);
+    padding-left: var(--spacing-sm);
 }
 
 /* lineage breadcrumb */
@@ -349,4 +369,220 @@
 /* ── Body lock when modal open ───────────────────────────────────────────── */
 body.modal-open {
     overflow: hidden;
+}
+
+/* ── Search / filter ─────────────────────────────────────────────────────── */
+
+.filter-section {
+    margin-bottom: var(--spacing-lg);
+}
+
+.filter-wrap {
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.filter-input {
+    width: 100%;
+    padding: 0.65rem var(--spacing-sm);
+    padding-right: 2.4rem;
+    /* room for the ✕ button */
+    border: 2px solid var(--color-border);
+    border-radius: 24px;
+    /* pill shape to distinguish from cards */
+    font-size: var(--font-size-base);
+    outline: none;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    background: var(--color-bg);
+    color: var(--color-text);
+}
+
+.filter-input:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(44, 95, 45, 0.12);
+}
+
+.filter-clear {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: none;
+    line-height: 1;
+    padding: 4px;
+    border-radius: 50%;
+    transition: color var(--transition-fast);
+}
+
+.filter-clear.visible {
+    display: block;
+}
+
+.filter-clear:hover {
+    color: var(--color-text);
+}
+
+/* ── Dropdown ────────────────────────────────────────────────────────────── */
+
+.filter-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.13);
+    z-index: 500;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+
+.filter-dropdown.open {
+    display: block;
+}
+
+.dropdown-group-label {
+    padding: 6px var(--spacing-sm) 2px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--color-text-light);
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    position: sticky;
+    top: 0;
+}
+
+.dropdown-group-label:first-child {
+    border-top: none;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    padding: 9px var(--spacing-sm);
+    cursor: pointer;
+    font-size: var(--font-size-small);
+    transition: background var(--transition-fast);
+}
+
+.dropdown-item:hover,
+.dropdown-item.is-active {
+    background: #f0f7f0;
+}
+
+.dropdown-empty {
+    padding: 12px var(--spacing-sm);
+    font-size: var(--font-size-small);
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+/* type badges inside dropdown */
+.type-badge {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1px 7px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.type-badge--genus {
+    background: #e8f5e9;
+    color: #2c5f2d;
+}
+
+.type-badge--species {
+    background: #e3f2fd;
+    color: #1565c0;
+}
+
+.type-badge--synonym {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.type-badge--taxon {
+    background: #fce4ec;
+    color: #880e4f;
+}
+
+.dropdown-item-label {
+    flex: 1;
+    color: var(--color-text);
+}
+
+.dropdown-item-label em {
+    font-style: italic;
+}
+
+.dropdown-item-count {
+    font-size: 11px;
+    color: var(--color-text-light);
+    flex-shrink: 0;
+}
+
+/* ── Active filter pill ──────────────────────────────────────────────────── */
+
+.active-filter {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-top: var(--spacing-xs);
+    font-size: var(--font-size-small);
+    color: var(--color-primary);
+}
+
+.active-filter.visible {
+    display: flex;
+}
+
+.active-filter__pill {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px 3px 12px;
+    background: #e8f5e9;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.active-filter__pill em {
+    font-style: italic;
+}
+
+.active-filter__remove {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-primary);
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0 0 0 2px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    transition: opacity var(--transition-fast);
+}
+
+.active-filter__remove:hover {
+    opacity: 1;
+}
+
+.active-filter__count {
+    color: var(--color-text-light);
 }
