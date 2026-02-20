@@ -176,7 +176,7 @@
         <h4 class="sample-label">${label}</h4>
         <dl class="sample-dl">
           <dt>Data</dt>       <dd>${formatDate(sample.collectionDate)}</dd>
-          <dt>Raccoglitore</dt><dd>${sample.collector || '—'}</dd>
+          <dt>Legit</dt><dd>${sample.collector || '—'}</dd>
           <dt>Determinatore</dt><dd>${sample.determiner || '—'}</dd>
           <dt>Località</dt>   <dd>${sample.locality || '—'}</dd>
           <dt>Habitat</dt>    <dd>${sample.habitat || '—'}</dd>
