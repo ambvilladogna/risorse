@@ -7,7 +7,28 @@ title: Calendario delle Specie
     <div class="container">
         <h1 id="sub-title" class="sub-title">Calendario delle Specie</h1>
 
-        <!-- Sort controls -->
+        <!-- ── Filter ──────────────────────────────────────────────────── -->
+        <div class="filter-section">
+            <div class="filter-wrap">
+                <input class="filter-input" id="filter-input" type="text"
+                    placeholder="Cerca per specie, genere, famiglia, ordine…" autocomplete="off" role="combobox"
+                    aria-expanded="false" aria-controls="filter-dropdown" aria-autocomplete="list" />
+                <button class="filter-clear" id="filter-clear" aria-label="Cancella ricerca">✕</button>
+                <div class="filter-dropdown" id="filter-dropdown" role="listbox"></div>
+            </div>
+
+            <!-- Active filter pill -->
+            <div class="active-filter" id="active-filter" aria-live="polite">
+                <div class="active-filter__pill">
+                    <span id="active-filter-text"></span>
+                    <button class="active-filter__remove" id="active-filter-remove"
+                        aria-label="Rimuovi filtro">✕</button>
+                </div>
+                <span class="active-filter__count" id="active-filter-count"></span>
+            </div>
+        </div>
+
+        <!-- ── Sort controls ───────────────────────────────────────────── -->
         <div class="calendar-controls">
             <label>Ordina per:</label>
             <button class="sort-btn active" data-sort="earliest">Prima comparsa</button>
@@ -28,29 +49,25 @@ title: Calendario delle Specie
             <div>
                 <div id="modal-species-name" class="modal-header__title"></div>
                 <div id="modal-authority" class="modal-header__authority"></div>
+                <div id="modal-current-name" class="modal-header__current_name hidden">
+                    <div>sinonimo di</div>
+                    <div id="modal-species-current-name" class="modal-header__title"></div>
+                    <div id="modal-current-authority" class="modal-header__authority"></div>
+                </div>
             </div>
             <button id="modal-close" class="modal-close" aria-label="Chiudi">✕</button>
         </div>
         <div class="modal-body">
-            <!-- Lineage -->
             <div id="modal-lineage" class="modal-lineage"></div>
-
-            <!-- Totals -->
             <div class="modal-meta-row">
                 <span class="modal-meta-badge" id="modal-total-samples"></span>
                 <span>campioni totali</span>
             </div>
-
-            <!-- Monthly distribution -->
             <div>
                 <div class="month-dist-label">Distribuzione mensile</div>
                 <div class="month-bars" id="modal-month-bars"></div>
             </div>
-
-            <!-- Featured sample (earliest or latest, based on sort) -->
             <div id="modal-featured-sample"></div>
-
-            <!-- The other endpoint -->
             <div id="modal-other-sample"></div>
         </div>
     </div>
