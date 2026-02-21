@@ -23,58 +23,60 @@
     </div>
 </header>
 
+    <section class="section section--alt">
     <div class="container">
-    <p>&nbsp;</p>
-    <h1 id="sub-title" class="sub-title hidden"></h1>
-    <p id="total-count" class="total-count">Caricamento in corso...</p>
+        <p>&nbsp;</p>
+        <h1 id="sub-title" class="sub-title hidden"></h1>
+        <p id="total-count" class="total-count">Caricamento in corso...</p>
 
-    <div class="search-section">
-        <div class="tabs">
-            <button class="tab-button active" data-tab="genus-species">Cerca per Genere/Specie</button>
-            <button class="tab-button" data-tab="free-search">Ricerca Libera</button>
-        </div>
-
-        <div class="tab-content">
-            <div id="genus-species-pane" class="tab-pane active">
-                <div class="search-form">
-                    <div class="form-group">
-                        <label for="genus-select">Genere:</label>
-                        <select id="genus-select">
-                            <option value="">Tutti i generi</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="species-select">Specie:</label>
-                        <select id="species-select">
-                            <option value="">Tutte le specie</option>
-                        </select>
-                    </div>
-                    <button class="btn" id="reset-btn">Reset</button>
-                </div>
+        <div class="search-section">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="genus-species">Cerca per Genere/Specie</button>
+                <button class="tab-button" data-tab="free-search">Ricerca Libera</button>
             </div>
 
-            <div id="free-search-pane" class="tab-pane">
-                <div class="free-search-form">
-                    <div class="form-group autocomplete-container">
-                        <label for="free-search">Cerca:</label>
-                        <input type="text" id="free-search" placeholder="Cerca genere, specie o tassonomia...">
-                        <div id="autocomplete-list" class="autocomplete-list"></div>
+            <div class="tab-content">
+                <div id="genus-species-pane" class="tab-pane active">
+                    <div class="search-form">
+                        <div class="form-group">
+                            <label for="genus-select">Genere:</label>
+                            <select id="genus-select">
+                                <option value="">Tutti i generi</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="species-select">Specie:</label>
+                            <select id="species-select">
+                                <option value="">Tutte le specie</option>
+                            </select>
+                        </div>
+                        <button class="btn" id="reset-btn">Reset</button>
                     </div>
-                    <button class="btn" id="free-reset-btn">Reset</button>
                 </div>
+
+                <div id="free-search-pane" class="tab-pane">
+                    <div class="free-search-form">
+                        <div class="form-group autocomplete-container">
+                            <label for="free-search">Cerca:</label>
+                            <input type="text" id="free-search" placeholder="Cerca genere, specie o tassonomia...">
+                            <div id="autocomplete-list" class="autocomplete-list"></div>
+                        </div>
+                        <button class="btn" id="free-reset-btn">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-section">
+            <div class="results-header">
+                <span id="results-count">Risultati: 0</span>
+            </div>
+            <div class="species-list" id="species-list">
+                <div class="no-results">Caricamento dei dati in corso...</div>
             </div>
         </div>
     </div>
-
-    <div class="results-section">
-        <div class="results-header">
-            <span id="results-count">Risultati: 0</span>
-        </div>
-        <div class="species-list" id="species-list">
-            <div class="no-results">Caricamento dei dati in corso...</div>
-        </div>
-    </div>
-</div>
+</section>
 
     <footer class="footer">
     <div class="container">

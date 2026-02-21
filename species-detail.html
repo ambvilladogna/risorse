@@ -3,77 +3,79 @@ layout: species
 title: Dettagli Specie
 ---
 
-<div class="container">
-    <!-- Species header -->
-    <div class="species-header">
-        <div>
-            <span class="species-title"> <em id="genus-name"></em> <em id="species-name"></em> </span>
-            <span class="species-authority" id="species-authority"></span>
-        </div>
-        <div class="species-details" id="species-details">
+<section class="section section--alt">
+    <div class="container">
+        <!-- Species header -->
+        <div class="species-header">
             <div>
-                <span class="species-authority" id="synonym"></span>
-                <span class="species-title"> <em id="nomeCorrente"></em></span>
-                <span class="species-authority" id="autoreCorrente"></span>
+                <span class="species-title"> <em id="genus-name"></em> <em id="species-name"></em> </span>
+                <span class="species-authority" id="species-authority"></span>
             </div>
-            <div>
-                <span class="species-authority" id="filogenesi"></span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Total samples count -->
-    <div class="content-block">
-        <div class="section-content">
-            <div class="total-samples" id="total-samples">
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>Caricamento dati in corso...</p>
+            <div class="species-details" id="species-details">
+                <div>
+                    <span class="species-authority" id="synonym"></span>
+                    <span class="species-title"> <em id="nomeCorrente"></em></span>
+                    <span class="species-authority" id="autoreCorrente"></span>
+                </div>
+                <div>
+                    <span class="species-authority" id="filogenesi"></span>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Seasonality section -->
-    <div class="content-block">
-        <div class="section-header">
-            Stagionalità
-        </div>
-        <div class="section-content">
-            <div class="seasonality-content" id="seasonality-content">
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>Caricamento dati in corso...</p>
+        <!-- Total samples count -->
+        <div class="content-block">
+            <div class="section-content">
+                <div class="total-samples" id="total-samples">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Map section -->
-    <div class="content-block">
-        <div class="section-header">
-            Distribuzione Geografica
-        </div>
-        <div class="section-content">
-            <div id="map" style="height: 500px; border-radius: 8px;"></div>
-        </div>
-    </div>
-
-    <!-- Exsiccata list -->
-    <div class="content-block">
-        <div class="section-header">
-            Campioni Exsiccata
-        </div>
-        <div class="section-content">
-            <div id="exsiccata-list">
-                <div class="loading">
-                    <div class="spinner"></div>
-                    <p>Caricamento dati in corso...</p>
+        <!-- Seasonality section -->
+        <div class="content-block">
+            <div class="section-header">
+                Stagionalità
+            </div>
+            <div class="section-content">
+                <div class="seasonality-content" id="seasonality-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Top back button -->
-    <a class="back-to-search" onclick="goBack()">Torna alla pagina di ricerca</a>
-</div>
+        <!-- Map section -->
+        <div class="content-block">
+            <div class="section-header">
+                Distribuzione Geografica
+            </div>
+            <div class="section-content">
+                <div id="map" style="height: 500px; border-radius: 8px;"></div>
+            </div>
+        </div>
+
+        <!-- Exsiccata list -->
+        <div class="content-block">
+            <div class="section-header">
+                Campioni Exsiccata
+            </div>
+            <div class="section-content">
+                <div id="exsiccata-list">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top back button -->
+        <a class="back-to-search" onclick="goBack()">Torna alla pagina di ricerca</a>
+    </div>
+</section>

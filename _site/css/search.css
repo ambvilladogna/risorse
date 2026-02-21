@@ -206,12 +206,12 @@ input:focus {
 
 /* Synonym Information Box */
 .synonym-info {
-    background-color: #fff3cd;
+    background-color: var(--color-bg-alt);
     padding: var(--spacing-xs) var(--spacing-sm);
-    border-left: 4px solid #ffc107;
+    border-left: 4px solid var(--color-primary);
     border-radius: var(--border-radius);
     font-size: var(--font-size-small);
-    color: #856404;
+    color: var(--color-text);
 }
 
 .synonym-label {
