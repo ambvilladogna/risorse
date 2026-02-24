@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-22",
+      "collector": "Pierino Bigoni",
+      "locality": "Zanèl, Oltressenda Alta",
+      "localityCoordinates": "45.922674, 9.952497",
+      "habitat": "Su amenti di nocciolo in decomposizione",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-02-08",
       "collector": "Pierino Bigoni",
       "locality": "Basilè, Oltressenda Alta",
@@ -25,13 +33,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "30/01",
-    "raccoltaPiuTarda": "08/02",
+    "raccoltaPiuTarda": "22/02",
     "campioniPerMese": [
       {
         "gen": 1
       },
       {
-        "feb": 1
+        "feb": 2
       },
       {
         "mar": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

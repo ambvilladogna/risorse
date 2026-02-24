@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-19T17:19:54.032Z",
+  "generatedAt": "2026-02-24T01:12:09.210Z",
   "totalSpecies": 434,
-  "totalSamples": 1024,
+  "totalSamples": 1026,
   "species": [
     {
       "genus": "Flammulina",
@@ -53,10 +53,10 @@
       "fullName": "Ciboria caucus",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
       "authority": "(Rebent.) Fuckel 1870",
-      "totalSamples": 2,
+      "totalSamples": 3,
       "monthlyCount": [
         1,
-        1,
+        2,
         0,
         0,
         0,
@@ -79,13 +79,13 @@
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
-      "latestDate": "02-08",
-      "latestDayOfYear": 39,
+      "latestDate": "02-22",
+      "latestDayOfYear": 53,
       "latestSample": {
-        "collectionDate": "2026-02-08",
+        "collectionDate": "2026-02-22",
         "collector": "Pierino Bigoni",
-        "locality": "Basilè, Oltressenda Alta",
-        "localityCoordinates": "45.923093, 9.949515",
+        "locality": "Zanèl, Oltressenda Alta",
+        "localityCoordinates": "45.922674, 9.952497",
         "habitat": "Su amenti di nocciolo in decomposizione",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
@@ -141,10 +141,10 @@
       "fullName": "Hemitrichia serpula",
       "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Trichiales > famiglia: Trichiaceae",
       "authority": "(Scop.) Rostaf. 1873",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         1,
-        0,
+        1,
         0,
         0,
         0,
@@ -167,14 +167,14 @@
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
-      "latestDate": "01-30",
-      "latestDayOfYear": 30,
+      "latestDate": "02-22",
+      "latestDayOfYear": 53,
       "latestSample": {
-        "collectionDate": "2026-01-30",
+        "collectionDate": "2026-02-22",
         "collector": "Pierino Bigoni",
-        "locality": "Verso il Lò, Oltressenda Alta",
-        "localityCoordinates": "45.926879, 9.951403",
-        "habitat": "Su tronco morto di aghifoglie",
+        "locality": "Aral de Cris, Oltressenda Alta",
+        "localityCoordinates": "45.932408, 9.965692",
+        "habitat": "Ceppaia di abete rosso",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
