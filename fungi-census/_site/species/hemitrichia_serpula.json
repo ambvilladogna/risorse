@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-02-22",
+      "collector": "Pierino Bigoni",
+      "locality": "Aral de Cris, Oltressenda Alta",
+      "localityCoordinates": "45.932408, 9.965692",
+      "habitat": "Ceppaia di abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-01-30",
       "collector": "Pierino Bigoni",
       "locality": "Verso il Lò, Oltressenda Alta",
@@ -17,13 +25,13 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "30/01",
-    "raccoltaPiuTarda": "30/01",
+    "raccoltaPiuTarda": "22/02",
     "campioniPerMese": [
       {
         "gen": 1
       },
       {
-        "feb": 0
+        "feb": 1
       },
       {
         "mar": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
