@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-02-24T01:12:09.210Z",
+  "generatedAt": "2026-02-26T01:12:16.747Z",
   "totalSpecies": 434,
-  "totalSamples": 1026,
+  "totalSamples": 1027,
   "species": [
     {
       "genus": "Flammulina",
@@ -709,6 +709,50 @@
         "locality": "Bricconi  , Oltressenda Alta",
         "localityCoordinates": "45.920360, 9.948130",
         "habitat": "Terreno con residui legnosi",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Fomitopsis",
+      "species": "pinicola",
+      "fullName": "Fomitopsis pinicola",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Fomitopsidaceae",
+      "authority": "(Sw.) P. Karst. 1881",
+      "totalSamples": 6,
+      "monthlyCount": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        1,
+        1
+      ],
+      "earliestDate": "02-25",
+      "earliestDayOfYear": 56,
+      "earliestSample": {
+        "collectionDate": "2026-02-25",
+        "collector": "Angelo Fraschina",
+        "locality": "Spiazzi, Gromo",
+        "localityCoordinates": "45.970802, 9.963785",
+        "habitat": "Ceppaie abete bianco e rosso",
+        "determiner": "Pietro Centenari",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "12-07",
+      "latestDayOfYear": 342,
+      "latestSample": {
+        "collectionDate": "2025-12-07",
+        "collector": "Pierino Bigoni",
+        "locality": "Valsanguigno",
+        "localityCoordinates": "45.967216, 9.886552",
+        "habitat": "Su tronchi morti di abete",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -7785,50 +7829,6 @@
         "locality": "Colle Palazzo, Oltressenda Alta",
         "localityCoordinates": "45.938839, 9.973808",
         "habitat": "Bosco misto",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Fomitopsis",
-      "species": "pinicola",
-      "fullName": "Fomitopsis pinicola",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Fomitopsidaceae",
-      "authority": "(Sw.) P. Karst. 1881",
-      "totalSamples": 5,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        2,
-        1,
-        0,
-        1,
-        1
-      ],
-      "earliestDate": "08-26",
-      "earliestDayOfYear": 238,
-      "earliestSample": {
-        "collectionDate": "2025-08-26",
-        "collector": "Renato Depressi",
-        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-        "localityCoordinates": "45.93408, 10.00331",
-        "habitat": "A terra su legno marcescente bosco misto",
-        "determiner": "Renato Depressi",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "12-07",
-      "latestDayOfYear": 342,
-      "latestSample": {
-        "collectionDate": "2025-12-07",
-        "collector": "Pierino Bigoni",
-        "locality": "Valsanguigno",
-        "localityCoordinates": "45.967216, 9.886552",
-        "habitat": "Su tronchi morti di abete",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
