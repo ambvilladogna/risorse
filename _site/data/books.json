@@ -1,2882 +1,2882 @@
 [
-    {
-        "id": 1,
-        "titolo": "Monografia illustrata del Genere Russula in Europa",
-        "volume": "Tomo Primo",
-        "copie": 2,
-        "autori": "Mauro Sarnari",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "2007",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 2,
-        "titolo": "Monografia illustrata del Genere Russula in Europa",
-        "volume": "Tomo Secondo",
-        "copie": 2,
-        "autori": "Mauro Sarnari",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "2007",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 3,
-        "titolo": "Nuovo Trattato di Micologia",
-        "volume": "*",
-        "copie": 1,
-        "autori": "Mario Galli",
-        "editore": "MAZZOTTA",
-        "data": "1982",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 4,
-        "titolo": "Nuovo Trattato di Micologia",
-        "volume": "**",
-        "copie": 1,
-        "autori": "Mario Galli",
-        "editore": "MAZZOTTA",
-        "data": "1982",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 5,
-        "titolo": "Flora Agaricina Danica",
-        "volume": "I Tab 1-104",
-        "copie": 2,
-        "autori": "Jacob E. Lange",
-        "editore": "Massimo Candusso",
-        "data": "1993",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 6,
-        "titolo": "Flora Agaricina Danica",
-        "volume": "II Tab 105-200",
-        "copie": 2,
-        "autori": "Jacob E. Lange",
-        "editore": "Massimo Candusso",
-        "data": "1993",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 7,
-        "titolo": "Iconographia Mycologica",
-        "volume": "VOL I – Textus in Tabb. 1-767",
-        "copie": 1,
-        "autori": "Jacobus Bresadola",
-        "editore": "MEDIOLANI",
-        "data": "1982",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 8,
-        "titolo": "Iconographia Mycologica",
-        "volume": "VOL II – Textus in Tabb. 768-1250",
-        "copie": 1,
-        "autori": "Jacobus Bresadola",
-        "editore": "MEDIOLANI",
-        "data": "1982",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 9,
-        "titolo": "Iconographia Mycologica",
-        "volume": "VOL III – Tabulae 1-396",
-        "copie": 1,
-        "autori": "Jacobus Bresadola",
-        "editore": "MEDIOLANI",
-        "data": "1982",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 10,
-        "titolo": "Iconographia Mycologica",
-        "volume": "VOL IV – Tabulae 397-820",
-        "copie": 1,
-        "autori": "Jacobus Bresadola",
-        "editore": "MEDIOLANI",
-        "data": "1982",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 11,
-        "titolo": "Iconographia Mycologica",
-        "volume": "VOL V – Tabulae 821-1250",
-        "copie": 1,
-        "autori": "Jacobus Bresadola",
-        "editore": "MEDIOLANI",
-        "data": "1982",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 12,
-        "titolo": "Il Genere Cortinarius In Italia",
-        "volume": "Indice",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 13,
-        "titolo": "Il Genere Cortinarius In Italia",
-        "volume": "VOL I – Dermocybe Leprocybe Myxacium",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 14,
-        "titolo": "Il Genere Cortinarius In Italia",
-        "volume": "VOL II – Phlegmacium da bisporici a laeticolores",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 15,
-        "titolo": "Il Genere Cortinarius In Italia",
-        "volume": "VOL III – segue Phlegmacium da patibiles a suborti, Telamonia da anomali a cyanites",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 16,
-        "titolo": "Il Genere Cortinarius In Italia",
-        "volume": "VOL IV – segue Telamonia da firmiores a flexipedes",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 17,
-        "titolo": "Il Genere Cortinarius In Italia",
-        "volume": "VOL V – segue Telamonia da spilomei a uracei",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 18,
-        "titolo": "Systema Mycologicum",
-        "volume": "VOL I-II",
-        "copie": 1,
-        "autori": "E. M. Fries",
-        "editore": "Massimo Candusso",
-        "data": "1984",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 19,
-        "titolo": "Systema Mycologicum – Elenchus Fungorum",
-        "volume": "VOL III – Index",
-        "copie": 1,
-        "autori": "E. M. Fries",
-        "editore": "Massimo Candusso",
-        "data": "1984",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 20,
-        "titolo": "Observationes Mycologicae",
-        "volume": "VOL I-II",
-        "copie": 1,
-        "autori": "E. M. Fries",
-        "editore": "Massimo Candusso",
-        "data": "1984",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 21,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "*",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 22,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "**",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 23,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "3",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 24,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "4",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 25,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "5",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 26,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "6",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 27,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "7",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 28,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "8",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 29,
-        "titolo": "Champignons du nord et du midi",
-        "volume": "9",
-        "copie": 1,
-        "autori": "André Marchand",
-        "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
-        "data": "1986",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 30,
-        "titolo": "Le guide des Champignos France et Europe",
-        "volume": "",
-        "copie": 1,
-        "autori": "Guillaume Eyssartier, Pierre Roux",
-        "editore": "Belin",
-        "data": "2011",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 31,
-        "titolo": "Fungi sensu Ruini",
-        "volume": "",
-        "copie": 1,
-        "autori": "Sergio Ruini",
-        "editore": "Nicolini Editore",
-        "data": "1991",
-        "tags": [
-            "Ricreativa"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 32,
-        "titolo": "Micologia Duemila",
-        "volume": "",
-        "copie": 2,
-        "autori": "",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "2000",
-        "tags": [
-            "A.M.B.",
-            "Rivista"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 33,
-        "titolo": "Funghi velenosi e sindromi tossiche",
-        "volume": "",
-        "copie": 1,
-        "autori": "Giovanna Pelle",
-        "editore": "Bacchetta Editore",
-        "data": "2007",
-        "tags": [
-            "Formazione",
-            "Commestibilità"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 34,
-        "titolo": "Funghi della pianura lombarda",
-        "volume": "",
-        "copie": 1,
-        "autori": "Emilio Pini",
-        "editore": "A.M.B. Gruppo di Crema",
-        "data": "2024",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 35,
-        "titolo": "Morchellacee",
-        "volume": "",
-        "copie": 1,
-        "autori": "Giuseppe Campagnola",
-        "editore": "Antolini Tipografia",
-        "data": "2013",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 36,
-        "titolo": "Les Russules",
-        "volume": "",
-        "copie": 1,
-        "autori": "H. Romagnesi",
-        "editore": "Gantner",
-        "data": "1996",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 37,
-        "titolo": "Fungi non delineati",
-        "volume": "Pars I-X",
-        "copie": 1,
-        "autori": "",
-        "editore": "Mycoflora",
-        "data": "2000",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 38,
-        "titolo": "Fungi non delineati",
-        "volume": "Pars XI-XX",
-        "copie": 1,
-        "autori": "",
-        "editore": "Mycoflora",
-        "data": "2000",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 39,
-        "titolo": "Omnia Bresadoliana Extracta",
-        "volume": "",
-        "copie": 1,
-        "autori": "Jacobus Bresadola",
-        "editore": "A.M.B. Gruppo di Trento",
-        "data": "1979",
-        "tags": [
-            "RealtàLocali",
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 40,
-        "titolo": "Die Blatterpilze (Le Agaricacee)",
-        "volume": "",
-        "copie": 1,
-        "autori": "A. Ricken",
-        "editore": "Massimo Candusso",
-        "data": "1980",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 41,
-        "titolo": "Dizionario Francese/italiano",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Antonio Vallardi Editore",
-        "data": "2004",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 42,
-        "titolo": "Dizionario Latino/italiano",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Antonio Vallardi Editore",
-        "data": "2003",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 43,
-        "titolo": "Atlante dei macromiceti dell’ordine boletales della provincia di Bologna",
-        "volume": "",
-        "copie": 1,
-        "autori": "Renato Todeschini, Mirko Illice, Enrico Ponzi, Maria Silvia Presi, Corrado Scarnato",
-        "editore": "Regione Emilia Romagna",
-        "data": "2017",
-        "tags": [
-            "RealtàLocali",
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 44,
-        "titolo": "Cercar funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Federico Andreoli, Guido Stecchi",
-        "editore": "Rizzoli Editore",
-        "data": "1981",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 45,
-        "titolo": "I funghi del bosco di Scardavilla",
-        "volume": "",
-        "copie": 1,
-        "autori": "Antonio Cicognani",
-        "editore": "A.M.B. gruppo Forlivese",
-        "data": "2009",
-        "tags": [
-            "A.M.B.",
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 46,
-        "titolo": "Il libro dei fungi d’Italia",
-        "volume": "",
-        "copie": 1,
-        "autori": "A. Testi",
-        "editore": "Demetra",
-        "data": "1999",
-        "tags": [
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 47,
-        "titolo": "Manuale tecnico-pratico per indagini su campioni fungini",
-        "volume": "",
-        "copie": 1,
-        "autori": "Paola Follesa",
-        "editore": "A.M.B.",
-        "data": "2009",
-        "tags": [
-            "A.M.B.",
-            "Formazione"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 48,
-        "titolo": "Funghi epigei spontanei",
-        "volume": "Raccolta, riconoscimento e commercializzazione",
-        "copie": 1,
-        "autori": "Nicola Sitta",
-        "editore": "CISNIAR e Museo di ecologia e storia naturale di Marano",
-        "data": "1997",
-        "tags": [
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 49,
-        "titolo": "Funghi Boleti",
-        "volume": "",
-        "copie": 1,
-        "autori": "Fabio Foiera, Ennio Lazzarini, Martin Snabl, Oscar Tani",
-        "editore": "Edagricole",
-        "data": "1993",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 50,
-        "titolo": "Funghi macromiceti lignicoli delle zone temperate e tropicali",
-        "volume": "",
-        "copie": 2,
-        "autori": "Marcello G. Intini",
-        "editore": "Edizioni IT-COMM",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 51,
-        "titolo": "Appunti di micologia pratica-ispettiva",
-        "volume": "",
-        "copie": 1,
-        "autori": "G. Govi",
-        "editore": "CLUEB",
-        "data": "1996",
-        "tags": [
-            "Formazione",
-            "Commestibilità"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 52,
-        "titolo": "Le amanite delle nostre regioni",
-        "volume": "",
-        "copie": 2,
-        "autori": "Roberto Galli",
-        "editore": "Edizioni La Tipotecnica",
-        "data": "1983",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 53,
-        "titolo": "I boleti delle nostre regioni",
-        "volume": "",
-        "copie": 2,
-        "autori": "Roberto Galli",
-        "editore": "Scuole grafiche Pavoniane",
-        "data": "1980",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 54,
-        "titolo": "Introduzione allo studio dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "A. Brunori, A. Buischio, A. Cassinis",
-        "editore": "Editrice “Il Libro”",
-        "data": "1985",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 55,
-        "titolo": "Funghi Russule",
-        "volume": "",
-        "copie": 1,
-        "autori": "Fabio Foiera, Ennio Lazzarini, Martin Snabl, Oscar Tani",
-        "editore": "Edagricole",
-        "data": "1993",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 56,
-        "titolo": "I funghi della selva dell’Abbadia di Fiastra",
-        "volume": "",
-        "copie": 1,
-        "autori": "A.M.B. Associazione micologica naturalistica “Monti Sibillini”",
-        "editore": "Fondazione Giustiniani Bandini",
-        "data": "2002",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 57,
-        "titolo": "Flore Mycologique d’Europe",
-        "volume": "1 – Hygrophoraceae Lotsy",
-        "copie": 2,
-        "autori": "Marcel Bon",
-        "editore": "CRDP",
-        "data": "1990",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 58,
-        "titolo": "Flore Mycologique d’Europe",
-        "volume": "2 – Tricholomataceae et ressemblants (Fayod) Heim",
-        "copie": 2,
-        "autori": "Marcel Bon",
-        "editore": "CRDP",
-        "data": "1991",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 59,
-        "titolo": "Flore Mycologique d’Europe",
-        "volume": "3 – Lepiotaceae",
-        "copie": 2,
-        "autori": "Marcel Bon",
-        "editore": "CRDP",
-        "data": "1993",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 60,
-        "titolo": "Flore Mycologique d’Europe",
-        "volume": "4 – Clitocyboideae",
-        "copie": 2,
-        "autori": "Marcel Bon",
-        "editore": "CRDP",
-        "data": "1997",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 61,
-        "titolo": "I funghi e la loro crescita",
-        "volume": "",
-        "copie": 3,
-        "autori": "Bernardino Dedei",
-        "editore": "SEC",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 62,
-        "titolo": "Funghi: crescita, piante autonomia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Bernardino Dedei",
-        "editore": "SEC",
-        "data": "2009",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 63,
-        "titolo": "Gli igrofori delle nostre regioni",
-        "volume": "",
-        "copie": 2,
-        "autori": "Roberto Galli",
-        "editore": "Edizioni La Tipotecnica",
-        "data": "1985",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 64,
-        "titolo": "Funghi velenosi",
-        "volume": "",
-        "copie": 3,
-        "autori": "G. Azzaretti, R. Galli, A. Bernini, F. Polani",
-        "editore": "Edizioni La Tipotecnica",
-        "data": "1983",
-        "tags": [
-            "Formazione",
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 65,
-        "titolo": "I funghi delle valli Orobiche Bergamasche",
-        "volume": "",
-        "copie": 1,
-        "autori": "autori vari",
-        "editore": "Gamba",
-        "data": "2006",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 66,
-        "titolo": "I funghi della città di Brescia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Bollettino del Circolo micologico G. Carini – 2015 N. 70",
-        "editore": "A.M.B. Gruppo di Brescia",
-        "data": "2015",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 67,
-        "titolo": "Monografie di pagine micologiche",
-        "volume": "Tomo Primo  – Contributio ad cognitionem coprinorum",
-        "copie": 1,
-        "autori": "Gabriele Cacialli, Vincenzo Caroti, Francesco Doveri",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "1999",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 68,
-        "titolo": "Fiori e funghi della Lessinia",
-        "volume": "",
-        "copie": 2,
-        "autori": "",
-        "editore": "A.M.B. Gruppo di Verona",
-        "data": "2000",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 69,
-        "titolo": "Tutto Funghi: conoscerli raccoglierli cucinarli",
-        "volume": "",
-        "copie": 1,
-        "autori": "a cura di AMINT",
-        "editore": "Giunti Demetra",
-        "data": "2011",
-        "tags": [
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 70,
-        "titolo": "L’atlante dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Giuseppe Pace",
-        "editore": "Oscar Mondadori",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 71,
-        "titolo": "Glossario micologico in 5 lingue",
-        "volume": "",
-        "copie": 2,
-        "autori": "Giacomo Lazzari",
-        "editore": "A.M.B. Gruppo di Trento",
-        "data": "1080",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 72,
-        "titolo": "Champignons d’Europe occidentale",
-        "volume": "",
-        "copie": 1,
-        "autori": "Marcel Bon",
-        "editore": "Arthaud",
-        "data": "1992",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 73,
-        "titolo": "Funghi e tartufi dell’Astigiano",
-        "volume": "",
-        "copie": 2,
-        "autori": "autori vari",
-        "editore": "A.M.B. Gruppo di Asti",
-        "data": "2011",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 74,
-        "titolo": "Fungi Tridentini novi vel nondum delineati",
-        "volume": "",
-        "copie": 1,
-        "autori": "Giacomo Bresadola",
-        "editore": "Edagricole",
-        "data": "1976",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 75,
-        "titolo": "Bibliotheca Mycologica",
-        "volume": "Band 43 – Ramaria subgenus Lentoramaria with emphasis on North America Taxa",
-        "copie": 1,
-        "autori": "Ronald H. Petersen",
-        "editore": "J. Cramer",
-        "data": "1975",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 76,
-        "titolo": "Bibliotheca Mycologica",
-        "volume": "Band 43 – Ramaria subgenus Echinoramaria",
-        "copie": 1,
-        "autori": "Ronald H. Petersen",
-        "editore": "J. Cramer",
-        "data": "1981",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 77,
-        "titolo": "Andar per funghi vademecum del cercatore",
-        "volume": "",
-        "copie": 2,
-        "autori": "Nando Togni",
-        "editore": "STIG Editrice",
-        "data": "1991",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 78,
-        "titolo": "I nostri funghi da conoscere",
-        "volume": "Consigli utili sui funghi della pineta di Tradate e Appiano Gentile",
-        "copie": 1,
-        "autori": "",
-        "editore": "A.M.B. Gruppo di Tradate",
-        "data": "2001",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 79,
-        "titolo": "Corso di formazione micologica",
-        "volume": "Volume I – Introduzione allo studio dei funghi",
-        "copie": 1,
-        "autori": "Tipolitografia Queriniana",
-        "editore": "Circolo Micologico “Giovanni Carini”",
-        "data": "1992",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 80,
-        "titolo": "Corso di formazione micologica",
-        "volume": "Volume I – Introduzione allo studio dei funghi – Nuova Edizione",
-        "copie": 1,
-        "autori": "Tipolitografia Queriniana",
-        "editore": "Circolo Micologico “Giovanni Carini”",
-        "data": "2006",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 81,
-        "titolo": "Dizionarietto Micologico",
-        "volume": "",
-        "copie": 1,
-        "autori": "Nicolini Editore",
-        "editore": "Sergio Ruini",
-        "data": "2004",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 82,
-        "titolo": "Nozioni di Micologia Elementare (funghi superiori)",
-        "volume": "",
-        "copie": 1,
-        "autori": "Edinatura",
-        "editore": "Roberto Galli",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 83,
-        "titolo": "I funghi del Polesine",
-        "volume": "",
-        "copie": 2,
-        "autori": "Provincia di Rovigo",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 84,
-        "titolo": "Il chiodino",
-        "volume": "",
-        "copie": 1,
-        "autori": "Gruppo Micologico Orobico di Verdello",
-        "editore": "Gamba",
-        "data": "2010",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 85,
-        "titolo": "I funghi parlano (Mario Galli)",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Grafiche Alma",
-        "data": "1982",
-        "tags": [
-            "Ricreativa"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 86,
-        "titolo": "Funghi epigei spontanei della regione Marche",
-        "volume": "",
-        "copie": 1,
-        "autori": "Coordinamento Associazioni Micologiche delle Marche",
-        "editore": "D’Auria industrie grafiche",
-        "data": "2006",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 87,
-        "titolo": "Riconoscimento, normative e commercializzazione dei funghi epigei in Toscana",
-        "volume": "",
-        "copie": 1,
-        "autori": "D. Antonini, M. Antonini, S. Barbasso, G. Pastorini",
-        "editore": "Nuova Fag",
-        "data": "2000",
-        "tags": [
-            "RealtàLocali",
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 88,
-        "titolo": "Di funghi si può anche… morire!!!",
-        "volume": "",
-        "copie": 1,
-        "autori": "Arturo Carchen, Leo Piantanida",
-        "editore": "A.M.B. Gruppo di Busto Arsizio",
-        "data": "",
-        "tags": [
-            "RealtàLocali",
-            "Formazione",
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 89,
-        "titolo": "Funghi Non Delineati",
-        "volume": "Pars XVI – Introduzione allo studio della Ramaria in Europa",
-        "copie": 1,
-        "autori": "Paolo Franchi, Mauro Marchetti",
-        "editore": "Edidioni Candusso",
-        "data": "2001",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 90,
-        "titolo": "Funghi Non Delineati",
-        "volume": "Pars XXI – Contribution to the knowledge of species of Entoloma subgenus Leptonia",
-        "copie": 1,
-        "autori": "Jan Vesterholt",
-        "editore": "Edidioni Candusso",
-        "data": "2002",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 91,
-        "titolo": "Funghi Non Delineati",
-        "volume": "Pars XXII – Macromiceti nuovi, rari o specifici della regione mediterranea",
-        "copie": 1,
-        "autori": "Daniele Antonini, Massimo Antonini",
-        "editore": "Edidioni Candusso",
-        "data": "2002",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 92,
-        "titolo": "Funghi Non Delineati",
-        "volume": "Pars XXIII – Studies in Galerina Galerinae Flandriae (1)",
-        "copie": 1,
-        "autori": "André de Haan, Ruben Walleyn",
-        "editore": "Edidioni Candusso",
-        "data": "2002",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 93,
-        "titolo": "Funghi Non Delineati",
-        "volume": "Pars XXV – Osservazioni sul genere Melanoleuca",
-        "copie": 1,
-        "autori": "Roberto Fontenla, Mario Gottardi",
-        "editore": "Edidioni Candusso",
-        "data": "2003",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 94,
-        "titolo": "Corso teorico-pratico di micologia elementare",
-        "volume": "",
-        "copie": 1,
-        "autori": "Gruppo Micologico “La Cittadella” Bergamo",
-        "editore": "",
-        "data": "1980",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 95,
-        "titolo": "Champignons Superriors du Maroc",
-        "volume": "I",
-        "copie": 1,
-        "autori": "G. Malençon, R. Bertault",
-        "editore": "Faculte des Sciences Rabat",
-        "data": "1970",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 96,
-        "titolo": "Champignons Superriors du Maroc",
-        "volume": "II",
-        "copie": 1,
-        "autori": "G. Malençon, R. Bertault",
-        "editore": "Faculte des Sciences Rabat",
-        "data": "1970",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 97,
-        "titolo": "Le specie più comuni del genere Amanita",
-        "volume": "in Molise",
-        "copie": 1,
-        "autori": "Peppino Giannotti",
-        "editore": "A.M.B. Gruppo Molisano",
-        "data": "2010",
-        "tags": [
-            "RealtàLocali",
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 98,
-        "titolo": "Andar per funghi",
-        "volume": "",
-        "copie": 2,
-        "autori": "Mario Valoti",
-        "editore": "Ferrari Editrice (Clusone)",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 99,
-        "titolo": "Fungi Europaei",
-        "volume": "1 – Agaricus L: Fr. (Psalliota Fr.)",
-        "copie": 1,
-        "autori": "A. Cappelli",
-        "editore": "Candusso Editrice",
-        "data": "1984",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 100,
-        "titolo": "Fungi Europaei",
-        "volume": "2 – Boletus Dill ex L. (sensu lato)",
-        "copie": 1,
-        "autori": "C. L. Alessio",
-        "editore": "Candusso Editrice",
-        "data": "1985",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 101,
-        "titolo": "Fungi Europaei",
-        "volume": "2A – Supplemento a Boletus Dill ex L. (sensu lato)",
-        "copie": 2,
-        "autori": "C. L. Alessio",
-        "editore": "Candusso Editrice",
-        "data": "1991",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 102,
-        "titolo": "Fungi Europaei",
-        "volume": "3 - Tricholoma (Fr.) Staude",
-        "copie": 1,
-        "autori": "A. Riva",
-        "editore": "Candusso Editrice",
-        "data": "2003",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 103,
-        "titolo": "Fungi Europaei",
-        "volume": "3A - Tricholoma (Fr.) Staude",
-        "copie": 1,
-        "autori": "A. Riva",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 104,
-        "titolo": "Fungi Europaei",
-        "volume": "4 – Lepiota s.l.",
-        "copie": 3,
-        "autori": "M. Candusso, G. Lanzoni",
-        "editore": "Candusso Editrice",
-        "data": "1990",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 105,
-        "titolo": "Fungi Europaei",
-        "volume": "5 – Entoloma s.l.",
-        "copie": 1,
-        "autori": "M. E. Noordeloos",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 106,
-        "titolo": "Fungi Europaei",
-        "volume": "5A – Entoloma s.l.",
-        "copie": 1,
-        "autori": "M. E. Noordeloos",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 107,
-        "titolo": "Fungi Europaei",
-        "volume": "6 - Hygrophorus s.l.",
-        "copie": 1,
-        "autori": "M. Candusso",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 108,
-        "titolo": "Fungi Europaei",
-        "volume": "7 – Lactarius Pers.",
-        "copie": 1,
-        "autori": "M. T. Basso",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 109,
-        "titolo": "Fungi Europaei",
-        "volume": "8 – Xerocomus s.l.",
-        "copie": 1,
-        "autori": "H. Ladurnier, G. Simonini",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 110,
-        "titolo": "Fungi Europaei",
-        "volume": "9 - Amaniteae (Amanita Limacella Torrendia)",
-        "copie": 1,
-        "autori": "P. Neville, S. Poumarat",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 111,
-        "titolo": "Fungi Europaei",
-        "volume": "10 – Polyporaceae s.l.",
-        "copie": 1,
-        "autori": "A. Bernicchia",
-        "editore": "Candusso Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 112,
-        "titolo": "I funghi oggi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "V.E.L.A.R.",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 113,
-        "titolo": "Cercar funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 114,
-        "titolo": "Guida alla determinazione dei funghi",
-        "volume": "Vol 3° - Inocybe",
-        "copie": 2,
-        "autori": "J. Stangl",
-        "editore": "Saturnia",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 115,
-        "titolo": "Guida alla determinazione dei funghi",
-        "volume": "Vol 2° - Aphyllophorales, Heterobasidyomicetes, Gastromycetes",
-        "copie": 2,
-        "autori": "Walter Jülich",
-        "editore": "Saturnia",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 116,
-        "titolo": "Guida alla determinazione dei funghi",
-        "volume": "Vol 1° - Polyporales, Boletas, Agaricales, Russulales",
-        "copie": 2,
-        "autori": "Meinhard Moser",
-        "editore": "Saturnia",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 117,
-        "titolo": "Il libro dei fungi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Alessio, Bauer, Filippi, Rebaudengo, Stecchi",
-        "editore": "Rizzoli Editore",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 118,
-        "titolo": "Atlante Iconografico 1981-1983",
-        "volume": "",
-        "copie": 2,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 119,
-        "titolo": "Nuovi Fondamenti di Micologia",
-        "volume": "",
-        "copie": 1,
-        "autori": "A. Rambelli, M. Pasqualetti",
-        "editore": "Jaka book",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 120,
-        "titolo": "I nostri funghi",
-        "volume": "",
-        "copie": 2,
-        "autori": "M. Garau, E. G. Merlo, M. Rosso, M. Traveso",
-        "editore": "SAGEP Editrice",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 121,
-        "titolo": "Mycena d’Europa",
-        "volume": "",
-        "copie": 2,
-        "autori": "Giovanni Robich",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 122,
-        "titolo": "I funghi della provincia di Pesaro e Urbino – Atlante fotografico",
-        "volume": "",
-        "copie": 3,
-        "autori": "Marco Maletti, Romano Paolini",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": "sembrano diverse edizioni"
-    },
-    {
-        "id": 123,
-        "titolo": "L’atlante dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Augusto Rinaldi, Vassili Tyndalo, Giulio Pace, Giuseppe Pace",
-        "editore": "Mondadori",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 124,
-        "titolo": "Fungorum Agri Ariminensis Historia",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Bruno Ghighi Editore",
-        "data": "1990",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 125,
-        "titolo": "I Boleti",
-        "volume": "",
-        "copie": 1,
-        "autori": "E. G. Merlo, M. Rosso, M. Traveso",
-        "editore": "SAGEP Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 126,
-        "titolo": "Prepoznavanje Gljiva",
-        "volume": "",
-        "copie": 1,
-        "autori": "Peter Jordan",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 127,
-        "titolo": "Fondamenti di Micologia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Rambelli",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 128,
-        "titolo": "L’atlante dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Mondadori",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 129,
-        "titolo": "I funghi in Lombardia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Roberto Galli",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 130,
-        "titolo": "Il libro dei fungi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 131,
-        "titolo": "Il Porcino",
-        "volume": "",
-        "copie": 1,
-        "autori": "Luciano Alessio",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 132,
-        "titolo": "Storia della Micologia Italiana",
-        "volume": "",
-        "copie": 2,
-        "autori": "G. Lazzari",
-        "editore": "Saturnia",
-        "data": "",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 133,
-        "titolo": "Le amanite",
-        "volume": "",
-        "copie": 2,
-        "autori": "E. G. Merlo, M. Traveso",
-        "editore": "SAGEP Editrice",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 134,
-        "titolo": "Flore Mycologique d’Europe",
-        "volume": "6 – Les Bolets Boletaceae",
-        "copie": 1,
-        "autori": "G. Lannoy, A. Estades",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 135,
-        "titolo": "La vegetazione dei colli morenici del Garda",
-        "volume": "",
-        "copie": 1,
-        "autori": "E. Crosato, G. Grossi, G. Persico, G. Voltolini",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 136,
-        "titolo": "I funghi freschi – secchi e conservati nella pratica ispettiva",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Formazione",
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 137,
-        "titolo": "Il fungo Pleuroto",
-        "volume": "",
-        "copie": 1,
-        "autori": "Floriano Ferri",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 138,
-        "titolo": "Atlante fotografico dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Luigi Blatto",
-        "editore": "Hoepli",
-        "data": "1982",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 139,
-        "titolo": "Funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 140,
-        "titolo": "I funghi velenosi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Nino Arietti, Renato Tomasi",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 141,
-        "titolo": "Don Giacomo Bresadola da Ortisé il prete dei funghi",
-        "volume": "",
-        "copie": 2,
-        "autori": "Centro Studi per la Val di Sole",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 142,
-        "titolo": "Alla scoperta dei funghi del monte Barro",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 143,
-        "titolo": "Guida alla determinazione del genere dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "G. Lazzari",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 144,
-        "titolo": "I funghi scoprirli riconoscerli gustarli",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 145,
-        "titolo": "Conspectus Fungorum",
-        "volume": "",
-        "copie": 2,
-        "autori": "Albertini et Schweiniz",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B."
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 146,
-        "titolo": "Funghi di Franciacorta",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 147,
-        "titolo": "Cercar Funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Fabbri Editori",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 148,
-        "titolo": "Censimento dei funghi della provincia di Varese",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Nicolini Editore",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 149,
-        "titolo": "Schede di Micologia",
-        "volume": "Volume I – Funghi Fimicoli",
-        "copie": 1,
-        "autori": "",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 150,
-        "titolo": "Dettagli Mancanti",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 0,
-        "note": ""
-    },
-    {
-        "id": 151,
-        "titolo": "Inocybe",
-        "volume": "",
-        "copie": 1,
-        "autori": "E. Ferrari",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 152,
-        "titolo": "Erbarium Apulei 1481 - Herbolario Volgare 1522",
-        "volume": "*",
-        "copie": 1,
-        "autori": "",
-        "editore": "Il Polifilo Editore",
-        "data": "",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 153,
-        "titolo": "Erbarium Apulei 1481 - Herbolario Volgare 1522",
-        "volume": "**",
-        "copie": 1,
-        "autori": "",
-        "editore": "Il Polifilo Editore",
-        "data": "",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 154,
-        "titolo": "Iconographia Mycologica XIXX",
-        "volume": "Inocybe – Generalia et Descriptiones",
-        "copie": 1,
-        "autori": "J. Bresadola, C. L. Alessio",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 155,
-        "titolo": "Iconographia Mycologica XIXX",
-        "volume": "Inocybe – Tabulae",
-        "copie": 1,
-        "autori": "J. Bresadola, E. Rebaudengo",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 156,
-        "titolo": "Dettagli Mancanti",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 0,
-        "note": ""
-    },
-    {
-        "id": 157,
-        "titolo": "401 Funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Antonio Gennari",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 158,
-        "titolo": "Funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Antonio Gennari",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 159,
-        "titolo": "Elementi chimici nei funghi superiori",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 160,
-        "titolo": "Polyporaceae s.l. in Italia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Annarosa Bernicchia",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 161,
-        "titolo": "Conoscere i funghi velenosi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Italo Milanesi",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Formazione",
-            "Commestibilità"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 162,
-        "titolo": "Monografie di pagine di micologia",
-        "volume": "I generi Hohenbuehelia e Resupinatus in Europa",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Ledo Setti",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 163,
-        "titolo": "British Ascomycetes",
-        "volume": "",
-        "copie": 1,
-        "autori": "R. W. G. Dennis",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 164,
-        "titolo": "Nuovo Trattato di Micologia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Mario Galli",
-        "editore": "Mazzotta",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": "verificare che non sia identico a precedente in due volumi"
-    },
-    {
-        "id": 165,
-        "titolo": "Il genere Amanita in Italia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Mido Traverso",
-        "editore": "A.M.E.R.",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 166,
-        "titolo": "Carlo Vittadini Funghi Ipogei",
-        "volume": "",
-        "copie": 1,
-        "autori": "Antoni Auguardi, Gianfelice Lucchini, Alfredo Riva",
-        "editore": "Societa Micologica Carlo Benzoni",
-        "data": "1991",
-        "tags": [
-            "RealtàLocali",
-            "Historia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 167,
-        "titolo": "Manuale per la prevenzione delle intossicazioni da funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Regione Lombardia Sanità",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 168,
-        "titolo": "Riconoscere i funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Istituto Geografico De Agostini Novara",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 169,
-        "titolo": "Dizionario illustrato dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Riccardo Mazza",
-        "editore": "ROMAR",
-        "data": "",
-        "tags": [
-            "Formazione"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 170,
-        "titolo": "Atlante fotografico di funghi ipogei",
-        "volume": "",
-        "copie": 1,
-        "autori": "A. Montecchi, G. Lazzari",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B."
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 171,
-        "titolo": "I funghi clavaroidi in Italia",
-        "volume": "Volume 1",
-        "copie": 1,
-        "autori": "Paolo Franchi, Mauro Marchetti",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 172,
-        "titolo": "I funghi clavaroidi in Italia",
-        "volume": "Volume 2",
-        "copie": 1,
-        "autori": "Paolo Franchi, Mauro Marchetti",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 173,
-        "titolo": "Gasteromiceti ipogei",
-        "volume": "",
-        "copie": 1,
-        "autori": "Mario Sarasini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 174,
-        "titolo": "Il genere Crepidotus in Europa",
-        "volume": "",
-        "copie": 1,
-        "autori": "Giovanni Consiglio, Ledo Setti",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 175,
-        "titolo": "Funghi d’Italia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Fabrizio Boccardo, Mido Traverso, Alfredo Vizzini",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 0,
-        "note": ""
-    },
-    {
-        "id": 177,
-        "titolo": "Le Russule",
-        "volume": "",
-        "copie": 1,
-        "autori": "Roberto Galli",
-        "editore": "Edinatura",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 178,
-        "titolo": "I Boleti",
-        "volume": "",
-        "copie": 1,
-        "autori": "Roberto Galli",
-        "editore": "Edinatura",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 179,
-        "titolo": "I Lattari",
-        "volume": "",
-        "copie": 1,
-        "autori": "Roberto Galli",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 180,
-        "titolo": "Le amanite",
-        "volume": "",
-        "copie": 1,
-        "autori": "Roberto Galli",
-        "editore": "Edinatura",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 181,
-        "titolo": "I Tricolomi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Roberto Galli",
-        "editore": "Edinatura",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 182,
-        "titolo": "Champignons de Suisse",
-        "volume": "1 – Les Ascomycètes",
-        "copie": 1,
-        "autori": "J. Breitenbach, F. Kränzlin",
-        "editore": "Mycologia Luzern",
-        "data": "",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 183,
-        "titolo": "Champignons de Suisse",
-        "volume": "2 – Hétérobasidiomycètes Aphyllophorales Gastéromycètes",
-        "copie": 1,
-        "autori": "J. Breitenbach, F. Kränzlin",
-        "editore": "Mycologia Luzern",
-        "data": "",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 184,
-        "titolo": "Champignons de Suisse",
-        "volume": "3 – Bolets et champignons à lames 1ère partie",
-        "copie": 1,
-        "autori": "J. Breitenbach, F. Kränzlin",
-        "editore": "Mycologia Luzern",
-        "data": "",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 185,
-        "titolo": "Champignons de Suisse",
-        "volume": "4 – Champignons à lames 2ème partie",
-        "copie": 1,
-        "autori": "J. Breitenbach, F. Kränzlin",
-        "editore": "Mycologia Luzern",
-        "data": "",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 186,
-        "titolo": "Champignons de Suisse",
-        "volume": "5 – Champignons à lames 3ème partie",
-        "copie": 1,
-        "autori": "J. Breitenbach, F. Kränzlin",
-        "editore": "Mycologia Luzern",
-        "data": "",
-        "tags": [],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 187,
-        "titolo": "Champignons de Suisse",
-        "volume": "6 – Russulaceae",
-        "copie": 1,
-        "autori": "J. Breitenbach, F. Kränzlin",
-        "editore": "Mycologia Luzern",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 188,
-        "titolo": "I funghi del Canton Ticino",
-        "volume": "",
-        "copie": 1,
-        "autori": "Gianfelice Lucchini",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 189,
-        "titolo": "Le voci sottili della selva",
-        "volume": "",
-        "copie": 1,
-        "autori": "Angela Grignani, Angelo Ballabeni",
-        "editore": "A.M.B. Gruppo di Villa d’Ogna",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 190,
-        "titolo": "Mycena d’Europa",
-        "volume": "volume 2",
-        "copie": 2,
-        "autori": "Giovanni Robich",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 191,
-        "titolo": "Manuale di microscopia dei funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "M. T. Basso",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 192,
-        "titolo": "Guida introduttiva al genere Cortinarius in Europa",
-        "volume": "",
-        "copie": 1,
-        "autori": "Calledda, Campo, Floriani, Mazza",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 193,
-        "titolo": "Funghi alpini delle zone alpine superiori ed inferiori",
-        "volume": "",
-        "copie": 1,
-        "autori": "Pier Giovanni Jamoni",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 194,
-        "titolo": "Monte Isola – Un mondo di funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "Lorenzo Borghesi",
-        "editore": "",
-        "data": "",
-        "tags": [
-            "RealtàLocali"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 195,
-        "titolo": "Funghi Ipogei d’Europa",
-        "volume": "",
-        "copie": 1,
-        "autori": "Amer Montecchi, Mario Sarasini",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 196,
-        "titolo": "Funghi Fimicoli d’Italia",
-        "volume": "",
-        "copie": 1,
-        "autori": "Francesco Doveri",
-        "editore": "A.M.B. Fondazione Centro Studi Micologici",
-        "data": "",
-        "tags": [
-            "A.M.B.",
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 197,
-        "titolo": "Les Psalliotes",
-        "volume": "",
-        "copie": 1,
-        "autori": "Henri Essetti",
-        "editore": "AMI",
-        "data": "",
-        "tags": [
-            "Monografia"
-        ],
-        "rating": 3,
-        "note": ""
-    },
-    {
-        "id": 198,
-        "titolo": "Funghi d’Italia e d’Europa",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "Edizione Idea Natura",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 199,
-        "titolo": "La basilica di Santa Maria Maggiore",
-        "volume": "",
-        "copie": 1,
-        "autori": "Mauro Zanchi",
-        "editore": "Ferrari Editrice (Clusone)",
-        "data": "2003",
-        "tags": [
-            "Arte"
-        ],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 200,
-        "titolo": "I funghi dal vero",
-        "volume": "1°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 201,
-        "titolo": "I funghi dal vero",
-        "volume": "2°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 202,
-        "titolo": "I funghi dal vero",
-        "volume": "3°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 203,
-        "titolo": "I funghi dal vero",
-        "volume": "4°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 204,
-        "titolo": "I funghi dal vero",
-        "volume": "5°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 205,
-        "titolo": "I funghi dal vero",
-        "volume": "6°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 206,
-        "titolo": "I funghi dal vero",
-        "volume": "7°",
-        "copie": 1,
-        "autori": "Bruno Cetto",
-        "editore": "Saturnia Trento",
-        "data": "1976",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 207,
-        "titolo": "Atlante fotografico dei funghi d’Italia",
-        "volume": "volume 1",
-        "copie": 2,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 208,
-        "titolo": "Atlante fotografico dei funghi d’Italia",
-        "volume": "volume 2",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 209,
-        "titolo": "Atlante fotografico dei funghi d’Italia",
-        "volume": "volume 3",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 210,
-        "titolo": "Atlante fotografico degli Ascomiceti d’Italia",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 211,
-        "titolo": "I funghi delle Pinete",
-        "volume": "",
-        "copie": 1,
-        "autori": "Adler Zuccherelli",
-        "editore": "Longo Editore Ravenna",
-        "data": "",
-        "tags": [],
-        "rating": 2,
-        "note": ""
-    },
-    {
-        "id": 212,
-        "titolo": "Studi micologici dedicati a Giacomo Lazzari",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 213,
-        "titolo": "I tartufi tra ricerca e divulgazione",
-        "volume": "",
-        "copie": 1,
-        "autori": "Carlo Vittadini",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    },
-    {
-        "id": 214,
-        "titolo": "I funghi",
-        "volume": "",
-        "copie": 1,
-        "autori": "",
-        "editore": "",
-        "data": "",
-        "tags": [],
-        "rating": 1,
-        "note": ""
-    }
+  {
+    "id": 1,
+    "titolo": "Monografia illustrata del Genere Russula in Europa",
+    "volume": "Tomo Primo",
+    "copie": 2,
+    "autori": "Mauro Sarnari",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "2007",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 2,
+    "titolo": "Monografia illustrata del Genere Russula in Europa",
+    "volume": "Tomo Secondo",
+    "copie": 2,
+    "autori": "Mauro Sarnari",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "2007",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 3,
+    "titolo": "Nuovo Trattato di Micologia",
+    "volume": "*",
+    "copie": 1,
+    "autori": "Mario Galli",
+    "editore": "MAZZOTTA",
+    "data": "1982",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 4,
+    "titolo": "Nuovo Trattato di Micologia",
+    "volume": "**",
+    "copie": 1,
+    "autori": "Mario Galli",
+    "editore": "MAZZOTTA",
+    "data": "1982",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 5,
+    "titolo": "Flora Agaricina Danica",
+    "volume": "I Tab 1-104",
+    "copie": 2,
+    "autori": "Jacob E. Lange",
+    "editore": "Massimo Candusso",
+    "data": "1993",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 6,
+    "titolo": "Flora Agaricina Danica",
+    "volume": "II Tab 105-200",
+    "copie": 2,
+    "autori": "Jacob E. Lange",
+    "editore": "Massimo Candusso",
+    "data": "1993",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 7,
+    "titolo": "Iconographia Mycologica",
+    "volume": "VOL I – Textus in Tabb. 1-767",
+    "copie": 1,
+    "autori": "Jacobus Bresadola",
+    "editore": "MEDIOLANI",
+    "data": "1982",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 8,
+    "titolo": "Iconographia Mycologica",
+    "volume": "VOL II – Textus in Tabb. 768-1250",
+    "copie": 1,
+    "autori": "Jacobus Bresadola",
+    "editore": "MEDIOLANI",
+    "data": "1982",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 9,
+    "titolo": "Iconographia Mycologica",
+    "volume": "VOL III – Tabulae 1-396",
+    "copie": 1,
+    "autori": "Jacobus Bresadola",
+    "editore": "MEDIOLANI",
+    "data": "1982",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 10,
+    "titolo": "Iconographia Mycologica",
+    "volume": "VOL IV – Tabulae 397-820",
+    "copie": 1,
+    "autori": "Jacobus Bresadola",
+    "editore": "MEDIOLANI",
+    "data": "1982",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 11,
+    "titolo": "Iconographia Mycologica",
+    "volume": "VOL V – Tabulae 821-1250",
+    "copie": 1,
+    "autori": "Jacobus Bresadola",
+    "editore": "MEDIOLANI",
+    "data": "1982",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 12,
+    "titolo": "Il Genere Cortinarius In Italia",
+    "volume": "Indice",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 13,
+    "titolo": "Il Genere Cortinarius In Italia",
+    "volume": "VOL I – Dermocybe Leprocybe Myxacium",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 14,
+    "titolo": "Il Genere Cortinarius In Italia",
+    "volume": "VOL II – Phlegmacium da bisporici a laeticolores",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 15,
+    "titolo": "Il Genere Cortinarius In Italia",
+    "volume": "VOL III – segue Phlegmacium da patibiles a suborti, Telamonia da anomali a cyanites",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 16,
+    "titolo": "Il Genere Cortinarius In Italia",
+    "volume": "VOL IV – segue Telamonia da firmiores a flexipedes",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 17,
+    "titolo": "Il Genere Cortinarius In Italia",
+    "volume": "VOL V – segue Telamonia da spilomei a uracei",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Daniele Antonini, Massimo Antonini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 18,
+    "titolo": "Systema Mycologicum",
+    "volume": "VOL I-II",
+    "copie": 1,
+    "autori": "E. M. Fries",
+    "editore": "Massimo Candusso",
+    "data": "1984",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 19,
+    "titolo": "Systema Mycologicum – Elenchus Fungorum",
+    "volume": "VOL III – Index",
+    "copie": 1,
+    "autori": "E. M. Fries",
+    "editore": "Massimo Candusso",
+    "data": "1984",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 20,
+    "titolo": "Observationes Mycologicae",
+    "volume": "VOL I-II",
+    "copie": 1,
+    "autori": "E. M. Fries",
+    "editore": "Massimo Candusso",
+    "data": "1984",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 21,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "*",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 22,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "**",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 23,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "3",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 24,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "4",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 25,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "5",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 26,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "6",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 27,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "7",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 28,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "8",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 29,
+    "titolo": "Champignons du nord et du midi",
+    "volume": "9",
+    "copie": 1,
+    "autori": "André Marchand",
+    "editore": "Société Mycologique Des Pyrénées Méditerranéennes",
+    "data": "1986",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 30,
+    "titolo": "Le guide des Champignos France et Europe",
+    "volume": "",
+    "copie": 1,
+    "autori": "Guillaume Eyssartier, Pierre Roux",
+    "editore": "Belin",
+    "data": "2011",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 31,
+    "titolo": "Fungi sensu Ruini",
+    "volume": "",
+    "copie": 1,
+    "autori": "Sergio Ruini",
+    "editore": "Nicolini Editore",
+    "data": "1991",
+    "tags": [
+      "Ricreativa"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 32,
+    "titolo": "Micologia Duemila",
+    "volume": "",
+    "copie": 2,
+    "autori": "",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "2000",
+    "tags": [
+      "A.M.B.",
+      "Rivista"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 33,
+    "titolo": "Funghi velenosi e sindromi tossiche",
+    "volume": "",
+    "copie": 1,
+    "autori": "Giovanna Pelle",
+    "editore": "Bacchetta Editore",
+    "data": "2007",
+    "tags": [
+      "Formazione",
+      "Commestibilità"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 34,
+    "titolo": "Funghi della pianura lombarda",
+    "volume": "",
+    "copie": 1,
+    "autori": "Emilio Pini",
+    "editore": "A.M.B. Gruppo di Crema",
+    "data": "2024",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 35,
+    "titolo": "Morchellacee",
+    "volume": "",
+    "copie": 1,
+    "autori": "Giuseppe Campagnola",
+    "editore": "Antolini Tipografia",
+    "data": "2013",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 36,
+    "titolo": "Les Russules",
+    "volume": "",
+    "copie": 1,
+    "autori": "H. Romagnesi",
+    "editore": "Gantner",
+    "data": "1996",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 37,
+    "titolo": "Fungi non delineati",
+    "volume": "Pars I-X",
+    "copie": 1,
+    "autori": "",
+    "editore": "Mycoflora",
+    "data": "2000",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 38,
+    "titolo": "Fungi non delineati",
+    "volume": "Pars XI-XX",
+    "copie": 1,
+    "autori": "",
+    "editore": "Mycoflora",
+    "data": "2000",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 39,
+    "titolo": "Omnia Bresadoliana Extracta",
+    "volume": "",
+    "copie": 1,
+    "autori": "Jacobus Bresadola",
+    "editore": "A.M.B. Gruppo di Trento",
+    "data": "1979",
+    "tags": [
+      "RealtàLocali",
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 40,
+    "titolo": "Die Blatterpilze (Le Agaricacee)",
+    "volume": "",
+    "copie": 1,
+    "autori": "A. Ricken",
+    "editore": "Massimo Candusso",
+    "data": "1980",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 41,
+    "titolo": "Dizionario Francese/italiano",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Antonio Vallardi Editore",
+    "data": "2004",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 42,
+    "titolo": "Dizionario Latino/italiano",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Antonio Vallardi Editore",
+    "data": "2003",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 43,
+    "titolo": "Atlante dei macromiceti dell’ordine boletales della provincia di Bologna",
+    "volume": "",
+    "copie": 1,
+    "autori": "Renato Todeschini, Mirko Illice, Enrico Ponzi, Maria Silvia Presi, Corrado Scarnato",
+    "editore": "Regione Emilia Romagna",
+    "data": "2017",
+    "tags": [
+      "RealtàLocali",
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 44,
+    "titolo": "Cercar funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Federico Andreoli, Guido Stecchi",
+    "editore": "Rizzoli Editore",
+    "data": "1981",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 45,
+    "titolo": "I funghi del bosco di Scardavilla",
+    "volume": "",
+    "copie": 1,
+    "autori": "Antonio Cicognani",
+    "editore": "A.M.B. gruppo Forlivese",
+    "data": "2009",
+    "tags": [
+      "A.M.B.",
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 46,
+    "titolo": "Il libro dei fungi d’Italia",
+    "volume": "",
+    "copie": 1,
+    "autori": "A. Testi",
+    "editore": "Demetra",
+    "data": "1999",
+    "tags": [
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 47,
+    "titolo": "Manuale tecnico-pratico per indagini su campioni fungini",
+    "volume": "",
+    "copie": 1,
+    "autori": "Paola Follesa",
+    "editore": "A.M.B.",
+    "data": "2009",
+    "tags": [
+      "A.M.B.",
+      "Formazione"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 48,
+    "titolo": "Funghi epigei spontanei",
+    "volume": "Raccolta, riconoscimento e commercializzazione",
+    "copie": 1,
+    "autori": "Nicola Sitta",
+    "editore": "CISNIAR e Museo di ecologia e storia naturale di Marano",
+    "data": "1997",
+    "tags": [
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 49,
+    "titolo": "Funghi Boleti",
+    "volume": "",
+    "copie": 1,
+    "autori": "Fabio Foiera, Ennio Lazzarini, Martin Snabl, Oscar Tani",
+    "editore": "Edagricole",
+    "data": "1993",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 50,
+    "titolo": "Funghi macromiceti lignicoli delle zone temperate e tropicali",
+    "volume": "",
+    "copie": 2,
+    "autori": "Marcello G. Intini",
+    "editore": "Edizioni IT-COMM",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 51,
+    "titolo": "Appunti di micologia pratica-ispettiva",
+    "volume": "",
+    "copie": 1,
+    "autori": "G. Govi",
+    "editore": "CLUEB",
+    "data": "1996",
+    "tags": [
+      "Formazione",
+      "Commestibilità"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 52,
+    "titolo": "Le amanite delle nostre regioni",
+    "volume": "",
+    "copie": 2,
+    "autori": "Roberto Galli",
+    "editore": "Edizioni La Tipotecnica",
+    "data": "1983",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 53,
+    "titolo": "I boleti delle nostre regioni",
+    "volume": "",
+    "copie": 2,
+    "autori": "Roberto Galli",
+    "editore": "Scuole grafiche Pavoniane",
+    "data": "1980",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 54,
+    "titolo": "Introduzione allo studio dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "A. Brunori, A. Buischio, A. Cassinis",
+    "editore": "Editrice “Il Libro”",
+    "data": "1985",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 55,
+    "titolo": "Funghi Russule",
+    "volume": "",
+    "copie": 1,
+    "autori": "Fabio Foiera, Ennio Lazzarini, Martin Snabl, Oscar Tani",
+    "editore": "Edagricole",
+    "data": "1993",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 56,
+    "titolo": "I funghi della selva dell’Abbadia di Fiastra",
+    "volume": "",
+    "copie": 1,
+    "autori": "A.M.B. Associazione micologica naturalistica “Monti Sibillini”",
+    "editore": "Fondazione Giustiniani Bandini",
+    "data": "2002",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 57,
+    "titolo": "Flore Mycologique d’Europe",
+    "volume": "1 – Hygrophoraceae Lotsy",
+    "copie": 2,
+    "autori": "Marcel Bon",
+    "editore": "CRDP",
+    "data": "1990",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 58,
+    "titolo": "Flore Mycologique d’Europe",
+    "volume": "2 – Tricholomataceae et ressemblants (Fayod) Heim",
+    "copie": 2,
+    "autori": "Marcel Bon",
+    "editore": "CRDP",
+    "data": "1991",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 59,
+    "titolo": "Flore Mycologique d’Europe",
+    "volume": "3 – Lepiotaceae",
+    "copie": 2,
+    "autori": "Marcel Bon",
+    "editore": "CRDP",
+    "data": "1993",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 60,
+    "titolo": "Flore Mycologique d’Europe",
+    "volume": "4 – Clitocyboideae",
+    "copie": 2,
+    "autori": "Marcel Bon",
+    "editore": "CRDP",
+    "data": "1997",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 61,
+    "titolo": "I funghi e la loro crescita",
+    "volume": "",
+    "copie": 3,
+    "autori": "Bernardino Dedei",
+    "editore": "SEC",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 62,
+    "titolo": "Funghi: crescita, piante autonomia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Bernardino Dedei",
+    "editore": "SEC",
+    "data": "2009",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 63,
+    "titolo": "Gli igrofori delle nostre regioni",
+    "volume": "",
+    "copie": 2,
+    "autori": "Roberto Galli",
+    "editore": "Edizioni La Tipotecnica",
+    "data": "1985",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 64,
+    "titolo": "Funghi velenosi",
+    "volume": "",
+    "copie": 3,
+    "autori": "G. Azzaretti, R. Galli, A. Bernini, F. Polani",
+    "editore": "Edizioni La Tipotecnica",
+    "data": "1983",
+    "tags": [
+      "Formazione",
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 65,
+    "titolo": "I funghi delle valli Orobiche Bergamasche",
+    "volume": "",
+    "copie": 1,
+    "autori": "autori vari",
+    "editore": "Gamba",
+    "data": "2006",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 66,
+    "titolo": "I funghi della città di Brescia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Bollettino del Circolo micologico G. Carini – 2015 N. 70",
+    "editore": "A.M.B. Gruppo di Brescia",
+    "data": "2015",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 67,
+    "titolo": "Monografie di pagine micologiche",
+    "volume": "Tomo Primo  – Contributio ad cognitionem coprinorum",
+    "copie": 1,
+    "autori": "Gabriele Cacialli, Vincenzo Caroti, Francesco Doveri",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "1999",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 68,
+    "titolo": "Fiori e funghi della Lessinia",
+    "volume": "",
+    "copie": 2,
+    "autori": "",
+    "editore": "A.M.B. Gruppo di Verona",
+    "data": "2000",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 69,
+    "titolo": "Tutto Funghi: conoscerli raccoglierli cucinarli",
+    "volume": "",
+    "copie": 1,
+    "autori": "a cura di AMINT",
+    "editore": "Giunti Demetra",
+    "data": "2011",
+    "tags": [
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 70,
+    "titolo": "L’atlante dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Giuseppe Pace",
+    "editore": "Oscar Mondadori",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 71,
+    "titolo": "Glossario micologico in 5 lingue",
+    "volume": "",
+    "copie": 2,
+    "autori": "Giacomo Lazzari",
+    "editore": "A.M.B. Gruppo di Trento",
+    "data": "1080",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 72,
+    "titolo": "Champignons d’Europe occidentale",
+    "volume": "",
+    "copie": 1,
+    "autori": "Marcel Bon",
+    "editore": "Arthaud",
+    "data": "1992",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 73,
+    "titolo": "Funghi e tartufi dell’Astigiano",
+    "volume": "",
+    "copie": 2,
+    "autori": "autori vari",
+    "editore": "A.M.B. Gruppo di Asti",
+    "data": "2011",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 74,
+    "titolo": "Fungi Tridentini novi vel nondum delineati",
+    "volume": "",
+    "copie": 1,
+    "autori": "Giacomo Bresadola",
+    "editore": "Edagricole",
+    "data": "1976",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 75,
+    "titolo": "Bibliotheca Mycologica",
+    "volume": "Band 43 – Ramaria subgenus Lentoramaria with emphasis on North America Taxa",
+    "copie": 1,
+    "autori": "Ronald H. Petersen",
+    "editore": "J. Cramer",
+    "data": "1975",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 76,
+    "titolo": "Bibliotheca Mycologica",
+    "volume": "Band 43 – Ramaria subgenus Echinoramaria",
+    "copie": 1,
+    "autori": "Ronald H. Petersen",
+    "editore": "J. Cramer",
+    "data": "1981",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 77,
+    "titolo": "Andar per funghi vademecum del cercatore",
+    "volume": "",
+    "copie": 2,
+    "autori": "Nando Togni",
+    "editore": "STIG Editrice",
+    "data": "1991",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 78,
+    "titolo": "I nostri funghi da conoscere",
+    "volume": "Consigli utili sui funghi della pineta di Tradate e Appiano Gentile",
+    "copie": 1,
+    "autori": "",
+    "editore": "A.M.B. Gruppo di Tradate",
+    "data": "2001",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 79,
+    "titolo": "Corso di formazione micologica",
+    "volume": "Volume I – Introduzione allo studio dei funghi",
+    "copie": 1,
+    "autori": "Tipolitografia Queriniana",
+    "editore": "Circolo Micologico “Giovanni Carini”",
+    "data": "1992",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 80,
+    "titolo": "Corso di formazione micologica",
+    "volume": "Volume I – Introduzione allo studio dei funghi – Nuova Edizione",
+    "copie": 1,
+    "autori": "Tipolitografia Queriniana",
+    "editore": "Circolo Micologico “Giovanni Carini”",
+    "data": "2006",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 81,
+    "titolo": "Dizionarietto Micologico",
+    "volume": "",
+    "copie": 1,
+    "autori": "Nicolini Editore",
+    "editore": "Sergio Ruini",
+    "data": "2004",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 82,
+    "titolo": "Nozioni di Micologia Elementare (funghi superiori)",
+    "volume": "",
+    "copie": 1,
+    "autori": "Edinatura",
+    "editore": "Roberto Galli",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 83,
+    "titolo": "I funghi del Polesine",
+    "volume": "",
+    "copie": 2,
+    "autori": "Provincia di Rovigo",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 84,
+    "titolo": "Il chiodino",
+    "volume": "",
+    "copie": 1,
+    "autori": "Gruppo Micologico Orobico di Verdello",
+    "editore": "Gamba",
+    "data": "2010",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 85,
+    "titolo": "I funghi parlano (Mario Galli)",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Grafiche Alma",
+    "data": "1982",
+    "tags": [
+      "Ricreativa"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 86,
+    "titolo": "Funghi epigei spontanei della regione Marche",
+    "volume": "",
+    "copie": 1,
+    "autori": "Coordinamento Associazioni Micologiche delle Marche",
+    "editore": "D’Auria industrie grafiche",
+    "data": "2006",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 87,
+    "titolo": "Riconoscimento, normative e commercializzazione dei funghi epigei in Toscana",
+    "volume": "",
+    "copie": 1,
+    "autori": "D. Antonini, M. Antonini, S. Barbasso, G. Pastorini",
+    "editore": "Nuova Fag",
+    "data": "2000",
+    "tags": [
+      "RealtàLocali",
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 88,
+    "titolo": "Di funghi si può anche… morire!!!",
+    "volume": "",
+    "copie": 1,
+    "autori": "Arturo Carchen, Leo Piantanida",
+    "editore": "A.M.B. Gruppo di Busto Arsizio",
+    "data": "",
+    "tags": [
+      "RealtàLocali",
+      "Formazione",
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 89,
+    "titolo": "Funghi Non Delineati",
+    "volume": "Pars XVI – Introduzione allo studio della Ramaria in Europa",
+    "copie": 1,
+    "autori": "Paolo Franchi, Mauro Marchetti",
+    "editore": "Edidioni Candusso",
+    "data": "2001",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 90,
+    "titolo": "Funghi Non Delineati",
+    "volume": "Pars XXI – Contribution to the knowledge of species of Entoloma subgenus Leptonia",
+    "copie": 1,
+    "autori": "Jan Vesterholt",
+    "editore": "Edidioni Candusso",
+    "data": "2002",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 91,
+    "titolo": "Funghi Non Delineati",
+    "volume": "Pars XXII – Macromiceti nuovi, rari o specifici della regione mediterranea",
+    "copie": 1,
+    "autori": "Daniele Antonini, Massimo Antonini",
+    "editore": "Edidioni Candusso",
+    "data": "2002",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 92,
+    "titolo": "Funghi Non Delineati",
+    "volume": "Pars XXIII – Studies in Galerina Galerinae Flandriae (1)",
+    "copie": 1,
+    "autori": "André de Haan, Ruben Walleyn",
+    "editore": "Edidioni Candusso",
+    "data": "2002",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 93,
+    "titolo": "Funghi Non Delineati",
+    "volume": "Pars XXV – Osservazioni sul genere Melanoleuca",
+    "copie": 1,
+    "autori": "Roberto Fontenla, Mario Gottardi",
+    "editore": "Edidioni Candusso",
+    "data": "2003",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 94,
+    "titolo": "Corso teorico-pratico di micologia elementare",
+    "volume": "",
+    "copie": 1,
+    "autori": "Gruppo Micologico “La Cittadella” Bergamo",
+    "editore": "",
+    "data": "1980",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 95,
+    "titolo": "Champignons Superriors du Maroc",
+    "volume": "I",
+    "copie": 1,
+    "autori": "G. Malençon, R. Bertault",
+    "editore": "Faculte des Sciences Rabat",
+    "data": "1970",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 96,
+    "titolo": "Champignons Superriors du Maroc",
+    "volume": "II",
+    "copie": 1,
+    "autori": "G. Malençon, R. Bertault",
+    "editore": "Faculte des Sciences Rabat",
+    "data": "1970",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 97,
+    "titolo": "Le specie più comuni del genere Amanita",
+    "volume": "in Molise",
+    "copie": 1,
+    "autori": "Peppino Giannotti",
+    "editore": "A.M.B. Gruppo Molisano",
+    "data": "2010",
+    "tags": [
+      "RealtàLocali",
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 98,
+    "titolo": "Andar per funghi",
+    "volume": "",
+    "copie": 2,
+    "autori": "Mario Valoti",
+    "editore": "Ferrari Editrice (Clusone)",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 99,
+    "titolo": "Fungi Europaei",
+    "volume": "1 – Agaricus L: Fr. (Psalliota Fr.)",
+    "copie": 1,
+    "autori": "A. Cappelli",
+    "editore": "Candusso Editrice",
+    "data": "1984",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 100,
+    "titolo": "Fungi Europaei",
+    "volume": "2 – Boletus Dill ex L. (sensu lato)",
+    "copie": 1,
+    "autori": "C. L. Alessio",
+    "editore": "Candusso Editrice",
+    "data": "1985",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 101,
+    "titolo": "Fungi Europaei",
+    "volume": "2A – Supplemento a Boletus Dill ex L. (sensu lato)",
+    "copie": 2,
+    "autori": "C. L. Alessio",
+    "editore": "Candusso Editrice",
+    "data": "1991",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 102,
+    "titolo": "Fungi Europaei",
+    "volume": "3 - Tricholoma (Fr.) Staude",
+    "copie": 1,
+    "autori": "A. Riva",
+    "editore": "Candusso Editrice",
+    "data": "2003",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 103,
+    "titolo": "Fungi Europaei",
+    "volume": "3A - Tricholoma (Fr.) Staude",
+    "copie": 1,
+    "autori": "A. Riva",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 104,
+    "titolo": "Fungi Europaei",
+    "volume": "4 – Lepiota s.l.",
+    "copie": 3,
+    "autori": "M. Candusso, G. Lanzoni",
+    "editore": "Candusso Editrice",
+    "data": "1990",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 105,
+    "titolo": "Fungi Europaei",
+    "volume": "5 – Entoloma s.l.",
+    "copie": 1,
+    "autori": "M. E. Noordeloos",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 106,
+    "titolo": "Fungi Europaei",
+    "volume": "5A – Entoloma s.l.",
+    "copie": 1,
+    "autori": "M. E. Noordeloos",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 107,
+    "titolo": "Fungi Europaei",
+    "volume": "6 - Hygrophorus s.l.",
+    "copie": 1,
+    "autori": "M. Candusso",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 108,
+    "titolo": "Fungi Europaei",
+    "volume": "7 – Lactarius Pers.",
+    "copie": 1,
+    "autori": "M. T. Basso",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 109,
+    "titolo": "Fungi Europaei",
+    "volume": "8 – Xerocomus s.l.",
+    "copie": 1,
+    "autori": "H. Ladurnier, G. Simonini",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 110,
+    "titolo": "Fungi Europaei",
+    "volume": "9 - Amaniteae (Amanita Limacella Torrendia)",
+    "copie": 1,
+    "autori": "P. Neville, S. Poumarat",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 111,
+    "titolo": "Fungi Europaei",
+    "volume": "10 – Polyporaceae s.l.",
+    "copie": 1,
+    "autori": "A. Bernicchia",
+    "editore": "Candusso Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 112,
+    "titolo": "I funghi oggi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "V.E.L.A.R.",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 113,
+    "titolo": "Cercar funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 114,
+    "titolo": "Guida alla determinazione dei funghi",
+    "volume": "Vol 3° - Inocybe",
+    "copie": 2,
+    "autori": "J. Stangl",
+    "editore": "Saturnia",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 115,
+    "titolo": "Guida alla determinazione dei funghi",
+    "volume": "Vol 2° - Aphyllophorales, Heterobasidyomicetes, Gastromycetes",
+    "copie": 2,
+    "autori": "Walter Jülich",
+    "editore": "Saturnia",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 116,
+    "titolo": "Guida alla determinazione dei funghi",
+    "volume": "Vol 1° - Polyporales, Boletas, Agaricales, Russulales",
+    "copie": 2,
+    "autori": "Meinhard Moser",
+    "editore": "Saturnia",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 117,
+    "titolo": "Il libro dei fungi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Alessio, Bauer, Filippi, Rebaudengo, Stecchi",
+    "editore": "Rizzoli Editore",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 118,
+    "titolo": "Atlante Iconografico 1981-1983",
+    "volume": "",
+    "copie": 2,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 119,
+    "titolo": "Nuovi Fondamenti di Micologia",
+    "volume": "",
+    "copie": 1,
+    "autori": "A. Rambelli, M. Pasqualetti",
+    "editore": "Jaka book",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 120,
+    "titolo": "I nostri funghi",
+    "volume": "",
+    "copie": 2,
+    "autori": "M. Garau, E. G. Merlo, M. Rosso, M. Traveso",
+    "editore": "SAGEP Editrice",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 121,
+    "titolo": "Mycena d’Europa",
+    "volume": "",
+    "copie": 2,
+    "autori": "Giovanni Robich",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 122,
+    "titolo": "I funghi della provincia di Pesaro e Urbino – Atlante fotografico",
+    "volume": "",
+    "copie": 3,
+    "autori": "Marco Maletti, Romano Paolini",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": "sembrano diverse edizioni"
+  },
+  {
+    "id": 123,
+    "titolo": "L’atlante dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Augusto Rinaldi, Vassili Tyndalo, Giulio Pace, Giuseppe Pace",
+    "editore": "Mondadori",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 124,
+    "titolo": "Fungorum Agri Ariminensis Historia",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Bruno Ghighi Editore",
+    "data": "1990",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 125,
+    "titolo": "I Boleti",
+    "volume": "",
+    "copie": 1,
+    "autori": "E. G. Merlo, M. Rosso, M. Traveso",
+    "editore": "SAGEP Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 126,
+    "titolo": "Prepoznavanje Gljiva",
+    "volume": "",
+    "copie": 1,
+    "autori": "Peter Jordan",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 127,
+    "titolo": "Fondamenti di Micologia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Rambelli",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 128,
+    "titolo": "L’atlante dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Mondadori",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 129,
+    "titolo": "I funghi in Lombardia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Roberto Galli",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 130,
+    "titolo": "Il libro dei fungi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 131,
+    "titolo": "Il Porcino",
+    "volume": "",
+    "copie": 1,
+    "autori": "Luciano Alessio",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 132,
+    "titolo": "Storia della Micologia Italiana",
+    "volume": "",
+    "copie": 2,
+    "autori": "G. Lazzari",
+    "editore": "Saturnia",
+    "data": "",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 133,
+    "titolo": "Le amanite",
+    "volume": "",
+    "copie": 2,
+    "autori": "E. G. Merlo, M. Traveso",
+    "editore": "SAGEP Editrice",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 134,
+    "titolo": "Flore Mycologique d’Europe",
+    "volume": "6 – Les Bolets Boletaceae",
+    "copie": 1,
+    "autori": "G. Lannoy, A. Estades",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 135,
+    "titolo": "La vegetazione dei colli morenici del Garda",
+    "volume": "",
+    "copie": 1,
+    "autori": "E. Crosato, G. Grossi, G. Persico, G. Voltolini",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 136,
+    "titolo": "I funghi freschi – secchi e conservati nella pratica ispettiva",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Formazione",
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 137,
+    "titolo": "Il fungo Pleuroto",
+    "volume": "",
+    "copie": 1,
+    "autori": "Floriano Ferri",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 138,
+    "titolo": "Atlante fotografico dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Luigi Blatto",
+    "editore": "Hoepli",
+    "data": "1982",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 139,
+    "titolo": "Funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 140,
+    "titolo": "I funghi velenosi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Nino Arietti, Renato Tomasi",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 141,
+    "titolo": "Don Giacomo Bresadola da Ortisé il prete dei funghi",
+    "volume": "",
+    "copie": 2,
+    "autori": "Centro Studi per la Val di Sole",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 142,
+    "titolo": "Alla scoperta dei funghi del monte Barro",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 143,
+    "titolo": "Guida alla determinazione del genere dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "G. Lazzari",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 144,
+    "titolo": "I funghi scoprirli riconoscerli gustarli",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 145,
+    "titolo": "Conspectus Fungorum",
+    "volume": "",
+    "copie": 2,
+    "autori": "Albertini et Schweiniz",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B."
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 146,
+    "titolo": "Funghi di Franciacorta",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 147,
+    "titolo": "Cercar Funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Fabbri Editori",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 148,
+    "titolo": "Censimento dei funghi della provincia di Varese",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Nicolini Editore",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 149,
+    "titolo": "Schede di Micologia",
+    "volume": "Volume I – Funghi Fimicoli",
+    "copie": 1,
+    "autori": "",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 150,
+    "titolo": "Dettagli Mancanti",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 0,
+    "note": ""
+  },
+  {
+    "id": 151,
+    "titolo": "Inocybe",
+    "volume": "",
+    "copie": 1,
+    "autori": "E. Ferrari",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 152,
+    "titolo": "Erbarium Apulei 1481 - Herbolario Volgare 1522",
+    "volume": "*",
+    "copie": 1,
+    "autori": "",
+    "editore": "Il Polifilo Editore",
+    "data": "",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 153,
+    "titolo": "Erbarium Apulei 1481 - Herbolario Volgare 1522",
+    "volume": "**",
+    "copie": 1,
+    "autori": "",
+    "editore": "Il Polifilo Editore",
+    "data": "",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 154,
+    "titolo": "Iconographia Mycologica XIXX",
+    "volume": "Inocybe – Generalia et Descriptiones",
+    "copie": 1,
+    "autori": "J. Bresadola, C. L. Alessio",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 155,
+    "titolo": "Iconographia Mycologica XIXX",
+    "volume": "Inocybe – Tabulae",
+    "copie": 1,
+    "autori": "J. Bresadola, E. Rebaudengo",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 156,
+    "titolo": "Dettagli Mancanti",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 0,
+    "note": ""
+  },
+  {
+    "id": 157,
+    "titolo": "401 Funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Antonio Gennari",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 158,
+    "titolo": "Funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Antonio Gennari",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 159,
+    "titolo": "Elementi chimici nei funghi superiori",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 160,
+    "titolo": "Polyporaceae s.l. in Italia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Annarosa Bernicchia",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 161,
+    "titolo": "Conoscere i funghi velenosi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Italo Milanesi",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Formazione",
+      "Commestibilità"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 162,
+    "titolo": "Monografie di pagine di micologia",
+    "volume": "I generi Hohenbuehelia e Resupinatus in Europa",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Ledo Setti",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 163,
+    "titolo": "British Ascomycetes",
+    "volume": "",
+    "copie": 1,
+    "autori": "R. W. G. Dennis",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 164,
+    "titolo": "Nuovo Trattato di Micologia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Mario Galli",
+    "editore": "Mazzotta",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": "verificare che non sia identico a precedente in due volumi"
+  },
+  {
+    "id": 165,
+    "titolo": "Il genere Amanita in Italia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Mido Traverso",
+    "editore": "A.M.E.R.",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 166,
+    "titolo": "Carlo Vittadini Funghi Ipogei",
+    "volume": "",
+    "copie": 1,
+    "autori": "Antoni Auguardi, Gianfelice Lucchini, Alfredo Riva",
+    "editore": "Societa Micologica Carlo Benzoni",
+    "data": "1991",
+    "tags": [
+      "RealtàLocali",
+      "Historia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 167,
+    "titolo": "Manuale per la prevenzione delle intossicazioni da funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Regione Lombardia Sanità",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 168,
+    "titolo": "Riconoscere i funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Istituto Geografico De Agostini Novara",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 169,
+    "titolo": "Dizionario illustrato dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Riccardo Mazza",
+    "editore": "ROMAR",
+    "data": "",
+    "tags": [
+      "Formazione"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 170,
+    "titolo": "Atlante fotografico di funghi ipogei",
+    "volume": "",
+    "copie": 1,
+    "autori": "A. Montecchi, G. Lazzari",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B."
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 171,
+    "titolo": "I funghi clavaroidi in Italia",
+    "volume": "Volume 1",
+    "copie": 1,
+    "autori": "Paolo Franchi, Mauro Marchetti",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 172,
+    "titolo": "I funghi clavaroidi in Italia",
+    "volume": "Volume 2",
+    "copie": 1,
+    "autori": "Paolo Franchi, Mauro Marchetti",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 173,
+    "titolo": "Gasteromiceti ipogei",
+    "volume": "",
+    "copie": 1,
+    "autori": "Mario Sarasini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 174,
+    "titolo": "Il genere Crepidotus in Europa",
+    "volume": "",
+    "copie": 1,
+    "autori": "Giovanni Consiglio, Ledo Setti",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 175,
+    "titolo": "Funghi d’Italia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Fabrizio Boccardo, Mido Traverso, Alfredo Vizzini",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 0,
+    "note": ""
+  },
+  {
+    "id": 177,
+    "titolo": "Le Russule",
+    "volume": "",
+    "copie": 1,
+    "autori": "Roberto Galli",
+    "editore": "Edinatura",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 178,
+    "titolo": "I Boleti",
+    "volume": "",
+    "copie": 1,
+    "autori": "Roberto Galli",
+    "editore": "Edinatura",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 179,
+    "titolo": "I Lattari",
+    "volume": "",
+    "copie": 1,
+    "autori": "Roberto Galli",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 180,
+    "titolo": "Le amanite",
+    "volume": "",
+    "copie": 1,
+    "autori": "Roberto Galli",
+    "editore": "Edinatura",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 181,
+    "titolo": "I Tricolomi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Roberto Galli",
+    "editore": "Edinatura",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 182,
+    "titolo": "Champignons de Suisse",
+    "volume": "1 – Les Ascomycètes",
+    "copie": 1,
+    "autori": "J. Breitenbach, F. Kränzlin",
+    "editore": "Mycologia Luzern",
+    "data": "",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 183,
+    "titolo": "Champignons de Suisse",
+    "volume": "2 – Hétérobasidiomycètes Aphyllophorales Gastéromycètes",
+    "copie": 1,
+    "autori": "J. Breitenbach, F. Kränzlin",
+    "editore": "Mycologia Luzern",
+    "data": "",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 184,
+    "titolo": "Champignons de Suisse",
+    "volume": "3 – Bolets et champignons à lames 1ère partie",
+    "copie": 1,
+    "autori": "J. Breitenbach, F. Kränzlin",
+    "editore": "Mycologia Luzern",
+    "data": "",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 185,
+    "titolo": "Champignons de Suisse",
+    "volume": "4 – Champignons à lames 2ème partie",
+    "copie": 1,
+    "autori": "J. Breitenbach, F. Kränzlin",
+    "editore": "Mycologia Luzern",
+    "data": "",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 186,
+    "titolo": "Champignons de Suisse",
+    "volume": "5 – Champignons à lames 3ème partie",
+    "copie": 1,
+    "autori": "J. Breitenbach, F. Kränzlin",
+    "editore": "Mycologia Luzern",
+    "data": "",
+    "tags": [],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 187,
+    "titolo": "Champignons de Suisse",
+    "volume": "6 – Russulaceae",
+    "copie": 1,
+    "autori": "J. Breitenbach, F. Kränzlin",
+    "editore": "Mycologia Luzern",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 188,
+    "titolo": "I funghi del Canton Ticino",
+    "volume": "",
+    "copie": 1,
+    "autori": "Gianfelice Lucchini",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 189,
+    "titolo": "Le voci sottili della selva",
+    "volume": "",
+    "copie": 1,
+    "autori": "Angela Grignani, Angelo Ballabeni",
+    "editore": "A.M.B. Gruppo di Villa d’Ogna",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 190,
+    "titolo": "Mycena d’Europa",
+    "volume": "volume 2",
+    "copie": 2,
+    "autori": "Giovanni Robich",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 191,
+    "titolo": "Manuale di microscopia dei funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "M. T. Basso",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 192,
+    "titolo": "Guida introduttiva al genere Cortinarius in Europa",
+    "volume": "",
+    "copie": 1,
+    "autori": "Calledda, Campo, Floriani, Mazza",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 193,
+    "titolo": "Funghi alpini delle zone alpine superiori ed inferiori",
+    "volume": "",
+    "copie": 1,
+    "autori": "Pier Giovanni Jamoni",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 194,
+    "titolo": "Monte Isola – Un mondo di funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "Lorenzo Borghesi",
+    "editore": "",
+    "data": "",
+    "tags": [
+      "RealtàLocali"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 195,
+    "titolo": "Funghi Ipogei d’Europa",
+    "volume": "",
+    "copie": 1,
+    "autori": "Amer Montecchi, Mario Sarasini",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 196,
+    "titolo": "Funghi Fimicoli d’Italia",
+    "volume": "",
+    "copie": 1,
+    "autori": "Francesco Doveri",
+    "editore": "A.M.B. Fondazione Centro Studi Micologici",
+    "data": "",
+    "tags": [
+      "A.M.B.",
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 197,
+    "titolo": "Les Psalliotes",
+    "volume": "",
+    "copie": 1,
+    "autori": "Henri Essetti",
+    "editore": "AMI",
+    "data": "",
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
+    "note": ""
+  },
+  {
+    "id": 198,
+    "titolo": "Funghi d’Italia e d’Europa",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "Edizione Idea Natura",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 199,
+    "titolo": "La basilica di Santa Maria Maggiore",
+    "volume": "",
+    "copie": 1,
+    "autori": "Mauro Zanchi",
+    "editore": "Ferrari Editrice (Clusone)",
+    "data": "2003",
+    "tags": [
+      "Arte"
+    ],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 200,
+    "titolo": "I funghi dal vero",
+    "volume": "1°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 201,
+    "titolo": "I funghi dal vero",
+    "volume": "2°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 202,
+    "titolo": "I funghi dal vero",
+    "volume": "3°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 203,
+    "titolo": "I funghi dal vero",
+    "volume": "4°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 204,
+    "titolo": "I funghi dal vero",
+    "volume": "5°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 205,
+    "titolo": "I funghi dal vero",
+    "volume": "6°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 206,
+    "titolo": "I funghi dal vero",
+    "volume": "7°",
+    "copie": 1,
+    "autori": "Bruno Cetto",
+    "editore": "Saturnia Trento",
+    "data": "1976",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 207,
+    "titolo": "Atlante fotografico dei funghi d’Italia",
+    "volume": "volume 1",
+    "copie": 2,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 208,
+    "titolo": "Atlante fotografico dei funghi d’Italia",
+    "volume": "volume 2",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 209,
+    "titolo": "Atlante fotografico dei funghi d’Italia",
+    "volume": "volume 3",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 210,
+    "titolo": "Atlante fotografico degli Ascomiceti d’Italia",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 211,
+    "titolo": "I funghi delle Pinete",
+    "volume": "",
+    "copie": 1,
+    "autori": "Adler Zuccherelli",
+    "editore": "Longo Editore Ravenna",
+    "data": "",
+    "tags": [],
+    "rating": 2,
+    "note": ""
+  },
+  {
+    "id": 212,
+    "titolo": "Studi micologici dedicati a Giacomo Lazzari",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 213,
+    "titolo": "I tartufi tra ricerca e divulgazione",
+    "volume": "",
+    "copie": 1,
+    "autori": "Carlo Vittadini",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  },
+  {
+    "id": 214,
+    "titolo": "I funghi",
+    "volume": "",
+    "copie": 1,
+    "autori": "",
+    "editore": "",
+    "data": "",
+    "tags": [],
+    "rating": 1,
+    "note": ""
+  }
 ]
