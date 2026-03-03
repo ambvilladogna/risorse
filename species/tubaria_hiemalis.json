@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) Gillet 1876",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-02",
+      "collector": "Antonio Guana",
+      "locality": "Ardesio",
+      "localityCoordinates": "45.937512, 9.931158",
+      "habitat": "Ceppaia abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-02-15",
       "collector": "Pietro Centenari",
       "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "27/12",
-    "raccoltaPiuTarda": "15/02",
+    "raccoltaPiuTarda": "02/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -34,7 +42,7 @@
         "feb": 1
       },
       {
-        "mar": 0
+        "mar": 1
       },
       {
         "apr": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
