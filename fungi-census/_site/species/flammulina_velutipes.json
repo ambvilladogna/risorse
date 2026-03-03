@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-02",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "Su abete marcescente",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-01-30",
       "collector": "Pierino Bigoni",
       "locality": "Bricconi Oltressenda Alta",
@@ -65,7 +73,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "01/11",
-    "raccoltaPiuTarda": "30/01",
+    "raccoltaPiuTarda": "02/03",
     "campioniPerMese": [
       {
         "gen": 2
@@ -74,7 +82,7 @@
         "feb": 0
       },
       {
-        "mar": 0
+        "mar": 1
       },
       {
         "apr": 0
@@ -106,8 +114,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 8,
+    "campioniRaccolti": 8,
     "campioniExsiccata": 0
   }
 }
