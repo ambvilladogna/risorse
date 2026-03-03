@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-03T01:12:39.979Z",
-  "totalSpecies": 434,
-  "totalSamples": 1036,
+  "generatedAt": "2026-03-03T11:54:55.020Z",
+  "totalSpecies": 438,
+  "totalSamples": 1040,
   "species": [
     {
       "genus": "Flammulina",
@@ -753,6 +753,184 @@
         "locality": "Valsanguigno",
         "localityCoordinates": "45.967216, 9.886552",
         "habitat": "Su tronchi morti di abete",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Clitocybe",
+      "species": "pruinosa",
+      "fullName": "Clitocybe pruinosa",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "P. Kumm. 1871",
+      "currentName": "Rhizocybe pruinosa",
+      "currentAuthority": "(P. Kumm.) Vizzini, P. Alvarado & G. Moreno 2015",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-02",
+      "earliestDayOfYear": 62,
+      "earliestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Su abete rosso",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-02",
+      "latestDayOfYear": 62,
+      "latestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Su abete rosso",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Encoelia",
+      "species": "furfuracea",
+      "fullName": "Encoelia furfuracea",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Cenangiaceae",
+      "authority": "(Roth) P. Karst. 1871",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-02",
+      "earliestDayOfYear": 62,
+      "earliestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Su nocciolo morto",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-02",
+      "latestDayOfYear": 62,
+      "latestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Su nocciolo morto",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Geopora",
+      "species": "sumneriana",
+      "fullName": "Geopora sumneriana",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Pyronemataceae",
+      "authority": "(Cooke ex W. Phillips) M. Torre 1976",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-02",
+      "earliestDayOfYear": 62,
+      "earliestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Cimitero monumentale, Bergamo",
+        "localityCoordinates": "45.697583, 9.690081",
+        "habitat": "Simbionte di cedro",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-02",
+      "latestDayOfYear": 62,
+      "latestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Cimitero monumentale, Bergamo",
+        "localityCoordinates": "45.697583, 9.690081",
+        "habitat": "Simbionte di cedro",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Mycena",
+      "species": "strobilicola",
+      "fullName": "Mycena strobilicola",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
+      "authority": "J. Favre & Kühner 1938",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-02",
+      "earliestDayOfYear": 62,
+      "earliestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Su pigna di abete rosso",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-02",
+      "latestDayOfYear": 62,
+      "latestSample": {
+        "collectionDate": "2026-03-02",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Su pigna di abete rosso",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
