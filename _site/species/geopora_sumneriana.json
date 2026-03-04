@@ -12,6 +12,14 @@
       "localityCoordinates": "45.697583, 9.690081",
       "habitat": "Simbionte di cedro",
       "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2026-03-02",
+      "collector": "Antonio Guana",
+      "locality": "Cimitero monumentale, Bergamo",
+      "localityCoordinates": "45.697583, 9.690081",
+      "habitat": "Simbionte di cedro",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
@@ -26,7 +34,7 @@
         "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }

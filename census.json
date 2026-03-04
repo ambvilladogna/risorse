@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-03T11:54:54.894Z",
-  "totalSpecies": 438,
-  "totalSamples": 981,
+  "generatedAt": "2026-03-04T01:12:24.283Z",
+  "totalSpecies": 439,
+  "totalSamples": 982,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2924,6 +2924,15 @@
       "fullName": "Scutellinia superba",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Pyronemataceae",
       "authority": "(Velen.) Le Gal 1964"
+    },
+    {
+      "genus": "Sepultaria",
+      "species": "sumneriana",
+      "fullName": "Sepultaria sumneriana",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Pyronemataceae",
+      "authority": "(Cooke ex W. Phillips) Massee 1895",
+      "currentName": "Geopora sumneriana",
+      "currentAuthority": "(Cooke ex W. Phillips) M. Torre 1976"
     },
     {
       "genus": "Spathularia",
