@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-03T11:54:55.150Z",
+  "generatedAt": "2026-03-04T01:12:24.562Z",
   "corpus": [
     {
       "type": "genus",
@@ -762,7 +762,8 @@
       "type": "genus",
       "value": "Geopora",
       "matchSpecies": [
-        "Geopora sumneriana"
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -1694,6 +1695,14 @@
       "value": "Scutellinia",
       "matchSpecies": [
         "Scutellinia superba"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Sepultaria",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -3492,7 +3501,8 @@
       "type": "species",
       "value": "Geopora sumneriana",
       "matchSpecies": [
-        "Geopora sumneriana"
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -5450,6 +5460,14 @@
     },
     {
       "type": "species",
+      "value": "Sepultaria sumneriana",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Singerocybe phaeophthalma",
       "matchSpecies": [
         "Clitocybe phaeophthalma",
@@ -6804,6 +6822,7 @@
         "Morchella esculenta",
         "Rutstroemia echinophila",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Spathularia flavida",
         "Tarzetta cupularis",
         "Tolypocladium capitatum",
@@ -8180,6 +8199,7 @@
         "Scleroderma citrinum",
         "Scleroderma verrucosum",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Singerocybe phaeophthalma",
         "Spathularia flavida",
         "Spinellus fusiger",
@@ -8710,6 +8730,7 @@
         "Helvella silvicola",
         "Morchella esculenta",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Wynnella silvicola"
       ]
     },
@@ -8735,6 +8756,7 @@
         "Helvella silvicola",
         "Morchella esculenta",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Tarzetta cupularis",
         "Wynnella silvicola"
       ]
@@ -8931,7 +8953,8 @@
       "value": "Pyronemataceae",
       "matchSpecies": [
         "Geopora sumneriana",
-        "Scutellinia superba"
+        "Scutellinia superba",
+        "Sepultaria sumneriana"
       ]
     },
     {
