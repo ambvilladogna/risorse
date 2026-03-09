@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-04T01:12:24.283Z",
-  "totalSpecies": 439,
-  "totalSamples": 982,
+  "generatedAt": "2026-03-09T01:12:08.592Z",
+  "totalSpecies": 440,
+  "totalSamples": 987,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1100,6 +1100,13 @@
       "authority": "(Fr.) Fr. 1849",
       "currentName": "Discina ancilis",
       "currentAuthority": "(Pers.) Sacc. 1889"
+    },
+    {
+      "genus": "Dumontinia",
+      "species": "tuberosa",
+      "fullName": "Dumontinia tuberosa",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
+      "authority": "(Bull.) L.M. Kohn 1979"
     },
     {
       "genus": "Elaphomyces",

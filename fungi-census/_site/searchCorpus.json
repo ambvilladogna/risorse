@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-04T01:12:24.562Z",
+  "generatedAt": "2026-03-08T16:29:53.852Z",
   "corpus": [
     {
       "type": "genus",
@@ -637,6 +637,13 @@
       "matchSpecies": [
         "Discina ancilis",
         "Discina perlata"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Dumontinia",
+      "matchSpecies": [
+        "Dumontinia tuberosa"
       ]
     },
     {
@@ -3312,6 +3319,13 @@
       "matchSpecies": [
         "Discina ancilis",
         "Discina perlata"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Dumontinia tuberosa",
+      "matchSpecies": [
+        "Dumontinia tuberosa"
       ]
     },
     {
@@ -6808,6 +6822,7 @@
         "Cordyceps capitata",
         "Discina ancilis",
         "Discina perlata",
+        "Dumontinia tuberosa",
         "Elaphomyces granulatus",
         "Encoelia furfuracea",
         "Geopora sumneriana",
@@ -7912,6 +7927,7 @@
         "Delicatula integrella",
         "Discina ancilis",
         "Discina perlata",
+        "Dumontinia tuberosa",
         "Echinoderma asperum",
         "Elaphomyces granulatus",
         "Encoelia furfuracea",
@@ -8375,6 +8391,7 @@
         "Calycina citrina",
         "Chlorociboria aeruginascens",
         "Ciboria caucus",
+        "Dumontinia tuberosa",
         "Encoelia furfuracea",
         "Hymenoscyphus scutula",
         "Lanzia echinophila",
@@ -8544,6 +8561,7 @@
         "Calycina citrina",
         "Chlorociboria aeruginascens",
         "Ciboria caucus",
+        "Dumontinia tuberosa",
         "Encoelia furfuracea",
         "Hymenoscyphus scutula",
         "Lanzia echinophila",
@@ -9167,7 +9185,8 @@
       "type": "taxon",
       "value": "Sclerotiniaceae",
       "matchSpecies": [
-        "Ciboria caucus"
+        "Ciboria caucus",
+        "Dumontinia tuberosa"
       ]
     },
     {

@@ -6,6 +6,14 @@
   "autoreCorrente": "(Bull.) B.K. Cui, M.L. Han & Y.C. Dai 2016",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-08",
+      "collector": "Pietro Centenari",
+      "locality": "Blum, Rovetta",
+      "localityCoordinates": "45.911975, 9.981142",
+      "habitat": "Su betulla marcescente",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-09-15",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -41,7 +49,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "25/08",
-    "raccoltaPiuTarda": "15/09",
+    "raccoltaPiuTarda": "08/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -50,7 +58,7 @@
         "feb": 0
       },
       {
-        "mar": 0
+        "mar": 1
       },
       {
         "apr": 0
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
