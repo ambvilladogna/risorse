@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-09T01:12:08.684Z",
+  "generatedAt": "2026-03-09T15:30:04.070Z",
   "totalSpecies": 440,
   "totalSamples": 1048,
   "species": [
@@ -1052,7 +1052,7 @@
         "collectionDate": "2026-03-08",
         "collector": "Pierino Bigoni",
         "locality": "Vicino ruderi vecchia Chiodera sotto Piario",
-        "localityCoordinates": "45.897161, 9.924386",
+        "localityCoordinates": "45.892511, 9.917423",
         "habitat": "Vicino Anemone nemorosa e ranunculoides",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
@@ -1063,7 +1063,7 @@
         "collectionDate": "2026-03-08",
         "collector": "Pierino Bigoni",
         "locality": "Vicino ruderi vecchia Chiodera sotto Piario",
-        "localityCoordinates": "45.897161, 9.924386",
+        "localityCoordinates": "45.892511, 9.917423",
         "habitat": "Vicino Anemone nemorosa e ranunculoides",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
