@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-08",
+      "collector": "Pietro Centenari",
+      "locality": "Strada per baite di Parè, Fino del Monte",
+      "localityCoordinates": "45.912377, 9.990863",
+      "habitat": "Su pigna di abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
       "locality": "Piazzolo, Ardesio",
@@ -17,7 +25,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "02/03",
-    "raccoltaPiuTarda": "02/03",
+    "raccoltaPiuTarda": "08/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -26,7 +34,7 @@
         "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
