@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T16:29:53.852Z",
+  "generatedAt": "2026-03-10T01:12:04.669Z",
   "corpus": [
     {
       "type": "genus",
@@ -907,6 +907,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus"
       ]
     },
@@ -3765,6 +3766,13 @@
     },
     {
       "type": "species",
+      "value": "Hygrophorus marzuolus",
+      "matchSpecies": [
+        "Hygrophorus marzuolus"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Hygrophorus pudorinus",
       "matchSpecies": [
         "Hygrophorus pudorinus"
@@ -6122,6 +6130,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
@@ -6484,6 +6493,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
@@ -7110,6 +7120,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
@@ -7985,6 +7996,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hymenoscyphus scutula",
@@ -8465,6 +8477,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Porpolomopsis calyptriformis"
       ]

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-09T15:30:04.070Z",
-  "totalSpecies": 440,
-  "totalSamples": 1048,
+  "generatedAt": "2026-03-10T01:12:04.547Z",
+  "totalSpecies": 441,
+  "totalSamples": 1049,
   "species": [
     {
       "genus": "Flammulina",
@@ -1007,7 +1007,7 @@
       "earliestSample": {
         "collectionDate": "2026-03-07",
         "collector": "Fabio Locatelli",
-        "locality": "Clusone",
+        "locality": "Rovetta",
         "localityCoordinates": "45.887088, 9.949656",
         "habitat": "Frassino",
         "determiner": "Fabio Locatelli",
@@ -1112,6 +1112,50 @@
         "localityCoordinates": "45.898619, 9.984853",
         "habitat": "Bosco misto",
         "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "marzuolus",
+      "fullName": "Hygrophorus marzuolus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) Bres. 1893",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-09",
+      "earliestDayOfYear": 69,
+      "earliestSample": {
+        "collectionDate": "2026-03-09",
+        "collector": "Angelo Fraschina",
+        "locality": "Spiazzi, Gromo",
+        "localityCoordinates": "45.970802, 9.963785",
+        "habitat": "Bosco misto abete bianco e abete rosso",
+        "determiner": "Angelo Fraschina",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-09",
+      "latestDayOfYear": 69,
+      "latestSample": {
+        "collectionDate": "2026-03-09",
+        "collector": "Angelo Fraschina",
+        "locality": "Spiazzi, Gromo",
+        "localityCoordinates": "45.970802, 9.963785",
+        "habitat": "Bosco misto abete bianco e abete rosso",
+        "determiner": "Angelo Fraschina",
         "_tipo": "raccolto"
       }
     },

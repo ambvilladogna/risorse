@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-09T15:30:03.965Z",
-  "totalSpecies": 440,
-  "totalSamples": 987,
+  "generatedAt": "2026-03-10T01:12:04.461Z",
+  "totalSpecies": 441,
+  "totalSamples": 988,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1483,6 +1483,13 @@
       "fullName": "Hygrophorus lucorum",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
       "authority": "Kalchbr. 1874"
+    },
+    {
+      "genus": "Hygrophorus",
+      "species": "marzuolus",
+      "fullName": "Hygrophorus marzuolus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+      "authority": "(Fr.) Bres. 1893"
     },
     {
       "genus": "Hygrophorus",

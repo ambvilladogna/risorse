@@ -1,23 +1,23 @@
 {
   "nomeCompleto": "Hygrophorus marzuolus",
   "autore": "(Fr.) Bres. 1893",
-  "filogenesi": "regno: Fungi > pylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
-      "collectionDate": "2025-10-08",
-      "collector": "Fabio Locatelli",
-      "locality": "Val di Voglia, Schilpario",
-      "localityCoordinates": "46.006258, 10.158295",
-      "habitat": "Bosco misto",
-      "determiner": "Pierino Bigoni"
+      "collectionDate": "2026-03-09",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "08/10",
-    "raccoltaPiuTarda": "08/10",
+    "raccoltaPiuPrecoce": "09/03",
+    "raccoltaPiuTarda": "09/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -26,7 +26,7 @@
         "feb": 0
       },
       {
-        "mar": 0
+        "mar": 1
       },
       {
         "apr": 0
@@ -47,7 +47,7 @@
         "set": 0
       },
       {
-        "ott": 1
+        "ott": 0
       },
       {
         "nov": 0
