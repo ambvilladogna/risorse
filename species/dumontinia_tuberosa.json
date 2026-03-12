@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-11",
+      "collector": "Pierino Bigoni",
+      "locality": "Groppino, Piario, Bergamo",
+      "localityCoordinates": "45.894244, 9.922898",
+      "habitat": "Al suolo simbionte di anemone nemorosa",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-08",
       "collector": "Pierino Bigoni",
       "locality": "Vicino ruderi vecchia Chiodera sotto Piario",
@@ -17,7 +25,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "08/03",
-    "raccoltaPiuTarda": "08/03",
+    "raccoltaPiuTarda": "11/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -26,7 +34,7 @@
         "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
