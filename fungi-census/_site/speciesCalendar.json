@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-10T01:12:04.547Z",
+  "generatedAt": "2026-03-12T01:12:11.227Z",
   "totalSpecies": 441,
-  "totalSamples": 1049,
+  "totalSamples": 1050,
   "species": [
     {
       "genus": "Flammulina",
@@ -1031,11 +1031,11 @@
       "fullName": "Dumontinia tuberosa",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
       "authority": "(Bull.) L.M. Kohn 1979",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         0,
         0,
-        1,
+        2,
         0,
         0,
         0,
@@ -1057,14 +1057,14 @@
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
-      "latestDate": "03-08",
-      "latestDayOfYear": 68,
+      "latestDate": "03-11",
+      "latestDayOfYear": 71,
       "latestSample": {
-        "collectionDate": "2026-03-08",
+        "collectionDate": "2026-03-11",
         "collector": "Pierino Bigoni",
-        "locality": "Vicino ruderi vecchia Chiodera sotto Piario",
-        "localityCoordinates": "45.892511, 9.917423",
-        "habitat": "Vicino Anemone nemorosa e ranunculoides",
+        "locality": "Groppino, Piario, Bergamo",
+        "localityCoordinates": "45.894244, 9.922898",
+        "habitat": "Al suolo simbionte di anemone nemorosa",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
