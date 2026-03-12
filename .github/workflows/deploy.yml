@@ -1,45 +1,62 @@
-# .github/workflows/deploy.yml
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"]  # or your default branch
+    branches: ["main"]
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+env:
+  # 2026/03/12 anticipating the deprecation of Node 20 in GitHub Actions in favour of Node 24.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      
+      - name: Checkout
+        uses: actions/checkout@v4
+            
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-      
+        uses: actions/configure-pages@v5
+            
       - name: Prepare site structure
         run: |
           mkdir -p _site
-          # Copy your main repo files
-          cp -r * _site/ || true
-          # Move the pre-built subtree sites
-          mv _site/aggiornamenti-nomenclatura/_site _site/aggiornamenti-nomenclatura-temp
-          mv _site/biblioteca/_site _site/biblioteca-temp
-          mv _site/fungi-census/_site _site/fungi-census-temp
-          rm -rf _site/aggiornamenti-nomenclatura
-          rm -rf _site/biblioteca
-          rm -rf _site/fungi-census
-          mkdir -p _site/aggiornamenti-nomenclatura
-          mv _site/aggiornamenti-nomenclatura-temp _site/aggiornamenti-nomenclatura/_site
-          mkdir -p _site/biblioteca
-          mv _site/biblioteca-temp _site/biblioteca/_site
-          mkdir -p _site/fungi-census
-          mv _site/fungi-census-temp _site/fungi-census/_site
-      
+          # # Copy your main repo files
+          # cp -r * _site/ || true
+          # # Move the pre-built subtree sites
+          # mv _site/aggiornamenti-nomenclatura/_site _site/aggiornamenti-nomenclatura-temp
+          # mv _site/biblioteca/_site _site/biblioteca-temp
+          # mv _site/fungi-census/_site _site/fungi-census-temp
+          # rm -rf _site/aggiornamenti-nomenclatura
+          # rm -rf _site/biblioteca
+          # rm -rf _site/fungi-census
+          # mkdir -p _site/aggiornamenti-nomenclatura
+          # mv _site/aggiornamenti-nomenclatura-temp _site/aggiornamenti-nomenclatura/_site
+          # mkdir -p _site/biblioteca
+          # mv _site/biblioteca-temp _site/biblioteca/_site
+          # mkdir -p _site/fungi-census
+          # mv _site/fungi-census-temp _site/fungi-census/_site
+
+          # Sync files to _site excluding the _site directory itself
+          rsync -av --exclude='_site' . _site/ || cp -r * _site/ 2>/dev/null || true
+          
+          # Simplified directory move logic
+          for dir in aggiornamenti-nomenclatura biblioteca fungi-census; do
+            if [ -d "_site/$dir/_site" ]; then
+              mv "_site/$dir/_site" "_site/${dir}-temp"
+              rm -rf "_site/$dir"
+              mkdir -p "_site/$dir"
+              mv "_site/${dir}-temp" "_site/$dir/_site"
+            fi
+          done
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      
+            
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
