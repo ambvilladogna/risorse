@@ -1,40 +1,40 @@
 {
-  "nomeCompleto": "Exidia glandulosa",
-  "autore": "(Bull.) Fr. 1822",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+  "nomeCompleto": "Dumontinia tuberosa",
+  "autore": "(Bull.) L.M. Kohn 1979",
+  "filogenesi": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
-      "collectionDate": "2026-03-02",
-      "collector": "Antonio Guana",
-      "locality": "Piazzolo, Ardesio",
-      "localityCoordinates": "45.939095, 9.940667",
-      "habitat": "Su abete marcescente",
+      "collectionDate": "2026-03-11",
+      "collector": "Pierino Bigoni",
+      "locality": "Groppino, Piario, Bergamo",
+      "localityCoordinates": "45.894244, 9.922898",
+      "habitat": "Al suolo simbionte di anemone nemorosa",
       "determiner": "Pierino Bigoni"
     },
     {
-      "collectionDate": "2026-02-08",
+      "collectionDate": "2026-03-08",
       "collector": "Pierino Bigoni",
-      "locality": "Zanèl, Oltressenda Alta",
-      "localityCoordinates": "45.922674, 9.952497",
-      "habitat": "Su tronco di latifoglie",
+      "locality": "Vicino ruderi vecchia Chiodera sotto Piario",
+      "localityCoordinates": "45.892511, 9.917423",
+      "habitat": "Vicino Anemone nemorosa e ranunculoides",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "08/02",
-    "raccoltaPiuTarda": "02/03",
+    "raccoltaPiuPrecoce": "08/03",
+    "raccoltaPiuTarda": "11/03",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 1
+        "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0

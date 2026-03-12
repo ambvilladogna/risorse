@@ -1,40 +1,40 @@
 {
-  "nomeCompleto": "Exidia glandulosa",
-  "autore": "(Bull.) Fr. 1822",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+  "nomeCompleto": "Mycena strobilicola",
+  "autore": "J. Favre & Kühner 1938",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
+    {
+      "collectionDate": "2026-03-08",
+      "collector": "Pietro Centenari",
+      "locality": "Strada per baite di Parè, Fino del Monte",
+      "localityCoordinates": "45.912377, 9.990863",
+      "habitat": "Su pigna di abete rosso",
+      "determiner": "Pietro Centenari"
+    },
     {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
       "locality": "Piazzolo, Ardesio",
       "localityCoordinates": "45.939095, 9.940667",
-      "habitat": "Su abete marcescente",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2026-02-08",
-      "collector": "Pierino Bigoni",
-      "locality": "Zanèl, Oltressenda Alta",
-      "localityCoordinates": "45.922674, 9.952497",
-      "habitat": "Su tronco di latifoglie",
+      "habitat": "Su pigna di abete rosso",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "08/02",
-    "raccoltaPiuTarda": "02/03",
+    "raccoltaPiuPrecoce": "02/03",
+    "raccoltaPiuTarda": "08/03",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 1
+        "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0

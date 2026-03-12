@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T16:28:56.817Z",
+  "generatedAt": "2026-03-10T01:12:04.669Z",
   "corpus": [
     {
       "type": "genus",
@@ -393,12 +393,14 @@
         "Clitocybe maxima",
         "Clitocybe nebularis",
         "Clitocybe phaeophthalma",
+        "Clitocybe pruinosa",
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Collybia phyllophila",
         "Infundibulicybe costata",
         "Infundibulicybe geotropa",
         "Infundibulicybe gibba",
+        "Rhizocybe pruinosa",
         "Singerocybe phaeophthalma"
       ]
     },
@@ -639,6 +641,13 @@
     },
     {
       "type": "genus",
+      "value": "Dumontinia",
+      "matchSpecies": [
+        "Dumontinia tuberosa"
+      ]
+    },
+    {
+      "type": "genus",
       "value": "Echinoderma",
       "matchSpecies": [
         "Echinoderma asperum",
@@ -650,6 +659,13 @@
       "value": "Elaphomyces",
       "matchSpecies": [
         "Elaphomyces granulatus"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Encoelia",
+      "matchSpecies": [
+        "Encoelia furfuracea"
       ]
     },
     {
@@ -747,6 +763,14 @@
       "matchSpecies": [
         "Geastrum fimbriatum",
         "Geastrum sessile"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Geopora",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -883,6 +907,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus"
       ]
     },
@@ -1253,6 +1278,7 @@
         "Mycena pura",
         "Mycena renati",
         "Mycena rosea",
+        "Mycena strobilicola",
         "Mycena zephirus",
         "Prunulus pearsonianus"
       ]
@@ -1552,6 +1578,14 @@
     },
     {
       "type": "genus",
+      "value": "Rhizocybe",
+      "matchSpecies": [
+        "Clitocybe pruinosa",
+        "Rhizocybe pruinosa"
+      ]
+    },
+    {
+      "type": "genus",
       "value": "Rhizopogon",
       "matchSpecies": [
         "Rhizopogon roseolus"
@@ -1669,6 +1703,14 @@
       "value": "Scutellinia",
       "matchSpecies": [
         "Scutellinia superba"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Sepultaria",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -2716,6 +2758,14 @@
     },
     {
       "type": "species",
+      "value": "Clitocybe pruinosa",
+      "matchSpecies": [
+        "Clitocybe pruinosa",
+        "Rhizocybe pruinosa"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Clitocybe subspadicea",
       "matchSpecies": [
         "Clitocybe subspadicea"
@@ -3274,6 +3324,13 @@
     },
     {
       "type": "species",
+      "value": "Dumontinia tuberosa",
+      "matchSpecies": [
+        "Dumontinia tuberosa"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Echinoderma asperum",
       "matchSpecies": [
         "Echinoderma asperum",
@@ -3285,6 +3342,13 @@
       "value": "Elaphomyces granulatus",
       "matchSpecies": [
         "Elaphomyces granulatus"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Encoelia furfuracea",
+      "matchSpecies": [
+        "Encoelia furfuracea"
       ]
     },
     {
@@ -3446,6 +3510,14 @@
       "matchSpecies": [
         "Geastrum fimbriatum",
         "Geastrum sessile"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Geopora sumneriana",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -3690,6 +3762,13 @@
       "value": "Hygrophorus lucorum",
       "matchSpecies": [
         "Hygrophorus lucorum"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Hygrophorus marzuolus",
+      "matchSpecies": [
+        "Hygrophorus marzuolus"
       ]
     },
     {
@@ -4521,6 +4600,13 @@
     },
     {
       "type": "species",
+      "value": "Mycena strobilicola",
+      "matchSpecies": [
+        "Mycena strobilicola"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Mycena zephirus",
       "matchSpecies": [
         "Mycena zephirus"
@@ -4973,6 +5059,14 @@
     },
     {
       "type": "species",
+      "value": "Rhizocybe pruinosa",
+      "matchSpecies": [
+        "Clitocybe pruinosa",
+        "Rhizocybe pruinosa"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Rhizopogon roseolus",
       "matchSpecies": [
         "Rhizopogon roseolus"
@@ -5384,6 +5478,14 @@
       "value": "Scutellinia superba",
       "matchSpecies": [
         "Scutellinia superba"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Sepultaria sumneriana",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -5937,6 +6039,7 @@
         "Clitocybe maxima",
         "Clitocybe nebularis",
         "Clitocybe phaeophthalma",
+        "Clitocybe pruinosa",
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
@@ -6027,6 +6130,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
@@ -6101,6 +6205,7 @@
         "Mycena pura",
         "Mycena renati",
         "Mycena rosea",
+        "Mycena strobilicola",
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Omphalina pyxidata",
@@ -6132,6 +6237,7 @@
         "Psathyrella piluliformis",
         "Pseudosperma rimosum",
         "Pyrrhulomyces astragalinus",
+        "Rhizocybe pruinosa",
         "Rhodocollybia butyracea",
         "Rhodocollybia maculata",
         "Rhodocollybia prolixa",
@@ -6267,6 +6373,7 @@
         "Clitocybe maxima",
         "Clitocybe nebularis",
         "Clitocybe phaeophthalma",
+        "Clitocybe pruinosa",
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
@@ -6386,6 +6493,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
@@ -6491,6 +6599,7 @@
         "Mycena pura",
         "Mycena renati",
         "Mycena rosea",
+        "Mycena strobilicola",
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Neoboletus erythropus",
@@ -6552,6 +6661,7 @@
         "Ramaria sanguinea",
         "Ramaria stricta",
         "Rheubarbariboletus armeniacus",
+        "Rhizocybe pruinosa",
         "Rhizopogon roseolus",
         "Rhodocollybia butyracea",
         "Rhodocollybia maculata",
@@ -6722,7 +6832,10 @@
         "Cordyceps capitata",
         "Discina ancilis",
         "Discina perlata",
+        "Dumontinia tuberosa",
         "Elaphomyces granulatus",
+        "Encoelia furfuracea",
+        "Geopora sumneriana",
         "Helvella crispa",
         "Helvella elastica",
         "Helvella monachella",
@@ -6734,6 +6847,7 @@
         "Morchella esculenta",
         "Rutstroemia echinophila",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Spathularia flavida",
         "Tarzetta cupularis",
         "Tolypocladium capitatum",
@@ -6884,6 +6998,7 @@
         "Clitocybe maxima",
         "Clitocybe nebularis",
         "Clitocybe phaeophthalma",
+        "Clitocybe pruinosa",
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
@@ -7005,6 +7120,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
@@ -7110,6 +7226,7 @@
         "Mycena pura",
         "Mycena renati",
         "Mycena rosea",
+        "Mycena strobilicola",
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Neoboletus erythropus",
@@ -7171,6 +7288,7 @@
         "Ramaria sanguinea",
         "Ramaria stricta",
         "Rheubarbariboletus armeniacus",
+        "Rhizocybe pruinosa",
         "Rhizopogon roseolus",
         "Rhodocollybia butyracea",
         "Rhodocollybia maculata",
@@ -7435,6 +7553,13 @@
         "Craterellus tubaeformis",
         "Hydnum repandum",
         "Hydnum rufescens"
+      ]
+    },
+    {
+      "type": "taxon",
+      "value": "Cenangiaceae",
+      "matchSpecies": [
+        "Encoelia furfuracea"
       ]
     },
     {
@@ -7738,6 +7863,7 @@
         "Clitocybe maxima",
         "Clitocybe nebularis",
         "Clitocybe phaeophthalma",
+        "Clitocybe pruinosa",
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
@@ -7812,8 +7938,10 @@
         "Delicatula integrella",
         "Discina ancilis",
         "Discina perlata",
+        "Dumontinia tuberosa",
         "Echinoderma asperum",
         "Elaphomyces granulatus",
+        "Encoelia furfuracea",
         "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
@@ -7835,6 +7963,7 @@
         "Ganoderma resinaceum",
         "Geastrum fimbriatum",
         "Geastrum sessile",
+        "Geopora sumneriana",
         "Gloeophyllum odoratum",
         "Gloeophyllum sepiarium",
         "Gomphidius glutinosus",
@@ -7867,6 +7996,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Hymenopellis radicata",
         "Hymenoscyphus scutula",
@@ -7977,6 +8107,7 @@
         "Mycena pura",
         "Mycena renati",
         "Mycena rosea",
+        "Mycena strobilicola",
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Neoboletus erythropus",
@@ -8038,6 +8169,7 @@
         "Ramaria sanguinea",
         "Ramaria stricta",
         "Rheubarbariboletus armeniacus",
+        "Rhizocybe pruinosa",
         "Rhizopogon roseolus",
         "Rhodocollybia butyracea",
         "Rhodocollybia maculata",
@@ -8095,6 +8227,7 @@
         "Scleroderma citrinum",
         "Scleroderma verrucosum",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Singerocybe phaeophthalma",
         "Spathularia flavida",
         "Spinellus fusiger",
@@ -8270,6 +8403,8 @@
         "Calycina citrina",
         "Chlorociboria aeruginascens",
         "Ciboria caucus",
+        "Dumontinia tuberosa",
+        "Encoelia furfuracea",
         "Hymenoscyphus scutula",
         "Lanzia echinophila",
         "Rutstroemia echinophila"
@@ -8342,6 +8477,7 @@
         "Hygrophorus eburneus",
         "Hygrophorus erubescens",
         "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
         "Porpolomopsis calyptriformis"
       ]
@@ -8438,6 +8574,8 @@
         "Calycina citrina",
         "Chlorociboria aeruginascens",
         "Ciboria caucus",
+        "Dumontinia tuberosa",
+        "Encoelia furfuracea",
         "Hymenoscyphus scutula",
         "Lanzia echinophila",
         "Leotia lubrica",
@@ -8536,6 +8674,7 @@
         "Mycena pura",
         "Mycena renati",
         "Mycena rosea",
+        "Mycena strobilicola",
         "Mycena zephirus",
         "Panellus stipticus",
         "Prunulus pearsonianus"
@@ -8615,12 +8754,14 @@
         "Caloscypha fulgens",
         "Discina ancilis",
         "Discina perlata",
+        "Geopora sumneriana",
         "Helvella crispa",
         "Helvella elastica",
         "Helvella monachella",
         "Helvella silvicola",
         "Morchella esculenta",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Wynnella silvicola"
       ]
     },
@@ -8639,12 +8780,14 @@
         "Caloscypha fulgens",
         "Discina ancilis",
         "Discina perlata",
+        "Geopora sumneriana",
         "Helvella crispa",
         "Helvella elastica",
         "Helvella monachella",
         "Helvella silvicola",
         "Morchella esculenta",
         "Scutellinia superba",
+        "Sepultaria sumneriana",
         "Tarzetta cupularis",
         "Wynnella silvicola"
       ]
@@ -8840,7 +8983,9 @@
       "type": "taxon",
       "value": "Pyronemataceae",
       "matchSpecies": [
-        "Scutellinia superba"
+        "Geopora sumneriana",
+        "Scutellinia superba",
+        "Sepultaria sumneriana"
       ]
     },
     {
@@ -9053,7 +9198,8 @@
       "type": "taxon",
       "value": "Sclerotiniaceae",
       "matchSpecies": [
-        "Ciboria caucus"
+        "Ciboria caucus",
+        "Dumontinia tuberosa"
       ]
     },
     {

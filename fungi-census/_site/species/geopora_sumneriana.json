@@ -1,40 +1,40 @@
 {
-  "nomeCompleto": "Exidia glandulosa",
-  "autore": "(Bull.) Fr. 1822",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
+  "nomeCompleto": "Geopora sumneriana",
+  "autore": "(Cooke ex W. Phillips) M. Torre 1976",
+  "filogenesi": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Pyronemataceae",
   "nomeCorrente": null,
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
-      "locality": "Piazzolo, Ardesio",
-      "localityCoordinates": "45.939095, 9.940667",
-      "habitat": "Su abete marcescente",
+      "locality": "Cimitero monumentale, Bergamo",
+      "localityCoordinates": "45.697583, 9.690081",
+      "habitat": "Simbionte di cedro",
       "determiner": "Pierino Bigoni"
     },
     {
-      "collectionDate": "2026-02-08",
-      "collector": "Pierino Bigoni",
-      "locality": "Zanèl, Oltressenda Alta",
-      "localityCoordinates": "45.922674, 9.952497",
-      "habitat": "Su tronco di latifoglie",
+      "collectionDate": "2026-03-02",
+      "collector": "Antonio Guana",
+      "locality": "Cimitero monumentale, Bergamo",
+      "localityCoordinates": "45.697583, 9.690081",
+      "habitat": "Simbionte di cedro",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "08/02",
+    "raccoltaPiuPrecoce": "02/03",
     "raccoltaPiuTarda": "02/03",
     "campioniPerMese": [
       {
         "gen": 0
       },
       {
-        "feb": 1
+        "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0

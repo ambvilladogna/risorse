@@ -1,23 +1,23 @@
 {
-  "nomeCompleto": "Hygrophorus marzuolus",
-  "autore": "(Fr.) Bres. 1893",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
-  "nomeCorrente": null,
-  "autoreCorrente": null,
+  "nomeCompleto": "Clitocybe pruinosa",
+  "autore": "P. Kumm. 1871",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+  "nomeCorrente": "Rhizocybe pruinosa",
+  "autoreCorrente": "(P. Kumm.) Vizzini, P. Alvarado & G. Moreno 2015",
   "campioniRaccolti": [
     {
-      "collectionDate": "2026-03-09",
-      "collector": "Angelo Fraschina",
-      "locality": "Spiazzi, Gromo",
-      "localityCoordinates": "45.970802, 9.963785",
-      "habitat": "Bosco misto abete bianco e abete rosso",
-      "determiner": "Angelo Fraschina"
+      "collectionDate": "2026-03-02",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "Su abete rosso",
+      "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "09/03",
-    "raccoltaPiuTarda": "09/03",
+    "raccoltaPiuPrecoce": "02/03",
+    "raccoltaPiuTarda": "02/03",
     "campioniPerMese": [
       {
         "gen": 0

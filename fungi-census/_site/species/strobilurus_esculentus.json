@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-08",
+      "collector": "Pietro Centenari",
+      "locality": "Strada per baite di Parè, Fino del Monte",
+      "localityCoordinates": "45.912327, 9.990815",
+      "habitat": "Su pigna di abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2026-03-02",
+      "collector": "Antonio Guana",
+      "locality": "Piazzolo, Ardesio",
+      "localityCoordinates": "45.939095, 9.940667",
+      "habitat": "Su pigna di abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-02-15",
       "collector": "Pietro Centenari",
       "locality": "Sent. Alto Serio (Verso i monti Parè e Blum - strada), Fino del Monte, Bergamo",
@@ -25,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "28/12",
-    "raccoltaPiuTarda": "15/02",
+    "raccoltaPiuTarda": "08/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -34,7 +50,7 @@
         "feb": 1
       },
       {
-        "mar": 0
+        "mar": 2
       },
       {
         "apr": 0
@@ -66,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }

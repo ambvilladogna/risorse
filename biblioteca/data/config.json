@@ -1,66 +1,66 @@
 {
-    "tags": [
-        {
-            "id": "a.m.b.",
-            "label": "A.M.B.",
-            "description": "Opere con tag \"A.M.B.\""
-        },
-        {
-            "id": "arte",
-            "label": "Arte",
-            "description": "Opere con tag \"Arte\""
-        },
-        {
-            "id": "commestibilità",
-            "label": "Commestibilità",
-            "description": "Opere con tag \"Commestibilità\""
-        },
-        {
-            "id": "formazione",
-            "label": "Formazione",
-            "description": "Opere con tag \"Formazione\""
-        },
-        {
-            "id": "historia",
-            "label": "Historia",
-            "description": "Opere con tag \"Historia\""
-        },
-        {
-            "id": "monografia",
-            "label": "Monografia",
-            "description": "Opere con tag \"Monografia\""
-        },
-        {
-            "id": "realtàlocali",
-            "label": "RealtàLocali",
-            "description": "Opere con tag \"RealtàLocali\""
-        },
-        {
-            "id": "ricreativa",
-            "label": "Ricreativa",
-            "description": "Opere con tag \"Ricreativa\""
-        },
-        {
-            "id": "rivista",
-            "label": "Rivista",
-            "description": "Opere con tag \"Rivista\""
-        }
-    ],
-    "ratings": [
-        {
-            "value": 3,
-            "label": "Consigliati",
-            "description": "Riferimenti essenziali, consultati regolarmente"
-        },
-        {
-            "value": 2,
-            "label": "Standard",
-            "description": "Buone risorse, utili occasionalmente"
-        },
-        {
-            "value": 1,
-            "label": "Archivio",
-            "description": "Storici/donati, consultati raramente"
-        }
-    ]
+  "tags": [
+    {
+      "id": "a.m.b.",
+      "label": "A.M.B.",
+      "description": "Testi editi da \"A.M.B.\""
+    },
+    {
+      "id": "arte",
+      "label": "Arte",
+      "description": "Testi con contenuto artistico, architettonico, etc."
+    },
+    {
+      "id": "commestibilità",
+      "label": "Commestibilità",
+      "description": "Testi focalizzati su tossicologia, commestibilità e cucina"
+    },
+    {
+      "id": "formazione",
+      "label": "Formazione",
+      "description": "Manuali e testi di supporto allo studio dei funghi"
+    },
+    {
+      "id": "historia",
+      "label": "Historia",
+      "description": "Testi storici"
+    },
+    {
+      "id": "monografia",
+      "label": "Monografia",
+      "description": "Monografie"
+    },
+    {
+      "id": "realtàlocali",
+      "label": "RealtàLocali",
+      "description": "Testi editi da, o focalizzati su, realtà locali"
+    },
+    {
+      "id": "ricreativa",
+      "label": "Ricreativa",
+      "description": "Intrattenimento, divertimento, biografie"
+    },
+    {
+      "id": "rivista",
+      "label": "Rivista",
+      "description": "Riviste"
+    }
+  ],
+  "ratings": [
+    {
+      "value": 3,
+      "label": "Consigliati",
+      "description": "Riferimenti essenziali, consultati regolarmente"
+    },
+    {
+      "value": 2,
+      "label": "Standard",
+      "description": "Buone risorse, utili occasionalmente"
+    },
+    {
+      "value": 1,
+      "label": "Archivio",
+      "description": "Storici/donati, consultati raramente"
+    }
+  ]
 }
