@@ -1,0 +1,12 @@
+version: 2
+updates:
+  # This section handles your GitHub Actions versions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly" # Checks for new versions every week
+    open-pull-requests-limit: 5 # Limits how many PRs it opens at once
+    groups:
+      github-actions-updates:
+        patterns:
+          - "actions/*" # Groups all official GitHub actions into one PR (cleaner!)
