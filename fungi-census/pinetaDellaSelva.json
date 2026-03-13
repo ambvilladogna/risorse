@@ -1,8 +1,8 @@
 {
   "title": "Pineta della Selva",
-  "generatedAt": "2026-03-09T15:30:04.247Z",
-  "totalSpecies": 118,
-  "totalSamples": 163,
+  "generatedAt": "2026-03-13T01:12:16.087Z",
+  "totalSpecies": 117,
+  "totalSamples": 162,
   "species": [
     {
       "genus": "Amanita",
@@ -295,13 +295,6 @@
       "fullName": "Crucibulum laeve",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
       "authority": "(Huds.) Kambly 1936"
-    },
-    {
-      "genus": "Dumontinia",
-      "species": "tuberosa",
-      "fullName": "Dumontinia tuberosa",
-      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Sclerotiniaceae",
-      "authority": "(Bull.) L.M. Kohn 1979"
     },
     {
       "genus": "Flammulina",
