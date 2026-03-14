@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-13",
+      "collector": "Pierino Bigoni",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Su ceppaia di abete",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-01",
       "collector": "Pierino Bigoni",
       "locality": "Parco avventura in Pineta, Clusone",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "26/08",
-    "raccoltaPiuTarda": "01/11",
+    "raccoltaPiuTarda": "13/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -42,7 +50,7 @@
         "feb": 0
       },
       {
-        "mar": 0
+        "mar": 1
       },
       {
         "apr": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }

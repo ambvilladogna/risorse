@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-13",
+      "collector": "Pierino Bigoni",
+      "locality": "Spiazzi, Gromo",
+      "localityCoordinates": "45.970802, 9.963785",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-08",
       "collector": "Pietro Centenari",
       "locality": "Strada per baite di Parè, Fino del Monte",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "02/03",
-    "raccoltaPiuTarda": "08/03",
+    "raccoltaPiuTarda": "13/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -34,7 +42,7 @@
         "feb": 0
       },
       {
-        "mar": 2
+        "mar": 3
       },
       {
         "apr": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

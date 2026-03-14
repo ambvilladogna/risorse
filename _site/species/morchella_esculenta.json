@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-12",
+      "collector": "Pierino Bigoni",
+      "locality": "S.Lorenzo",
+      "localityCoordinates": "38.010967, 15.834398",
+      "habitat": "Frassino e noccioli",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-07",
       "collector": "Fabio Locatelli",
       "locality": "Rovetta",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "19/05",
-    "raccoltaPiuTarda": "07/03",
+    "raccoltaPiuTarda": "12/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -34,7 +42,7 @@
         "feb": 0
       },
       {
-        "mar": 1
+        "mar": 2
       },
       {
         "apr": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
