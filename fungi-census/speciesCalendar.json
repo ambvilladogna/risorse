@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-13T01:12:15.897Z",
+  "generatedAt": "2026-03-14T01:12:13.227Z",
   "totalSpecies": 441,
-  "totalSamples": 1050,
+  "totalSamples": 1057,
   "species": [
     {
       "genus": "Flammulina",
@@ -585,11 +585,11 @@
       "fullName": "Strobilurus esculentus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
       "authority": "(Wulfen) Singer 1962",
-      "totalSamples": 4,
+      "totalSamples": 5,
       "monthlyCount": [
         0,
         1,
-        2,
+        3,
         0,
         0,
         0,
@@ -765,11 +765,11 @@
       "authority": "P. Kumm. 1871",
       "currentName": "Rhizocybe pruinosa",
       "currentAuthority": "(P. Kumm.) Vizzini, P. Alvarado & G. Moreno 2015",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         0,
         0,
-        1,
+        2,
         0,
         0,
         0,
@@ -791,14 +791,14 @@
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
-      "latestDate": "03-02",
-      "latestDayOfYear": 62,
+      "latestDate": "03-13",
+      "latestDayOfYear": 73,
       "latestSample": {
-        "collectionDate": "2026-03-02",
-        "collector": "Antonio Guana",
-        "locality": "Piazzolo, Ardesio",
-        "localityCoordinates": "45.939095, 9.940667",
-        "habitat": "Su abete rosso",
+        "collectionDate": "2026-03-13",
+        "collector": "Pierino Bigoni",
+        "locality": "Spiazzi, Gromo",
+        "localityCoordinates": "45.970802, 9.963785",
+        "habitat": "Bosco misto abete bianco e abete rosso",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -897,11 +897,11 @@
       "fullName": "Mycena strobilicola",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "J. Favre & Kühner 1938",
-      "totalSamples": 2,
+      "totalSamples": 3,
       "monthlyCount": [
         0,
         0,
-        2,
+        3,
         0,
         0,
         0,
@@ -923,15 +923,15 @@
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
-      "latestDate": "03-08",
-      "latestDayOfYear": 68,
+      "latestDate": "03-13",
+      "latestDayOfYear": 73,
       "latestSample": {
-        "collectionDate": "2026-03-08",
-        "collector": "Pietro Centenari",
-        "locality": "Strada per baite di Parè, Fino del Monte",
-        "localityCoordinates": "45.912377, 9.990863",
-        "habitat": "Su pigna di abete rosso",
-        "determiner": "Pietro Centenari",
+        "collectionDate": "2026-03-13",
+        "collector": "Pierino Bigoni",
+        "locality": "Spiazzi, Gromo",
+        "localityCoordinates": "45.970802, 9.963785",
+        "habitat": "Bosco misto abete bianco e abete rosso",
+        "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
     },
@@ -987,11 +987,11 @@
       "fullName": "Morchella esculenta",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
       "authority": "(L.) Pers. 1794",
-      "totalSamples": 2,
+      "totalSamples": 3,
       "monthlyCount": [
         0,
         0,
-        1,
+        2,
         0,
         1,
         0,
@@ -1121,11 +1121,11 @@
       "fullName": "Hygrophorus marzuolus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
       "authority": "(Fr.) Bres. 1893",
-      "totalSamples": 1,
+      "totalSamples": 3,
       "monthlyCount": [
         0,
         0,
-        1,
+        3,
         0,
         0,
         0,
@@ -1147,15 +1147,59 @@
         "determiner": "Angelo Fraschina",
         "_tipo": "raccolto"
       },
-      "latestDate": "03-09",
-      "latestDayOfYear": 69,
+      "latestDate": "03-13",
+      "latestDayOfYear": 73,
       "latestSample": {
-        "collectionDate": "2026-03-09",
-        "collector": "Angelo Fraschina",
+        "collectionDate": "2026-03-13",
+        "collector": "Pietro Centenari",
+        "locality": "Monte di Lovere",
+        "localityCoordinates": "45.837498, 10.062615",
+        "habitat": "Faggio",
+        "determiner": "Luigi Rossi",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Hypholoma",
+      "species": "capnoides",
+      "fullName": "Hypholoma capnoides",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Fr.) P. Kumm. 1871",
+      "totalSamples": 4,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "earliestDate": "03-13",
+      "earliestDayOfYear": 73,
+      "earliestSample": {
+        "collectionDate": "2026-03-13",
+        "collector": "Pierino Bigoni",
         "locality": "Spiazzi, Gromo",
         "localityCoordinates": "45.970802, 9.963785",
-        "habitat": "Bosco misto abete bianco e abete rosso",
-        "determiner": "Angelo Fraschina",
+        "habitat": "Su ceppaia di abete",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "11-01",
+      "latestDayOfYear": 306,
+      "latestSample": {
+        "collectionDate": "2025-11-01",
+        "collector": "Pierino Bigoni",
+        "locality": "Parco avventura in Pineta, Clusone",
+        "localityCoordinates": "45.880916, 9.919919",
+        "habitat": "Bosco misto pino abete e latifoglie",
+        "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
     },
@@ -8229,50 +8273,6 @@
         "locality": "Pineta della Selva, Clusone",
         "localityCoordinates": "45.88196, 9.91806",
         "habitat": "Bosco misto abete e latifoglie",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Hypholoma",
-      "species": "capnoides",
-      "fullName": "Hypholoma capnoides",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
-      "authority": "(Fr.) P. Kumm. 1871",
-      "totalSamples": 3,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        1,
-        0
-      ],
-      "earliestDate": "08-26",
-      "earliestDayOfYear": 238,
-      "earliestSample": {
-        "collectionDate": "2025-08-26",
-        "collector": "Pierino Bigoni",
-        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-        "localityCoordinates": "45.93408, 10.00331",
-        "habitat": "Bosco misto",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "11-01",
-      "latestDayOfYear": 306,
-      "latestSample": {
-        "collectionDate": "2025-11-01",
-        "collector": "Pierino Bigoni",
-        "locality": "Parco avventura in Pineta, Clusone",
-        "localityCoordinates": "45.880916, 9.919919",
-        "habitat": "Bosco misto pino abete e latifoglie",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }

@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-13",
+      "collector": "Luigi Rossi",
+      "locality": "Monte di Lovere",
+      "localityCoordinates": "45.84024, 10.062345",
+      "habitat": "Pino silvestre",
+      "determiner": "Luigi Rossi"
+    },
+    {
+      "collectionDate": "2026-03-13",
+      "collector": "Pietro Centenari",
+      "locality": "Monte di Lovere",
+      "localityCoordinates": "45.837498, 10.062615",
+      "habitat": "Faggio",
+      "determiner": "Luigi Rossi"
+    },
+    {
       "collectionDate": "2026-03-09",
       "collector": "Angelo Fraschina",
       "locality": "Spiazzi, Gromo",
@@ -17,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/03",
-    "raccoltaPiuTarda": "09/03",
+    "raccoltaPiuTarda": "13/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -26,7 +42,7 @@
         "feb": 0
       },
       {
-        "mar": 1
+        "mar": 3
       },
       {
         "apr": 0
@@ -58,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
