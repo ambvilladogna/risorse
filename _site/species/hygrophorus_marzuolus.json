@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-03-14",
+      "collector": "Angelo Fraschina",
+      "locality": "Spiazzi di Gromo",
+      "localityCoordinates": "45.963846, 9.961154",
+      "habitat": "Bosco misto abete bianco e abete rosso",
+      "determiner": "Angelo Fraschina"
+    },
+    {
       "collectionDate": "2026-03-13",
       "collector": "Luigi Rossi",
       "locality": "Monte di Lovere",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/03",
-    "raccoltaPiuTarda": "13/03",
+    "raccoltaPiuTarda": "14/03",
     "campioniPerMese": [
       {
         "gen": 0
@@ -42,7 +50,7 @@
         "feb": 0
       },
       {
-        "mar": 3
+        "mar": 4
       },
       {
         "apr": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
