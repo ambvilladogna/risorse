@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-15T01:12:10.668Z",
-  "totalSpecies": 441,
-  "totalSamples": 1058,
+  "generatedAt": "2026-03-16T01:12:33.644Z",
+  "totalSpecies": 443,
+  "totalSamples": 1060,
   "species": [
     {
       "genus": "Flammulina",
@@ -1199,6 +1199,94 @@
         "locality": "Parco avventura in Pineta, Clusone",
         "localityCoordinates": "45.880916, 9.919919",
         "habitat": "Bosco misto pino abete e latifoglie",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Coprinellus",
+      "species": "domesticus",
+      "fullName": "Coprinellus domesticus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
+      "authority": "(Bolton) Vilgalys, Hopple & Jacq. Johnson 2001",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-15",
+      "earliestDayOfYear": 75,
+      "earliestSample": {
+        "collectionDate": "2026-03-15",
+        "collector": "Pierino Bigoni",
+        "locality": "Bricconi",
+        "localityCoordinates": "45.920360, 9.948130",
+        "habitat": "Su terreno",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-15",
+      "latestDayOfYear": 75,
+      "latestSample": {
+        "collectionDate": "2026-03-15",
+        "collector": "Pierino Bigoni",
+        "locality": "Bricconi",
+        "localityCoordinates": "45.920360, 9.948130",
+        "habitat": "Su terreno",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Neofavolus",
+      "species": "alveolaris",
+      "fullName": "Neofavolus alveolaris",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(DC.) Sotome & T. Hatt. 2012",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-15",
+      "earliestDayOfYear": 75,
+      "earliestSample": {
+        "collectionDate": "2026-03-15",
+        "collector": "Pierino Bigoni",
+        "locality": "Basilè",
+        "localityCoordinates": "39.809603, 16.163285",
+        "habitat": "Su tronco morto di latifoglie",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-15",
+      "latestDayOfYear": 75,
+      "latestSample": {
+        "collectionDate": "2026-03-15",
+        "collector": "Pierino Bigoni",
+        "locality": "Basilè",
+        "localityCoordinates": "39.809603, 16.163285",
+        "habitat": "Su tronco morto di latifoglie",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }

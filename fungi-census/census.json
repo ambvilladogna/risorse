@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-15T01:12:10.580Z",
-  "totalSpecies": 441,
-  "totalSamples": 997,
+  "generatedAt": "2026-03-16T01:12:33.562Z",
+  "totalSpecies": 443,
+  "totalSamples": 999,
   "species": [
     {
       "genus": "Abortiporus",
@@ -718,6 +718,13 @@
       "fullName": "Conocybe tenera",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
       "authority": "(Schaeff.) Kühner 1935"
+    },
+    {
+      "genus": "Coprinellus",
+      "species": "domesticus",
+      "fullName": "Coprinellus domesticus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Psathyrellaceae",
+      "authority": "(Bolton) Vilgalys, Hopple & Jacq. Johnson 2001"
     },
     {
       "genus": "Coprinus",
@@ -2225,6 +2232,13 @@
       "fullName": "Mycena zephirus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "(Fr.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Neofavolus",
+      "species": "alveolaris",
+      "fullName": "Neofavolus alveolaris",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(DC.) Sotome & T. Hatt. 2012"
     },
     {
       "genus": "Omphalina",
