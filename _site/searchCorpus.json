@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-10T01:12:04.669Z",
+  "generatedAt": "2026-03-16T01:12:33.840Z",
   "corpus": [
     {
       "type": "genus",
@@ -468,6 +468,7 @@
       "value": "Coprinellus",
       "matchSpecies": [
         "Coprinellus disseminatus",
+        "Coprinellus domesticus",
         "Coprinellus micaceus",
         "Coprinus disseminatus",
         "Coprinus micaceus"
@@ -1297,6 +1298,13 @@
       "matchSpecies": [
         "Boletus erythropus",
         "Neoboletus erythropus"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Neofavolus",
+      "matchSpecies": [
+        "Neofavolus alveolaris"
       ]
     },
     {
@@ -2902,6 +2910,13 @@
       "matchSpecies": [
         "Coprinellus disseminatus",
         "Coprinus disseminatus"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Coprinellus domesticus",
+      "matchSpecies": [
+        "Coprinellus domesticus"
       ]
     },
     {
@@ -4630,6 +4645,13 @@
     },
     {
       "type": "species",
+      "value": "Neofavolus alveolaris",
+      "matchSpecies": [
+        "Neofavolus alveolaris"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Omphalina pyxidata",
       "matchSpecies": [
         "Omphalina pyxidata"
@@ -6058,6 +6080,7 @@
         "Collybiopsis peronata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
+        "Coprinellus domesticus",
         "Coprinellus micaceus",
         "Coprinopsis atramentaria",
         "Coprinopsis lagopus",
@@ -6392,6 +6415,7 @@
         "Collybiopsis peronata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
+        "Coprinellus domesticus",
         "Coprinellus micaceus",
         "Coprinopsis atramentaria",
         "Coprinopsis lagopus",
@@ -6603,6 +6627,7 @@
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Neoboletus erythropus",
+        "Neofavolus alveolaris",
         "Omphalina pyxidata",
         "Oudemansiella radicata",
         "Panaeolus papilionaceus",
@@ -7017,6 +7042,7 @@
         "Collybiopsis peronata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
+        "Coprinellus domesticus",
         "Coprinellus micaceus",
         "Coprinopsis atramentaria",
         "Coprinopsis lagopus",
@@ -7230,6 +7256,7 @@
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Neoboletus erythropus",
+        "Neofavolus alveolaris",
         "Omphalina pyxidata",
         "Oudemansiella radicata",
         "Panaeolus papilionaceus",
@@ -7882,6 +7909,7 @@
         "Collybiopsis peronata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
+        "Coprinellus domesticus",
         "Coprinellus micaceus",
         "Coprinopsis atramentaria",
         "Coprinopsis lagopus",
@@ -8111,6 +8139,7 @@
         "Mycena zephirus",
         "Mycetinis scorodonius",
         "Neoboletus erythropus",
+        "Neofavolus alveolaris",
         "Omphalina pyxidata",
         "Oudemansiella radicata",
         "Panaeolus papilionaceus",
@@ -8890,6 +8919,7 @@
         "Ganoderma lucidum",
         "Ganoderma resinaceum",
         "Lentinus tigrinus",
+        "Neofavolus alveolaris",
         "Perenniporia fraxinea",
         "Postia caesia",
         "Pycnoporus cinnabarinus",
@@ -8916,6 +8946,7 @@
         "Ganoderma resinaceum",
         "Ischnoderma benzoinum",
         "Lentinus tigrinus",
+        "Neofavolus alveolaris",
         "Panus conchatus",
         "Perenniporia fraxinea",
         "Phaeolus schweinitzii",
@@ -8945,6 +8976,7 @@
       "matchSpecies": [
         "Candolleomyces candolleanus",
         "Coprinellus disseminatus",
+        "Coprinellus domesticus",
         "Coprinellus micaceus",
         "Coprinopsis atramentaria",
         "Coprinopsis lagopus",
