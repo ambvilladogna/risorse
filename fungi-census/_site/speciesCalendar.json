@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-16T01:12:33.644Z",
+  "generatedAt": "2026-03-22T01:12:03.826Z",
   "totalSpecies": 443,
-  "totalSamples": 1060,
+  "totalSamples": 1061,
   "species": [
     {
       "genus": "Flammulina",
@@ -1121,11 +1121,11 @@
       "fullName": "Hygrophorus marzuolus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
       "authority": "(Fr.) Bres. 1893",
-      "totalSamples": 4,
+      "totalSamples": 5,
       "monthlyCount": [
         0,
         0,
-        4,
+        5,
         0,
         0,
         0,
@@ -1147,13 +1147,13 @@
         "determiner": "Angelo Fraschina",
         "_tipo": "raccolto"
       },
-      "latestDate": "03-14",
-      "latestDayOfYear": 74,
+      "latestDate": "03-20",
+      "latestDayOfYear": 80,
       "latestSample": {
-        "collectionDate": "2026-03-14",
+        "collectionDate": "2026-03-20",
         "collector": "Angelo Fraschina",
-        "locality": "Spiazzi di Gromo",
-        "localityCoordinates": "45.963846, 9.961154",
+        "locality": "Spiazzi, Gromo",
+        "localityCoordinates": "45.970802, 9.963785",
         "habitat": "Bosco misto abete bianco e abete rosso",
         "determiner": "Angelo Fraschina",
         "_tipo": "raccolto"
