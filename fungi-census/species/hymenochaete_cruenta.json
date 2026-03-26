@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Hymenochaete cruenta",
+  "autore": "(Pers.) Donk 1959",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Hymenochaetales > famiglia: Hymenochaetaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-03-24",
+      "collector": "Antonio Guana",
+      "locality": "Prato del Lo', Ardesio",
+      "localityCoordinates": "45.928468, 9.947982",
+      "habitat": "Su ramo morto di abete bianco",
+      "determiner": "Antonio Guana"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "24/03",
+    "raccoltaPiuTarda": "24/03",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 1
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

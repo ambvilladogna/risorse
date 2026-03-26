@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T01:12:33.840Z",
+  "generatedAt": "2026-03-26T01:12:54.276Z",
   "corpus": [
     {
       "type": "genus",
@@ -910,6 +910,13 @@
         "Hygrophorus lucorum",
         "Hygrophorus marzuolus",
         "Hygrophorus pudorinus"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Hymenochaete",
+      "matchSpecies": [
+        "Hymenochaete cruenta"
       ]
     },
     {
@@ -3795,6 +3802,13 @@
     },
     {
       "type": "species",
+      "value": "Hymenochaete cruenta",
+      "matchSpecies": [
+        "Hymenochaete cruenta"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Hymenopellis radicata",
       "matchSpecies": [
         "Hymenopellis radicata",
@@ -6519,6 +6533,7 @@
         "Hygrophorus lucorum",
         "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
+        "Hymenochaete cruenta",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
         "Hypholoma fasciculare",
@@ -7148,6 +7163,7 @@
         "Hygrophorus lucorum",
         "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
+        "Hymenochaete cruenta",
         "Hymenopellis radicata",
         "Hypholoma capnoides",
         "Hypholoma fasciculare",
@@ -8026,6 +8042,7 @@
         "Hygrophorus lucorum",
         "Hygrophorus marzuolus",
         "Hygrophorus pudorinus",
+        "Hymenochaete cruenta",
         "Hymenopellis radicata",
         "Hymenoscyphus scutula",
         "Hypholoma capnoides",
@@ -8515,6 +8532,7 @@
       "type": "taxon",
       "value": "Hymenochaetaceae",
       "matchSpecies": [
+        "Hymenochaete cruenta",
         "Phellinus ribis",
         "Phylloporia ribis"
       ]
@@ -8523,6 +8541,7 @@
       "type": "taxon",
       "value": "Hymenochaetales",
       "matchSpecies": [
+        "Hymenochaete cruenta",
         "Phellinus ribis",
         "Phylloporia ribis",
         "Rickenella fibula"

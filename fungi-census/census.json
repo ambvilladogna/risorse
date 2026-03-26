@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-25T01:12:03.171Z",
-  "totalSpecies": 443,
-  "totalSamples": 1001,
+  "generatedAt": "2026-03-26T01:12:53.952Z",
+  "totalSpecies": 444,
+  "totalSamples": 1003,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1504,6 +1504,13 @@
       "fullName": "Hygrophorus pudorinus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hygrophoraceae",
       "authority": "(Fr.) Fr. 1836"
+    },
+    {
+      "genus": "Hymenochaete",
+      "species": "cruenta",
+      "fullName": "Hymenochaete cruenta",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Hymenochaetales > famiglia: Hymenochaetaceae",
+      "authority": "(Pers.) Donk 1959"
     },
     {
       "genus": "Hymenoscyphus",

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-25T01:12:03.258Z",
-  "totalSpecies": 443,
-  "totalSamples": 1062,
+  "generatedAt": "2026-03-26T01:12:54.058Z",
+  "totalSpecies": 444,
+  "totalSamples": 1064,
   "species": [
     {
       "genus": "Flammulina",
@@ -1292,6 +1292,94 @@
       }
     },
     {
+      "genus": "Hymenochaete",
+      "species": "cruenta",
+      "fullName": "Hymenochaete cruenta",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Hymenochaetales > famiglia: Hymenochaetaceae",
+      "authority": "(Pers.) Donk 1959",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-24",
+      "earliestDayOfYear": 84,
+      "earliestSample": {
+        "collectionDate": "2026-03-24",
+        "collector": "Antonio Guana",
+        "locality": "Prato del Lo', Ardesio",
+        "localityCoordinates": "45.928468, 9.947982",
+        "habitat": "Su ramo morto di abete bianco",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "03-24",
+      "latestDayOfYear": 84,
+      "latestSample": {
+        "collectionDate": "2026-03-24",
+        "collector": "Antonio Guana",
+        "locality": "Prato del Lo', Ardesio",
+        "localityCoordinates": "45.928468, 9.947982",
+        "habitat": "Su ramo morto di abete bianco",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Panus",
+      "species": "conchatus",
+      "fullName": "Panus conchatus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Panaceae",
+      "authority": "(Bull.) Fr. 1838",
+      "totalSamples": 3,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-24",
+      "earliestDayOfYear": 84,
+      "earliestSample": {
+        "collectionDate": "2026-03-24",
+        "collector": "Antonio Guana",
+        "locality": "Prato del Lo', Ardesio",
+        "localityCoordinates": "45.928468, 9.947982",
+        "habitat": "Su tronco di sorbo",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "09-22",
+      "latestDayOfYear": 265,
+      "latestSample": {
+        "collectionDate": "2025-09-22",
+        "collector": "Antonio Guana",
+        "locality": "Selva d'Agnone, Valgoglio",
+        "localityCoordinates": "45.982797, 9.891481",
+        "habitat": "Bosco misto",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
       "genus": "Pleurotus",
       "species": "ostreatus",
       "fullName": "Pleurotus ostreatus",
@@ -2267,50 +2355,6 @@
         "locality": "Spiazzi, Gromo",
         "localityCoordinates": "45.970802, 9.963785",
         "habitat": "Sterco bovino",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Panus",
-      "species": "conchatus",
-      "fullName": "Panus conchatus",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Panaceae",
-      "authority": "(Bull.) Fr. 1838",
-      "totalSamples": 2,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "06-09",
-      "earliestDayOfYear": 160,
-      "earliestSample": {
-        "collectionDate": "2025-06-09",
-        "collector": "Angelo Fraschina",
-        "locality": "Spiazzi, Gromo",
-        "localityCoordinates": "45.970802, 9.963785",
-        "habitat": "Bosco misto abete bianco e abete rosso",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "09-22",
-      "latestDayOfYear": 265,
-      "latestSample": {
-        "collectionDate": "2025-09-22",
-        "collector": "Antonio Guana",
-        "locality": "Selva d'Agnone, Valgoglio",
-        "localityCoordinates": "45.982797, 9.891481",
-        "habitat": "Bosco misto",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
