@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-04-19",
+      "collector": "Pierino Bigoni",
+      "locality": "Gròmèl",
+      "localityCoordinates": "",
+      "habitat": "Sotto Frassini",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-12",
       "collector": "Pierino Bigoni",
       "locality": "S.Lorenzo",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "19/05",
-    "raccoltaPiuTarda": "12/03",
+    "raccoltaPiuTarda": "19/04",
     "campioniPerMese": [
       {
         "gen": 0
@@ -45,7 +53,7 @@
         "mar": 2
       },
       {
-        "apr": 0
+        "apr": 1
       },
       {
         "mag": 1
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
