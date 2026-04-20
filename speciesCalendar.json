@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-26T01:12:54.058Z",
+  "generatedAt": "2026-04-20T00:12:18.544Z",
   "totalSpecies": 444,
-  "totalSamples": 1064,
+  "totalSamples": 1065,
   "species": [
     {
       "genus": "Flammulina",
@@ -987,12 +987,12 @@
       "fullName": "Morchella esculenta",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
       "authority": "(L.) Pers. 1794",
-      "totalSamples": 3,
+      "totalSamples": 4,
       "monthlyCount": [
         0,
         0,
         2,
-        0,
+        1,
         1,
         0,
         0,
