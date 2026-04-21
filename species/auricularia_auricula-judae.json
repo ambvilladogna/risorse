@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-04-20",
+      "collector": "Pierino Bigoni",
+      "locality": "S.Lorenzo Villa d'Ogna",
+      "localityCoordinates": "45.912622, 9.935706",
+      "habitat": "Su legno morto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
       "locality": "Piazzolo, Ardesio",
@@ -73,7 +81,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/10",
-    "raccoltaPiuTarda": "02/03",
+    "raccoltaPiuTarda": "20/04",
     "campioniPerMese": [
       {
         "gen": 0
@@ -85,7 +93,7 @@
         "mar": 1
       },
       {
-        "apr": 0
+        "apr": 1
       },
       {
         "mag": 0
@@ -114,8 +122,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 8,
-    "campioniRaccolti": 8,
+    "totaleCampioni": 9,
+    "campioniRaccolti": 9,
     "campioniExsiccata": 0
   }
 }

@@ -8,10 +8,18 @@
     {
       "collectionDate": "2026-04-19",
       "collector": "Pierino Bigoni",
-      "locality": "Gròmèl",
-      "localityCoordinates": "",
+      "locality": "Gròmèl, Oltressenda Alta",
+      "localityCoordinates": "45.924229, 9.951038",
       "habitat": "Sotto Frassini",
       "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2026-04-06",
+      "collector": "Luigi Rossi",
+      "locality": "Valcanale, Ardesio",
+      "localityCoordinates": "45.950207, 9.858819",
+      "habitat": "Frassino",
+      "determiner": "Luigi Rossi"
     },
     {
       "collectionDate": "2026-03-12",
@@ -53,7 +61,7 @@
         "mar": 2
       },
       {
-        "apr": 1
+        "apr": 2
       },
       {
         "mag": 1
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
