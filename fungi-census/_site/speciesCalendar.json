@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-20T00:12:18.544Z",
+  "generatedAt": "2026-04-21T00:12:24.758Z",
   "totalSpecies": 444,
-  "totalSamples": 1065,
+  "totalSamples": 1069,
   "species": [
     {
       "genus": "Flammulina",
@@ -273,12 +273,12 @@
       "fullName": "Auricularia auricula-judae",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Auriculariales > famiglia: Auriculariaceae",
       "authority": "(Bull.) Quél. 1886",
-      "totalSamples": 8,
+      "totalSamples": 9,
       "monthlyCount": [
         0,
         1,
         1,
-        0,
+        1,
         0,
         0,
         0,
@@ -407,12 +407,12 @@
       "authority": "(Bull.) Berk. 1860",
       "currentName": "Auricularia auricula-judae",
       "currentAuthority": "(Bull.) Quél. 1886",
-      "totalSamples": 8,
+      "totalSamples": 9,
       "monthlyCount": [
         0,
         1,
         1,
-        0,
+        1,
         0,
         0,
         0,
@@ -987,12 +987,12 @@
       "fullName": "Morchella esculenta",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
       "authority": "(L.) Pers. 1794",
-      "totalSamples": 4,
+      "totalSamples": 5,
       "monthlyCount": [
         0,
         0,
         2,
-        1,
+        2,
         1,
         0,
         0,
@@ -1419,6 +1419,50 @@
         "locality": "Giardè, Villa d'Ogna",
         "localityCoordinates": "45.92996, 9.91580",
         "habitat": "Su pianta di noce",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Chlorociboria",
+      "species": "aeruginascens",
+      "fullName": "Chlorociboria aeruginascens",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Chlorociboriaceae",
+      "authority": "(Nyl.) Kanouse 1948",
+      "totalSamples": 2,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "04-20",
+      "earliestDayOfYear": 110,
+      "earliestSample": {
+        "collectionDate": "2026-04-20",
+        "collector": "Antonio Guana",
+        "locality": "Piazzolo, Ardesio",
+        "localityCoordinates": "45.939095, 9.940667",
+        "habitat": "Si ramo marcescente di latifoglie",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "07-04",
+      "latestDayOfYear": 185,
+      "latestSample": {
+        "collectionDate": "2025-07-04",
+        "collector": "Pierino Bigoni",
+        "locality": "Valsanguigno, Valgoglio",
+        "localityCoordinates": "45.967216, 9.886552",
+        "habitat": "A terra su legno marcescente bosco misto",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -3870,50 +3914,6 @@
         "localityCoordinates": "46.023725, 10.241261",
         "habitat": "Abete rosso",
         "determiner": "Fabio Locatelli",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Chlorociboria",
-      "species": "aeruginascens",
-      "fullName": "Chlorociboria aeruginascens",
-      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Leotiomycetes > ordine: Helotiales > famiglia: Chlorociboriaceae",
-      "authority": "(Nyl.) Kanouse 1948",
-      "totalSamples": 1,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "07-04",
-      "earliestDayOfYear": 185,
-      "earliestSample": {
-        "collectionDate": "2025-07-04",
-        "collector": "Pierino Bigoni",
-        "locality": "Valsanguigno, Valgoglio",
-        "localityCoordinates": "45.967216, 9.886552",
-        "habitat": "A terra su legno marcescente bosco misto",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "07-04",
-      "latestDayOfYear": 185,
-      "latestSample": {
-        "collectionDate": "2025-07-04",
-        "collector": "Pierino Bigoni",
-        "locality": "Valsanguigno, Valgoglio",
-        "localityCoordinates": "45.967216, 9.886552",
-        "habitat": "A terra su legno marcescente bosco misto",
-        "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
     },
