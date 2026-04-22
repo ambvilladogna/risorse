@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-21T00:12:24.758Z",
+  "generatedAt": "2026-04-22T00:12:09.477Z",
   "totalSpecies": 444,
-  "totalSamples": 1069,
+  "totalSamples": 1070,
   "species": [
     {
       "genus": "Flammulina",
@@ -1253,12 +1253,12 @@
       "fullName": "Neofavolus alveolaris",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
       "authority": "(DC.) Sotome & T. Hatt. 2012",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         0,
         0,
         1,
-        0,
+        1,
         0,
         0,
         0,
@@ -1279,14 +1279,14 @@
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
-      "latestDate": "03-15",
-      "latestDayOfYear": 75,
+      "latestDate": "04-20",
+      "latestDayOfYear": 110,
       "latestSample": {
-        "collectionDate": "2026-03-15",
+        "collectionDate": "2026-04-20",
         "collector": "Pierino Bigoni",
-        "locality": "Basilè",
-        "localityCoordinates": "39.809603, 16.163285",
-        "habitat": "Su tronco morto di latifoglie",
+        "locality": "San Lorenzo, Villa d'Ogna",
+        "localityCoordinates": "45.912622, 9.935706",
+        "habitat": "Su tronchi di latifoglie",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -1451,7 +1451,7 @@
         "collector": "Antonio Guana",
         "locality": "Piazzolo, Ardesio",
         "localityCoordinates": "45.939095, 9.940667",
-        "habitat": "Si ramo marcescente di latifoglie",
+        "habitat": "Su ramo marcescente di latifoglie",
         "determiner": "Antonio Guana",
         "_tipo": "raccolto"
       },
