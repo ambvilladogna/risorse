@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-04-20",
+      "collector": "Pierino Bigoni",
+      "locality": "San Lorenzo, Villa d'Ogna",
+      "localityCoordinates": "45.912622, 9.935706",
+      "habitat": "Su tronchi di latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-15",
       "collector": "Pierino Bigoni",
       "locality": "Basilè",
@@ -17,7 +25,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "15/03",
-    "raccoltaPiuTarda": "15/03",
+    "raccoltaPiuTarda": "20/04",
     "campioniPerMese": [
       {
         "gen": 0
@@ -29,7 +37,7 @@
         "mar": 1
       },
       {
-        "apr": 0
+        "apr": 1
       },
       {
         "mag": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
