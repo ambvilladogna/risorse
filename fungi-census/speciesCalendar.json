@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-22T00:12:09.477Z",
+  "generatedAt": "2026-04-26T00:12:08.325Z",
   "totalSpecies": 444,
-  "totalSamples": 1070,
+  "totalSamples": 1072,
   "species": [
     {
       "genus": "Flammulina",
@@ -987,12 +987,12 @@
       "fullName": "Morchella esculenta",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
       "authority": "(L.) Pers. 1794",
-      "totalSamples": 5,
+      "totalSamples": 6,
       "monthlyCount": [
         0,
         0,
         2,
-        2,
+        3,
         1,
         0,
         0,
@@ -1468,6 +1468,50 @@
       }
     },
     {
+      "genus": "Stropharia",
+      "species": "rugosoannulata",
+      "fullName": "Stropharia rugosoannulata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "Farl. ex Murrill 1922",
+      "totalSamples": 2,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "04-25",
+      "earliestDayOfYear": 115,
+      "earliestSample": {
+        "collectionDate": "2026-04-25",
+        "collector": "Luca Baldassarri",
+        "locality": "Albano S. Alessandro",
+        "localityCoordinates": "45.686482, 9.770656",
+        "habitat": "Fra i rovi",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "05-19",
+      "latestDayOfYear": 139,
+      "latestSample": {
+        "collectionDate": "2025-05-19",
+        "collector": "Antonio Guana",
+        "locality": "Cunella, Villa d'Ogna",
+        "localityCoordinates": "45.923104, 9.926830",
+        "habitat": "Campo di lavanda",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      }
+    },
+    {
       "genus": "Caloscypha",
       "species": "fulgens",
       "fullName": "Caloscypha fulgens",
@@ -1729,50 +1773,6 @@
         "locality": "Piazzolo, Ardesio",
         "localityCoordinates": "45.939095, 9.940667",
         "habitat": "Bosco misto",
-        "determiner": "Antonio Guana",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Stropharia",
-      "species": "rugosoannulata",
-      "fullName": "Stropharia rugosoannulata",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
-      "authority": "Farl. ex Murrill 1922",
-      "totalSamples": 1,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "05-19",
-      "earliestDayOfYear": 139,
-      "earliestSample": {
-        "collectionDate": "2025-05-19",
-        "collector": "Antonio Guana",
-        "locality": "Cunella, Villa d'Ogna",
-        "localityCoordinates": "45.923104, 9.926830",
-        "habitat": "Campo di lavanda",
-        "determiner": "Antonio Guana",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "05-19",
-      "latestDayOfYear": 139,
-      "latestSample": {
-        "collectionDate": "2025-05-19",
-        "collector": "Antonio Guana",
-        "locality": "Cunella, Villa d'Ogna",
-        "localityCoordinates": "45.923104, 9.926830",
-        "habitat": "Campo di lavanda",
         "determiner": "Antonio Guana",
         "_tipo": "raccolto"
       }

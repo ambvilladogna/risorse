@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-04-25",
+      "collector": "Pietro Centenari",
+      "locality": "Val Righenzuolo, Onore",
+      "localityCoordinates": "45.867055, 10.034667",
+      "habitat": "Abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2026-04-19",
       "collector": "Pierino Bigoni",
       "locality": "Gròmèl, Oltressenda Alta",
@@ -49,7 +57,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "19/05",
-    "raccoltaPiuTarda": "19/04",
+    "raccoltaPiuTarda": "25/04",
     "campioniPerMese": [
       {
         "gen": 0
@@ -61,7 +69,7 @@
         "mar": 2
       },
       {
-        "apr": 2
+        "apr": 3
       },
       {
         "mag": 1
@@ -90,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }
