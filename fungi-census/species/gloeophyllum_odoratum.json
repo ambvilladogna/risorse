@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-04-25",
+      "collector": "Pietro Centenari",
+      "locality": "Val Righenzuolo, Onore",
+      "localityCoordinates": "45.87806, 10.02910",
+      "habitat": "Su ceppo di abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-05",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -17,7 +25,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "05/11",
-    "raccoltaPiuTarda": "05/11",
+    "raccoltaPiuTarda": "25/04",
     "campioniPerMese": [
       {
         "gen": 0
@@ -29,7 +37,7 @@
         "mar": 0
       },
       {
-        "apr": 0
+        "apr": 1
       },
       {
         "mag": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }

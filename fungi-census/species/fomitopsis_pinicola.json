@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-04-25",
+      "collector": "Pietro Centenari",
+      "locality": "Val Righenzuolo, Onore",
+      "localityCoordinates": "45.87806, 10.02910",
+      "habitat": "Su tronchi di latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-02-25",
       "collector": "Angelo Fraschina",
       "locality": "Spiazzi, Gromo",
@@ -57,7 +65,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "26/08",
-    "raccoltaPiuTarda": "25/02",
+    "raccoltaPiuTarda": "25/04",
     "campioniPerMese": [
       {
         "gen": 0
@@ -69,7 +77,7 @@
         "mar": 0
       },
       {
-        "apr": 0
+        "apr": 1
       },
       {
         "mag": 0
@@ -98,8 +106,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 6,
-    "campioniRaccolti": 6,
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
     "campioniExsiccata": 0
   }
 }

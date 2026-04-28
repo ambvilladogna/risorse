@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-26T00:12:08.325Z",
+  "generatedAt": "2026-04-28T00:12:16.126Z",
   "totalSpecies": 444,
-  "totalSamples": 1072,
+  "totalSamples": 1076,
   "species": [
     {
       "genus": "Flammulina",
@@ -317,12 +317,12 @@
       "fullName": "Daedaleopsis confragosa",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
       "authority": "(Bolton) J. Schröt. 1888",
-      "totalSamples": 2,
+      "totalSamples": 3,
       "monthlyCount": [
         0,
         1,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -719,12 +719,12 @@
       "fullName": "Fomitopsis pinicola",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Fomitopsidaceae",
       "authority": "(Sw.) P. Karst. 1881",
-      "totalSamples": 6,
+      "totalSamples": 7,
       "monthlyCount": [
         0,
         1,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -1463,6 +1463,94 @@
         "locality": "Valsanguigno, Valgoglio",
         "localityCoordinates": "45.967216, 9.886552",
         "habitat": "A terra su legno marcescente bosco misto",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Gloeophyllum",
+      "species": "odoratum",
+      "fullName": "Gloeophyllum odoratum",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gloeophyllales > famiglia: Gloeophyllaceae",
+      "authority": "(Wulfen) Imazeki 1943",
+      "totalSamples": 2,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "earliestDate": "04-25",
+      "earliestDayOfYear": 115,
+      "earliestSample": {
+        "collectionDate": "2026-04-25",
+        "collector": "Pietro Centenari",
+        "locality": "Val Righenzuolo, Onore",
+        "localityCoordinates": "45.87806, 10.02910",
+        "habitat": "Su ceppo di abete rosso",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "11-05",
+      "latestDayOfYear": 310,
+      "latestSample": {
+        "collectionDate": "2025-11-05",
+        "collector": "Pierino Bigoni",
+        "locality": "Pineta della Selva, Clusone",
+        "localityCoordinates": "45.88196, 9.91806",
+        "habitat": "Ceppaia abete",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Schizophyllum",
+      "species": "commune",
+      "fullName": "Schizophyllum commune",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Schizophyllaceae",
+      "authority": "Fr. 1815",
+      "totalSamples": 2,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "04-25",
+      "earliestDayOfYear": 115,
+      "earliestSample": {
+        "collectionDate": "2026-04-25",
+        "collector": "Pietro Centenari",
+        "locality": "Val Righenzuolo, Onore",
+        "localityCoordinates": "45.87806, 10.02910",
+        "habitat": "Su latifoglia marcescente",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "06-22",
+      "latestDayOfYear": 173,
+      "latestSample": {
+        "collectionDate": "2025-06-22",
+        "collector": "Pietro Centenari",
+        "locality": "Sentiero per il rifugio Albani, Oltressenda Alta",
+        "localityCoordinates": "45.95512, 10.02425",
+        "habitat": "Prato alpino",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -3289,50 +3377,6 @@
         "locality": "Colle Palazzo, Oltressenda Alta",
         "localityCoordinates": "45.938839, 9.973808",
         "habitat": "Misto faggio e abete rosso",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Schizophyllum",
-      "species": "commune",
-      "fullName": "Schizophyllum commune",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Schizophyllaceae",
-      "authority": "Fr. 1815",
-      "totalSamples": 1,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "06-22",
-      "earliestDayOfYear": 173,
-      "earliestSample": {
-        "collectionDate": "2025-06-22",
-        "collector": "Pietro Centenari",
-        "locality": "Sentiero per il rifugio Albani, Oltressenda Alta",
-        "localityCoordinates": "45.95512, 10.02425",
-        "habitat": "Prato alpino",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "06-22",
-      "latestDayOfYear": 173,
-      "latestSample": {
-        "collectionDate": "2025-06-22",
-        "collector": "Pietro Centenari",
-        "locality": "Sentiero per il rifugio Albani, Oltressenda Alta",
-        "localityCoordinates": "45.95512, 10.02425",
-        "habitat": "Prato alpino",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -18829,50 +18873,6 @@
         "locality": "Pineta della Selva, Clusone",
         "localityCoordinates": "45.88196, 9.91806",
         "habitat": "Ceppaia di latifoglie",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Gloeophyllum",
-      "species": "odoratum",
-      "fullName": "Gloeophyllum odoratum",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Gloeophyllales > famiglia: Gloeophyllaceae",
-      "authority": "(Wulfen) Imazeki 1943",
-      "totalSamples": 1,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0
-      ],
-      "earliestDate": "11-05",
-      "earliestDayOfYear": 310,
-      "earliestSample": {
-        "collectionDate": "2025-11-05",
-        "collector": "Pierino Bigoni",
-        "locality": "Pineta della Selva, Clusone",
-        "localityCoordinates": "45.88196, 9.91806",
-        "habitat": "Ceppaia abete",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "11-05",
-      "latestDayOfYear": 310,
-      "latestSample": {
-        "collectionDate": "2025-11-05",
-        "collector": "Pierino Bigoni",
-        "locality": "Pineta della Selva, Clusone",
-        "localityCoordinates": "45.88196, 9.91806",
-        "habitat": "Ceppaia abete",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
