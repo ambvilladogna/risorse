@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-03",
+      "collector": "Pietro Centenari",
+      "locality": "Via Glerola, Novezio, Cerete Alto, Songavazzo, Bergamo",
+      "localityCoordinates": "45.874989, 9.995917",
+      "habitat": "Su ceppo di abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2026-04-25",
       "collector": "Pietro Centenari",
       "locality": "Val Righenzuolo, Onore",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "05/11",
-    "raccoltaPiuTarda": "25/04",
+    "raccoltaPiuTarda": "03/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -40,7 +48,7 @@
         "apr": 1
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
