@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T01:12:54.276Z",
+  "generatedAt": "2026-05-04T00:12:02.322Z",
   "corpus": [
     {
       "type": "genus",
@@ -6815,6 +6815,13 @@
     },
     {
       "type": "taxon",
+      "value": "Agrocybaceae",
+      "matchSpecies": [
+        "Agrocybe praecox"
+      ]
+    },
+    {
+      "type": "taxon",
       "value": "Albatrellaceae",
       "matchSpecies": [
         "Albatrellopsis confluens",
@@ -8469,6 +8476,14 @@
     },
     {
       "type": "taxon",
+      "value": "Hemipholiotaceae",
+      "matchSpecies": [
+        "Agrocybe aegerita",
+        "Cyclocybe cylindracea"
+      ]
+    },
+    {
+      "type": "taxon",
       "value": "Hydnaceae",
       "matchSpecies": [
         "Cantharellus amethysteus",
@@ -9281,7 +9296,6 @@
       "type": "taxon",
       "value": "Strophariaceae",
       "matchSpecies": [
-        "Agrocybe praecox",
         "Hebeloma crustuliniforme",
         "Hebeloma sinapizans",
         "Hypholoma capnoides",
@@ -9407,7 +9421,6 @@
       "type": "taxon",
       "value": "Tubariaceae",
       "matchSpecies": [
-        "Agrocybe aegerita",
         "Cyclocybe cylindracea",
         "Tubaria furfuracea",
         "Tubaria hiemalis"

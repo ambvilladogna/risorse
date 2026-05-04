@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-28T00:12:16.040Z",
+  "generatedAt": "2026-05-04T00:12:02.098Z",
   "totalSpecies": 444,
-  "totalSamples": 1014,
+  "totalSamples": 1016,
   "species": [
     {
       "genus": "Abortiporus",
@@ -46,7 +46,7 @@
       "genus": "Agrocybe",
       "species": "aegerita",
       "fullName": "Agrocybe aegerita",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tubariaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
       "authority": "(V. Brig.) Singer 1951",
       "currentName": "Cyclocybe cylindracea",
       "currentAuthority": "(DC.) Vizzini & Angelini 2014"
@@ -55,7 +55,7 @@
       "genus": "Agrocybe",
       "species": "praecox",
       "fullName": "Agrocybe praecox",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agrocybaceae",
       "authority": "(Pers.) Fayod 1889"
     },
     {
@@ -296,9 +296,9 @@
       "species": "erythropus",
       "fullName": "Boletus erythropus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
-      "authority": "Pers. 1796",
+      "authority": "Pers. 1795",
       "currentName": "Neoboletus erythropus",
-      "currentAuthority": "(Pers.) C. Hahn 2015"
+      "currentAuthority": "(Pers.) Bertolini & Papetti 2026"
     },
     {
       "genus": "Boletus",

@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-03",
+      "collector": "Pietro Centenari",
+      "locality": "Strada Covale - Monte Cuca, Cedrini, Cerete Alto, Cerete, Bergamo",
+      "localityCoordinates": "45.855235, 10.025947",
+      "habitat": "Su ceppo di abete rosso",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2026-04-25",
       "collector": "Pietro Centenari",
       "locality": "Val Righenzuolo, Onore",
@@ -65,7 +73,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "26/08",
-    "raccoltaPiuTarda": "25/04",
+    "raccoltaPiuTarda": "03/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -80,7 +88,7 @@
         "apr": 1
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 0
@@ -106,8 +114,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 8,
+    "campioniRaccolti": 8,
     "campioniExsiccata": 0
   }
 }

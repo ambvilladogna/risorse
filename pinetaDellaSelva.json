@@ -1,6 +1,6 @@
 {
   "title": "Pineta della Selva",
-  "generatedAt": "2026-03-13T01:12:16.087Z",
+  "generatedAt": "2026-05-04T00:12:02.304Z",
   "totalSpecies": 117,
   "totalSamples": 162,
   "species": [
@@ -102,9 +102,9 @@
       "species": "erythropus",
       "fullName": "Boletus erythropus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
-      "authority": "Pers. 1796",
+      "authority": "Pers. 1795",
       "currentName": "Neoboletus erythropus",
-      "currentAuthority": "(Pers.) C. Hahn 2015"
+      "currentAuthority": "(Pers.) Bertolini & Papetti 2026"
     },
     {
       "genus": "Boletus",
