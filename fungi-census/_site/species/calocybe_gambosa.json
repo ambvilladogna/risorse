@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-04",
+      "collector": "Antonio Guana",
+      "locality": "Valzurio, Oltressenda Alta",
+      "localityCoordinates": "45.924021, 9.971603",
+      "habitat": "Rosa canina",
+      "determiner": "Antonio Guana"
+    },
+    {
+      "collectionDate": "2026-04-22",
+      "collector": "Fabio Locatelli",
+      "locality": "Cerete",
+      "localityCoordinates": "45.854349, 10.011019",
+      "habitat": "Margine di un prato",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-05-24",
       "collector": "Pierino Bigoni",
       "locality": "Strada per le baite del Moschel, Oltressenda Alta",
@@ -17,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "24/05",
-    "raccoltaPiuTarda": "24/05",
+    "raccoltaPiuTarda": "04/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -29,10 +45,10 @@
         "mar": 0
       },
       {
-        "apr": 0
+        "apr": 1
       },
       {
-        "mag": 1
+        "mag": 2
       },
       {
         "giu": 0
@@ -58,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

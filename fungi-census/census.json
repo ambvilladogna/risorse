@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T00:12:02.098Z",
-  "totalSpecies": 444,
-  "totalSamples": 1016,
+  "generatedAt": "2026-05-05T00:12:13.738Z",
+  "totalSpecies": 445,
+  "totalSamples": 1020,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1061,7 +1061,7 @@
       "genus": "Cyclocybe",
       "species": "cylindracea",
       "fullName": "Cyclocybe cylindracea",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tubariaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
       "authority": "(DC.) Vizzini & Angelini 2014"
     },
     {
@@ -1157,9 +1157,7 @@
       "species": "nitidum",
       "fullName": "Entoloma nitidum",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Entolomataceae",
-      "authority": "Quél. 1883",
-      "currentName": "Entocybe nitida",
-      "currentAuthority": "(Quél.) T.J. Baroni, Largent & V. Hofst. 2011"
+      "authority": "Quél. 1883"
     },
     {
       "genus": "Exidia",
@@ -1228,7 +1226,7 @@
       "genus": "Galerina",
       "species": "stylifera",
       "fullName": "Galerina stylifera",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Galerinaceae",
       "authority": "(G.F. Atk.) A.H. Sm. & Singer 1958"
     },
     {
@@ -1300,7 +1298,7 @@
       "genus": "Gymnopilus",
       "species": "penetrans",
       "fullName": "Gymnopilus penetrans",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Galerinaceae",
       "authority": "(Fr.) Murrill 1912"
     },
     {
@@ -2463,6 +2461,15 @@
       "fullName": "Pluteus roseipes",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
       "authority": "Höhn. 1902"
+    },
+    {
+      "genus": "Polyporus",
+      "species": "squamosus",
+      "fullName": "Polyporus squamosus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Huds.) Fr. 1821",
+      "currentName": "Cerioporus squamosus",
+      "currentAuthority": "(Huds.) Quél. 1886"
     },
     {
       "genus": "Porphyrellus",

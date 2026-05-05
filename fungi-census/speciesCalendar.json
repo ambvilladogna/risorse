@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-04T00:12:02.174Z",
-  "totalSpecies": 444,
-  "totalSamples": 1078,
+  "generatedAt": "2026-05-05T00:12:13.808Z",
+  "totalSpecies": 445,
+  "totalSamples": 1081,
   "species": [
     {
       "genus": "Flammulina",
@@ -1468,6 +1468,50 @@
       }
     },
     {
+      "genus": "Calocybe",
+      "species": "gambosa",
+      "fullName": "Calocybe gambosa",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lyophyllaceae",
+      "authority": "(Fr.) Donk 1962",
+      "totalSamples": 3,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "04-22",
+      "earliestDayOfYear": 112,
+      "earliestSample": {
+        "collectionDate": "2026-04-22",
+        "collector": "Fabio Locatelli",
+        "locality": "Cerete",
+        "localityCoordinates": "45.854349, 10.011019",
+        "habitat": "Margine di un prato",
+        "determiner": "Fabio Locatelli",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "05-24",
+      "latestDayOfYear": 144,
+      "latestSample": {
+        "collectionDate": "2025-05-24",
+        "collector": "Pierino Bigoni",
+        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+        "localityCoordinates": "45.93408, 10.00331",
+        "habitat": "Prato",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
       "genus": "Gloeophyllum",
       "species": "odoratum",
       "fullName": "Gloeophyllum odoratum",
@@ -1595,6 +1639,52 @@
         "locality": "Cunella, Villa d'Ogna",
         "localityCoordinates": "45.923104, 9.926830",
         "habitat": "Campo di lavanda",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Polyporus",
+      "species": "squamosus",
+      "fullName": "Polyporus squamosus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Huds.) Fr. 1821",
+      "currentName": "Cerioporus squamosus",
+      "currentAuthority": "(Huds.) Quél. 1886",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "05-04",
+      "earliestDayOfYear": 124,
+      "earliestSample": {
+        "collectionDate": "2026-05-04",
+        "collector": "Antonio Guana",
+        "locality": "Ardesio",
+        "localityCoordinates": "45.937512, 9.931158",
+        "habitat": "Su pianta di noce",
+        "determiner": "Antonio Guana",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "05-04",
+      "latestDayOfYear": 124,
+      "latestSample": {
+        "collectionDate": "2026-05-04",
+        "collector": "Antonio Guana",
+        "locality": "Ardesio",
+        "localityCoordinates": "45.937512, 9.931158",
+        "habitat": "Su pianta di noce",
         "determiner": "Antonio Guana",
         "_tipo": "raccolto"
       }
@@ -1905,50 +1995,6 @@
         "locality": "Colle Palazzo, Oltressenda Alta",
         "localityCoordinates": "45.938839, 9.973808",
         "habitat": "Bosco misto",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Calocybe",
-      "species": "gambosa",
-      "fullName": "Calocybe gambosa",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lyophyllaceae",
-      "authority": "(Fr.) Donk 1962",
-      "totalSamples": 1,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "05-24",
-      "earliestDayOfYear": 144,
-      "earliestSample": {
-        "collectionDate": "2025-05-24",
-        "collector": "Pierino Bigoni",
-        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-        "localityCoordinates": "45.93408, 10.00331",
-        "habitat": "Prato",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "05-24",
-      "latestDayOfYear": 144,
-      "latestSample": {
-        "collectionDate": "2025-05-24",
-        "collector": "Pierino Bigoni",
-        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-        "localityCoordinates": "45.93408, 10.00331",
-        "habitat": "Prato",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -5171,7 +5217,7 @@
       "genus": "Cyclocybe",
       "species": "cylindracea",
       "fullName": "Cyclocybe cylindracea",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Tubariaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
       "authority": "(DC.) Vizzini & Angelini 2014",
       "totalSamples": 4,
       "monthlyCount": [
@@ -11399,8 +11445,6 @@
       "fullName": "Entoloma nitidum",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Entolomataceae",
       "authority": "Quél. 1883",
-      "currentName": "Entocybe nitida",
-      "currentAuthority": "(Quél.) T.J. Baroni, Largent & V. Hofst. 2011",
       "totalSamples": 1,
       "monthlyCount": [
         0,
@@ -18439,7 +18483,7 @@
       "genus": "Galerina",
       "species": "stylifera",
       "fullName": "Galerina stylifera",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Galerinaceae",
       "authority": "(G.F. Atk.) A.H. Sm. & Singer 1958",
       "totalSamples": 1,
       "monthlyCount": [
@@ -19507,7 +19551,7 @@
       "genus": "Gymnopilus",
       "species": "penetrans",
       "fullName": "Gymnopilus penetrans",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hymenogastraceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Galerinaceae",
       "authority": "(Fr.) Murrill 1912",
       "totalSamples": 1,
       "monthlyCount": [

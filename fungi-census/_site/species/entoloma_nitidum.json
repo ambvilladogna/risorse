@@ -2,8 +2,8 @@
   "nomeCompleto": "Entoloma nitidum",
   "autore": "Quél. 1883",
   "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Entolomataceae",
-  "nomeCorrente": "Entocybe nitida",
-  "autoreCorrente": "(Quél.) T.J. Baroni, Largent & V. Hofst. 2011",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2025-09-08",
