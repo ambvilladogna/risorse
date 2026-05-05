@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T00:12:02.322Z",
+  "generatedAt": "2026-05-05T00:12:13.958Z",
   "corpus": [
     {
       "type": "genus",
@@ -292,6 +292,14 @@
       "value": "Catathelasma",
       "matchSpecies": [
         "Catathelasma imperiale"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Cerioporus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
       ]
     },
     {
@@ -671,17 +679,8 @@
     },
     {
       "type": "genus",
-      "value": "Entocybe",
-      "matchSpecies": [
-        "Entocybe nitida",
-        "Entoloma nitidum"
-      ]
-    },
-    {
-      "type": "genus",
       "value": "Entoloma",
       "matchSpecies": [
-        "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
         "Entoloma nidorosum",
@@ -1482,6 +1481,14 @@
         "Pluteus petasatus",
         "Pluteus romellii",
         "Pluteus roseipes"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Polyporus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
       ]
     },
     {
@@ -2585,6 +2592,14 @@
     },
     {
       "type": "species",
+      "value": "Cerioporus squamosus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Chalciporus piperatus",
       "matchSpecies": [
         "Chalciporus piperatus"
@@ -3375,14 +3390,6 @@
     },
     {
       "type": "species",
-      "value": "Entocybe nitida",
-      "matchSpecies": [
-        "Entocybe nitida",
-        "Entoloma nitidum"
-      ]
-    },
-    {
-      "type": "species",
       "value": "Entoloma hirtipes",
       "matchSpecies": [
         "Entoloma hirtipes"
@@ -3407,7 +3414,6 @@
       "type": "species",
       "value": "Entoloma nitidum",
       "matchSpecies": [
-        "Entocybe nitida",
         "Entoloma nitidum"
       ]
     },
@@ -4910,6 +4916,14 @@
     },
     {
       "type": "species",
+      "value": "Polyporus squamosus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Porphyrellus porphyrosporus",
       "matchSpecies": [
         "Porphyrellus porphyrosporus"
@@ -6139,7 +6153,6 @@
         "Cystoderma amianthinum",
         "Delicatula integrella",
         "Echinoderma asperum",
-        "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
         "Entoloma nidorosum",
@@ -6388,6 +6401,7 @@
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
         "Catathelasma imperiale",
+        "Cerioporus squamosus",
         "Chalciporus piperatus",
         "Chamaemyces fracidus",
         "Chlorophyllum brunneum",
@@ -6483,7 +6497,6 @@
         "Daedaleopsis tricolor",
         "Delicatula integrella",
         "Echinoderma asperum",
-        "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
         "Entoloma nidorosum",
@@ -6676,6 +6689,7 @@
         "Pluteus petasatus",
         "Pluteus romellii",
         "Pluteus roseipes",
+        "Polyporus squamosus",
         "Porphyrellus porphyrosporus",
         "Porpolomopsis calyptriformis",
         "Postia caesia",
@@ -7022,6 +7036,7 @@
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
         "Catathelasma imperiale",
+        "Cerioporus squamosus",
         "Chalciporus piperatus",
         "Chamaemyces fracidus",
         "Chlorophyllum brunneum",
@@ -7119,7 +7134,6 @@
         "Daedaleopsis tricolor",
         "Delicatula integrella",
         "Echinoderma asperum",
-        "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
         "Entoloma nidorosum",
@@ -7313,6 +7327,7 @@
         "Pluteus petasatus",
         "Pluteus romellii",
         "Pluteus roseipes",
+        "Polyporus squamosus",
         "Porphyrellus porphyrosporus",
         "Porpolomopsis calyptriformis",
         "Postia caesia",
@@ -7754,7 +7769,6 @@
       "value": "Entolomataceae",
       "matchSpecies": [
         "Clitopilus prunulus",
-        "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
         "Entoloma nidorosum",
@@ -7888,6 +7902,7 @@
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
         "Catathelasma imperiale",
+        "Cerioporus squamosus",
         "Chalciporus piperatus",
         "Chamaemyces fracidus",
         "Chlorociboria aeruginascens",
@@ -7993,7 +8008,6 @@
         "Echinoderma asperum",
         "Elaphomyces granulatus",
         "Encoelia furfuracea",
-        "Entocybe nitida",
         "Entoloma hirtipes",
         "Entoloma incanum",
         "Entoloma nidorosum",
@@ -8197,6 +8211,7 @@
         "Pluteus petasatus",
         "Pluteus romellii",
         "Pluteus roseipes",
+        "Polyporus squamosus",
         "Porphyrellus porphyrosporus",
         "Porpolomopsis calyptriformis",
         "Postia caesia",
@@ -8342,6 +8357,14 @@
         "Xerocomus pruinatus",
         "Xerocomus subtomentosus",
         "Xylaria polymorpha"
+      ]
+    },
+    {
+      "type": "taxon",
+      "value": "Galerinaceae",
+      "matchSpecies": [
+        "Galerina stylifera",
+        "Gymnopilus penetrans"
       ]
     },
     {
@@ -8560,14 +8583,6 @@
         "Phellinus ribis",
         "Phylloporia ribis",
         "Rickenella fibula"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hymenogastraceae",
-      "matchSpecies": [
-        "Galerina stylifera",
-        "Gymnopilus penetrans"
       ]
     },
     {
@@ -8945,6 +8960,7 @@
       "type": "taxon",
       "value": "Polyporaceae",
       "matchSpecies": [
+        "Cerioporus squamosus",
         "Cyanosporus caesius",
         "Daedaleopsis confragosa",
         "Daedaleopsis tricolor",
@@ -8955,6 +8971,7 @@
         "Lentinus tigrinus",
         "Neofavolus alveolaris",
         "Perenniporia fraxinea",
+        "Polyporus squamosus",
         "Postia caesia",
         "Pycnoporus cinnabarinus",
         "Trametes cinnabarina",
@@ -8968,6 +8985,7 @@
       "matchSpecies": [
         "Abortiporus biennis",
         "Bjerkandera adusta",
+        "Cerioporus squamosus",
         "Climacocystis borealis",
         "Cyanosporus caesius",
         "Daedaleopsis confragosa",
@@ -8985,6 +9003,7 @@
         "Perenniporia fraxinea",
         "Phaeolus schweinitzii",
         "Piptoporus betulinus",
+        "Polyporus squamosus",
         "Postia caesia",
         "Pycnoporus cinnabarinus",
         "Trametes cinnabarina",
@@ -9421,7 +9440,6 @@
       "type": "taxon",
       "value": "Tubariaceae",
       "matchSpecies": [
-        "Cyclocybe cylindracea",
         "Tubaria furfuracea",
         "Tubaria hiemalis"
       ]

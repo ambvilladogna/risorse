@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Polyporus squamosus",
+  "autore": "(Huds.) Fr. 1821",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+  "nomeCorrente": "Cerioporus squamosus",
+  "autoreCorrente": "(Huds.) Quél. 1886",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-05-04",
+      "collector": "Antonio Guana",
+      "locality": "Ardesio",
+      "localityCoordinates": "45.937512, 9.931158",
+      "habitat": "Su pianta di noce",
+      "determiner": "Antonio Guana"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "04/05",
+    "raccoltaPiuTarda": "04/05",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 1
+      },
+      {
+        "giu": 0
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}
