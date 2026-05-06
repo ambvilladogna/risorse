@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T00:11:56.438Z",
+  "generatedAt": "2026-05-06T09:06:19.990Z",
   "totalSpecies": 445,
   "totalSamples": 1022,
   "species": [
@@ -3042,7 +3042,7 @@
       "genus": "Suillus",
       "species": "granulatus",
       "fullName": "Suillus granulatus",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
       "authority": "(L.) Roussel 1796"
     },
     {
@@ -3056,7 +3056,7 @@
       "genus": "Suillus",
       "species": "luteus",
       "fullName": "Suillus luteus",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
       "authority": "(L.) Roussel 1796"
     },
     {
@@ -3070,14 +3070,14 @@
       "genus": "Suillus",
       "species": "plorans",
       "fullName": "Suillus plorans",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Boletaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
       "authority": "(Rolland) Kuntze 1898"
     },
     {
       "genus": "Suillus",
       "species": "variegatus",
       "fullName": "Suillus variegatus",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Gyroporaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Boletales > famiglia: Suillaceae",
       "authority": "(Sw.) Richon & Roze 1888"
     },
     {
