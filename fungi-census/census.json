@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-05T00:12:13.738Z",
+  "generatedAt": "2026-05-06T00:11:56.438Z",
   "totalSpecies": 445,
-  "totalSamples": 1020,
+  "totalSamples": 1022,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1591,7 +1591,7 @@
       "species": "geophylla",
       "fullName": "Inocybe geophylla",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
-      "authority": "P. Kumm. 1871"
+      "authority": "(Bull.) P. Kumm. 1871"
     },
     {
       "genus": "Inocybe",
@@ -1620,7 +1620,7 @@
       "genus": "Kuehneromyces",
       "species": "mutabilis",
       "fullName": "Kuehneromyces mutabilis",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Kuehneromycetaceae",
       "authority": "(Schaeff.) Singer & A.H. Sm. 1946"
     },
     {
@@ -2201,7 +2201,9 @@
       "species": "pelianthina",
       "fullName": "Mycena pelianthina",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
-      "authority": "(Fr.) Quél. 1872"
+      "authority": "(Fr.) Quél. 1872",
+      "currentName": "Prunulus pelianthinus",
+      "currentAuthority": "(Fr.) Jacq. Johnson, Vilgalys & Redhead 2001"
     },
     {
       "genus": "Mycena",
@@ -2222,7 +2224,9 @@
       "species": "rosea",
       "fullName": "Mycena rosea",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
-      "authority": "Gramberg 1912"
+      "authority": "Gramberg 1912",
+      "currentName": "Prunulus roseus",
+      "currentAuthority": "(Gramberg) Rui Wang bis, Ke Wang, H.F. Liu, Di Liu & T.Z. Wei 2026"
     },
     {
       "genus": "Mycena",
