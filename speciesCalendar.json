@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-05T00:12:13.808Z",
+  "generatedAt": "2026-05-06T00:11:56.514Z",
   "totalSpecies": 445,
-  "totalSamples": 1081,
+  "totalSamples": 1086,
   "species": [
     {
       "genus": "Flammulina",
@@ -1341,13 +1341,13 @@
       "fullName": "Panus conchatus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Panaceae",
       "authority": "(Bull.) Fr. 1838",
-      "totalSamples": 3,
+      "totalSamples": 4,
       "monthlyCount": [
         0,
         0,
         1,
         0,
-        0,
+        1,
         1,
         0,
         0,
@@ -1419,6 +1419,96 @@
         "locality": "Giardè, Villa d'Ogna",
         "localityCoordinates": "45.92996, 9.91580",
         "habitat": "Su pianta di noce",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Agrocybe",
+      "species": "aegerita",
+      "fullName": "Agrocybe aegerita",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
+      "authority": "(V. Brig.) Singer 1951",
+      "currentName": "Cyclocybe cylindracea",
+      "currentAuthority": "(DC.) Vizzini & Angelini 2014",
+      "totalSamples": 6,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-28",
+      "earliestDayOfYear": 87,
+      "earliestSample": {
+        "collectionDate": "2026-03-28",
+        "collector": "Fabio Locatelli",
+        "locality": "Rovetta",
+        "localityCoordinates": "45.892989, 9.983457",
+        "habitat": "Ceppaia",
+        "determiner": "Fabio Locatelli",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "09-08",
+      "latestDayOfYear": 251,
+      "latestSample": {
+        "collectionDate": "2025-09-08",
+        "collector": "Pierino Bigoni",
+        "locality": "Peschiera del Garda",
+        "localityCoordinates": "45.438945, 10.692017",
+        "habitat": "Ceppaia pino domestico",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Cyclocybe",
+      "species": "cylindracea",
+      "fullName": "Cyclocybe cylindracea",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
+      "authority": "(DC.) Vizzini & Angelini 2014",
+      "totalSamples": 6,
+      "monthlyCount": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "03-28",
+      "earliestDayOfYear": 87,
+      "earliestSample": {
+        "collectionDate": "2026-03-28",
+        "collector": "Fabio Locatelli",
+        "locality": "Rovetta",
+        "localityCoordinates": "45.892989, 9.983457",
+        "habitat": "Ceppaia",
+        "determiner": "Fabio Locatelli",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "09-08",
+      "latestDayOfYear": 251,
+      "latestSample": {
+        "collectionDate": "2025-09-08",
+        "collector": "Pierino Bigoni",
+        "locality": "Peschiera del Garda",
+        "localityCoordinates": "45.438945, 10.692017",
+        "habitat": "Ceppaia pino domestico",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -2363,7 +2453,7 @@
       "genus": "Kuehneromyces",
       "species": "mutabilis",
       "fullName": "Kuehneromyces mutabilis",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Kuehneromycetaceae",
       "authority": "(Schaeff.) Singer & A.H. Sm. 1946",
       "totalSamples": 3,
       "monthlyCount": [
@@ -5168,96 +5258,6 @@
       }
     },
     {
-      "genus": "Agrocybe",
-      "species": "aegerita",
-      "fullName": "Agrocybe aegerita",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
-      "authority": "(V. Brig.) Singer 1951",
-      "currentName": "Cyclocybe cylindracea",
-      "currentAuthority": "(DC.) Vizzini & Angelini 2014",
-      "totalSamples": 4,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "07-16",
-      "earliestDayOfYear": 197,
-      "earliestSample": {
-        "collectionDate": "2025-07-16",
-        "collector": "Fabio Locatelli",
-        "locality": "Cuminí, Clusone",
-        "localityCoordinates": "45.88182, 9.94509",
-        "habitat": "Ceppaia latifoglie",
-        "determiner": "Fabio Locatelli",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "09-08",
-      "latestDayOfYear": 251,
-      "latestSample": {
-        "collectionDate": "2025-09-08",
-        "collector": "Pierino Bigoni",
-        "locality": "Peschiera del Garda",
-        "localityCoordinates": "45.438945, 10.692017",
-        "habitat": "Ceppaia pino domestico",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Cyclocybe",
-      "species": "cylindracea",
-      "fullName": "Cyclocybe cylindracea",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Hemipholiotaceae",
-      "authority": "(DC.) Vizzini & Angelini 2014",
-      "totalSamples": 4,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        2,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "07-16",
-      "earliestDayOfYear": 197,
-      "earliestSample": {
-        "collectionDate": "2025-07-16",
-        "collector": "Fabio Locatelli",
-        "locality": "Cuminí, Clusone",
-        "localityCoordinates": "45.88182, 9.94509",
-        "habitat": "Ceppaia latifoglie",
-        "determiner": "Fabio Locatelli",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "09-08",
-      "latestDayOfYear": 251,
-      "latestSample": {
-        "collectionDate": "2025-09-08",
-        "collector": "Pierino Bigoni",
-        "locality": "Peschiera del Garda",
-        "localityCoordinates": "45.438945, 10.692017",
-        "habitat": "Ceppaia pino domestico",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
       "genus": "Macrolepiota",
       "species": "procera",
       "fullName": "Macrolepiota procera",
@@ -5661,6 +5661,8 @@
       "fullName": "Mycena pelianthina",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "(Fr.) Quél. 1872",
+      "currentName": "Prunulus pelianthinus",
+      "currentAuthority": "(Fr.) Jacq. Johnson, Vilgalys & Redhead 2001",
       "totalSamples": 2,
       "monthlyCount": [
         0,
@@ -15239,6 +15241,8 @@
       "fullName": "Mycena rosea",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
       "authority": "Gramberg 1912",
+      "currentName": "Prunulus roseus",
+      "currentAuthority": "(Gramberg) Rui Wang bis, Ke Wang, H.F. Liu, Di Liu & T.Z. Wei 2026",
       "totalSamples": 2,
       "monthlyCount": [
         0,
@@ -18260,7 +18264,7 @@
       "species": "geophylla",
       "fullName": "Inocybe geophylla",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
-      "authority": "P. Kumm. 1871",
+      "authority": "(Bull.) P. Kumm. 1871",
       "totalSamples": 1,
       "monthlyCount": [
         0,

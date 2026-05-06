@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T00:12:13.958Z",
+  "generatedAt": "2026-05-06T00:11:56.674Z",
   "corpus": [
     {
       "type": "genus",
@@ -1287,7 +1287,9 @@
         "Mycena rosea",
         "Mycena strobilicola",
         "Mycena zephirus",
-        "Prunulus pearsonianus"
+        "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus"
       ]
     },
     {
@@ -1527,7 +1529,11 @@
       "value": "Prunulus",
       "matchSpecies": [
         "Mycena pearsoniana",
-        "Prunulus pearsonianus"
+        "Mycena pelianthina",
+        "Mycena rosea",
+        "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus"
       ]
     },
     {
@@ -4609,7 +4615,8 @@
       "type": "species",
       "value": "Mycena pelianthina",
       "matchSpecies": [
-        "Mycena pelianthina"
+        "Mycena pelianthina",
+        "Prunulus pelianthinus"
       ]
     },
     {
@@ -4630,7 +4637,8 @@
       "type": "species",
       "value": "Mycena rosea",
       "matchSpecies": [
-        "Mycena rosea"
+        "Mycena rosea",
+        "Prunulus roseus"
       ]
     },
     {
@@ -4959,6 +4967,22 @@
       "matchSpecies": [
         "Mycena pearsoniana",
         "Prunulus pearsonianus"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Prunulus pelianthinus",
+      "matchSpecies": [
+        "Mycena pelianthina",
+        "Prunulus pelianthinus"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Prunulus roseus",
+      "matchSpecies": [
+        "Mycena rosea",
+        "Prunulus roseus"
       ]
     },
     {
@@ -6282,6 +6306,8 @@
         "Porpolomopsis calyptriformis",
         "Protostropharia semiglobata",
         "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus",
         "Psathyrella candolleana",
         "Psathyrella corrugis",
         "Psathyrella piluliformis",
@@ -6695,6 +6721,8 @@
         "Postia caesia",
         "Protostropharia semiglobata",
         "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus",
         "Psathyrella candolleana",
         "Psathyrella corrugis",
         "Psathyrella piluliformis",
@@ -7333,6 +7361,8 @@
         "Postia caesia",
         "Protostropharia semiglobata",
         "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus",
         "Psathyrella candolleana",
         "Psathyrella corrugis",
         "Psathyrella piluliformis",
@@ -8217,6 +8247,8 @@
         "Postia caesia",
         "Protostropharia semiglobata",
         "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus",
         "Psathyrella candolleana",
         "Psathyrella corrugis",
         "Psathyrella piluliformis",
@@ -8625,6 +8657,13 @@
     },
     {
       "type": "taxon",
+      "value": "Kuehneromycetaceae",
+      "matchSpecies": [
+        "Kuehneromyces mutabilis"
+      ]
+    },
+    {
+      "type": "taxon",
       "value": "Laetiporaceae",
       "matchSpecies": [
         "Phaeolus schweinitzii"
@@ -8755,7 +8794,9 @@
         "Mycena strobilicola",
         "Mycena zephirus",
         "Panellus stipticus",
-        "Prunulus pearsonianus"
+        "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus"
       ]
     },
     {
@@ -9321,7 +9362,6 @@
         "Hypholoma fasciculare",
         "Hypholoma lateritium",
         "Hypholoma sublateritium",
-        "Kuehneromyces mutabilis",
         "Leratiomyces ceres",
         "Pholiota astragalina",
         "Pholiota lenta",

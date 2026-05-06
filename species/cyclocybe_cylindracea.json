@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-05",
+      "collector": "Fabio Locatelli",
+      "locality": "Cuminí, Clusone",
+      "localityCoordinates": "45.88182, 9.94509",
+      "habitat": "Ceppaia",
+      "determiner": "Fabio Locatelli"
+    },
+    {
+      "collectionDate": "2026-03-28",
+      "collector": "Fabio Locatelli",
+      "locality": "Rovetta",
+      "localityCoordinates": "45.892989, 9.983457",
+      "habitat": "Ceppaia",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2025-09-08",
       "collector": "Pierino Bigoni",
       "locality": "Peschiera del Garda",
@@ -41,7 +57,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "16/07",
-    "raccoltaPiuTarda": "08/09",
+    "raccoltaPiuTarda": "05/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -50,13 +66,13 @@
         "feb": 0
       },
       {
-        "mar": 0
+        "mar": 1
       },
       {
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 0
@@ -82,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }

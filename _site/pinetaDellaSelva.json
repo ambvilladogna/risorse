@@ -1,6 +1,6 @@
 {
   "title": "Pineta della Selva",
-  "generatedAt": "2026-05-04T00:12:02.304Z",
+  "generatedAt": "2026-05-06T00:11:56.660Z",
   "totalSpecies": 117,
   "totalSamples": 162,
   "species": [
@@ -433,7 +433,7 @@
       "species": "geophylla",
       "fullName": "Inocybe geophylla",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Inocybaceae",
-      "authority": "P. Kumm. 1871"
+      "authority": "(Bull.) P. Kumm. 1871"
     },
     {
       "genus": "Inocybe",
@@ -634,7 +634,9 @@
       "species": "rosea",
       "fullName": "Mycena rosea",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Mycenaceae",
-      "authority": "Gramberg 1912"
+      "authority": "Gramberg 1912",
+      "currentName": "Prunulus roseus",
+      "currentAuthority": "(Gramberg) Rui Wang bis, Ke Wang, H.F. Liu, Di Liu & T.Z. Wei 2026"
     },
     {
       "genus": "Mycena",

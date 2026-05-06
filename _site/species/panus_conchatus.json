@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-05",
+      "collector": "Fabio Locatelli",
+      "locality": "Cuminí, Clusone",
+      "localityCoordinates": "45.88182, 9.94509",
+      "habitat": "Ceppaia",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2026-03-24",
       "collector": "Antonio Guana",
       "locality": "Prato del Lo', Ardesio",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/06",
-    "raccoltaPiuTarda": "24/03",
+    "raccoltaPiuTarda": "05/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -48,7 +56,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 1
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
