@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T00:11:56.674Z",
+  "generatedAt": "2026-05-06T08:27:01.420Z",
   "corpus": [
     {
       "type": "genus",
@@ -7542,9 +7542,6 @@
         "Strobilomyces strobilaceus",
         "Suillellus luridus",
         "Suillellus rubrosanguineus",
-        "Suillus granulatus",
-        "Suillus luteus",
-        "Suillus plorans",
         "Tylopilus felleus",
         "Xerocomellus chrysenteron",
         "Xerocomellus pruinatus",
@@ -8491,13 +8488,6 @@
     },
     {
       "type": "taxon",
-      "value": "Gyroporaceae",
-      "matchSpecies": [
-        "Suillus variegatus"
-      ]
-    },
-    {
-      "type": "taxon",
       "value": "Helotiaceae",
       "matchSpecies": [
         "Hymenoscyphus scutula"
@@ -9379,8 +9369,12 @@
       "value": "Suillaceae",
       "matchSpecies": [
         "Boletinus cavipes",
+        "Suillus granulatus",
         "Suillus grevillei",
-        "Suillus placidus"
+        "Suillus luteus",
+        "Suillus placidus",
+        "Suillus plorans",
+        "Suillus variegatus"
       ]
     },
     {
