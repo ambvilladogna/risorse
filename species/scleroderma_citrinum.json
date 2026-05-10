@@ -32,8 +32,8 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "15/09",
-    "raccoltaPiuTarda": "29/09",
+    "raccoltaPiuPrecoce": "09-15",
+    "raccoltaPiuTarda": "09-29",
     "campioniPerMese": [
       {
         "gen": 0
