@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-08",
+      "collector": "Pierino Bigoni",
+      "locality": "Spiazzi di Gromo",
+      "localityCoordinates": "45.963846, 9.961154",
+      "habitat": "Pascolo",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-08-26",
       "collector": "Renato Depressi",
       "locality": "Strada per le baite del Moschel, Oltressenda Alta",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "09/06",
-    "raccoltaPiuTarda": "26/08",
+    "raccoltaPiuTarda": "08/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -48,7 +56,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 2
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }

@@ -1,9 +1,9 @@
 {
-  "nomeCompleto": "Discina perlata",
-  "autore": "(Fr.) Fr. 1849",
+  "nomeCompleto": "Discina ancilis",
+  "autore": "(Pers.) Sacc. 1889",
   "filogenesi": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Discinaceae",
-  "nomeCorrente": "Discina ancilis",
-  "autoreCorrente": "(Pers.) Sacc. 1889",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2026-05-08",
