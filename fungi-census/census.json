@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-06T09:06:19.990Z",
-  "totalSpecies": 445,
-  "totalSamples": 1022,
+  "generatedAt": "2026-05-10T00:12:32.701Z",
+  "totalSpecies": 446,
+  "totalSamples": 1027,
   "species": [
     {
       "genus": "Abortiporus",
@@ -1098,6 +1098,13 @@
       "fullName": "Delicatula integrella",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
       "authority": "(Pers.) Fayod 1889"
+    },
+    {
+      "genus": "Discina",
+      "species": "ancilis",
+      "fullName": "Discina ancilis",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Discinaceae",
+      "authority": "(Pers.) Sacc. 1889"
     },
     {
       "genus": "Discina",

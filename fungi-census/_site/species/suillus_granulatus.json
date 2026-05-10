@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-09",
+      "collector": "Pietro Centenari",
+      "locality": "Brugai, Onore, Bergamo",
+      "localityCoordinates": "45.904827, 10.012970",
+      "habitat": "Pinus nigra",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -33,7 +41,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "18/07",
-    "raccoltaPiuTarda": "17/09",
+    "raccoltaPiuTarda": "09/05",
     "campioniPerMese": [
       {
         "gen": 0
@@ -48,7 +56,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
