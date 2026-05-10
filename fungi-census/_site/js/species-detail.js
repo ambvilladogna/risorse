@@ -35,7 +35,7 @@ function formatSampleDetails(sample) {
 }
 
 function formatDayAndMonth(dateString) {
-    const [day, month] = dateString.split('/');
+    const [month, day] = dateString.split('-');
     const months = [
         '',
         'gennaio',
@@ -182,9 +182,10 @@ function createSeasonalityChart(monthlyData) {
             datasets: [{
                 label: 'Campioni per mese',
                 data: monthlyData,
-                backgroundColor: '#2c5530',
-                borderColor: '#1a3a1f',
-                borderWidth: 1
+                backgroundColor: '#97b539',
+                borderColor: '#97b539',
+                borderWidth: 1,
+                borderRadius: 3
             }]
         },
         options: {
