@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T08:27:01.420Z",
+  "generatedAt": "2026-05-11T00:12:03.139Z",
   "corpus": [
     {
       "type": "genus",
@@ -1790,6 +1790,7 @@
       "matchSpecies": [
         "Protostropharia semiglobata",
         "Stropharia aeruginosa",
+        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
         "Stropharia semiglobata"
       ]
@@ -5614,6 +5615,13 @@
     },
     {
       "type": "species",
+      "value": "Stropharia melanosperma",
+      "matchSpecies": [
+        "Stropharia melanosperma"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Stropharia rugosoannulata",
       "matchSpecies": [
         "Stropharia rugosoannulata"
@@ -6321,6 +6329,7 @@
         "Singerocybe phaeophthalma",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
+        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
         "Stropharia semiglobata",
         "Tephrocybe rancida",
@@ -6804,6 +6813,7 @@
         "Strobilomyces strobilaceus",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
+        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
         "Stropharia semiglobata",
         "Suillellus luridus",
@@ -7444,6 +7454,7 @@
         "Strobilomyces strobilaceus",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
+        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
         "Stropharia semiglobata",
         "Suillellus luridus",
@@ -8332,6 +8343,7 @@
         "Strobilomyces strobilaceus",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
+        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
         "Stropharia semiglobata",
         "Suillellus luridus",
@@ -9360,6 +9372,7 @@
         "Protostropharia semiglobata",
         "Pyrrhulomyces astragalinus",
         "Stropharia aeruginosa",
+        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
         "Stropharia semiglobata"
       ]
