@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-10T00:12:32.796Z",
-  "totalSpecies": 446,
-  "totalSamples": 1093,
+  "generatedAt": "2026-05-11T00:12:02.983Z",
+  "totalSpecies": 447,
+  "totalSamples": 1094,
   "species": [
     {
       "genus": "Flammulina",
@@ -1954,6 +1954,50 @@
         "localityCoordinates": "45.898619, 9.984853",
         "habitat": "Bosco misto",
         "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Stropharia",
+      "species": "melanosperma",
+      "fullName": "Stropharia melanosperma",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Bull.) Gillet 1878",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "05-10",
+      "earliestDayOfYear": 130,
+      "earliestSample": {
+        "collectionDate": "2026-05-10",
+        "collector": "Luca Baldassarri",
+        "locality": "Ardesio",
+        "localityCoordinates": "45.937512, 9.931158",
+        "habitat": "Pacciame di rovi ed erba",
+        "determiner": "Luca Baldassarri",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "05-10",
+      "latestDayOfYear": 130,
+      "latestSample": {
+        "collectionDate": "2026-05-10",
+        "collector": "Luca Baldassarri",
+        "locality": "Ardesio",
+        "localityCoordinates": "45.937512, 9.931158",
+        "habitat": "Pacciame di rovi ed erba",
+        "determiner": "Luca Baldassarri",
         "_tipo": "raccolto"
       }
     },

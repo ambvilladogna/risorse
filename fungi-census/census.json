@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-10T14:45:19.917Z",
-  "totalSpecies": 446,
-  "totalSamples": 1027,
+  "generatedAt": "2026-05-11T00:12:02.902Z",
+  "totalSpecies": 447,
+  "totalSamples": 1028,
   "species": [
     {
       "genus": "Abortiporus",
@@ -3028,6 +3028,13 @@
       "fullName": "Stropharia aeruginosa",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "(Curtis) Quél. 1872"
+    },
+    {
+      "genus": "Stropharia",
+      "species": "melanosperma",
+      "fullName": "Stropharia melanosperma",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "(Bull.) Gillet 1878"
     },
     {
       "genus": "Stropharia",
