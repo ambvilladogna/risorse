@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T00:12:03.139Z",
+  "generatedAt": "2026-05-12T00:12:13.582Z",
   "corpus": [
     {
       "type": "genus",
@@ -1790,8 +1790,8 @@
       "matchSpecies": [
         "Protostropharia semiglobata",
         "Stropharia aeruginosa",
-        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
         "Stropharia semiglobata"
       ]
     },
@@ -5615,16 +5615,16 @@
     },
     {
       "type": "species",
-      "value": "Stropharia melanosperma",
+      "value": "Stropharia rugosoannulata",
       "matchSpecies": [
-        "Stropharia melanosperma"
+        "Stropharia rugosoannulata"
       ]
     },
     {
       "type": "species",
-      "value": "Stropharia rugosoannulata",
+      "value": "Stropharia rugosoannulata f. lutea",
       "matchSpecies": [
-        "Stropharia rugosoannulata"
+        "Stropharia rugosoannulata f. lutea"
       ]
     },
     {
@@ -6329,8 +6329,8 @@
         "Singerocybe phaeophthalma",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
-        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
         "Stropharia semiglobata",
         "Tephrocybe rancida",
         "Tricholoma aurantium",
@@ -6813,8 +6813,8 @@
         "Strobilomyces strobilaceus",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
-        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
         "Stropharia semiglobata",
         "Suillellus luridus",
         "Suillellus rubrosanguineus",
@@ -7454,8 +7454,8 @@
         "Strobilomyces strobilaceus",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
-        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
         "Stropharia semiglobata",
         "Suillellus luridus",
         "Suillellus rubrosanguineus",
@@ -8343,8 +8343,8 @@
         "Strobilomyces strobilaceus",
         "Strobilurus esculentus",
         "Stropharia aeruginosa",
-        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
         "Stropharia semiglobata",
         "Suillellus luridus",
         "Suillellus rubrosanguineus",
@@ -9372,8 +9372,8 @@
         "Protostropharia semiglobata",
         "Pyrrhulomyces astragalinus",
         "Stropharia aeruginosa",
-        "Stropharia melanosperma",
         "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
         "Stropharia semiglobata"
       ]
     },
