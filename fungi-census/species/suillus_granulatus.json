@@ -14,6 +14,14 @@
       "determiner": "Pierino Bigoni"
     },
     {
+      "collectionDate": "2026-05-08",
+      "collector": "Erica Pozzi",
+      "locality": "Olera",
+      "localityCoordinates": "45.756719, 9.690442",
+      "habitat": "Pino",
+      "determiner": "Erica Pozzi"
+    },
+    {
       "collectionDate": "2025-09-17",
       "collector": "Pierino Bigoni",
       "locality": "Zenier, Rovetta",
@@ -40,7 +48,7 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "05-09",
+    "raccoltaPiuPrecoce": "05-08",
     "raccoltaPiuTarda": "09-17",
     "campioniPerMese": [
       {
@@ -56,7 +64,7 @@
         "apr": 0
       },
       {
-        "mag": 1
+        "mag": 2
       },
       {
         "giu": 0
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-11T00:12:02.902Z",
+  "generatedAt": "2026-05-12T00:12:13.381Z",
   "totalSpecies": 447,
-  "totalSamples": 1028,
+  "totalSamples": 1032,
   "species": [
     {
       "genus": "Abortiporus",
@@ -3031,17 +3031,17 @@
     },
     {
       "genus": "Stropharia",
-      "species": "melanosperma",
-      "fullName": "Stropharia melanosperma",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
-      "authority": "(Bull.) Gillet 1878"
-    },
-    {
-      "genus": "Stropharia",
       "species": "rugosoannulata",
       "fullName": "Stropharia rugosoannulata",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "Farl. ex Murrill 1922"
+    },
+    {
+      "genus": "Stropharia",
+      "species": "rugosoannulata f. lutea",
+      "fullName": "Stropharia rugosoannulata f. lutea",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
+      "authority": "Hongo 1952"
     },
     {
       "genus": "Stropharia",

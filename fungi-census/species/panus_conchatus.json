@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-08",
+      "collector": "Erica Pozzi",
+      "locality": "Colzate",
+      "localityCoordinates": "45.829614, 9.852092",
+      "habitat": "Ceppaia di latifoglie",
+      "determiner": "Erica Pozzi"
+    },
+    {
       "collectionDate": "2026-05-05",
       "collector": "Fabio Locatelli",
       "locality": "Cuminí, Clusone",
@@ -56,7 +64,7 @@
         "apr": 0
       },
       {
-        "mag": 1
+        "mag": 2
       },
       {
         "giu": 1
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
