@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-12T00:12:13.449Z",
+  "generatedAt": "2026-05-13T00:11:57.459Z",
   "totalSpecies": 447,
-  "totalSamples": 1099,
+  "totalSamples": 1100,
   "species": [
     {
       "genus": "Flammulina",
@@ -2053,13 +2053,13 @@
       "fullName": "Stropharia rugosoannulata f. lutea",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "Hongo 1952",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         0,
         0,
         0,
         0,
-        1,
+        2,
         0,
         0,
         0,
@@ -2079,15 +2079,15 @@
         "determiner": "Luca Baldassarri",
         "_tipo": "raccolto"
       },
-      "latestDate": "05-10",
-      "latestDayOfYear": 130,
+      "latestDate": "05-12",
+      "latestDayOfYear": 132,
       "latestSample": {
-        "collectionDate": "2026-05-10",
-        "collector": "Luca Baldassarri",
-        "locality": "Ardesio",
-        "localityCoordinates": "45.937512, 9.931158",
-        "habitat": "Pacciame di rovi ed erba",
-        "determiner": "Luca Baldassarri",
+        "collectionDate": "2026-05-12",
+        "collector": "Pierino Bigoni",
+        "locality": "Contrada Bricconi, Oltressenda Alta",
+        "localityCoordinates": "45.920360, 9.948130",
+        "habitat": "Orto",
+        "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
     },
