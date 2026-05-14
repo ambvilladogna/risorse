@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-13",
+      "collector": "Pietro Centenari",
+      "locality": "sentiero della Valle del Papa, Bratto, Dorga, Castione della Presolana, Bergamo",
+      "localityCoordinates": "45.927651, 10.047842",
+      "habitat": "Su pigna di abete rosso",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
       "locality": "Piazzolo, Ardesio",
@@ -25,7 +33,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "02-08",
-    "raccoltaPiuTarda": "03-02",
+    "raccoltaPiuTarda": "05-13",
     "campioniPerMese": [
       {
         "gen": 0
@@ -40,7 +48,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }

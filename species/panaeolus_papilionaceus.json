@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-13",
+      "collector": "Pietro Centenari",
+      "locality": "Via del Latte, Dorga, Castione della Presolana, Bergamo",
+      "localityCoordinates": "45.929729, 10.051523",
+      "habitat": "Pascolo",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-05-08",
       "collector": "Pierino Bigoni",
       "locality": "Spiazzi, Gromo",
@@ -48,7 +56,7 @@
         "apr": 0
       },
       {
-        "mag": 1
+        "mag": 2
       },
       {
         "giu": 2
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
