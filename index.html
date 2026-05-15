@@ -9,44 +9,28 @@ title: Ricerca
         <h1 id="sub-title" class="sub-title hidden"></h1>
         <p id="total-count" class="total-count">Caricamento in corso...</p>
 
-        <div class="search-section">
-            <div class="tabs">
-                <button class="tab-button active" data-tab="genus-species">Cerca per Genere/Specie</button>
-                <button class="tab-button" data-tab="free-search">Ricerca Libera</button>
+        <!-- ── Filter ──────────────────────────────────────────────────── -->
+        <div class="filter-section">
+            <div class="filter-wrap">
+                <input class="filter-input" id="filter-input" type="text"
+                    placeholder="Cerca per specie, genere, famiglia, ordine…" autocomplete="off" role="combobox"
+                    aria-expanded="false" aria-controls="filter-dropdown" aria-autocomplete="list" />
+                <button class="filter-clear" id="filter-clear" aria-label="Cancella ricerca">✕</button>
+                <div class="filter-dropdown" id="filter-dropdown" role="listbox"></div>
             </div>
 
-            <div class="tab-content">
-                <div id="genus-species-pane" class="tab-pane active">
-                    <div class="search-form">
-                        <div class="form-group">
-                            <label for="genus-select">Genere:</label>
-                            <select id="genus-select">
-                                <option value="">Tutti i generi</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="species-select">Specie:</label>
-                            <select id="species-select">
-                                <option value="">Tutte le specie</option>
-                            </select>
-                        </div>
-                        <button class="btn" id="reset-btn">Reset</button>
-                    </div>
+            <!-- Active filter pill -->
+            <div class="active-filter" id="active-filter" aria-live="polite">
+                <div class="active-filter__pill">
+                    <span id="active-filter-text"></span>
+                    <button class="active-filter__remove" id="active-filter-remove"
+                        aria-label="Rimuovi filtro">✕</button>
                 </div>
-
-                <div id="free-search-pane" class="tab-pane">
-                    <div class="free-search-form">
-                        <div class="form-group autocomplete-container">
-                            <label for="free-search">Cerca:</label>
-                            <input type="text" id="free-search" placeholder="Cerca genere, specie o tassonomia...">
-                            <div id="autocomplete-list" class="autocomplete-list"></div>
-                        </div>
-                        <button class="btn" id="free-reset-btn">Reset</button>
-                    </div>
-                </div>
+                <!-- <span class="active-filter__count" id="active-filter-count"></span>  -->
             </div>
         </div>
 
+        <!-- ── Results ─────────────────────────────────────────────────── -->
         <div class="results-section">
             <div class="results-header">
                 <span id="results-count">Risultati: 0</span>
