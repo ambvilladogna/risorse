@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T00:12:02.807Z",
+  "generatedAt": "2026-05-15T00:11:49.291Z",
   "totalSpecies": 447,
   "totalSamples": 1104,
   "species": [
@@ -391,10 +391,10 @@
       "latestDayOfYear": 133,
       "latestSample": {
         "collectionDate": "2026-05-13",
-        "collector": "Pietro Centenari",
+        "collector": "Pierino Bigoni",
         "locality": "sentiero della Valle del Papa, Bratto, Dorga, Castione della Presolana, Bergamo",
         "localityCoordinates": "45.927651, 10.047842",
-        "habitat": "Su pigna di abete rosso",
+        "habitat": "Su tronco marcescente di abete rosso",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
