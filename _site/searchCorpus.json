@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T00:12:13.582Z",
+  "generatedAt": "2026-05-15T14:33:58.241Z",
   "corpus": [
     {
       "type": "genus",
@@ -6027,7 +6027,7 @@
       ]
     },
     {
-      "type": "taxon",
+      "type": "famiglia",
       "value": "Agaricaceae",
       "matchSpecies": [
         "Agaricus bitorquis",
@@ -6058,7 +6058,1032 @@
       ]
     },
     {
-      "type": "taxon",
+      "type": "famiglia",
+      "value": "Agrocybaceae",
+      "matchSpecies": [
+        "Agrocybe praecox"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Albatrellaceae",
+      "matchSpecies": [
+        "Albatrellopsis confluens",
+        "Albatrellus confluens",
+        "Albatrellus ovinus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Amanitaceae",
+      "matchSpecies": [
+        "Amanita argentea",
+        "Amanita brunneofuliginea",
+        "Amanita citrina",
+        "Amanita excelsa",
+        "Amanita excelsa var. excelsa",
+        "Amanita excelsa var. spissa",
+        "Amanita franchetii",
+        "Amanita fulva",
+        "Amanita gemmata",
+        "Amanita junquillea",
+        "Amanita magnivolvata",
+        "Amanita muscaria",
+        "Amanita ochraceomaculata",
+        "Amanita pantherina",
+        "Amanita phalloides",
+        "Amanita rubescens",
+        "Amanita rubescens f. annulosulphurea",
+        "Amanita spissa",
+        "Limacella delicata",
+        "Limacella glioderma"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Auriculariaceae",
+      "matchSpecies": [
+        "Auricularia auricula-judae",
+        "Auricularia mesenterica",
+        "Exidia glandulosa",
+        "Hirneola auricula-judae"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Auriscalpiaceae",
+      "matchSpecies": [
+        "Auriscalpium vulgare",
+        "Lentinellus cochleatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Bankeraceae",
+      "matchSpecies": [
+        "Hydnellum peckii",
+        "Hydnellum scrobiculatum",
+        "Sarcodon imbricatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Biannulariaceae",
+      "matchSpecies": [
+        "Catathelasma imperiale"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Bolbitiaceae",
+      "matchSpecies": [
+        "Bolbitius titubans",
+        "Bolbitius vitellinus",
+        "Conocybe tenera"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Boletaceae",
+      "matchSpecies": [
+        "Boletus aestivalis",
+        "Boletus calopus",
+        "Boletus edulis",
+        "Boletus erythropus",
+        "Boletus luridus",
+        "Boletus pulverulentus",
+        "Boletus radicans",
+        "Boletus reticulatus",
+        "Boletus rubrosanguineus",
+        "Caloboletus calopus",
+        "Caloboletus radicans",
+        "Chalciporus piperatus",
+        "Cyanoboletus pulverulentus",
+        "Imleria badia",
+        "Leccinellum pseudoscabrum",
+        "Leccinum aurantiacum",
+        "Leccinum carpini",
+        "Leccinum scabrum",
+        "Neoboletus erythropus",
+        "Phylloporus rhodoxanthus",
+        "Porphyrellus porphyrosporus",
+        "Rheubarbariboletus armeniacus",
+        "Rubroboletus satanas",
+        "Strobilomyces strobilaceus",
+        "Suillellus luridus",
+        "Suillellus rubrosanguineus",
+        "Tylopilus felleus",
+        "Xerocomellus chrysenteron",
+        "Xerocomellus pruinatus",
+        "Xerocomus armeniacus",
+        "Xerocomus badius",
+        "Xerocomus chrysenteron",
+        "Xerocomus ferrugineus",
+        "Xerocomus pruinatus",
+        "Xerocomus subtomentosus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Bondarzewiaceae",
+      "matchSpecies": [
+        "Heterobasidion parviporum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Caloscyphaceae",
+      "matchSpecies": [
+        "Caloscypha fulgens"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Cenangiaceae",
+      "matchSpecies": [
+        "Encoelia furfuracea"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Chlorociboriaceae",
+      "matchSpecies": [
+        "Chlorociboria aeruginascens"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Clavariaceae",
+      "matchSpecies": [
+        "Clavulinopsis corniculata"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Clavariadelphaceae",
+      "matchSpecies": [
+        "Clavariadelphus pistillaris",
+        "Clavariadelphus truncatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Clitocybaceae",
+      "matchSpecies": [
+        "Clitocybe cerussata",
+        "Clitocybe nebularis",
+        "Clitocybe subspadicea",
+        "Collybia cirrhata",
+        "Collybia irina",
+        "Collybia nuda",
+        "Collybia phyllophila",
+        "Collybia sordida",
+        "Lepista irina",
+        "Lepista nuda",
+        "Lepista sordida"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Coleosporiaceae",
+      "matchSpecies": [
+        "Chrysomyxa rhododendri"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Cortinariaceae",
+      "matchSpecies": [
+        "Aureonarius callisteus",
+        "Aureonarius limonius",
+        "Calonarius atrovirens",
+        "Calonarius elegantior",
+        "Calonarius meinhardii",
+        "Calonarius odorifer",
+        "Calonarius splendens",
+        "Cortinarius atrovirens",
+        "Cortinarius bolaris",
+        "Cortinarius brunneus",
+        "Cortinarius bulliardii",
+        "Cortinarius callisteus",
+        "Cortinarius caperatus",
+        "Cortinarius collinitus",
+        "Cortinarius cumatilis",
+        "Cortinarius elegantior",
+        "Cortinarius infractus",
+        "Cortinarius integerrimus",
+        "Cortinarius limonius",
+        "Cortinarius malicorius",
+        "Cortinarius odorifer",
+        "Cortinarius orellanoides var. speciosissimus",
+        "Cortinarius orellanus",
+        "Cortinarius percomis",
+        "Cortinarius praestans",
+        "Cortinarius renidens",
+        "Cortinarius rubellus",
+        "Cortinarius salor",
+        "Cortinarius sanguineus",
+        "Cortinarius splendens",
+        "Cortinarius splendens var. meinhardii",
+        "Cortinarius subtortus",
+        "Cortinarius subvalidus",
+        "Cortinarius traganus",
+        "Cortinarius variecolor",
+        "Cortinarius venetus",
+        "Cortinarius violaceus",
+        "Hygronarius renidens",
+        "Phlegmacium percome"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Cudoniaceae",
+      "matchSpecies": [
+        "Spathularia flavida"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Dacrymycetaceae",
+      "matchSpecies": [
+        "Calocera viscosa",
+        "Dacrymyces chrysospermus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Discinaceae",
+      "matchSpecies": [
+        "Discina ancilis",
+        "Discina perlata"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Elaphomycetaceae",
+      "matchSpecies": [
+        "Elaphomyces granulatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Entolomataceae",
+      "matchSpecies": [
+        "Clitopilus prunulus",
+        "Entoloma hirtipes",
+        "Entoloma incanum",
+        "Entoloma nidorosum",
+        "Entoloma nitidum",
+        "Entoloma rhodopolium"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Exobasidiaceae",
+      "matchSpecies": [
+        "Exobasidium rhododendri"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Fomitopsidaceae",
+      "matchSpecies": [
+        "Fomitopsis betulina",
+        "Fomitopsis pinicola",
+        "Piptoporus betulinus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Galerinaceae",
+      "matchSpecies": [
+        "Galerina stylifera",
+        "Gymnopilus penetrans"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Galeropsidaceae",
+      "matchSpecies": [
+        "Panaeolus papilionaceus",
+        "Panaeolus sphinctrinus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Geastraceae",
+      "matchSpecies": [
+        "Geastrum fimbriatum",
+        "Geastrum sessile"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Gloeophyllaceae",
+      "matchSpecies": [
+        "Gloeophyllum odoratum",
+        "Gloeophyllum sepiarium"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Gomphaceae",
+      "matchSpecies": [
+        "Gomphus clavatus",
+        "Phaeoclavulina abietina",
+        "Phaeoclavulina myceliosa",
+        "Ramaria botrytis",
+        "Ramaria edwinii",
+        "Ramaria flava",
+        "Ramaria flavescens",
+        "Ramaria formosa f. neoformosa",
+        "Ramaria largentii",
+        "Ramaria luteoaurantiaca",
+        "Ramaria pallida",
+        "Ramaria rufescens",
+        "Ramaria sanguinea",
+        "Ramaria stricta"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Gomphidiaceae",
+      "matchSpecies": [
+        "Chroogomphus rutilus",
+        "Gomphidius glutinosus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Helotiaceae",
+      "matchSpecies": [
+        "Hymenoscyphus scutula"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Helvellaceae",
+      "matchSpecies": [
+        "Helvella crispa",
+        "Helvella elastica",
+        "Helvella monachella",
+        "Helvella silvicola",
+        "Wynnella silvicola"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hemipholiotaceae",
+      "matchSpecies": [
+        "Agrocybe aegerita",
+        "Cyclocybe cylindracea"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hydnaceae",
+      "matchSpecies": [
+        "Cantharellus amethysteus",
+        "Cantharellus cibarius",
+        "Cantharellus friesii",
+        "Cantharellus melanoxeros",
+        "Cantharellus pallens",
+        "Cantharellus romagnesianus",
+        "Cantharellus tubaeformis",
+        "Clavulina cinerea",
+        "Clavulina coralloides",
+        "Clavulina cristata",
+        "Clavulina rugosa",
+        "Craterellus cinereus",
+        "Craterellus cornucopioides",
+        "Craterellus lutescens",
+        "Craterellus melanoxeros",
+        "Craterellus tubaeformis",
+        "Hydnum repandum",
+        "Hydnum rufescens"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hydnangiaceae",
+      "matchSpecies": [
+        "Laccaria affinis",
+        "Laccaria amethystina",
+        "Laccaria bicolor",
+        "Laccaria laccata"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hygrocybaceae",
+      "matchSpecies": [
+        "Hygrocybe conica",
+        "Hygrocybe punicea"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hygrophoraceae",
+      "matchSpecies": [
+        "Ampulloclitocybe clavipes",
+        "Clitocybe clavipes",
+        "Hygrocybe calyptriformis",
+        "Hygrophorus agathosmus",
+        "Hygrophorus atramentosus",
+        "Hygrophorus capreolarius",
+        "Hygrophorus discoideus",
+        "Hygrophorus eburneus",
+        "Hygrophorus erubescens",
+        "Hygrophorus lucorum",
+        "Hygrophorus marzuolus",
+        "Hygrophorus pudorinus",
+        "Porpolomopsis calyptriformis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hymenochaetaceae",
+      "matchSpecies": [
+        "Hymenochaete cruenta",
+        "Phellinus ribis",
+        "Phylloporia ribis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Hypoxylaceae",
+      "matchSpecies": [
+        "Hypoxylon fragiforme"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Inocybaceae",
+      "matchSpecies": [
+        "Inocybe calamistrata",
+        "Inocybe cervicolor",
+        "Inocybe fastigiata",
+        "Inocybe fibrosa",
+        "Inocybe geophylla",
+        "Inocybe pyriodora",
+        "Inocybe rimosa",
+        "Inosperma calamistratum",
+        "Inosperma cervicolor",
+        "Pseudosperma rimosum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Ischnodermataceae",
+      "matchSpecies": [
+        "Ischnoderma benzoinum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Kuehneromycetaceae",
+      "matchSpecies": [
+        "Kuehneromyces mutabilis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Laetiporaceae",
+      "matchSpecies": [
+        "Phaeolus schweinitzii"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Leotiaceae",
+      "matchSpecies": [
+        "Leotia lubrica"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Lycoperdaceae",
+      "matchSpecies": [
+        "Apioperdon pyriforme",
+        "Bovista plumbea",
+        "Bovistella utriformis",
+        "Calvatia gigantea",
+        "Calvatia utriformis",
+        "Lycoperdon echinatum",
+        "Lycoperdon perlatum",
+        "Lycoperdon pratense",
+        "Lycoperdon pyriforme",
+        "Lycoperdon umbrinum",
+        "Utraria umbrina",
+        "Vascellum pratense"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Lyophyllaceae",
+      "matchSpecies": [
+        "Calocybe gambosa",
+        "Lyophyllum decastes",
+        "Tephrocybe rancida"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Marasmiaceae",
+      "matchSpecies": [
+        "Marasmius oreades",
+        "Marasmius wynneae"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Melanoleucaceae",
+      "matchSpecies": [
+        "Melanoleuca brevipes",
+        "Melanoleuca graminicola",
+        "Melanoleuca melaleuca",
+        "Melanoleuca subalpina"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Morchellaceae",
+      "matchSpecies": [
+        "Morchella esculenta"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Mycenaceae",
+      "matchSpecies": [
+        "Mycena epipterygia",
+        "Mycena galericulata",
+        "Mycena pearsoniana",
+        "Mycena pelianthina",
+        "Mycena pura",
+        "Mycena renati",
+        "Mycena rosea",
+        "Mycena strobilicola",
+        "Mycena zephirus",
+        "Panellus stipticus",
+        "Prunulus pearsonianus",
+        "Prunulus pelianthinus",
+        "Prunulus roseus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Omphalotaceae",
+      "matchSpecies": [
+        "Collybia butyracea",
+        "Collybia confluens",
+        "Collybia distorta",
+        "Collybia kuehneriana",
+        "Collybia maculata",
+        "Collybia peronata",
+        "Collybiopsis confluens",
+        "Collybiopsis peronata",
+        "Gymnopus erythropus",
+        "Gymnopus hariolorum",
+        "Gymnopus ocior",
+        "Marasmius scorodonius",
+        "Micromphale perforans",
+        "Mycetinis scorodonius",
+        "Paragymnopus perforans",
+        "Rhodocollybia butyracea",
+        "Rhodocollybia maculata",
+        "Rhodocollybia prolixa"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Ophiocordycipitaceae",
+      "matchSpecies": [
+        "Cordyceps capitata",
+        "Tolypocladium capitatum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Panaceae",
+      "matchSpecies": [
+        "Panus conchatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Paralepistaceae",
+      "matchSpecies": [
+        "Lepista flaccida",
+        "Lepista inversa",
+        "Paralepista flaccida"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Paxillaceae",
+      "matchSpecies": [
+        "Paxillus rubicundulus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Pezizellaceae",
+      "matchSpecies": [
+        "Bisporella citrina",
+        "Calycina citrina"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Phallaceae",
+      "matchSpecies": [
+        "Phallus impudicus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Phanerochaetaceae",
+      "matchSpecies": [
+        "Bjerkandera adusta"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Phycomycetaceae",
+      "matchSpecies": [
+        "Spinellus fusiger"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Physalacriaceae",
+      "matchSpecies": [
+        "Armillaria mellea",
+        "Armillaria ostoyae",
+        "Flammulina fennae",
+        "Flammulina velutipes",
+        "Flammulina velutipes var. lactea",
+        "Hymenopellis radicata",
+        "Mucidula mucida",
+        "Oudemansiella radicata",
+        "Strobilurus esculentus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Physaridae",
+      "matchSpecies": [
+        "Badhamia melanospora",
+        "Fuligo septica"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Pleurotaceae",
+      "matchSpecies": [
+        "Pleurotus dryinus",
+        "Pleurotus ostreatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Pluteaceae",
+      "matchSpecies": [
+        "Pluteus atromarginatus",
+        "Pluteus cervinus",
+        "Pluteus exiguus",
+        "Pluteus petasatus",
+        "Pluteus romellii",
+        "Pluteus roseipes"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Podoscyphaceae",
+      "matchSpecies": [
+        "Abortiporus biennis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Polyporaceae",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Cyanosporus caesius",
+        "Daedaleopsis confragosa",
+        "Daedaleopsis tricolor",
+        "Fomes fomentarius",
+        "Ganoderma adspersum",
+        "Ganoderma lucidum",
+        "Ganoderma resinaceum",
+        "Lentinus tigrinus",
+        "Neofavolus alveolaris",
+        "Perenniporia fraxinea",
+        "Polyporus squamosus",
+        "Postia caesia",
+        "Pycnoporus cinnabarinus",
+        "Trametes cinnabarina",
+        "Trametes versicolor",
+        "Vanderbylia fraxinea"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Psathyrellaceae",
+      "matchSpecies": [
+        "Candolleomyces candolleanus",
+        "Coprinellus disseminatus",
+        "Coprinellus domesticus",
+        "Coprinellus micaceus",
+        "Coprinopsis atramentaria",
+        "Coprinopsis lagopus",
+        "Coprinus atramentarius",
+        "Coprinus disseminatus",
+        "Coprinus lagopus",
+        "Coprinus micaceus",
+        "Psathyrella candolleana",
+        "Psathyrella corrugis",
+        "Psathyrella piluliformis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Pseudoclitocybaceae",
+      "matchSpecies": [
+        "Clitocybe alexandri",
+        "Clitopaxillus alexandri"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Pyronemataceae",
+      "matchSpecies": [
+        "Geopora sumneriana",
+        "Scutellinia superba",
+        "Sepultaria sumneriana"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Reticulariidae",
+      "matchSpecies": [
+        "Lycogala epidendrum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Rhizopogonaceae",
+      "matchSpecies": [
+        "Rhizopogon roseolus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Rickenellaceae",
+      "matchSpecies": [
+        "Rickenella fibula"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Russulaceae",
+      "matchSpecies": [
+        "Lactarius badiosanguineus",
+        "Lactarius blennius",
+        "Lactarius deliciosus",
+        "Lactarius deterrimus",
+        "Lactarius glaucescens",
+        "Lactarius intermedius",
+        "Lactarius lignyotus",
+        "Lactarius pallidus",
+        "Lactarius picinus",
+        "Lactarius piperatus",
+        "Lactarius porniniae",
+        "Lactarius rubrocinctus",
+        "Lactarius rufus",
+        "Lactarius salmonicolor",
+        "Lactarius scrobiculatus",
+        "Lactarius subdulcis",
+        "Lactarius torminosus",
+        "Lactarius turpis",
+        "Lactarius violascens",
+        "Lactarius volemus",
+        "Lactifluus glaucescens",
+        "Lactifluus piperatus",
+        "Lactifluus volemus",
+        "Russula adusta",
+        "Russula albonigra",
+        "Russula alutacea",
+        "Russula amara",
+        "Russula amethystina",
+        "Russula aurea",
+        "Russula aurora",
+        "Russula azurea",
+        "Russula badia",
+        "Russula caerulea",
+        "Russula camarophylla",
+        "Russula chloroides",
+        "Russula claroflava",
+        "Russula cyanoxantha",
+        "Russula cyanoxantha f. peltereaui",
+        "Russula delica",
+        "Russula emetica",
+        "Russula fageticola",
+        "Russula farinipes",
+        "Russula firmula",
+        "Russula foetens",
+        "Russula grata",
+        "Russula grisea",
+        "Russula integra",
+        "Russula laurocerasi",
+        "Russula lepida",
+        "Russula lutea",
+        "Russula nana",
+        "Russula nauseosa",
+        "Russula nigricans",
+        "Russula nobilis",
+        "Russula ochroleuca",
+        "Russula olivacea",
+        "Russula paludosa",
+        "Russula parazurea",
+        "Russula postiana",
+        "Russula queletii",
+        "Russula recondita",
+        "Russula risigallina",
+        "Russula rosea",
+        "Russula rubroalba",
+        "Russula solaris",
+        "Russula vesca",
+        "Russula violeipes",
+        "Russula xerampelina"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Rutstroemiaceae",
+      "matchSpecies": [
+        "Lanzia echinophila",
+        "Rutstroemia echinophila"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Schizophyllaceae",
+      "matchSpecies": [
+        "Schizophyllum commune"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Sclerodermataceae",
+      "matchSpecies": [
+        "Scleroderma citrinum",
+        "Scleroderma verrucosum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Sclerotiniaceae",
+      "matchSpecies": [
+        "Ciboria caucus",
+        "Dumontinia tuberosa"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Squamanitaceae",
+      "matchSpecies": [
+        "Cystoderma amianthinum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Stereaceae",
+      "matchSpecies": [
+        "Stereum hirsutum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Strophariaceae",
+      "matchSpecies": [
+        "Hebeloma crustuliniforme",
+        "Hebeloma sinapizans",
+        "Hypholoma capnoides",
+        "Hypholoma fasciculare",
+        "Hypholoma lateritium",
+        "Hypholoma sublateritium",
+        "Leratiomyces ceres",
+        "Pholiota astragalina",
+        "Pholiota lenta",
+        "Pholiota populnea",
+        "Pholiota squarrosa",
+        "Protostropharia semiglobata",
+        "Pyrrhulomyces astragalinus",
+        "Stropharia aeruginosa",
+        "Stropharia rugosoannulata",
+        "Stropharia rugosoannulata f. lutea",
+        "Stropharia semiglobata"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Suillaceae",
+      "matchSpecies": [
+        "Boletinus cavipes",
+        "Suillus granulatus",
+        "Suillus grevillei",
+        "Suillus luteus",
+        "Suillus placidus",
+        "Suillus plorans",
+        "Suillus variegatus"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Tapinellaceae",
+      "matchSpecies": [
+        "Paxillus atrotomentosus",
+        "Tapinella atrotomentosa"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Tarzettaceae",
+      "matchSpecies": [
+        "Tarzetta cupularis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Thelephoraceae",
+      "matchSpecies": [
+        "Thelephora palmata"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Tremellaceae",
+      "matchSpecies": [
+        "Tremella mesenterica"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Trichiaceae",
+      "matchSpecies": [
+        "Hemitrichia clavata",
+        "Hemitrichia serpula",
+        "Trichia scabra"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Tricholomataceae",
+      "matchSpecies": [
+        "Tricholoma aurantium",
+        "Tricholoma bufonium",
+        "Tricholoma inamoenum",
+        "Tricholoma myomyces",
+        "Tricholoma orirubens",
+        "Tricholoma pardinum",
+        "Tricholoma pessundatum",
+        "Tricholoma portentosum",
+        "Tricholoma saponaceum",
+        "Tricholoma saponaceum var. squamosum",
+        "Tricholoma sejunctum",
+        "Tricholoma sulphureum",
+        "Tricholoma terreum",
+        "Tricholoma ustaloides",
+        "Tricholoma vaccinum",
+        "Tricholoma virgatum"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Tubariaceae",
+      "matchSpecies": [
+        "Tubaria furfuracea",
+        "Tubaria hiemalis"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Volvariellaceae",
+      "matchSpecies": [
+        "Volvariella murinella"
+      ]
+    },
+    {
+      "type": "famiglia",
+      "value": "Xylariaceae",
+      "matchSpecies": [
+        "Xylaria polymorpha"
+      ]
+    },
+    {
+      "type": "ordine",
       "value": "Agaricales",
       "matchSpecies": [
         "Agaricus bitorquis",
@@ -6359,7 +7384,409 @@
       ]
     },
     {
-      "type": "taxon",
+      "type": "ordine",
+      "value": "Auriculariales",
+      "matchSpecies": [
+        "Auricularia auricula-judae",
+        "Auricularia mesenterica",
+        "Exidia glandulosa",
+        "Guepinia helvelloides",
+        "Hirneola auricula-judae",
+        "Pseudohydnum gelatinosum",
+        "Pseudohydnum gelatinosum f. album",
+        "Tremiscus helvelloides"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Boletales",
+      "matchSpecies": [
+        "Boletinus cavipes",
+        "Boletus aestivalis",
+        "Boletus calopus",
+        "Boletus edulis",
+        "Boletus erythropus",
+        "Boletus luridus",
+        "Boletus pulverulentus",
+        "Boletus radicans",
+        "Boletus reticulatus",
+        "Boletus rubrosanguineus",
+        "Caloboletus calopus",
+        "Caloboletus radicans",
+        "Chalciporus piperatus",
+        "Chroogomphus rutilus",
+        "Cyanoboletus pulverulentus",
+        "Gomphidius glutinosus",
+        "Imleria badia",
+        "Leccinellum pseudoscabrum",
+        "Leccinum aurantiacum",
+        "Leccinum carpini",
+        "Leccinum scabrum",
+        "Neoboletus erythropus",
+        "Paxillus atrotomentosus",
+        "Paxillus rubicundulus",
+        "Phylloporus rhodoxanthus",
+        "Porphyrellus porphyrosporus",
+        "Rheubarbariboletus armeniacus",
+        "Rhizopogon roseolus",
+        "Rubroboletus satanas",
+        "Scleroderma citrinum",
+        "Scleroderma verrucosum",
+        "Strobilomyces strobilaceus",
+        "Suillellus luridus",
+        "Suillellus rubrosanguineus",
+        "Suillus granulatus",
+        "Suillus grevillei",
+        "Suillus luteus",
+        "Suillus placidus",
+        "Suillus plorans",
+        "Suillus variegatus",
+        "Tapinella atrotomentosa",
+        "Tylopilus felleus",
+        "Xerocomellus chrysenteron",
+        "Xerocomellus pruinatus",
+        "Xerocomus armeniacus",
+        "Xerocomus badius",
+        "Xerocomus chrysenteron",
+        "Xerocomus ferrugineus",
+        "Xerocomus pruinatus",
+        "Xerocomus subtomentosus"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Cantharellales",
+      "matchSpecies": [
+        "Cantharellus amethysteus",
+        "Cantharellus cibarius",
+        "Cantharellus friesii",
+        "Cantharellus melanoxeros",
+        "Cantharellus pallens",
+        "Cantharellus romagnesianus",
+        "Cantharellus tubaeformis",
+        "Clavulina cinerea",
+        "Clavulina coralloides",
+        "Clavulina cristata",
+        "Clavulina rugosa",
+        "Craterellus cinereus",
+        "Craterellus cornucopioides",
+        "Craterellus lutescens",
+        "Craterellus melanoxeros",
+        "Craterellus tubaeformis",
+        "Hydnum repandum",
+        "Hydnum rufescens"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Dacrymycetales",
+      "matchSpecies": [
+        "Calocera viscosa",
+        "Dacrymyces chrysospermus"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Eurotiales",
+      "matchSpecies": [
+        "Elaphomyces granulatus"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Exobasidiales",
+      "matchSpecies": [
+        "Exobasidium rhododendri"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Geastrales",
+      "matchSpecies": [
+        "Geastrum fimbriatum",
+        "Geastrum sessile"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Gloeophyllales",
+      "matchSpecies": [
+        "Gloeophyllum odoratum",
+        "Gloeophyllum sepiarium"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Gomphales",
+      "matchSpecies": [
+        "Clavariadelphus pistillaris",
+        "Clavariadelphus truncatus",
+        "Gomphus clavatus",
+        "Phaeoclavulina abietina",
+        "Phaeoclavulina myceliosa",
+        "Ramaria botrytis",
+        "Ramaria edwinii",
+        "Ramaria flava",
+        "Ramaria flavescens",
+        "Ramaria formosa f. neoformosa",
+        "Ramaria largentii",
+        "Ramaria luteoaurantiaca",
+        "Ramaria pallida",
+        "Ramaria rufescens",
+        "Ramaria sanguinea",
+        "Ramaria stricta"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Helotiales",
+      "matchSpecies": [
+        "Bisporella citrina",
+        "Calycina citrina",
+        "Chlorociboria aeruginascens",
+        "Ciboria caucus",
+        "Dumontinia tuberosa",
+        "Encoelia furfuracea",
+        "Hymenoscyphus scutula",
+        "Lanzia echinophila",
+        "Rutstroemia echinophila"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Hymenochaetales",
+      "matchSpecies": [
+        "Hymenochaete cruenta",
+        "Phellinus ribis",
+        "Phylloporia ribis",
+        "Rickenella fibula"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Hypocreales",
+      "matchSpecies": [
+        "Cordyceps capitata",
+        "Tolypocladium capitatum"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Leotiales",
+      "matchSpecies": [
+        "Leotia lubrica"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Liceida",
+      "matchSpecies": [
+        "Lycogala epidendrum"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Mucorales",
+      "matchSpecies": [
+        "Spinellus fusiger"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Pezizales",
+      "matchSpecies": [
+        "Caloscypha fulgens",
+        "Discina ancilis",
+        "Discina perlata",
+        "Geopora sumneriana",
+        "Helvella crispa",
+        "Helvella elastica",
+        "Helvella monachella",
+        "Helvella silvicola",
+        "Morchella esculenta",
+        "Scutellinia superba",
+        "Sepultaria sumneriana",
+        "Wynnella silvicola"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Phallales",
+      "matchSpecies": [
+        "Phallus impudicus"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Physarida",
+      "matchSpecies": [
+        "Badhamia melanospora",
+        "Fuligo septica"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Polyporales",
+      "matchSpecies": [
+        "Abortiporus biennis",
+        "Bjerkandera adusta",
+        "Cerioporus squamosus",
+        "Climacocystis borealis",
+        "Cyanosporus caesius",
+        "Daedaleopsis confragosa",
+        "Daedaleopsis tricolor",
+        "Fomes fomentarius",
+        "Fomitopsis betulina",
+        "Fomitopsis pinicola",
+        "Ganoderma adspersum",
+        "Ganoderma lucidum",
+        "Ganoderma resinaceum",
+        "Ischnoderma benzoinum",
+        "Lentinus tigrinus",
+        "Neofavolus alveolaris",
+        "Panus conchatus",
+        "Perenniporia fraxinea",
+        "Phaeolus schweinitzii",
+        "Piptoporus betulinus",
+        "Polyporus squamosus",
+        "Postia caesia",
+        "Pycnoporus cinnabarinus",
+        "Trametes cinnabarina",
+        "Trametes versicolor",
+        "Vanderbylia fraxinea"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Pucciniales",
+      "matchSpecies": [
+        "Chrysomyxa rhododendri"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Rhytismatales",
+      "matchSpecies": [
+        "Spathularia flavida"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Russulales",
+      "matchSpecies": [
+        "Albatrellopsis confluens",
+        "Albatrellus confluens",
+        "Albatrellus ovinus",
+        "Auriscalpium vulgare",
+        "Heterobasidion parviporum",
+        "Lactarius badiosanguineus",
+        "Lactarius blennius",
+        "Lactarius deliciosus",
+        "Lactarius deterrimus",
+        "Lactarius glaucescens",
+        "Lactarius intermedius",
+        "Lactarius lignyotus",
+        "Lactarius pallidus",
+        "Lactarius picinus",
+        "Lactarius piperatus",
+        "Lactarius porniniae",
+        "Lactarius rubrocinctus",
+        "Lactarius rufus",
+        "Lactarius salmonicolor",
+        "Lactarius scrobiculatus",
+        "Lactarius subdulcis",
+        "Lactarius torminosus",
+        "Lactarius turpis",
+        "Lactarius violascens",
+        "Lactarius volemus",
+        "Lactifluus glaucescens",
+        "Lactifluus piperatus",
+        "Lactifluus volemus",
+        "Lentinellus cochleatus",
+        "Russula adusta",
+        "Russula albonigra",
+        "Russula alutacea",
+        "Russula amara",
+        "Russula amethystina",
+        "Russula aurea",
+        "Russula aurora",
+        "Russula azurea",
+        "Russula badia",
+        "Russula caerulea",
+        "Russula camarophylla",
+        "Russula chloroides",
+        "Russula claroflava",
+        "Russula cyanoxantha",
+        "Russula cyanoxantha f. peltereaui",
+        "Russula delica",
+        "Russula emetica",
+        "Russula fageticola",
+        "Russula farinipes",
+        "Russula firmula",
+        "Russula foetens",
+        "Russula grata",
+        "Russula grisea",
+        "Russula integra",
+        "Russula laurocerasi",
+        "Russula lepida",
+        "Russula lutea",
+        "Russula nana",
+        "Russula nauseosa",
+        "Russula nigricans",
+        "Russula nobilis",
+        "Russula ochroleuca",
+        "Russula olivacea",
+        "Russula paludosa",
+        "Russula parazurea",
+        "Russula postiana",
+        "Russula queletii",
+        "Russula recondita",
+        "Russula risigallina",
+        "Russula rosea",
+        "Russula rubroalba",
+        "Russula solaris",
+        "Russula vesca",
+        "Russula violeipes",
+        "Russula xerampelina",
+        "Stereum hirsutum"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Thelephorales",
+      "matchSpecies": [
+        "Hydnellum peckii",
+        "Hydnellum scrobiculatum",
+        "Sarcodon imbricatus",
+        "Thelephora palmata"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Tremellales",
+      "matchSpecies": [
+        "Tremella mesenterica"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Trichiales",
+      "matchSpecies": [
+        "Hemitrichia clavata",
+        "Hemitrichia serpula",
+        "Trichia scabra"
+      ]
+    },
+    {
+      "type": "ordine",
+      "value": "Xylariales",
+      "matchSpecies": [
+        "Hypoxylon fragiforme",
+        "Xylaria polymorpha"
+      ]
+    },
+    {
+      "type": "classe",
       "value": "Agaricomycetes",
       "matchSpecies": [
         "Abortiporus biennis",
@@ -6866,49 +8293,108 @@
       ]
     },
     {
-      "type": "taxon",
-      "value": "Agrocybaceae",
+      "type": "classe",
+      "value": "Dacrymycetes",
       "matchSpecies": [
-        "Agrocybe praecox"
+        "Calocera viscosa",
+        "Dacrymyces chrysospermus"
       ]
     },
     {
-      "type": "taxon",
-      "value": "Albatrellaceae",
+      "type": "classe",
+      "value": "Eurotiomycetes",
       "matchSpecies": [
-        "Albatrellopsis confluens",
-        "Albatrellus confluens",
-        "Albatrellus ovinus"
+        "Elaphomyces granulatus"
       ]
     },
     {
-      "type": "taxon",
-      "value": "Amanitaceae",
+      "type": "classe",
+      "value": "Exobasidiomycetes",
       "matchSpecies": [
-        "Amanita argentea",
-        "Amanita brunneofuliginea",
-        "Amanita citrina",
-        "Amanita excelsa",
-        "Amanita excelsa var. excelsa",
-        "Amanita excelsa var. spissa",
-        "Amanita franchetii",
-        "Amanita fulva",
-        "Amanita gemmata",
-        "Amanita junquillea",
-        "Amanita magnivolvata",
-        "Amanita muscaria",
-        "Amanita ochraceomaculata",
-        "Amanita pantherina",
-        "Amanita phalloides",
-        "Amanita rubescens",
-        "Amanita rubescens f. annulosulphurea",
-        "Amanita spissa",
-        "Limacella delicata",
-        "Limacella glioderma"
+        "Exobasidium rhododendri"
       ]
     },
     {
-      "type": "taxon",
+      "type": "classe",
+      "value": "Leotiomycetes",
+      "matchSpecies": [
+        "Bisporella citrina",
+        "Calycina citrina",
+        "Chlorociboria aeruginascens",
+        "Ciboria caucus",
+        "Dumontinia tuberosa",
+        "Encoelia furfuracea",
+        "Hymenoscyphus scutula",
+        "Lanzia echinophila",
+        "Leotia lubrica",
+        "Rutstroemia echinophila",
+        "Spathularia flavida"
+      ]
+    },
+    {
+      "type": "classe",
+      "value": "Mucoromycetes",
+      "matchSpecies": [
+        "Spinellus fusiger"
+      ]
+    },
+    {
+      "type": "classe",
+      "value": "Myxogastrea",
+      "matchSpecies": [
+        "Badhamia melanospora",
+        "Fuligo septica",
+        "Hemitrichia clavata",
+        "Hemitrichia serpula",
+        "Lycogala epidendrum",
+        "Trichia scabra"
+      ]
+    },
+    {
+      "type": "classe",
+      "value": "Pezizomycetes",
+      "matchSpecies": [
+        "Caloscypha fulgens",
+        "Discina ancilis",
+        "Discina perlata",
+        "Geopora sumneriana",
+        "Helvella crispa",
+        "Helvella elastica",
+        "Helvella monachella",
+        "Helvella silvicola",
+        "Morchella esculenta",
+        "Scutellinia superba",
+        "Sepultaria sumneriana",
+        "Tarzetta cupularis",
+        "Wynnella silvicola"
+      ]
+    },
+    {
+      "type": "classe",
+      "value": "Pucciniomycetes",
+      "matchSpecies": [
+        "Chrysomyxa rhododendri"
+      ]
+    },
+    {
+      "type": "classe",
+      "value": "Sordariomycetes",
+      "matchSpecies": [
+        "Cordyceps capitata",
+        "Hypoxylon fragiforme",
+        "Tolypocladium capitatum",
+        "Xylaria polymorpha"
+      ]
+    },
+    {
+      "type": "classe",
+      "value": "Tremellomycetes",
+      "matchSpecies": [
+        "Tremella mesenterica"
+      ]
+    },
+    {
+      "type": "phylum",
       "value": "Amoebozoa",
       "matchSpecies": [
         "Badhamia melanospora",
@@ -6920,7 +8406,7 @@
       ]
     },
     {
-      "type": "taxon",
+      "type": "phylum",
       "value": "Ascomycota",
       "matchSpecies": [
         "Bisporella citrina",
@@ -6955,48 +8441,7 @@
       ]
     },
     {
-      "type": "taxon",
-      "value": "Auriculariaceae",
-      "matchSpecies": [
-        "Auricularia auricula-judae",
-        "Auricularia mesenterica",
-        "Exidia glandulosa",
-        "Hirneola auricula-judae"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Auriculariales",
-      "matchSpecies": [
-        "Auricularia auricula-judae",
-        "Auricularia mesenterica",
-        "Exidia glandulosa",
-        "Guepinia helvelloides",
-        "Hirneola auricula-judae",
-        "Pseudohydnum gelatinosum",
-        "Pseudohydnum gelatinosum f. album",
-        "Tremiscus helvelloides"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Auriscalpiaceae",
-      "matchSpecies": [
-        "Auriscalpium vulgare",
-        "Lentinellus cochleatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Bankeraceae",
-      "matchSpecies": [
-        "Hydnellum peckii",
-        "Hydnellum scrobiculatum",
-        "Sarcodon imbricatus"
-      ]
-    },
-    {
-      "type": "taxon",
+      "type": "phylum",
       "value": "Basidiomycota",
       "matchSpecies": [
         "Abortiporus biennis",
@@ -7508,358 +8953,14 @@
       ]
     },
     {
-      "type": "taxon",
-      "value": "Biannulariaceae",
+      "type": "phylum",
+      "value": "Mucoromycota",
       "matchSpecies": [
-        "Catathelasma imperiale"
+        "Spinellus fusiger"
       ]
     },
     {
-      "type": "taxon",
-      "value": "Bolbitiaceae",
-      "matchSpecies": [
-        "Bolbitius titubans",
-        "Bolbitius vitellinus",
-        "Conocybe tenera"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Boletaceae",
-      "matchSpecies": [
-        "Boletus aestivalis",
-        "Boletus calopus",
-        "Boletus edulis",
-        "Boletus erythropus",
-        "Boletus luridus",
-        "Boletus pulverulentus",
-        "Boletus radicans",
-        "Boletus reticulatus",
-        "Boletus rubrosanguineus",
-        "Caloboletus calopus",
-        "Caloboletus radicans",
-        "Chalciporus piperatus",
-        "Cyanoboletus pulverulentus",
-        "Imleria badia",
-        "Leccinellum pseudoscabrum",
-        "Leccinum aurantiacum",
-        "Leccinum carpini",
-        "Leccinum scabrum",
-        "Neoboletus erythropus",
-        "Phylloporus rhodoxanthus",
-        "Porphyrellus porphyrosporus",
-        "Rheubarbariboletus armeniacus",
-        "Rubroboletus satanas",
-        "Strobilomyces strobilaceus",
-        "Suillellus luridus",
-        "Suillellus rubrosanguineus",
-        "Tylopilus felleus",
-        "Xerocomellus chrysenteron",
-        "Xerocomellus pruinatus",
-        "Xerocomus armeniacus",
-        "Xerocomus badius",
-        "Xerocomus chrysenteron",
-        "Xerocomus ferrugineus",
-        "Xerocomus pruinatus",
-        "Xerocomus subtomentosus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Boletales",
-      "matchSpecies": [
-        "Boletinus cavipes",
-        "Boletus aestivalis",
-        "Boletus calopus",
-        "Boletus edulis",
-        "Boletus erythropus",
-        "Boletus luridus",
-        "Boletus pulverulentus",
-        "Boletus radicans",
-        "Boletus reticulatus",
-        "Boletus rubrosanguineus",
-        "Caloboletus calopus",
-        "Caloboletus radicans",
-        "Chalciporus piperatus",
-        "Chroogomphus rutilus",
-        "Cyanoboletus pulverulentus",
-        "Gomphidius glutinosus",
-        "Imleria badia",
-        "Leccinellum pseudoscabrum",
-        "Leccinum aurantiacum",
-        "Leccinum carpini",
-        "Leccinum scabrum",
-        "Neoboletus erythropus",
-        "Paxillus atrotomentosus",
-        "Paxillus rubicundulus",
-        "Phylloporus rhodoxanthus",
-        "Porphyrellus porphyrosporus",
-        "Rheubarbariboletus armeniacus",
-        "Rhizopogon roseolus",
-        "Rubroboletus satanas",
-        "Scleroderma citrinum",
-        "Scleroderma verrucosum",
-        "Strobilomyces strobilaceus",
-        "Suillellus luridus",
-        "Suillellus rubrosanguineus",
-        "Suillus granulatus",
-        "Suillus grevillei",
-        "Suillus luteus",
-        "Suillus placidus",
-        "Suillus plorans",
-        "Suillus variegatus",
-        "Tapinella atrotomentosa",
-        "Tylopilus felleus",
-        "Xerocomellus chrysenteron",
-        "Xerocomellus pruinatus",
-        "Xerocomus armeniacus",
-        "Xerocomus badius",
-        "Xerocomus chrysenteron",
-        "Xerocomus ferrugineus",
-        "Xerocomus pruinatus",
-        "Xerocomus subtomentosus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Bondarzewiaceae",
-      "matchSpecies": [
-        "Heterobasidion parviporum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Caloscyphaceae",
-      "matchSpecies": [
-        "Caloscypha fulgens"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Cantharellales",
-      "matchSpecies": [
-        "Cantharellus amethysteus",
-        "Cantharellus cibarius",
-        "Cantharellus friesii",
-        "Cantharellus melanoxeros",
-        "Cantharellus pallens",
-        "Cantharellus romagnesianus",
-        "Cantharellus tubaeformis",
-        "Clavulina cinerea",
-        "Clavulina coralloides",
-        "Clavulina cristata",
-        "Clavulina rugosa",
-        "Craterellus cinereus",
-        "Craterellus cornucopioides",
-        "Craterellus lutescens",
-        "Craterellus melanoxeros",
-        "Craterellus tubaeformis",
-        "Hydnum repandum",
-        "Hydnum rufescens"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Cenangiaceae",
-      "matchSpecies": [
-        "Encoelia furfuracea"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Chlorociboriaceae",
-      "matchSpecies": [
-        "Chlorociboria aeruginascens"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Clavariaceae",
-      "matchSpecies": [
-        "Clavulinopsis corniculata"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Clavariadelphaceae",
-      "matchSpecies": [
-        "Clavariadelphus pistillaris",
-        "Clavariadelphus truncatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Clitocybaceae",
-      "matchSpecies": [
-        "Clitocybe cerussata",
-        "Clitocybe nebularis",
-        "Clitocybe subspadicea",
-        "Collybia cirrhata",
-        "Collybia irina",
-        "Collybia nuda",
-        "Collybia phyllophila",
-        "Collybia sordida",
-        "Lepista irina",
-        "Lepista nuda",
-        "Lepista sordida"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Coleosporiaceae",
-      "matchSpecies": [
-        "Chrysomyxa rhododendri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Cortinariaceae",
-      "matchSpecies": [
-        "Aureonarius callisteus",
-        "Aureonarius limonius",
-        "Calonarius atrovirens",
-        "Calonarius elegantior",
-        "Calonarius meinhardii",
-        "Calonarius odorifer",
-        "Calonarius splendens",
-        "Cortinarius atrovirens",
-        "Cortinarius bolaris",
-        "Cortinarius brunneus",
-        "Cortinarius bulliardii",
-        "Cortinarius callisteus",
-        "Cortinarius caperatus",
-        "Cortinarius collinitus",
-        "Cortinarius cumatilis",
-        "Cortinarius elegantior",
-        "Cortinarius infractus",
-        "Cortinarius integerrimus",
-        "Cortinarius limonius",
-        "Cortinarius malicorius",
-        "Cortinarius odorifer",
-        "Cortinarius orellanoides var. speciosissimus",
-        "Cortinarius orellanus",
-        "Cortinarius percomis",
-        "Cortinarius praestans",
-        "Cortinarius renidens",
-        "Cortinarius rubellus",
-        "Cortinarius salor",
-        "Cortinarius sanguineus",
-        "Cortinarius splendens",
-        "Cortinarius splendens var. meinhardii",
-        "Cortinarius subtortus",
-        "Cortinarius subvalidus",
-        "Cortinarius traganus",
-        "Cortinarius variecolor",
-        "Cortinarius venetus",
-        "Cortinarius violaceus",
-        "Hygronarius renidens",
-        "Phlegmacium percome"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Cudoniaceae",
-      "matchSpecies": [
-        "Spathularia flavida"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Dacrymycetaceae",
-      "matchSpecies": [
-        "Calocera viscosa",
-        "Dacrymyces chrysospermus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Dacrymycetales",
-      "matchSpecies": [
-        "Calocera viscosa",
-        "Dacrymyces chrysospermus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Dacrymycetes",
-      "matchSpecies": [
-        "Calocera viscosa",
-        "Dacrymyces chrysospermus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Discinaceae",
-      "matchSpecies": [
-        "Discina ancilis",
-        "Discina perlata"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Elaphomycetaceae",
-      "matchSpecies": [
-        "Elaphomyces granulatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Entolomataceae",
-      "matchSpecies": [
-        "Clitopilus prunulus",
-        "Entoloma hirtipes",
-        "Entoloma incanum",
-        "Entoloma nidorosum",
-        "Entoloma nitidum",
-        "Entoloma rhodopolium"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Eurotiales",
-      "matchSpecies": [
-        "Elaphomyces granulatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Eurotiomycetes",
-      "matchSpecies": [
-        "Elaphomyces granulatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Exobasidiaceae",
-      "matchSpecies": [
-        "Exobasidium rhododendri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Exobasidiales",
-      "matchSpecies": [
-        "Exobasidium rhododendri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Exobasidiomycetes",
-      "matchSpecies": [
-        "Exobasidium rhododendri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Fomitopsidaceae",
-      "matchSpecies": [
-        "Fomitopsis betulina",
-        "Fomitopsis pinicola",
-        "Piptoporus betulinus"
-      ]
-    },
-    {
-      "type": "taxon",
+      "type": "regno",
       "value": "Fungi",
       "matchSpecies": [
         "Abortiporus biennis",
@@ -8401,661 +9502,7 @@
       ]
     },
     {
-      "type": "taxon",
-      "value": "Galerinaceae",
-      "matchSpecies": [
-        "Galerina stylifera",
-        "Gymnopilus penetrans"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Galeropsidaceae",
-      "matchSpecies": [
-        "Panaeolus papilionaceus",
-        "Panaeolus sphinctrinus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Geastraceae",
-      "matchSpecies": [
-        "Geastrum fimbriatum",
-        "Geastrum sessile"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Geastrales",
-      "matchSpecies": [
-        "Geastrum fimbriatum",
-        "Geastrum sessile"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Gloeophyllaceae",
-      "matchSpecies": [
-        "Gloeophyllum odoratum",
-        "Gloeophyllum sepiarium"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Gloeophyllales",
-      "matchSpecies": [
-        "Gloeophyllum odoratum",
-        "Gloeophyllum sepiarium"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Gomphaceae",
-      "matchSpecies": [
-        "Gomphus clavatus",
-        "Phaeoclavulina abietina",
-        "Phaeoclavulina myceliosa",
-        "Ramaria botrytis",
-        "Ramaria edwinii",
-        "Ramaria flava",
-        "Ramaria flavescens",
-        "Ramaria formosa f. neoformosa",
-        "Ramaria largentii",
-        "Ramaria luteoaurantiaca",
-        "Ramaria pallida",
-        "Ramaria rufescens",
-        "Ramaria sanguinea",
-        "Ramaria stricta"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Gomphales",
-      "matchSpecies": [
-        "Clavariadelphus pistillaris",
-        "Clavariadelphus truncatus",
-        "Gomphus clavatus",
-        "Phaeoclavulina abietina",
-        "Phaeoclavulina myceliosa",
-        "Ramaria botrytis",
-        "Ramaria edwinii",
-        "Ramaria flava",
-        "Ramaria flavescens",
-        "Ramaria formosa f. neoformosa",
-        "Ramaria largentii",
-        "Ramaria luteoaurantiaca",
-        "Ramaria pallida",
-        "Ramaria rufescens",
-        "Ramaria sanguinea",
-        "Ramaria stricta"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Gomphidiaceae",
-      "matchSpecies": [
-        "Chroogomphus rutilus",
-        "Gomphidius glutinosus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Helotiaceae",
-      "matchSpecies": [
-        "Hymenoscyphus scutula"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Helotiales",
-      "matchSpecies": [
-        "Bisporella citrina",
-        "Calycina citrina",
-        "Chlorociboria aeruginascens",
-        "Ciboria caucus",
-        "Dumontinia tuberosa",
-        "Encoelia furfuracea",
-        "Hymenoscyphus scutula",
-        "Lanzia echinophila",
-        "Rutstroemia echinophila"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Helvellaceae",
-      "matchSpecies": [
-        "Helvella crispa",
-        "Helvella elastica",
-        "Helvella monachella",
-        "Helvella silvicola",
-        "Wynnella silvicola"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hemipholiotaceae",
-      "matchSpecies": [
-        "Agrocybe aegerita",
-        "Cyclocybe cylindracea"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hydnaceae",
-      "matchSpecies": [
-        "Cantharellus amethysteus",
-        "Cantharellus cibarius",
-        "Cantharellus friesii",
-        "Cantharellus melanoxeros",
-        "Cantharellus pallens",
-        "Cantharellus romagnesianus",
-        "Cantharellus tubaeformis",
-        "Clavulina cinerea",
-        "Clavulina coralloides",
-        "Clavulina cristata",
-        "Clavulina rugosa",
-        "Craterellus cinereus",
-        "Craterellus cornucopioides",
-        "Craterellus lutescens",
-        "Craterellus melanoxeros",
-        "Craterellus tubaeformis",
-        "Hydnum repandum",
-        "Hydnum rufescens"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hydnangiaceae",
-      "matchSpecies": [
-        "Laccaria affinis",
-        "Laccaria amethystina",
-        "Laccaria bicolor",
-        "Laccaria laccata"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hygrocybaceae",
-      "matchSpecies": [
-        "Hygrocybe conica",
-        "Hygrocybe punicea"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hygrophoraceae",
-      "matchSpecies": [
-        "Ampulloclitocybe clavipes",
-        "Clitocybe clavipes",
-        "Hygrocybe calyptriformis",
-        "Hygrophorus agathosmus",
-        "Hygrophorus atramentosus",
-        "Hygrophorus capreolarius",
-        "Hygrophorus discoideus",
-        "Hygrophorus eburneus",
-        "Hygrophorus erubescens",
-        "Hygrophorus lucorum",
-        "Hygrophorus marzuolus",
-        "Hygrophorus pudorinus",
-        "Porpolomopsis calyptriformis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hymenochaetaceae",
-      "matchSpecies": [
-        "Hymenochaete cruenta",
-        "Phellinus ribis",
-        "Phylloporia ribis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hymenochaetales",
-      "matchSpecies": [
-        "Hymenochaete cruenta",
-        "Phellinus ribis",
-        "Phylloporia ribis",
-        "Rickenella fibula"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hypocreales",
-      "matchSpecies": [
-        "Cordyceps capitata",
-        "Tolypocladium capitatum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Hypoxylaceae",
-      "matchSpecies": [
-        "Hypoxylon fragiforme"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Inocybaceae",
-      "matchSpecies": [
-        "Inocybe calamistrata",
-        "Inocybe cervicolor",
-        "Inocybe fastigiata",
-        "Inocybe fibrosa",
-        "Inocybe geophylla",
-        "Inocybe pyriodora",
-        "Inocybe rimosa",
-        "Inosperma calamistratum",
-        "Inosperma cervicolor",
-        "Pseudosperma rimosum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Ischnodermataceae",
-      "matchSpecies": [
-        "Ischnoderma benzoinum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Kuehneromycetaceae",
-      "matchSpecies": [
-        "Kuehneromyces mutabilis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Laetiporaceae",
-      "matchSpecies": [
-        "Phaeolus schweinitzii"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Leotiaceae",
-      "matchSpecies": [
-        "Leotia lubrica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Leotiales",
-      "matchSpecies": [
-        "Leotia lubrica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Leotiomycetes",
-      "matchSpecies": [
-        "Bisporella citrina",
-        "Calycina citrina",
-        "Chlorociboria aeruginascens",
-        "Ciboria caucus",
-        "Dumontinia tuberosa",
-        "Encoelia furfuracea",
-        "Hymenoscyphus scutula",
-        "Lanzia echinophila",
-        "Leotia lubrica",
-        "Rutstroemia echinophila",
-        "Spathularia flavida"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Liceida",
-      "matchSpecies": [
-        "Lycogala epidendrum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Lycoperdaceae",
-      "matchSpecies": [
-        "Apioperdon pyriforme",
-        "Bovista plumbea",
-        "Bovistella utriformis",
-        "Calvatia gigantea",
-        "Calvatia utriformis",
-        "Lycoperdon echinatum",
-        "Lycoperdon perlatum",
-        "Lycoperdon pratense",
-        "Lycoperdon pyriforme",
-        "Lycoperdon umbrinum",
-        "Utraria umbrina",
-        "Vascellum pratense"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Lyophyllaceae",
-      "matchSpecies": [
-        "Calocybe gambosa",
-        "Lyophyllum decastes",
-        "Tephrocybe rancida"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Marasmiaceae",
-      "matchSpecies": [
-        "Marasmius oreades",
-        "Marasmius wynneae"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Melanoleucaceae",
-      "matchSpecies": [
-        "Melanoleuca brevipes",
-        "Melanoleuca graminicola",
-        "Melanoleuca melaleuca",
-        "Melanoleuca subalpina"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Morchellaceae",
-      "matchSpecies": [
-        "Morchella esculenta"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Mucorales",
-      "matchSpecies": [
-        "Spinellus fusiger"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Mucoromycetes",
-      "matchSpecies": [
-        "Spinellus fusiger"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Mucoromycota",
-      "matchSpecies": [
-        "Spinellus fusiger"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Mycenaceae",
-      "matchSpecies": [
-        "Mycena epipterygia",
-        "Mycena galericulata",
-        "Mycena pearsoniana",
-        "Mycena pelianthina",
-        "Mycena pura",
-        "Mycena renati",
-        "Mycena rosea",
-        "Mycena strobilicola",
-        "Mycena zephirus",
-        "Panellus stipticus",
-        "Prunulus pearsonianus",
-        "Prunulus pelianthinus",
-        "Prunulus roseus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Myxogastrea",
-      "matchSpecies": [
-        "Badhamia melanospora",
-        "Fuligo septica",
-        "Hemitrichia clavata",
-        "Hemitrichia serpula",
-        "Lycogala epidendrum",
-        "Trichia scabra"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Omphalotaceae",
-      "matchSpecies": [
-        "Collybia butyracea",
-        "Collybia confluens",
-        "Collybia distorta",
-        "Collybia kuehneriana",
-        "Collybia maculata",
-        "Collybia peronata",
-        "Collybiopsis confluens",
-        "Collybiopsis peronata",
-        "Gymnopus erythropus",
-        "Gymnopus hariolorum",
-        "Gymnopus ocior",
-        "Marasmius scorodonius",
-        "Micromphale perforans",
-        "Mycetinis scorodonius",
-        "Paragymnopus perforans",
-        "Rhodocollybia butyracea",
-        "Rhodocollybia maculata",
-        "Rhodocollybia prolixa"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Ophiocordycipitaceae",
-      "matchSpecies": [
-        "Cordyceps capitata",
-        "Tolypocladium capitatum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Panaceae",
-      "matchSpecies": [
-        "Panus conchatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Paralepistaceae",
-      "matchSpecies": [
-        "Lepista flaccida",
-        "Lepista inversa",
-        "Paralepista flaccida"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Paxillaceae",
-      "matchSpecies": [
-        "Paxillus rubicundulus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pezizales",
-      "matchSpecies": [
-        "Caloscypha fulgens",
-        "Discina ancilis",
-        "Discina perlata",
-        "Geopora sumneriana",
-        "Helvella crispa",
-        "Helvella elastica",
-        "Helvella monachella",
-        "Helvella silvicola",
-        "Morchella esculenta",
-        "Scutellinia superba",
-        "Sepultaria sumneriana",
-        "Wynnella silvicola"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pezizellaceae",
-      "matchSpecies": [
-        "Bisporella citrina",
-        "Calycina citrina"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pezizomycetes",
-      "matchSpecies": [
-        "Caloscypha fulgens",
-        "Discina ancilis",
-        "Discina perlata",
-        "Geopora sumneriana",
-        "Helvella crispa",
-        "Helvella elastica",
-        "Helvella monachella",
-        "Helvella silvicola",
-        "Morchella esculenta",
-        "Scutellinia superba",
-        "Sepultaria sumneriana",
-        "Tarzetta cupularis",
-        "Wynnella silvicola"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Phallaceae",
-      "matchSpecies": [
-        "Phallus impudicus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Phallales",
-      "matchSpecies": [
-        "Phallus impudicus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Phanerochaetaceae",
-      "matchSpecies": [
-        "Bjerkandera adusta"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Phycomycetaceae",
-      "matchSpecies": [
-        "Spinellus fusiger"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Physalacriaceae",
-      "matchSpecies": [
-        "Armillaria mellea",
-        "Armillaria ostoyae",
-        "Flammulina fennae",
-        "Flammulina velutipes",
-        "Flammulina velutipes var. lactea",
-        "Hymenopellis radicata",
-        "Mucidula mucida",
-        "Oudemansiella radicata",
-        "Strobilurus esculentus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Physarida",
-      "matchSpecies": [
-        "Badhamia melanospora",
-        "Fuligo septica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Physaridae",
-      "matchSpecies": [
-        "Badhamia melanospora",
-        "Fuligo septica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pleurotaceae",
-      "matchSpecies": [
-        "Pleurotus dryinus",
-        "Pleurotus ostreatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pluteaceae",
-      "matchSpecies": [
-        "Pluteus atromarginatus",
-        "Pluteus cervinus",
-        "Pluteus exiguus",
-        "Pluteus petasatus",
-        "Pluteus romellii",
-        "Pluteus roseipes"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Podoscyphaceae",
-      "matchSpecies": [
-        "Abortiporus biennis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Polyporaceae",
-      "matchSpecies": [
-        "Cerioporus squamosus",
-        "Cyanosporus caesius",
-        "Daedaleopsis confragosa",
-        "Daedaleopsis tricolor",
-        "Fomes fomentarius",
-        "Ganoderma adspersum",
-        "Ganoderma lucidum",
-        "Ganoderma resinaceum",
-        "Lentinus tigrinus",
-        "Neofavolus alveolaris",
-        "Perenniporia fraxinea",
-        "Polyporus squamosus",
-        "Postia caesia",
-        "Pycnoporus cinnabarinus",
-        "Trametes cinnabarina",
-        "Trametes versicolor",
-        "Vanderbylia fraxinea"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Polyporales",
-      "matchSpecies": [
-        "Abortiporus biennis",
-        "Bjerkandera adusta",
-        "Cerioporus squamosus",
-        "Climacocystis borealis",
-        "Cyanosporus caesius",
-        "Daedaleopsis confragosa",
-        "Daedaleopsis tricolor",
-        "Fomes fomentarius",
-        "Fomitopsis betulina",
-        "Fomitopsis pinicola",
-        "Ganoderma adspersum",
-        "Ganoderma lucidum",
-        "Ganoderma resinaceum",
-        "Ischnoderma benzoinum",
-        "Lentinus tigrinus",
-        "Neofavolus alveolaris",
-        "Panus conchatus",
-        "Perenniporia fraxinea",
-        "Phaeolus schweinitzii",
-        "Piptoporus betulinus",
-        "Polyporus squamosus",
-        "Postia caesia",
-        "Pycnoporus cinnabarinus",
-        "Trametes cinnabarina",
-        "Trametes versicolor",
-        "Vanderbylia fraxinea"
-      ]
-    },
-    {
-      "type": "taxon",
+      "type": "regno",
       "value": "Protozoa",
       "matchSpecies": [
         "Badhamia melanospora",
@@ -9064,453 +9511,6 @@
         "Hemitrichia serpula",
         "Lycogala epidendrum",
         "Trichia scabra"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Psathyrellaceae",
-      "matchSpecies": [
-        "Candolleomyces candolleanus",
-        "Coprinellus disseminatus",
-        "Coprinellus domesticus",
-        "Coprinellus micaceus",
-        "Coprinopsis atramentaria",
-        "Coprinopsis lagopus",
-        "Coprinus atramentarius",
-        "Coprinus disseminatus",
-        "Coprinus lagopus",
-        "Coprinus micaceus",
-        "Psathyrella candolleana",
-        "Psathyrella corrugis",
-        "Psathyrella piluliformis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pseudoclitocybaceae",
-      "matchSpecies": [
-        "Clitocybe alexandri",
-        "Clitopaxillus alexandri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pucciniales",
-      "matchSpecies": [
-        "Chrysomyxa rhododendri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pucciniomycetes",
-      "matchSpecies": [
-        "Chrysomyxa rhododendri"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Pyronemataceae",
-      "matchSpecies": [
-        "Geopora sumneriana",
-        "Scutellinia superba",
-        "Sepultaria sumneriana"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Reticulariidae",
-      "matchSpecies": [
-        "Lycogala epidendrum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Rhizopogonaceae",
-      "matchSpecies": [
-        "Rhizopogon roseolus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Rhytismatales",
-      "matchSpecies": [
-        "Spathularia flavida"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Rickenellaceae",
-      "matchSpecies": [
-        "Rickenella fibula"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Russulaceae",
-      "matchSpecies": [
-        "Lactarius badiosanguineus",
-        "Lactarius blennius",
-        "Lactarius deliciosus",
-        "Lactarius deterrimus",
-        "Lactarius glaucescens",
-        "Lactarius intermedius",
-        "Lactarius lignyotus",
-        "Lactarius pallidus",
-        "Lactarius picinus",
-        "Lactarius piperatus",
-        "Lactarius porniniae",
-        "Lactarius rubrocinctus",
-        "Lactarius rufus",
-        "Lactarius salmonicolor",
-        "Lactarius scrobiculatus",
-        "Lactarius subdulcis",
-        "Lactarius torminosus",
-        "Lactarius turpis",
-        "Lactarius violascens",
-        "Lactarius volemus",
-        "Lactifluus glaucescens",
-        "Lactifluus piperatus",
-        "Lactifluus volemus",
-        "Russula adusta",
-        "Russula albonigra",
-        "Russula alutacea",
-        "Russula amara",
-        "Russula amethystina",
-        "Russula aurea",
-        "Russula aurora",
-        "Russula azurea",
-        "Russula badia",
-        "Russula caerulea",
-        "Russula camarophylla",
-        "Russula chloroides",
-        "Russula claroflava",
-        "Russula cyanoxantha",
-        "Russula cyanoxantha f. peltereaui",
-        "Russula delica",
-        "Russula emetica",
-        "Russula fageticola",
-        "Russula farinipes",
-        "Russula firmula",
-        "Russula foetens",
-        "Russula grata",
-        "Russula grisea",
-        "Russula integra",
-        "Russula laurocerasi",
-        "Russula lepida",
-        "Russula lutea",
-        "Russula nana",
-        "Russula nauseosa",
-        "Russula nigricans",
-        "Russula nobilis",
-        "Russula ochroleuca",
-        "Russula olivacea",
-        "Russula paludosa",
-        "Russula parazurea",
-        "Russula postiana",
-        "Russula queletii",
-        "Russula recondita",
-        "Russula risigallina",
-        "Russula rosea",
-        "Russula rubroalba",
-        "Russula solaris",
-        "Russula vesca",
-        "Russula violeipes",
-        "Russula xerampelina"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Russulales",
-      "matchSpecies": [
-        "Albatrellopsis confluens",
-        "Albatrellus confluens",
-        "Albatrellus ovinus",
-        "Auriscalpium vulgare",
-        "Heterobasidion parviporum",
-        "Lactarius badiosanguineus",
-        "Lactarius blennius",
-        "Lactarius deliciosus",
-        "Lactarius deterrimus",
-        "Lactarius glaucescens",
-        "Lactarius intermedius",
-        "Lactarius lignyotus",
-        "Lactarius pallidus",
-        "Lactarius picinus",
-        "Lactarius piperatus",
-        "Lactarius porniniae",
-        "Lactarius rubrocinctus",
-        "Lactarius rufus",
-        "Lactarius salmonicolor",
-        "Lactarius scrobiculatus",
-        "Lactarius subdulcis",
-        "Lactarius torminosus",
-        "Lactarius turpis",
-        "Lactarius violascens",
-        "Lactarius volemus",
-        "Lactifluus glaucescens",
-        "Lactifluus piperatus",
-        "Lactifluus volemus",
-        "Lentinellus cochleatus",
-        "Russula adusta",
-        "Russula albonigra",
-        "Russula alutacea",
-        "Russula amara",
-        "Russula amethystina",
-        "Russula aurea",
-        "Russula aurora",
-        "Russula azurea",
-        "Russula badia",
-        "Russula caerulea",
-        "Russula camarophylla",
-        "Russula chloroides",
-        "Russula claroflava",
-        "Russula cyanoxantha",
-        "Russula cyanoxantha f. peltereaui",
-        "Russula delica",
-        "Russula emetica",
-        "Russula fageticola",
-        "Russula farinipes",
-        "Russula firmula",
-        "Russula foetens",
-        "Russula grata",
-        "Russula grisea",
-        "Russula integra",
-        "Russula laurocerasi",
-        "Russula lepida",
-        "Russula lutea",
-        "Russula nana",
-        "Russula nauseosa",
-        "Russula nigricans",
-        "Russula nobilis",
-        "Russula ochroleuca",
-        "Russula olivacea",
-        "Russula paludosa",
-        "Russula parazurea",
-        "Russula postiana",
-        "Russula queletii",
-        "Russula recondita",
-        "Russula risigallina",
-        "Russula rosea",
-        "Russula rubroalba",
-        "Russula solaris",
-        "Russula vesca",
-        "Russula violeipes",
-        "Russula xerampelina",
-        "Stereum hirsutum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Rutstroemiaceae",
-      "matchSpecies": [
-        "Lanzia echinophila",
-        "Rutstroemia echinophila"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Schizophyllaceae",
-      "matchSpecies": [
-        "Schizophyllum commune"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Sclerodermataceae",
-      "matchSpecies": [
-        "Scleroderma citrinum",
-        "Scleroderma verrucosum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Sclerotiniaceae",
-      "matchSpecies": [
-        "Ciboria caucus",
-        "Dumontinia tuberosa"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Sordariomycetes",
-      "matchSpecies": [
-        "Cordyceps capitata",
-        "Hypoxylon fragiforme",
-        "Tolypocladium capitatum",
-        "Xylaria polymorpha"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Squamanitaceae",
-      "matchSpecies": [
-        "Cystoderma amianthinum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Stereaceae",
-      "matchSpecies": [
-        "Stereum hirsutum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Strophariaceae",
-      "matchSpecies": [
-        "Hebeloma crustuliniforme",
-        "Hebeloma sinapizans",
-        "Hypholoma capnoides",
-        "Hypholoma fasciculare",
-        "Hypholoma lateritium",
-        "Hypholoma sublateritium",
-        "Leratiomyces ceres",
-        "Pholiota astragalina",
-        "Pholiota lenta",
-        "Pholiota populnea",
-        "Pholiota squarrosa",
-        "Protostropharia semiglobata",
-        "Pyrrhulomyces astragalinus",
-        "Stropharia aeruginosa",
-        "Stropharia rugosoannulata",
-        "Stropharia rugosoannulata f. lutea",
-        "Stropharia semiglobata"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Suillaceae",
-      "matchSpecies": [
-        "Boletinus cavipes",
-        "Suillus granulatus",
-        "Suillus grevillei",
-        "Suillus luteus",
-        "Suillus placidus",
-        "Suillus plorans",
-        "Suillus variegatus"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tapinellaceae",
-      "matchSpecies": [
-        "Paxillus atrotomentosus",
-        "Tapinella atrotomentosa"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tarzettaceae",
-      "matchSpecies": [
-        "Tarzetta cupularis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Thelephoraceae",
-      "matchSpecies": [
-        "Thelephora palmata"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Thelephorales",
-      "matchSpecies": [
-        "Hydnellum peckii",
-        "Hydnellum scrobiculatum",
-        "Sarcodon imbricatus",
-        "Thelephora palmata"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tremellaceae",
-      "matchSpecies": [
-        "Tremella mesenterica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tremellales",
-      "matchSpecies": [
-        "Tremella mesenterica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tremellomycetes",
-      "matchSpecies": [
-        "Tremella mesenterica"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Trichiaceae",
-      "matchSpecies": [
-        "Hemitrichia clavata",
-        "Hemitrichia serpula",
-        "Trichia scabra"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Trichiales",
-      "matchSpecies": [
-        "Hemitrichia clavata",
-        "Hemitrichia serpula",
-        "Trichia scabra"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tricholomataceae",
-      "matchSpecies": [
-        "Tricholoma aurantium",
-        "Tricholoma bufonium",
-        "Tricholoma inamoenum",
-        "Tricholoma myomyces",
-        "Tricholoma orirubens",
-        "Tricholoma pardinum",
-        "Tricholoma pessundatum",
-        "Tricholoma portentosum",
-        "Tricholoma saponaceum",
-        "Tricholoma saponaceum var. squamosum",
-        "Tricholoma sejunctum",
-        "Tricholoma sulphureum",
-        "Tricholoma terreum",
-        "Tricholoma ustaloides",
-        "Tricholoma vaccinum",
-        "Tricholoma virgatum"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Tubariaceae",
-      "matchSpecies": [
-        "Tubaria furfuracea",
-        "Tubaria hiemalis"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Volvariellaceae",
-      "matchSpecies": [
-        "Volvariella murinella"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Xylariaceae",
-      "matchSpecies": [
-        "Xylaria polymorpha"
-      ]
-    },
-    {
-      "type": "taxon",
-      "value": "Xylariales",
-      "matchSpecies": [
-        "Hypoxylon fragiforme",
-        "Xylaria polymorpha"
       ]
     }
   ]

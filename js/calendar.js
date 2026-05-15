@@ -25,12 +25,15 @@
         { full: 'Dicembre', abbr: 'DIC' },
     ];
 
-    const TYPE_ORDER = ['genus', 'species', 'synonym', 'taxon'];
+    const TYPE_ORDER = ['genus', 'species', 'famiglia', 'ordine', 'classe', 'phylum', 'regno'];
     const TYPE_LABEL = {
         genus: 'Genere',
         species: 'Specie',
-        synonym: 'Nome corrente',
-        taxon: 'Taxon',
+        regno: 'Regno',
+        phylum: 'Phylum',
+        classe: 'Classe',
+        ordine: 'Ordine',
+        famiglia: 'Famiglia',
     };
 
     // ── Fetch ──────────────────────────────────────────────────────────────────
@@ -189,7 +192,7 @@
             if (!groups[type].length) return;
             html += `<div class="dropdown-group-label">${TYPE_LABEL[type]}</div>`;
             groups[type].forEach(item => {
-                const italic = type !== 'taxon';
+                const italic = type === 'genus' || type === 'species';
                 const label = italic ? `<em>${item.value}</em>` : item.value;
                 const n = item.matchSpecies.length;
                 html += `
@@ -227,7 +230,7 @@
         closeDropdown();
 
         if (activeFilter) {
-            const italic = type !== 'taxon';
+            const italic = type === 'genus' || type === 'species';
             const label = italic ? `<em>${value}</em>` : value;
             activePillText.innerHTML = `${TYPE_LABEL[type]}: ${label}`;
             const n = activeFilter.matchSpecies.length;
