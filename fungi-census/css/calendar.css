@@ -510,12 +510,11 @@ body.modal-open {
     color: #1565c0;
 }
 
-.type-badge--synonym {
-    background: #fff3e0;
-    color: #e65100;
-}
-
-.type-badge--taxon {
+.type-badge--regno,
+.type-badge--phylum,
+.type-badge--classe,
+.type-badge--ordine,
+.type-badge--famiglia {
     background: #fce4ec;
     color: #880e4f;
 }
