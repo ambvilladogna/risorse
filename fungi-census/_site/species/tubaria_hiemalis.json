@@ -6,6 +6,14 @@
   "autoreCorrente": "(Pers.) Gillet 1876",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-18",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Pacciame",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
       "locality": "Ardesio",
@@ -48,7 +56,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 0
@@ -74,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
