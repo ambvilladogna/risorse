@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-18",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Pacciame",
+      "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2026-05-18",
+      "collector": "Erica Pozzi",
+      "locality": "Bergamo",
+      "localityCoordinates": "45.756656, 9.754219",
+      "habitat": "Su legno morto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-10",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -40,7 +56,7 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "05-19",
+    "raccoltaPiuPrecoce": "05-18",
     "raccoltaPiuTarda": "11-10",
     "campioniPerMese": [
       {
@@ -56,7 +72,7 @@
         "apr": 0
       },
       {
-        "mag": 1
+        "mag": 3
       },
       {
         "giu": 0
@@ -82,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }

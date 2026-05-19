@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-15T00:11:49.225Z",
-  "totalSpecies": 447,
-  "totalSamples": 1036,
+  "generatedAt": "2026-05-19T00:12:37.808Z",
+  "totalSpecies": 449,
+  "totalSamples": 1046,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2168,6 +2168,13 @@
     },
     {
       "genus": "Morchella",
+      "species": "elata",
+      "fullName": "Morchella elata",
+      "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
+      "authority": "Fr. 1822"
+    },
+    {
+      "genus": "Morchella",
       "species": "esculenta",
       "fullName": "Morchella esculenta",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
@@ -2400,6 +2407,15 @@
       "fullName": "Pholiota squarrosa",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Strophariaceae",
       "authority": "(Vahl) P. Kumm. 1871"
+    },
+    {
+      "genus": "Pholiotina",
+      "species": "aporos",
+      "fullName": "Pholiotina aporos",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
+      "authority": "(Kits van Wav.) Clémençon 1976",
+      "currentName": "Conocybe aporos",
+      "currentAuthority": "Kits van Wav. 1970"
     },
     {
       "genus": "Phylloporus",

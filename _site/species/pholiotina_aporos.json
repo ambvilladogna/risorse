@@ -1,31 +1,31 @@
 {
-  "nomeCompleto": "Bolbitius vitellinus",
-  "autore": "(Pers.) Fr. 1838",
+  "nomeCompleto": "Pholiotina aporos",
+  "autore": "(Kits van Wav.) Clémençon 1976",
   "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
-  "nomeCorrente": "Bolbitius titubans",
-  "autoreCorrente": "(Bull.) Fr. 1838",
+  "nomeCorrente": "Conocybe aporos",
+  "autoreCorrente": "Kits van Wav. 1970",
   "campioniRaccolti": [
+    {
+      "collectionDate": "2026-05-18",
+      "collector": "Pietro Centenari",
+      "locality": "Rovetta",
+      "localityCoordinates": "45.892989, 9.983457",
+      "habitat": "Prato coltivato",
+      "determiner": "Pietro Centenari"
+    },
     {
       "collectionDate": "2026-05-18",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
       "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Pacciame",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2025-09-14",
-      "collector": "Pierino Bigoni",
-      "locality": "Piazza di Golla, Premolo",
-      "localityCoordinates": "45.885467, 9.846477",
-      "habitat": "Bosco misto",
+      "habitat": "Abete rosso",
       "determiner": "Pierino Bigoni"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "05-18",
-    "raccoltaPiuTarda": "09-14",
+    "raccoltaPiuTarda": "05-18",
     "campioniPerMese": [
       {
         "gen": 0
@@ -40,7 +40,7 @@
         "apr": 0
       },
       {
-        "mag": 1
+        "mag": 2
       },
       {
         "giu": 0
@@ -52,7 +52,7 @@
         "ago": 0
       },
       {
-        "set": 1
+        "set": 0
       },
       {
         "ott": 0

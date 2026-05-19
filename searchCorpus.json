@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T14:33:58.241Z",
+  "generatedAt": "2026-05-19T00:12:37.985Z",
   "corpus": [
     {
       "type": "genus",
@@ -468,7 +468,9 @@
       "type": "genus",
       "value": "Conocybe",
       "matchSpecies": [
-        "Conocybe tenera"
+        "Conocybe aporos",
+        "Conocybe tenera",
+        "Pholiotina aporos"
       ]
     },
     {
@@ -1264,6 +1266,7 @@
       "type": "genus",
       "value": "Morchella",
       "matchSpecies": [
+        "Morchella elata",
         "Morchella esculenta"
       ]
     },
@@ -1440,6 +1443,14 @@
         "Pholiota populnea",
         "Pholiota squarrosa",
         "Pyrrhulomyces astragalinus"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Pholiotina",
+      "matchSpecies": [
+        "Conocybe aporos",
+        "Pholiotina aporos"
       ]
     },
     {
@@ -2924,6 +2935,14 @@
       "matchSpecies": [
         "Collybia peronata",
         "Collybiopsis peronata"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Conocybe aporos",
+      "matchSpecies": [
+        "Conocybe aporos",
+        "Pholiotina aporos"
       ]
     },
     {
@@ -4578,6 +4597,13 @@
     },
     {
       "type": "species",
+      "value": "Morchella elata",
+      "matchSpecies": [
+        "Morchella elata"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Morchella esculenta",
       "matchSpecies": [
         "Morchella esculenta"
@@ -4842,6 +4868,14 @@
       "value": "Pholiota squarrosa",
       "matchSpecies": [
         "Pholiota squarrosa"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Pholiotina aporos",
+      "matchSpecies": [
+        "Conocybe aporos",
+        "Pholiotina aporos"
       ]
     },
     {
@@ -6139,7 +6173,9 @@
       "matchSpecies": [
         "Bolbitius titubans",
         "Bolbitius vitellinus",
-        "Conocybe tenera"
+        "Conocybe aporos",
+        "Conocybe tenera",
+        "Pholiotina aporos"
       ]
     },
     {
@@ -6609,6 +6645,7 @@
       "type": "famiglia",
       "value": "Morchellaceae",
       "matchSpecies": [
+        "Morchella elata",
         "Morchella esculenta"
       ]
     },
@@ -7163,6 +7200,7 @@
         "Collybia sordida",
         "Collybiopsis confluens",
         "Collybiopsis peronata",
+        "Conocybe aporos",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -7328,6 +7366,7 @@
         "Pholiota lenta",
         "Pholiota populnea",
         "Pholiota squarrosa",
+        "Pholiotina aporos",
         "Pleurotus dryinus",
         "Pleurotus ostreatus",
         "Pluteus atromarginatus",
@@ -7603,6 +7642,7 @@
         "Helvella elastica",
         "Helvella monachella",
         "Helvella silvicola",
+        "Morchella elata",
         "Morchella esculenta",
         "Scutellinia superba",
         "Sepultaria sumneriana",
@@ -7903,6 +7943,7 @@
         "Collybia sordida",
         "Collybiopsis confluens",
         "Collybiopsis peronata",
+        "Conocybe aporos",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -8140,6 +8181,7 @@
         "Pholiota lenta",
         "Pholiota populnea",
         "Pholiota squarrosa",
+        "Pholiotina aporos",
         "Phylloporia ribis",
         "Phylloporus rhodoxanthus",
         "Piptoporus betulinus",
@@ -8362,6 +8404,7 @@
         "Helvella elastica",
         "Helvella monachella",
         "Helvella silvicola",
+        "Morchella elata",
         "Morchella esculenta",
         "Scutellinia superba",
         "Sepultaria sumneriana",
@@ -8429,6 +8472,7 @@
         "Hypoxylon fragiforme",
         "Lanzia echinophila",
         "Leotia lubrica",
+        "Morchella elata",
         "Morchella esculenta",
         "Rutstroemia echinophila",
         "Scutellinia superba",
@@ -8560,6 +8604,7 @@
         "Collybia sordida",
         "Collybiopsis confluens",
         "Collybiopsis peronata",
+        "Conocybe aporos",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -8799,6 +8844,7 @@
         "Pholiota lenta",
         "Pholiota populnea",
         "Pholiota squarrosa",
+        "Pholiotina aporos",
         "Phylloporia ribis",
         "Phylloporus rhodoxanthus",
         "Piptoporus betulinus",
@@ -9084,6 +9130,7 @@
         "Collybia sordida",
         "Collybiopsis confluens",
         "Collybiopsis peronata",
+        "Conocybe aporos",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -9303,6 +9350,7 @@
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina",
         "Micromphale perforans",
+        "Morchella elata",
         "Morchella esculenta",
         "Mucidula mucida",
         "Mycena epipterygia",
@@ -9339,6 +9387,7 @@
         "Pholiota lenta",
         "Pholiota populnea",
         "Pholiota squarrosa",
+        "Pholiotina aporos",
         "Phylloporia ribis",
         "Phylloporus rhodoxanthus",
         "Piptoporus betulinus",
