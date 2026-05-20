@@ -1,17 +1,17 @@
 {
-  "nomeCompleto": "Pholiotina aporos",
-  "autore": "(Kits van Wav.) Clémençon 1976",
-  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
-  "nomeCorrente": "Conocybe aporos",
-  "autoreCorrente": "Kits van Wav. 1970",
+  "nomeCompleto": "Melanoleuca cognata",
+  "autore": "(Fr.) Konrad & Maubl. 1927",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2026-05-18",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
       "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Abete rosso",
-      "determiner": "Pierino Bigoni"
+      "habitat": "Pascolo",
+      "determiner": "Fabio Locatelli"
     }
   ],
   "campioniExsiccata": [],

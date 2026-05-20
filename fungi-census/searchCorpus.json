@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T00:12:10.278Z",
+  "generatedAt": "2026-05-20T06:41:49.905Z",
   "corpus": [
     {
       "type": "genus",
@@ -1249,6 +1249,7 @@
       "value": "Melanoleuca",
       "matchSpecies": [
         "Melanoleuca brevipes",
+        "Melanoleuca cognata",
         "Melanoleuca graminicola",
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina"
@@ -1450,7 +1451,8 @@
       "value": "Pholiotina",
       "matchSpecies": [
         "Conocybe aporos",
-        "Pholiotina aporos"
+        "Pholiotina aporos",
+        "Pholiotina teneroides"
       ]
     },
     {
@@ -4569,6 +4571,13 @@
     },
     {
       "type": "species",
+      "value": "Melanoleuca cognata",
+      "matchSpecies": [
+        "Melanoleuca cognata"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Melanoleuca graminicola",
       "matchSpecies": [
         "Melanoleuca graminicola"
@@ -4877,6 +4886,13 @@
       "matchSpecies": [
         "Conocybe aporos",
         "Pholiotina aporos"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Pholiotina teneroides",
+      "matchSpecies": [
+        "Pholiotina teneroides"
       ]
     },
     {
@@ -6183,7 +6199,8 @@
         "Bolbitius vitellinus",
         "Conocybe aporos",
         "Conocybe tenera",
-        "Pholiotina aporos"
+        "Pholiotina aporos",
+        "Pholiotina teneroides"
       ]
     },
     {
@@ -6644,6 +6661,7 @@
       "value": "Melanoleucaceae",
       "matchSpecies": [
         "Melanoleuca brevipes",
+        "Melanoleuca cognata",
         "Melanoleuca graminicola",
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina"
@@ -7347,6 +7365,7 @@
         "Marasmius wynneae",
         "Megacollybia platyphylla",
         "Melanoleuca brevipes",
+        "Melanoleuca cognata",
         "Melanoleuca graminicola",
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina",
@@ -7376,6 +7395,7 @@
         "Pholiota populnea",
         "Pholiota squarrosa",
         "Pholiotina aporos",
+        "Pholiotina teneroides",
         "Pleurotus dryinus",
         "Pleurotus ostreatus",
         "Pluteus atromarginatus",
@@ -8152,6 +8172,7 @@
         "Marasmius wynneae",
         "Megacollybia platyphylla",
         "Melanoleuca brevipes",
+        "Melanoleuca cognata",
         "Melanoleuca graminicola",
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina",
@@ -8192,6 +8213,7 @@
         "Pholiota populnea",
         "Pholiota squarrosa",
         "Pholiotina aporos",
+        "Pholiotina teneroides",
         "Phylloporia ribis",
         "Phylloporus rhodoxanthus",
         "Piptoporus betulinus",
@@ -8816,6 +8838,7 @@
         "Marasmius wynneae",
         "Megacollybia platyphylla",
         "Melanoleuca brevipes",
+        "Melanoleuca cognata",
         "Melanoleuca graminicola",
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina",
@@ -8856,6 +8879,7 @@
         "Pholiota populnea",
         "Pholiota squarrosa",
         "Pholiotina aporos",
+        "Pholiotina teneroides",
         "Phylloporia ribis",
         "Phylloporus rhodoxanthus",
         "Piptoporus betulinus",
@@ -9358,6 +9382,7 @@
         "Marasmius wynneae",
         "Megacollybia platyphylla",
         "Melanoleuca brevipes",
+        "Melanoleuca cognata",
         "Melanoleuca graminicola",
         "Melanoleuca melaleuca",
         "Melanoleuca subalpina",
@@ -9400,6 +9425,7 @@
         "Pholiota populnea",
         "Pholiota squarrosa",
         "Pholiotina aporos",
+        "Pholiotina teneroides",
         "Phylloporia ribis",
         "Phylloporus rhodoxanthus",
         "Piptoporus betulinus",

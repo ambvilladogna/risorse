@@ -7,14 +7,6 @@
   "campioniRaccolti": [
     {
       "collectionDate": "2026-05-18",
-      "collector": "Pietro Centenari",
-      "locality": "Rovetta",
-      "localityCoordinates": "45.892989, 9.983457",
-      "habitat": "Prato coltivato",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2026-05-18",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
       "localityCoordinates": "46.009394, 10.154059",
@@ -40,7 +32,7 @@
         "apr": 0
       },
       {
-        "mag": 2
+        "mag": 1
       },
       {
         "giu": 0
@@ -66,8 +58,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
     "campioniExsiccata": 0
   }
 }
