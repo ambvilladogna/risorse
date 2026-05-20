@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T00:12:37.985Z",
+  "generatedAt": "2026-05-20T00:12:10.278Z",
   "corpus": [
     {
       "type": "genus",
@@ -1492,6 +1492,7 @@
         "Pluteus cervinus",
         "Pluteus exiguus",
         "Pluteus petasatus",
+        "Pluteus pouzarianus",
         "Pluteus romellii",
         "Pluteus roseipes"
       ]
@@ -4945,6 +4946,13 @@
     },
     {
       "type": "species",
+      "value": "Pluteus pouzarianus",
+      "matchSpecies": [
+        "Pluteus pouzarianus"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Pluteus romellii",
       "matchSpecies": [
         "Pluteus romellii"
@@ -6791,6 +6799,7 @@
         "Pluteus cervinus",
         "Pluteus exiguus",
         "Pluteus petasatus",
+        "Pluteus pouzarianus",
         "Pluteus romellii",
         "Pluteus roseipes"
       ]
@@ -7373,6 +7382,7 @@
         "Pluteus cervinus",
         "Pluteus exiguus",
         "Pluteus petasatus",
+        "Pluteus pouzarianus",
         "Pluteus romellii",
         "Pluteus roseipes",
         "Porpolomopsis calyptriformis",
@@ -8191,6 +8201,7 @@
         "Pluteus cervinus",
         "Pluteus exiguus",
         "Pluteus petasatus",
+        "Pluteus pouzarianus",
         "Pluteus romellii",
         "Pluteus roseipes",
         "Polyporus squamosus",
@@ -8854,6 +8865,7 @@
         "Pluteus cervinus",
         "Pluteus exiguus",
         "Pluteus petasatus",
+        "Pluteus pouzarianus",
         "Pluteus romellii",
         "Pluteus roseipes",
         "Polyporus squamosus",
@@ -9397,6 +9409,7 @@
         "Pluteus cervinus",
         "Pluteus exiguus",
         "Pluteus petasatus",
+        "Pluteus pouzarianus",
         "Pluteus romellii",
         "Pluteus roseipes",
         "Polyporus squamosus",

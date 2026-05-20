@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-19T00:12:37.808Z",
-  "totalSpecies": 449,
-  "totalSamples": 1046,
+  "generatedAt": "2026-05-20T00:12:10.056Z",
+  "totalSpecies": 450,
+  "totalSamples": 1047,
   "species": [
     {
       "genus": "Abortiporus",
@@ -2474,6 +2474,13 @@
       "fullName": "Pluteus petasatus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
       "authority": "(Fr.) Gillet 1876"
+    },
+    {
+      "genus": "Pluteus",
+      "species": "pouzarianus",
+      "fullName": "Pluteus pouzarianus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
+      "authority": "Singer 1983"
     },
     {
       "genus": "Pluteus",
