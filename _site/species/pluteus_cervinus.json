@@ -7,16 +7,8 @@
   "campioniRaccolti": [
     {
       "collectionDate": "2026-05-18",
-      "collector": "Fabio Locatelli",
-      "locality": "Schilpario",
-      "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Pacciame",
-      "determiner": "Pierino Bigoni"
-    },
-    {
-      "collectionDate": "2026-05-18",
       "collector": "Erica Pozzi",
-      "locality": "Bergamo",
+      "locality": "Colzate",
       "localityCoordinates": "45.756656, 9.754219",
       "habitat": "Su legno morto",
       "determiner": "Pierino Bigoni"
@@ -72,7 +64,7 @@
         "apr": 0
       },
       {
-        "mag": 3
+        "mag": 2
       },
       {
         "giu": 0
@@ -98,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 6,
-    "campioniRaccolti": 6,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

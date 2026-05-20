@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-18",
+      "collector": "Fabio Locatelli",
+      "locality": "Schilpario",
+      "localityCoordinates": "46.009394, 10.154059",
+      "habitat": "Pascolo",
+      "determiner": "Fabio Locatelli"
+    },
+    {
       "collectionDate": "2026-05-13",
       "collector": "Pietro Centenari",
       "locality": "sentiero della Valle del Papa, Dorga, Castione della Presolana, Bergamo",
@@ -64,7 +72,7 @@
         "apr": 0
       },
       {
-        "mag": 2
+        "mag": 3
       },
       {
         "giu": 2
@@ -90,8 +98,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 6,
+    "campioniRaccolti": 6,
     "campioniExsiccata": 0
   }
 }
