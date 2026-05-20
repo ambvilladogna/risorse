@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-20T00:12:10.056Z",
-  "totalSpecies": 450,
+  "generatedAt": "2026-05-20T06:41:49.718Z",
+  "totalSpecies": 452,
   "totalSamples": 1047,
   "species": [
     {
@@ -2138,6 +2138,13 @@
     },
     {
       "genus": "Melanoleuca",
+      "species": "cognata",
+      "fullName": "Melanoleuca cognata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
+      "authority": "(Fr.) Konrad & Maubl. 1927"
+    },
+    {
+      "genus": "Melanoleuca",
       "species": "graminicola",
       "fullName": "Melanoleuca graminicola",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
@@ -2416,6 +2423,13 @@
       "authority": "(Kits van Wav.) Clémençon 1976",
       "currentName": "Conocybe aporos",
       "currentAuthority": "Kits van Wav. 1970"
+    },
+    {
+      "genus": "Pholiotina",
+      "species": "teneroides",
+      "fullName": "Pholiotina teneroides",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
+      "authority": "(J.E. Lange) Singer 1936"
     },
     {
       "genus": "Phylloporus",

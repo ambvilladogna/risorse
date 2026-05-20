@@ -1,16 +1,16 @@
 {
-  "nomeCompleto": "Pholiotina aporos",
-  "autore": "(Kits van Wav.) Clémençon 1976",
+  "nomeCompleto": "Pholiotina teneroides",
+  "autore": "(J.E. Lange) Singer 1936",
   "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
-  "nomeCorrente": "Conocybe aporos",
-  "autoreCorrente": "Kits van Wav. 1970",
+  "nomeCorrente": null,
+  "autoreCorrente": null,
   "campioniRaccolti": [
     {
       "collectionDate": "2026-05-18",
-      "collector": "Fabio Locatelli",
-      "locality": "Schilpario",
-      "localityCoordinates": "46.009394, 10.154059",
-      "habitat": "Abete rosso",
+      "collector": "Pietro Centenari",
+      "locality": "Rovetta",
+      "localityCoordinates": "45.892989, 9.983457",
+      "habitat": "Prato coltivato",
       "determiner": "Pierino Bigoni"
     }
   ],
