@@ -6,6 +6,14 @@
   "autoreCorrente": "(Fr.) Bertill. 1866",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-20",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Bosco misto abete e pino silvestre",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-11-03",
       "collector": "Angelo Ballabeni",
       "locality": "Percorso vita, Rovetta",
@@ -40,7 +48,7 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "06-09",
+    "raccoltaPiuPrecoce": "05-20",
     "raccoltaPiuTarda": "11-03",
     "campioniPerMese": [
       {
@@ -56,7 +64,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 1
@@ -82,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 4,
-    "campioniRaccolti": 4,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }
