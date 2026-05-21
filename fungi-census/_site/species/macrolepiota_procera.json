@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-21",
+      "collector": "Erica Pozzi",
+      "locality": "Casale, Albino",
+      "localityCoordinates": "45.748413, 9.868936",
+      "habitat": "Prato alpino",
+      "determiner": "Erica Pozzi"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -60,11 +68,19 @@
       "localityCoordinates": "45.867303, 9.950853",
       "habitat": "Bosco rado di abete rosso e latifoglie",
       "determiner": "Pierino Bigoni"
+    },
+    {
+      "collectionDate": "2025-05-29",
+      "collector": "Pietro Centenari",
+      "locality": "45.8031, 9.93823",
+      "localityCoordinates": "45.803061, 9.936666",
+      "habitat": "Prato alpino",
+      "determiner": "Pietro Centenari"
     }
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "07-17",
+    "raccoltaPiuPrecoce": "05-21",
     "raccoltaPiuTarda": "10-09",
     "campioniPerMese": [
       {
@@ -80,7 +96,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 2
       },
       {
         "giu": 0
@@ -106,8 +122,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 7,
-    "campioniRaccolti": 7,
+    "totaleCampioni": 9,
+    "campioniRaccolti": 9,
     "campioniExsiccata": 0
   }
 }

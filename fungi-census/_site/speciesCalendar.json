@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-21T00:12:20.404Z",
+  "generatedAt": "2026-05-21T09:01:56.852Z",
   "totalSpecies": 452,
-  "totalSamples": 1120,
+  "totalSamples": 1123,
   "species": [
     {
       "genus": "Flammulina",
@@ -2582,6 +2582,50 @@
       }
     },
     {
+      "genus": "Lycogala",
+      "species": "epidendrum",
+      "fullName": "Lycogala epidendrum",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Liceida > famiglia: Reticulariidae",
+      "authority": "(J.C. Buxb. ex L.) Fr. 1829",
+      "totalSamples": 5,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "earliestDate": "05-19",
+      "earliestDayOfYear": 139,
+      "earliestSample": {
+        "collectionDate": "2026-05-19",
+        "collector": "Pierino Bigoni",
+        "locality": "Pineta della Selva, Clusone",
+        "localityCoordinates": "45.88196, 9.91806",
+        "habitat": "Ceppaia abete",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "11-01",
+      "latestDayOfYear": 306,
+      "latestSample": {
+        "collectionDate": "2025-11-01",
+        "collector": "Pierino Bigoni",
+        "locality": "Parco avventura in Pineta, Clusone",
+        "localityCoordinates": "45.880916, 9.919919",
+        "habitat": "Ceppaia abete",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
       "genus": "Mycena",
       "species": "pura",
       "fullName": "Mycena pura",
@@ -2756,6 +2800,50 @@
         "localityCoordinates": "45.89368, 9.97672",
         "habitat": "Bosco misto",
         "determiner": "Angelo Ballabeni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Macrolepiota",
+      "species": "procera",
+      "fullName": "Macrolepiota procera",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
+      "authority": "(Scop.) Singer 1948",
+      "totalSamples": 9,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        3,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "earliestDate": "05-21",
+      "earliestDayOfYear": 141,
+      "earliestSample": {
+        "collectionDate": "2026-05-21",
+        "collector": "Erica Pozzi",
+        "locality": "Casale, Albino",
+        "localityCoordinates": "45.748413, 9.868936",
+        "habitat": "Prato alpino",
+        "determiner": "Erica Pozzi",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "10-09",
+      "latestDayOfYear": 282,
+      "latestSample": {
+        "collectionDate": "2025-10-09",
+        "collector": "Pierino Bigoni",
+        "locality": "Pineta della Selva, Clusone",
+        "localityCoordinates": "45.88196, 9.91806",
+        "habitat": "Bosco misto abete e latifoglie",
+        "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
     },
@@ -4720,50 +4808,6 @@
       }
     },
     {
-      "genus": "Lycogala",
-      "species": "epidendrum",
-      "fullName": "Lycogala epidendrum",
-      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Liceida > famiglia: Reticulariidae",
-      "authority": "(J.C. Buxb. ex L.) Fr. 1829",
-      "totalSamples": 4,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        0
-      ],
-      "earliestDate": "07-07",
-      "earliestDayOfYear": 188,
-      "earliestSample": {
-        "collectionDate": "2025-07-07",
-        "collector": "Pierino Bigoni",
-        "locality": "Roccolo Sparpaì, Piario",
-        "localityCoordinates": "45.882983, 9.918480",
-        "habitat": "Bosco misto abete e pino silvestre",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "11-01",
-      "latestDayOfYear": 306,
-      "latestSample": {
-        "collectionDate": "2025-11-01",
-        "collector": "Pierino Bigoni",
-        "locality": "Parco avventura in Pineta, Clusone",
-        "localityCoordinates": "45.880916, 9.919919",
-        "habitat": "Ceppaia abete",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
       "genus": "Oudemansiella",
       "species": "radicata",
       "fullName": "Oudemansiella radicata",
@@ -5653,50 +5697,6 @@
         "locality": "Spiazzi, Gromo",
         "localityCoordinates": "45.970802, 9.963785",
         "habitat": "Bosco misto abete bianco e abete rosso",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Macrolepiota",
-      "species": "procera",
-      "fullName": "Macrolepiota procera",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Agaricaceae",
-      "authority": "(Scop.) Singer 1948",
-      "totalSamples": 7,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
-        2,
-        2,
-        0,
-        0
-      ],
-      "earliestDate": "07-17",
-      "earliestDayOfYear": 198,
-      "earliestSample": {
-        "collectionDate": "2025-07-17",
-        "collector": "Pierino Bigoni",
-        "locality": "Roccolo Zuccone, San Lucio, Clusone",
-        "localityCoordinates": "45.867303, 9.950853",
-        "habitat": "Bosco rado di abete rosso e latifoglie",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "10-09",
-      "latestDayOfYear": 282,
-      "latestSample": {
-        "collectionDate": "2025-10-09",
-        "collector": "Pierino Bigoni",
-        "locality": "Pineta della Selva, Clusone",
-        "localityCoordinates": "45.88196, 9.91806",
-        "habitat": "Bosco misto abete e latifoglie",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
