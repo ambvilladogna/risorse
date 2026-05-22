@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T06:41:49.905Z",
+  "generatedAt": "2026-05-22T05:44:09.172Z",
   "corpus": [
     {
       "type": "genus",
@@ -469,6 +469,8 @@
       "value": "Conocybe",
       "matchSpecies": [
         "Conocybe aporos",
+        "Conocybe juniana",
+        "Conocybe magnicapitata",
         "Conocybe tenera",
         "Pholiotina aporos"
       ]
@@ -2946,6 +2948,22 @@
       "matchSpecies": [
         "Conocybe aporos",
         "Pholiotina aporos"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Conocybe juniana",
+      "matchSpecies": [
+        "Conocybe juniana",
+        "Conocybe magnicapitata"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Conocybe magnicapitata",
+      "matchSpecies": [
+        "Conocybe juniana",
+        "Conocybe magnicapitata"
       ]
     },
     {
@@ -6198,6 +6216,8 @@
         "Bolbitius titubans",
         "Bolbitius vitellinus",
         "Conocybe aporos",
+        "Conocybe juniana",
+        "Conocybe magnicapitata",
         "Conocybe tenera",
         "Pholiotina aporos",
         "Pholiotina teneroides"
@@ -7228,6 +7248,8 @@
         "Collybiopsis confluens",
         "Collybiopsis peronata",
         "Conocybe aporos",
+        "Conocybe juniana",
+        "Conocybe magnicapitata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -7974,6 +7996,8 @@
         "Collybiopsis confluens",
         "Collybiopsis peronata",
         "Conocybe aporos",
+        "Conocybe juniana",
+        "Conocybe magnicapitata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -8638,6 +8662,8 @@
         "Collybiopsis confluens",
         "Collybiopsis peronata",
         "Conocybe aporos",
+        "Conocybe juniana",
+        "Conocybe magnicapitata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
@@ -9167,6 +9193,8 @@
         "Collybiopsis confluens",
         "Collybiopsis peronata",
         "Conocybe aporos",
+        "Conocybe juniana",
+        "Conocybe magnicapitata",
         "Conocybe tenera",
         "Coprinellus disseminatus",
         "Coprinellus domesticus",
