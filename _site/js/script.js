@@ -218,7 +218,7 @@ function _buildRivistaCard(rivista) {
         <div class="book-meta">
             ${rivista.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${rivista.editore}</span></div>` : ''}
             ${rivista.data && !rivista.period ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${rivista.data}</span></div>` : ''}
-            ${rivista.print_date ? `<div class="meta-row"><span class="meta-label">Stampa:</span><span class="meta-value">${rivista.print_date}</span></div>` : ''}
+            <!-- ${rivista.print_date ? `<div class="meta-row"><span class="meta-label">Stampa:</span><span class="meta-value">${rivista.print_date}</span></div>` : ''} -->
         </div>
         ${tagsHtml}
         ${nArticoli > 0 ? `<div class="rivista-footer">${articleBadge}<button class="rivista-articles-btn" aria-label="Apri sommario">Sommario →</button></div>` : ''}
