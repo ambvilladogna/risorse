@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-21T09:01:56.774Z",
-  "totalSpecies": 452,
-  "totalSamples": 1055,
+  "generatedAt": "2026-05-22T05:44:08.928Z",
+  "totalSpecies": 453,
+  "totalSamples": 1057,
   "species": [
     {
       "genus": "Abortiporus",
@@ -711,6 +711,15 @@
       "authority": "(Bolton) P. Kumm. 1871",
       "currentName": "Collybiopsis peronata",
       "currentAuthority": "(Bolton) R.H. Petersen 2021"
+    },
+    {
+      "genus": "Conocybe",
+      "species": "magnicapitata",
+      "fullName": "Conocybe magnicapitata",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Bolbitiaceae",
+      "authority": "P.D. Orton 1960",
+      "currentName": "Conocybe juniana",
+      "currentAuthority": "(Velen.) Hauskn. & Svrček 1999"
     },
     {
       "genus": "Conocybe",
