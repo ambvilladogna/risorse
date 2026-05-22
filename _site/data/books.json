@@ -2878,5 +2878,286 @@
     "tags": [],
     "rating": 1,
     "note": ""
+  },
+  {
+    "tipo": "rivista",
+    "id": 215,
+    "titolo": "Funghi e dintorni",
+    "volume": "Anno IV",
+    "copie": 1,
+    "autori": null,
+    "editore": "A.M.B. Associazione Micologica Bresadola",
+    "data": "2021",
+    "tags": [
+      "A.M.B.",
+      "Rivista"
+    ],
+    "rating": 3,
+    "note": "",
+    "issue_number": 9,
+    "period": "2021",
+    "print_date": "Giugno 2022",
+    "articoli": [
+      {
+        "id": "art_001",
+        "authors": [
+          "Nicolò Oppicelli"
+        ],
+        "rubrica": "Editoriale del Direttore",
+        "title": "Editoriale del Direttore",
+        "page_start": 1,
+        "tags": []
+      },
+      {
+        "id": "art_002",
+        "authors": [
+          "Redazionale"
+        ],
+        "rubrica": "Funghi e dintorni on-line",
+        "title": "Programma 2° semestre 2022",
+        "page_start": 2,
+        "tags": []
+      },
+      {
+        "id": "art_003",
+        "authors": [
+          "Emanuele Campo",
+          "Nicolò Oppicelli"
+        ],
+        "rubrica": "Belli... e buoni!",
+        "title": "Le spugnole: dalle gialle alle nere. Il Gruppo di Morchella elata",
+        "page_start": 3,
+        "tags": [
+          "Morchella elata",
+          "spugnole"
+        ]
+      },
+      {
+        "id": "art_004",
+        "authors": [
+          "Valerio Bertolini"
+        ],
+        "rubrica": "Notula storico-bibliografica",
+        "title": "Morchella elata e Morchella deliciosa",
+        "page_start": 18,
+        "tags": [
+          "Morchella elata",
+          "Morchella deliciosa"
+        ]
+      },
+      {
+        "id": "art_005",
+        "authors": [
+          "Carlo Papetti"
+        ],
+        "rubrica": "Funghi e dintorni on-line",
+        "title": "Pillole di nomenclatura micologica. Parte prima",
+        "page_start": 23,
+        "tags": []
+      },
+      {
+        "id": "art_006",
+        "authors": [
+          "Emanuele Campo",
+          "Nicolò Oppicelli"
+        ],
+        "rubrica": "Belli... e buoni!",
+        "title": "Russula cyanoxantha, la \"Colombina maggiore\"",
+        "page_start": 29,
+        "tags": [
+          "Russula cyanoxantha",
+          "Colombina maggiore"
+        ]
+      },
+      {
+        "id": "art_007",
+        "authors": [
+          "Valerio Bertolini"
+        ],
+        "rubrica": "Notula storico-bibliografica",
+        "title": "Russula cyanoxantha",
+        "page_start": 40,
+        "tags": [
+          "Russula cyanoxantha"
+        ]
+      },
+      {
+        "id": "art_008",
+        "authors": [
+          "Raffaello Jon"
+        ],
+        "rubrica": "Le vostre esperienze",
+        "title": "Uno strano fungo gelatinoso: Gymnosporangium clavariiforme",
+        "page_start": 45,
+        "tags": [
+          "Gymnosporangium clavariiforme"
+        ]
+      },
+      {
+        "id": "art_009",
+        "authors": [
+          "Angelo Miceli"
+        ],
+        "rubrica": "Le vostre esperienze",
+        "title": "Fistulina hepatica, la \"Lingua di bue\"",
+        "page_start": 51,
+        "tags": [
+          "Fistulina hepatica",
+          "Lingua di bue"
+        ]
+      },
+      {
+        "id": "art_010",
+        "authors": [
+          "Valerio Bertolini"
+        ],
+        "rubrica": "Notula storico-bibliografica",
+        "title": "Fistulina hepatica",
+        "page_start": 59,
+        "tags": [
+          "Fistulina hepatica"
+        ]
+      },
+      {
+        "id": "art_011",
+        "authors": [
+          "Valerio Bertolini"
+        ],
+        "rubrica": "Abitanti del bosco",
+        "title": "Le rane rosse",
+        "page_start": 61,
+        "tags": []
+      },
+      {
+        "id": "art_012",
+        "authors": [],
+        "rubrica": "5° Concorso fotografico (2021) \"Gino Bellato\"",
+        "title": "5° Concorso fotografico (2021) \"Gino Bellato\"",
+        "page_start": 66,
+        "tags": []
+      },
+      {
+        "id": "art_013",
+        "authors": [
+          "Nicolò Oppicelli"
+        ],
+        "rubrica": "... non solo funghi",
+        "title": "Orobanche: belle e opportuniste",
+        "page_start": 69,
+        "tags": []
+      },
+      {
+        "id": "art_014",
+        "authors": [
+          "Carlo Papetti"
+        ],
+        "rubrica": "Fra i libri",
+        "title": "Orchidee spontanee delle nostre zone di Cugildi P. & M. Ovatoli",
+        "page_start": 84,
+        "tags": []
+      },
+      {
+        "id": "art_015",
+        "authors": [
+          "Angelo Donati"
+        ],
+        "rubrica": "Noi & Voi News - In ricordo",
+        "title": "Rosa Anna Galanzi",
+        "page_start": 74,
+        "tags": []
+      },
+      {
+        "id": "art_016",
+        "authors": [],
+        "rubrica": "Noi & Voi News",
+        "title": "Dal Consiglio Direttivo Nazionale - Verbale 366",
+        "page_start": 77,
+        "tags": []
+      }
+    ]
+  },
+  {
+    "tipo": "rivista",
+    "id": 216,
+    "titolo": "Rivista di Micologia - Bollettino dell'Associazione Micologica Bresadola",
+    "volume": "ANNO LXVIII",
+    "copie": 1,
+    "autori": null,
+    "editore": "Associazione Micologica Bresadola",
+    "data": "2024",
+    "tags": [
+      "A.M.B.",
+      "Rivista"
+    ],
+    "rating": 3,
+    "note": "",
+    "issue_number": 1,
+    "period": "Gennaio-Aprile 2024",
+    "print_date": "Agosto 2025",
+    "articoli": [
+      {
+        "id": "art_001",
+        "authors": [
+          "Consiglio G."
+        ],
+        "rubrica": null,
+        "title": "Leucoagaricus irenes una nuova specie trovata in Italia",
+        "page_start": 3,
+        "tags": [
+          "Leucoagaricus irenes"
+        ]
+      },
+      {
+        "id": "art_002",
+        "authors": [
+          "Medardi G."
+        ],
+        "rubrica": null,
+        "title": "Genere Peziza: alcuni ritrovamenti interessanti effettuati nel territorio italiano",
+        "page_start": 17,
+        "tags": [
+          "Peziza"
+        ]
+      },
+      {
+        "id": "art_003",
+        "authors": [
+          "Simonini G.",
+          "S. Restocchi",
+          "G. Ambrosio",
+          "M. Bianchi",
+          "H. Ladurner"
+        ],
+        "rubrica": null,
+        "title": "Epitipificazione di Boletus torosus Fr.",
+        "page_start": 29,
+        "tags": [
+          "Boletus torosus"
+        ]
+      },
+      {
+        "id": "art_004",
+        "authors": [
+          "Consiglio G.",
+          "L. Setti"
+        ],
+        "rubrica": null,
+        "title": "Contributo alla conoscenza del Genere Volvariella",
+        "page_start": 41,
+        "tags": [
+          "Volvariella"
+        ]
+      },
+      {
+        "id": "art_005",
+        "authors": [
+          "Papetti C."
+        ],
+        "rubrica": "Tra i libri",
+        "title": "Il Meraviglioso Mondo dei funghi (G. Ferisin)",
+        "page_start": 96,
+        "tags": []
+      }
+    ]
   }
 ]
