@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-22",
+      "collector": "Angelo Ballabeni",
+      "locality": "Aprico, Fino del Monte",
+      "localityCoordinates": "45.907159, 10.003291",
+      "habitat": "Ceppaia",
+      "determiner": "Angelo Ballabeni"
+    },
+    {
       "collectionDate": "2025-05-19",
       "collector": "Antonio Guana",
       "locality": "Piazzolo, Ardesio",
@@ -17,7 +25,7 @@
   "campioniExsiccata": [],
   "fenologia": {
     "raccoltaPiuPrecoce": "05-19",
-    "raccoltaPiuTarda": "05-19",
+    "raccoltaPiuTarda": "05-22",
     "campioniPerMese": [
       {
         "gen": 0
@@ -32,7 +40,7 @@
         "apr": 0
       },
       {
-        "mag": 1
+        "mag": 2
       },
       {
         "giu": 0
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }

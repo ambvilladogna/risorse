@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-22T05:44:09.009Z",
+  "generatedAt": "2026-05-23T00:12:30.670Z",
   "totalSpecies": 453,
-  "totalSamples": 1125,
+  "totalSamples": 1126,
   "species": [
     {
       "genus": "Flammulina",
@@ -2719,13 +2719,13 @@
       "fullName": "Pluteus romellii",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
       "authority": "(Britzelm.) Lapl. 1894",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         0,
         0,
         0,
         0,
-        1,
+        2,
         0,
         0,
         0,
@@ -2745,15 +2745,15 @@
         "determiner": "Antonio Guana",
         "_tipo": "raccolto"
       },
-      "latestDate": "05-19",
-      "latestDayOfYear": 139,
+      "latestDate": "05-22",
+      "latestDayOfYear": 142,
       "latestSample": {
-        "collectionDate": "2025-05-19",
-        "collector": "Antonio Guana",
-        "locality": "Piazzolo, Ardesio",
-        "localityCoordinates": "45.939095, 9.940667",
-        "habitat": "Bosco misto",
-        "determiner": "Antonio Guana",
+        "collectionDate": "2026-05-22",
+        "collector": "Angelo Ballabeni",
+        "locality": "Aprico, Fino del Monte",
+        "localityCoordinates": "45.907159, 10.003291",
+        "habitat": "Ceppaia",
+        "determiner": "Angelo Ballabeni",
         "_tipo": "raccolto"
       }
     },
