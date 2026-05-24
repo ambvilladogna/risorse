@@ -573,3 +573,64 @@ input[type="search"]:focus {
     color: var(--color-text-light);
     font-style: italic;
 }
+
+/* ── Inline note expand (books & panel-less riviste) ────────────────────────── */
+
+.card-note {
+    margin-top: 10px;
+    border-top: 1px dashed var(--color-border);
+    padding-top: 8px;
+}
+
+.card-note__toggle {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.88rem;
+    color: var(--color-text-light);
+    transition: color 0.2s;
+}
+
+.card-note__toggle:hover {
+    color: var(--color-primary);
+}
+
+.card-note__icon {
+    font-size: 0.95rem;
+    line-height: 1;
+}
+
+.card-note__label {
+    letter-spacing: 0.03em;
+}
+
+/* Rotate icon when expanded */
+.card-note[aria-expanded="true"] .card-note__icon {
+    color: var(--color-primary-light);
+}
+
+.card-note__body {
+    margin-top: 8px;
+    font-size: 0.92rem;
+    color: var(--color-text);
+    font-style: italic;
+    line-height: 1.5;
+    padding-left: 2px;
+}
+
+/* ── Note inside rivista panel header ───────────────────────────────────────── */
+
+.panel-note {
+    margin-top: 8px;
+    font-size: 0.88rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    line-height: 1.4;
+    border-left: 2px solid var(--color-accent);
+    padding-left: 8px;
+}
