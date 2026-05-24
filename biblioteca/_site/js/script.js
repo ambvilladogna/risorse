@@ -136,6 +136,34 @@ function renderCards(filteredBooks) {
     visibleCount.textContent = filteredBooks.length;
 }
 
+// ── Inline note expand (shared by books and panel-less riviste) ───────────────
+
+function _buildNoteHtml(note) {
+    if (!note) return '';
+    return `
+        <div class="card-note" aria-expanded="false">
+            <button class="card-note__toggle" aria-label="Mostra nota">
+                <span class="card-note__icon">✎</span><span class="card-note__label">Nota</span>
+            </button>
+            <div class="card-note__body" hidden>${note}</div>
+        </div>
+    `;
+}
+
+function _attachNoteToggle(card) {
+    const toggle = card.querySelector('.card-note__toggle');
+    if (!toggle) return;
+    const noteEl = card.querySelector('.card-note');
+    const body = card.querySelector('.card-note__body');
+
+    toggle.addEventListener('click', e => {
+        e.stopPropagation(); // don't bubble to card click handlers
+        const expanded = noteEl.getAttribute('aria-expanded') === 'true';
+        noteEl.setAttribute('aria-expanded', String(!expanded));
+        body.hidden = expanded;
+    });
+}
+
 function _buildBookCard(book) {
     const card = document.createElement('div');
     card.className = 'book-card';
@@ -167,8 +195,10 @@ function _buildBookCard(book) {
             ${book.data ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${book.data}</span></div>` : ''}
         </div>
         ${tagsHtml}
+        ${_buildNoteHtml(book.note)}
     `;
 
+    _attachNoteToggle(card);
     return card;
 }
 
@@ -208,6 +238,8 @@ function _buildRivistaCard(rivista) {
         ).join('')}</div>`
         : '';
 
+    const noteHtml = _buildNoteHtml(rivista.note);
+
     card.innerHTML = `
         <div class="book-header">
             <div class="book-series">${rivista.titolo}</div>
@@ -221,6 +253,7 @@ function _buildRivistaCard(rivista) {
             <!-- ${rivista.print_date ? `<div class="meta-row"><span class="meta-label">Stampa:</span><span class="meta-value">${rivista.print_date}</span></div>` : ''} -->
         </div>
         ${tagsHtml}
+        ${noteHtml}
         ${nArticoli > 0 ? `<div class="rivista-footer">${articleBadge}<button class="rivista-articles-btn" aria-label="Apri sommario">Sommario →</button></div>` : ''}
     `;
 
@@ -233,6 +266,8 @@ function _buildRivistaCard(rivista) {
         });
         card.addEventListener('click', () => rivistaPanel.open(rivista));
         card.style.cursor = 'pointer';
+    } else {
+        _attachNoteToggle(card);
     }
 
     return card;
@@ -241,7 +276,7 @@ function _buildRivistaCard(rivista) {
 // ── Rivista detail panel ──────────────────────────────────────────────────────
 
 const rivistaPanel = (() => {
-    let backdrop, panel, panelTitle, panelSubtitle, panelBody;
+    let backdrop, panel, panelTitle, panelSubtitle, panelNote, panelBody;
     let initialized = false;
 
     function _init() {
@@ -271,8 +306,12 @@ const rivistaPanel = (() => {
         panelTitle.id = 'rivista-panel-title';
         panelSubtitle = document.createElement('div');
         panelSubtitle.className = 'panel-subtitle';
+        // Note line inside panel header
+        panelNote = document.createElement('div');
+        panelNote.className = 'panel-note';
         titleBlock.appendChild(panelTitle);
         titleBlock.appendChild(panelSubtitle);
+        titleBlock.appendChild(panelNote);
 
         const closeBtn = document.createElement('button');
         closeBtn.className = 'panel-close';
@@ -312,6 +351,15 @@ const rivistaPanel = (() => {
             volumeParts.join(' · '),
             rivista.period || rivista.data || ''
         ].filter(Boolean).join(' — ');
+
+        // Note in panel header
+        if (rivista.note) {
+            panelNote.textContent = rivista.note;
+            panelNote.style.display = '';
+        } else {
+            panelNote.textContent = '';
+            panelNote.style.display = 'none';
+        }
 
         // Body: article list
         panelBody.innerHTML = '';
@@ -398,6 +446,7 @@ function filterBooks() {
                 (item.volume || '').toLowerCase().includes(token) ||
                 (item.editore || '').toLowerCase().includes(token) ||
                 (item.data || '').toLowerCase().includes(token) ||
+                (item.note || '').toLowerCase().includes(token) ||
                 (item.tags || []).some(tag => tag.toLowerCase().includes(token));
 
             if (inCommon) return true;
