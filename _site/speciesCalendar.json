@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-23T00:12:30.670Z",
+  "generatedAt": "2026-05-25T00:12:20.652Z",
   "totalSpecies": 453,
-  "totalSamples": 1126,
+  "totalSamples": 1127,
   "species": [
     {
       "genus": "Flammulina",
@@ -1875,13 +1875,13 @@
       "fullName": "Melanoleuca subalpina",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Melanoleucaceae",
       "authority": "(Britzelm.) Bresinsky & Stangl 1976",
-      "totalSamples": 6,
+      "totalSamples": 7,
       "monthlyCount": [
         0,
         0,
         0,
         0,
-        3,
+        4,
         2,
         0,
         1,
