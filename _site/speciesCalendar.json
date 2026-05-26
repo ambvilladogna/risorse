@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-25T00:12:20.652Z",
+  "generatedAt": "2026-05-26T00:12:46.727Z",
   "totalSpecies": 453,
-  "totalSamples": 1127,
+  "totalSamples": 1128,
   "species": [
     {
       "genus": "Flammulina",
@@ -2631,13 +2631,13 @@
       "fullName": "Lycogala epidendrum",
       "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Liceida > famiglia: Reticulariidae",
       "authority": "(J.C. Buxb. ex L.) Fr. 1829",
-      "totalSamples": 5,
+      "totalSamples": 6,
       "monthlyCount": [
         0,
         0,
         0,
         0,
-        1,
+        2,
         0,
         1,
         0,
