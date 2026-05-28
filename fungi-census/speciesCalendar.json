@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-26T00:12:46.727Z",
+  "generatedAt": "2026-05-28T00:12:23.091Z",
   "totalSpecies": 453,
-  "totalSamples": 1128,
+  "totalSamples": 1129,
   "species": [
     {
       "genus": "Flammulina",
@@ -2321,13 +2321,13 @@
       "fullName": "Morchella elata",
       "lineage": "regno: Fungi > phylum: Ascomycota > classe: Pezizomycetes > ordine: Pezizales > famiglia: Morchellaceae",
       "authority": "Fr. 1822",
-      "totalSamples": 1,
+      "totalSamples": 2,
       "monthlyCount": [
         0,
         0,
         0,
         0,
-        1,
+        2,
         0,
         0,
         0,
@@ -2347,10 +2347,10 @@
         "determiner": "Fabio Locatelli",
         "_tipo": "raccolto"
       },
-      "latestDate": "05-18",
-      "latestDayOfYear": 138,
+      "latestDate": "05-26",
+      "latestDayOfYear": 146,
       "latestSample": {
-        "collectionDate": "2026-05-18",
+        "collectionDate": "2026-05-26",
         "collector": "Fabio Locatelli",
         "locality": "Schilpario",
         "localityCoordinates": "46.009394, 10.154059",
