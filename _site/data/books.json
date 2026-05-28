@@ -418,11 +418,12 @@
     "note": ""
   },
   {
+    "tipo": "rivista",
     "id": 32,
     "titolo": "Micologia Duemila",
     "volume": null,
     "copie": 1,
-    "autori": "Autori Vari",
+    "autori": "Autori vari",
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "2000",
     "tags": [
@@ -430,7 +431,688 @@
       "Rivista"
     ],
     "rating": 3,
-    "note": null
+    "note": "",
+    "issue_number": null,
+    "period": "2000",
+    "print_date": "2000",
+    "articoli": [
+      {
+        "authors": [],
+        "rubrica": null,
+        "title": "Prefazione",
+        "page_start": 3,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Vladimír Antonín"
+        ],
+        "rubrica": null,
+        "title": "Notes on the variability of Xerocomus armeniacus forma luteolus",
+        "page_start": 7,
+        "tags": [
+          "Xerocomus armeniacus forma luteolus"
+        ]
+      },
+      {
+        "authors": [
+          "Daniele Antonini",
+          "Massimo Antonini"
+        ],
+        "rubrica": null,
+        "title": "Contributo allo studio dei Macromiceti della Riserva naturale di Campolino",
+        "page_start": 13,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Hans-Otto Baral",
+          "Guy Marson"
+        ],
+        "rubrica": null,
+        "title": "Monographic revision of Gelatinopsis and Calloriopsis (Calloriopsideae, Leotiales)",
+        "page_start": 23,
+        "tags": [
+          "Gelatinopsis",
+          "Calloriopsis",
+          "Calloriopsideae",
+          "Leotiales"
+        ]
+      },
+      {
+        "authors": [
+          "Dieter Benkert"
+        ],
+        "rubrica": null,
+        "title": "Neotypisierung von Lamprospora miniata De Not. (Ascomycetes, Pezizales) und die Problematik des \"Lamprospora miniata-Komplexes\"",
+        "page_start": 47,
+        "tags": [
+          "Lamprospora miniata",
+          "Ascomycetes",
+          "Pezizales"
+        ]
+      },
+      {
+        "authors": [
+          "Andrè Bidaud",
+          "Pierre Moënne-Loccoz",
+          "Patrick Reumaux"
+        ],
+        "rubrica": null,
+        "title": "Compléments iconographiques à l'Atlas des Cortinaires",
+        "page_start": 63,
+        "tags": [
+          "Cortinarius"
+        ]
+      },
+      {
+        "authors": [
+          "Manfred Binder",
+          "Helmut Besl"
+        ],
+        "rubrica": null,
+        "title": "28S rDNA Sequence Data and Chemotaxonomical Analyses on the Generic Concept of Leccinum (Boletales)",
+        "page_start": 75,
+        "tags": [
+          "Leccinum",
+          "Boletales"
+        ]
+      },
+      {
+        "authors": [
+          "Enrico Bizio"
+        ],
+        "rubrica": null,
+        "title": "Inocybe agordina: una piccola e curiosa nuova specie della Soprasezione Marginatae",
+        "page_start": 87,
+        "tags": [
+          "Inocybe agordina",
+          "Marginatae"
+        ]
+      },
+      {
+        "authors": [
+          "Alberto Bizzi"
+        ],
+        "rubrica": null,
+        "title": "Tre Lepiotaceae interessanti: Echinoderma carinii (Bres.) Bon, E. eriophorum (Peck) Bon e E. echinaceum (Lange) Bon",
+        "page_start": 95,
+        "tags": [
+          "Lepiotaceae",
+          "Echinoderma carinii",
+          "Echinoderma eriophorum",
+          "Echinoderma echinaceum"
+        ]
+      },
+      {
+        "authors": [
+          "Emanuele Campo"
+        ],
+        "rubrica": null,
+        "title": "Alcuni Cortinari della zona alpina",
+        "page_start": 105,
+        "tags": [
+          "Cortinarius"
+        ]
+      },
+      {
+        "authors": [
+          "Giovanni Consiglio"
+        ],
+        "rubrica": null,
+        "title": "Contribution to the knowledge of the macromycetes of Emilia-Romagna. XVIII. Genus Cortinarius - Part 8",
+        "page_start": 115,
+        "tags": [
+          "Cortinarius"
+        ]
+      },
+      {
+        "authors": [
+          "Marco Contu"
+        ],
+        "rubrica": null,
+        "title": "Studi sulle Lyophyllaceae della Sardegna - IV",
+        "page_start": 125,
+        "tags": [
+          "Lyophyllaceae"
+        ]
+      },
+      {
+        "authors": [
+          "Dennis E. Desjardin"
+        ],
+        "rubrica": null,
+        "title": "Strobilurus diminutivus, a new species from Montane California USA",
+        "page_start": 137,
+        "tags": [
+          "Strobilurus diminutivus"
+        ]
+      },
+      {
+        "authors": [
+          "Stephanos Diamandis"
+        ],
+        "rubrica": null,
+        "title": "Rare and Threatened species of the Greek mycoflora",
+        "page_start": 143,
+        "tags": []
+      },
+      {
+        "authors": [
+          "María M. Dios",
+          "Gabriel Moreno",
+          "Alberto Altés",
+          "María V. D'Angelo"
+        ],
+        "rubrica": null,
+        "title": "Algunos Gasteromycetes interesantes de Catamarca, Argentina",
+        "page_start": 155,
+        "tags": [
+          "Gasteromycetes"
+        ]
+      },
+      {
+        "authors": [
+          "Manfred Enderle"
+        ],
+        "rubrica": null,
+        "title": "Conocybe-Pholiotina Studien - X",
+        "page_start": 165,
+        "tags": [
+          "Conocybe",
+          "Pholiotina"
+        ]
+      },
+      {
+        "authors": [
+          "Fernando Esteve-Raventós"
+        ],
+        "rubrica": null,
+        "title": "Rhodocybe subcaespitosa sp. nov. (Entolomataceae, Agaricales) found in Spain",
+        "page_start": 177,
+        "tags": [
+          "Rhodocybe subcaespitosa",
+          "Entolomataceae",
+          "Agaricales"
+        ]
+      },
+      {
+        "authors": [
+          "Francis Fouchier",
+          "Licia Alpago-Novello",
+          "Pierre Neville",
+          "Fabio Padovan"
+        ],
+        "rubrica": null,
+        "title": "Une petite espèce rare mais remarquable d'Ascomycota: Rhodoscypha ovilla (Peck) Dissing & Sivertsen",
+        "page_start": 185,
+        "tags": [
+          "Ascomycota",
+          "Rhodoscypha ovilla"
+        ]
+      },
+      {
+        "authors": [
+          "Paolo Franchi",
+          "Mauro Marchetti"
+        ],
+        "rubrica": null,
+        "title": "Funghi clavarioidi. III. Due nuovi taxa del Genere Ramaria, Subgenere Ramaria",
+        "page_start": 199,
+        "tags": [
+          "Ramaria"
+        ]
+      },
+      {
+        "authors": [
+          "Roberto Galli"
+        ],
+        "rubrica": null,
+        "title": "Cortinarius speciosissimus Kühn. & Romagn. e Cortinarius orellanoides Henry: specie identiche o diverse?",
+        "page_start": 209,
+        "tags": [
+          "Cortinarius speciosissimus",
+          "Cortinarius orellanoides"
+        ]
+      },
+      {
+        "authors": [
+          "Ján Gáper"
+        ],
+        "rubrica": null,
+        "title": "Wood-inhabiting and wood-destroying non-poroid macrofungi on introduced woody plants from the urban environment in Slovakia",
+        "page_start": 217,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Bruno Gasparini"
+        ],
+        "rubrica": null,
+        "title": "Cortinarius euprasinus Rob. Henry 1985 ex Rob. Henry 1989 (= C. prasinus (Schaeff. : Fr.) Fr. ss. Fr.; C. prasinus ss. Marchand)",
+        "page_start": 225,
+        "tags": [
+          "Cortinarius euprasinus",
+          "Cortinarius prasinus"
+        ]
+      },
+      {
+        "authors": [
+          "Edmondo Grilli"
+        ],
+        "rubrica": null,
+        "title": "Studies on the Genus Hebeloma",
+        "page_start": 231,
+        "tags": [
+          "Hebeloma"
+        ]
+      },
+      {
+        "authors": [
+          "Anton Hausknecht"
+        ],
+        "rubrica": null,
+        "title": "Ein erster Nachweis von Conocybe cylindracea in Europa",
+        "page_start": 241,
+        "tags": [
+          "Conocybe cylindracea"
+        ]
+      },
+      {
+        "authors": [
+          "Bruce Ing"
+        ],
+        "rubrica": null,
+        "title": "Exobasidium in Switzerland",
+        "page_start": 245,
+        "tags": [
+          "Exobasidium"
+        ]
+      },
+      {
+        "authors": [
+          "Marcello Intini",
+          "Roberto Gabucci",
+          "Elena Paoletti"
+        ],
+        "rubrica": null,
+        "title": "Biological species of Armillaria in the Cascine Park and in the Vallombrosa forest, Italy",
+        "page_start": 255,
+        "tags": [
+          "Armillaria"
+        ]
+      },
+      {
+        "authors": [
+          "Reinhold Kärcher"
+        ],
+        "rubrica": null,
+        "title": "Beitrag zur Kenntnis der Täublinge. Russula Studien, Teil 5 Zur Taxonomie und Nomenklatur einiger Vertreter der Untergattung Viridantinula (Melzer & Zvara) Kärcher in Krieglsteiner (1999)",
+        "page_start": 269,
+        "tags": [
+          "Russula",
+          "Viridantinula"
+        ]
+      },
+      {
+        "authors": [
+          "Carmine Lavorato"
+        ],
+        "rubrica": null,
+        "title": "Suillus lakei var. calabrus var. nov.",
+        "page_start": 285,
+        "tags": [
+          "Suillus lakei var. calabrus"
+        ]
+      },
+      {
+        "authors": [
+          "Maria Lisiewska",
+          "Ireneusz Reszel"
+        ],
+        "rubrica": null,
+        "title": "Macrofungi of acidophilous oak forest communities in the southern Wielkopolska region (Poland)",
+        "page_start": 289,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Jaume Llistosella"
+        ],
+        "rubrica": null,
+        "title": "Datos sobre la ecología y fenología del género Lactarius Pers. ex S.F. Gray en Cataluña e islas Baleares (NE de España)",
+        "page_start": 309,
+        "tags": [
+          "Lactarius"
+        ]
+      },
+      {
+        "authors": [
+          "Cristiano Losi",
+          "Giovanni Zecchin"
+        ],
+        "rubrica": null,
+        "title": "Xylaria guepini (Fr. : Fr.) Fr., descrizione di un recente ritrovamento in Friuli",
+        "page_start": 319,
+        "tags": [
+          "Xylaria guepini"
+        ]
+      },
+      {
+        "authors": [
+          "Rafael Mahiques",
+          "Corsino Gutiérrez"
+        ],
+        "rubrica": null,
+        "title": "Algunos Cortenarios pseudovolvados del área mediterránea ibérica",
+        "page_start": 323,
+        "tags": [
+          "Cortinarius"
+        ]
+      },
+      {
+        "authors": [
+          "Riccardo Mazza"
+        ],
+        "rubrica": null,
+        "title": "Appunti e riflessioni su una specie mortale: Cortinarius speciosissimus Kühner & Romagnesi",
+        "page_start": 343,
+        "tags": [
+          "Cortinarius speciosissimus"
+        ]
+      },
+      {
+        "authors": [
+          "Gianfranco Medardi"
+        ],
+        "rubrica": null,
+        "title": "Studio su alcune Hyaloscyphaceae delle nostre regioni con disco giallo-arancio e peli bianchi",
+        "page_start": 355,
+        "tags": [
+          "Hyaloscyphaceae"
+        ]
+      },
+      {
+        "authors": [
+          "Amer Montecchi"
+        ],
+        "rubrica": null,
+        "title": "Terfezie e Tirmanie, Ascomiceti Ipogei degli areali mediterranei",
+        "page_start": 363,
+        "tags": [
+          "Terfezia",
+          "Tirmania",
+          "Ascomiceti"
+        ]
+      },
+      {
+        "authors": [
+          "Giovanni Monti",
+          "Simonetta Maccioni",
+          "Mauro Marchetti"
+        ],
+        "rubrica": null,
+        "title": "Funghi del bruciato in una pineta di Pinus pinaster Aiton sul promontorio del Caprione (Liguria orientale)",
+        "page_start": 375,
+        "tags": [
+          "Pinus pinaster"
+        ]
+      },
+      {
+        "authors": [
+          "Gabriel Moreno",
+          "Fernando Esteve-Raventós"
+        ],
+        "rubrica": null,
+        "title": "Omphalina farinolens sp. nov., a new species from the Iberian xerophytic grasslands",
+        "page_start": 393,
+        "tags": [
+          "Omphalina farinolens"
+        ]
+      },
+      {
+        "authors": [
+          "Esteri Ohenoja"
+        ],
+        "rubrica": null,
+        "title": "Ecological aspects of the larger fungi in Northern Finnish Lapland and the adjacent parts of Norway",
+        "page_start": 397,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Carlo Papetti"
+        ],
+        "rubrica": null,
+        "title": "Contributo alla conoscenza delle Hygrophoraceae - I",
+        "page_start": 407,
+        "tags": [
+          "Hygrophoraceae"
+        ]
+      },
+      {
+        "authors": [
+          "C. Perini",
+          "E. Salerni",
+          "A. Laganà",
+          "C. Barluzzi",
+          "V. De Dominicis",
+          "M. Lawrynowicz",
+          "R. Fellner"
+        ],
+        "rubrica": null,
+        "title": "Monitoraggio di macromiceti in querceti europei: primi risultati di un progetto pilota",
+        "page_start": 415,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Pierre Piérart"
+        ],
+        "rubrica": null,
+        "title": "Ectomycorrhization du chêne et du hêtre en forêt de Soignes bruxelloise",
+        "page_start": 423,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Reinhold Pöder",
+          "Peter Holzknecht"
+        ],
+        "rubrica": null,
+        "title": "Computer aided identification system: interactive keys will emboss the future of mycological systematics",
+        "page_start": 435,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Adriana Pop"
+        ],
+        "rubrica": null,
+        "title": "New Leotiales (Ascomycotina) from Romania",
+        "page_start": 447,
+        "tags": [
+          "Leotiales",
+          "Ascomycotina"
+        ]
+      },
+      {
+        "authors": [
+          "Ain Raitviir"
+        ],
+        "rubrica": null,
+        "title": "The Genus Incrupila",
+        "page_start": 457,
+        "tags": [
+          "Incrupila"
+        ]
+      },
+      {
+        "authors": [
+          "Giovanni Robich",
+          "Emanuele Campo"
+        ],
+        "rubrica": null,
+        "title": "Marasmiellus maas-geesterani una nuova specie dall'Italia",
+        "page_start": 463,
+        "tags": [
+          "Marasmiellus maas-geesterani"
+        ]
+      },
+      {
+        "authors": [
+          "Leif Ryvarden"
+        ],
+        "rubrica": null,
+        "title": "A critical checklist of African polypores",
+        "page_start": 471,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Giampaolo Simonini",
+          "Marco Contu"
+        ],
+        "rubrica": null,
+        "title": "La variabilità cromatica di Xerocomus subtomentosus",
+        "page_start": 485,
+        "tags": [
+          "Xerocomus subtomentosus"
+        ]
+      },
+      {
+        "authors": [
+          "Alina Skirgiełło"
+        ],
+        "rubrica": null,
+        "title": "Volvariella Genus in Poland",
+        "page_start": 505,
+        "tags": [
+          "Volvariella"
+        ]
+      },
+      {
+        "authors": [
+          "Jacques Trimbach"
+        ],
+        "rubrica": null,
+        "title": "Peziza subisabellina n'est pas un Pachyella",
+        "page_start": 511,
+        "tags": [
+          "Peziza subisabellina",
+          "Pachyella"
+        ]
+      },
+      {
+        "authors": [
+          "Davide Ubaldi",
+          "Fabio Padovan"
+        ],
+        "rubrica": null,
+        "title": "Micoassociazioni di macromiceti micorrizogeni epigei in boschi italiani",
+        "page_start": 519,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Kees Ulje"
+        ],
+        "rubrica": null,
+        "title": "Some rare but easily recognizable Inkcaps",
+        "page_start": 533,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Eduardo F. Valenzuela"
+        ],
+        "rubrica": null,
+        "title": "Cortinarius de los bosques de Nothofagus de la X region de Chile",
+        "page_start": 543,
+        "tags": [
+          "Cortinarius",
+          "Nothofagus"
+        ]
+      },
+      {
+        "authors": [
+          "Jukka Vauras",
+          "Juhani Ruotsalainen"
+        ],
+        "rubrica": null,
+        "title": "Two new species of Russula with greying flesh from Fennoscandia",
+        "page_start": 557,
+        "tags": [
+          "Russula"
+        ]
+      },
+      {
+        "authors": [
+          "Annemieke Verbeken",
+          "Ruben Walleyn",
+          "Machiel E. Noordeloos",
+          "Jan Vesterholt",
+          "Jacob Heilmann-Clausen",
+          "Marco Floriani"
+        ],
+        "rubrica": null,
+        "title": "On Lactarius ruginosus and L. romagnesii s. str.",
+        "page_start": 569,
+        "tags": [
+          "Lactarius ruginosus",
+          "Lactarius romagnesii"
+        ]
+      },
+      {
+        "authors": [
+          "Roy Watling"
+        ],
+        "rubrica": null,
+        "title": "Bresadola, Cesati and Patouillard's old world Boletes",
+        "page_start": 577,
+        "tags": []
+      },
+      {
+        "authors": [
+          "Giovanni Zecchin",
+          "Vincenzo Migliozzi"
+        ],
+        "rubrica": null,
+        "title": "Studio della Sezione Stenosporae (Lange) Kühner del Genere Lepiota s.s. - III",
+        "page_start": 591,
+        "tags": [
+          "Stenosporae",
+          "Lepiota"
+        ]
+      },
+      {
+        "authors": [
+          "Francesco Doveri",
+          "Gabriele Cacialli",
+          "Vincenzo Caroti"
+        ],
+        "rubrica": null,
+        "title": "A guide to the classification of fimicolous Pyrenomycetes ss. lato from Italy. Contribution to the study of fimicolous fungi - XXXIII",
+        "page_start": 603,
+        "tags": [
+          "Pyrenomycetes"
+        ]
+      },
+      {
+        "authors": [],
+        "rubrica": null,
+        "title": "Indice Generale",
+        "page_start": 707,
+        "tags": []
+      },
+      {
+        "authors": [],
+        "rubrica": null,
+        "title": "Indice dei nuovi taxa e delle nuove combinazioni",
+        "page_start": 711,
+        "tags": []
+      }
+    ]
   },
   {
     "id": 33,
@@ -3494,7 +4176,9 @@
     "data": "2000",
     "copie": 1,
     "rating": 1,
-    "tags": [],
+    "tags": [
+      "RealtàLocali"
+    ],
     "note": null
   },
   {
@@ -3558,8 +4242,11 @@
     "editore": "A.M.B. Gruppo di Trieste",
     "data": "1999",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 254,
@@ -3569,8 +4256,11 @@
     "editore": "A.M.B. Gruppo di Trieste",
     "data": "2000",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 255,
@@ -3580,8 +4270,11 @@
     "editore": "A.M.B. Gruppo di Trieste",
     "data": "2001",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 256,
@@ -3591,8 +4284,11 @@
     "editore": "A.M.B. Gruppo di Trieste",
     "data": "2002",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 257,
@@ -3602,8 +4298,11 @@
     "editore": "A.M.B. Gruppo di Trieste",
     "data": "2003",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 258,
@@ -3613,8 +4312,11 @@
     "editore": "A.M.B. Gruppo di Trieste",
     "data": "2004",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 259,
