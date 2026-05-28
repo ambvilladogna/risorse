@@ -1635,9 +1635,9 @@
     "id": 70,
     "titolo": "L’atlante dei funghi",
     "volume": null,
-    "copie": 1,
+    "copie": 2,
     "autori": "Giuseppe Pace",
-    "editore": "Oscar Mondadori",
+    "editore": "Arnoldo Mondadori Editore",
     "data": "1988",
     "tags": [],
     "rating": 1,
@@ -1753,7 +1753,7 @@
     "id": 79,
     "titolo": "Corso di formazione micologica",
     "volume": "Volume I – Introduzione allo studio dei funghi",
-    "copie": 1,
+    "copie": 2,
     "autori": "Tipolitografia Queriniana",
     "editore": "Circolo Micologico “Giovanni Carini”",
     "data": "1992",
@@ -2328,7 +2328,7 @@
     "id": 122,
     "titolo": "I funghi della provincia di Pesaro e Urbino – Atlante fotografico",
     "volume": "volume 1° - I quaderni dell'ambiente: N 16",
-    "copie": 1,
+    "copie": 2,
     "autori": "Marco Maletti, Romano Paolini",
     "editore": "A.M.B. Gruppo di Pesaro",
     "data": "2003",
@@ -2341,94 +2341,82 @@
   {
     "id": 123,
     "titolo": "L’atlante dei funghi",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "Augusto Rinaldi, Vassili Tyndalo, Giulio Pace, Giuseppe Pace",
     "editore": "Mondadori",
-    "data": "",
+    "data": "1972",
     "tags": [],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 124,
     "titolo": "Fungorum Agri Ariminensis Historia",
-    "volume": "",
+    "volume": "Ristampa integrale",
     "copie": 1,
-    "autori": "",
+    "autori": "J. Antonio Battarra, Pier Carlo Righetti",
     "editore": "Bruno Ghighi Editore",
     "data": "1990",
     "tags": [
       "Historia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 125,
     "titolo": "I Boleti",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "E. G. Merlo, M. Rosso, M. Traveso",
     "editore": "SAGEP Editrice",
-    "data": "",
+    "data": "1980",
     "tags": [
       "Monografia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 126,
     "titolo": "Prepoznavanje Gljiva",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "Peter Jordan",
-    "editore": "",
-    "data": "",
+    "editore": "Leo Commerce",
+    "data": "2004",
     "tags": [],
     "rating": 1,
-    "note": ""
-  },
-  {
-    "id": 128,
-    "titolo": "L’atlante dei funghi",
-    "volume": "",
-    "copie": 1,
-    "autori": "",
-    "editore": "Mondadori",
-    "data": "",
-    "tags": [],
-    "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 129,
     "titolo": "I funghi in Lombardia",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "Roberto Galli",
-    "editore": "",
-    "data": "",
+    "editore": "Edizioni dell'Ambrosino",
+    "data": "1989",
     "tags": [
       "RealtàLocali"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 131,
     "titolo": "Il Porcino",
-    "volume": "",
+    "volume": null,
     "copie": 1,
-    "autori": "Luciano Alessio",
-    "editore": "",
-    "data": "",
+    "autori": "Carlo Luciano Alessio",
+    "editore": "Edagricole",
+    "data": "1978",
     "tags": [
       "Monografia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 132,
@@ -2447,8 +2435,8 @@
   {
     "id": 133,
     "titolo": "Le amanite",
-    "volume": "",
-    "copie": 1,
+    "volume": null,
+    "copie": 2,
     "autori": "E. G. Merlo, M. Traveso",
     "editore": "SAGEP Editrice",
     "data": "1983",
@@ -2456,7 +2444,7 @@
       "Monografia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 134,
@@ -2464,27 +2452,27 @@
     "volume": "6 – Les Bolets Boletaceae",
     "copie": 1,
     "autori": "G. Lannoy, A. Estades",
-    "editore": "",
-    "data": "",
+    "editore": "CRDP",
+    "data": "2001",
     "tags": [
       "Monografia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 135,
     "titolo": "La vegetazione dei colli morenici del Garda",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "E. Crosato, G. Grossi, G. Persico, G. Voltolini",
-    "editore": "",
-    "data": "",
+    "editore": "Publi-Paolini Mantova",
+    "data": "1988",
     "tags": [
       "RealtàLocali"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 136,
@@ -2504,16 +2492,16 @@
   {
     "id": 137,
     "titolo": "Il fungo Pleuroto",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "Floriano Ferri",
-    "editore": "",
-    "data": "",
+    "editore": "Universale Edagricole",
+    "data": "1981",
     "tags": [
       "Monografia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 138,
@@ -2530,34 +2518,34 @@
   {
     "id": 139,
     "titolo": "Funghi",
-    "volume": "",
+    "volume": null,
     "copie": 1,
-    "autori": "",
-    "editore": "",
-    "data": "",
+    "autori": "Thomas Læssøe",
+    "editore": "Dorling Kindersley Handbooks",
+    "data": "2004",
     "tags": [],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 140,
     "titolo": "I funghi velenosi",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "Nino Arietti, Renato Tomasi",
-    "editore": "",
-    "data": "",
+    "editore": "Edagricole",
+    "data": "1975",
     "tags": [
       "Commestibilità"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 141,
     "titolo": "Don Giacomo Bresadola da Ortisé il prete dei funghi",
-    "volume": "",
-    "copie": 1,
+    "volume": null,
+    "copie": 2,
     "autori": "Udalrico Fantelli",
     "editore": "Centro Studi per la Val di Sole",
     "data": "2014",
@@ -2565,21 +2553,21 @@
       "Historia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 142,
     "titolo": "Alla scoperta dei funghi del monte Barro",
-    "volume": "",
+    "volume": null,
     "copie": 1,
-    "autori": "",
-    "editore": "",
-    "data": "",
+    "autori": "Ferruccio Castelli, Angelo Moron",
+    "editore": "A.M.B. Gruppi di Galbiate e Rogeno",
+    "data": "2013",
     "tags": [
       "RealtàLocali"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 143,
@@ -3816,12 +3804,14 @@
   {
     "id": 218,
     "titolo": "Gastromiceti",
-    "editore": "A. M. B. - Gruppo Micologico Parmense \"G. Passarini\"",
+    "editore": "A. M. B. - Gruppo Micologico Parmense \"G. Passerini\"",
     "data": "1980",
-    "copie": 1,
+    "copie": 2,
     "rating": 1,
     "tags": [],
-    "note": "traduzione da: Michael - Hennig: Handbuch\nPilat: Flora CSR"
+    "note": "traduzione da: Michael - Hennig: Handbuch\nPilat: Flora CSR",
+    "volume": null,
+    "autori": null
   },
   {
     "id": 219,
@@ -4326,6 +4316,161 @@
     "editore": "ABgrafica",
     "data": "2005",
     "copie": 1,
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 260,
+    "titolo": "ATTI 46° Comitato Scientifico Nazionale",
+    "volume": "Roverè Veronese",
+    "autori": "Autori vari",
+    "editore": "A.M.B.",
+    "data": "2000",
+    "copie": 1,
+    "rating": 1,
+    "tags": [
+      "A.M.B."
+    ],
+    "note": null
+  },
+  {
+    "id": 261,
+    "titolo": "Il mondo della micologia",
+    "volume": null,
+    "autori": "Carlo Zaffalon, Daniela Crescente",
+    "editore": "Gruppo Micologico Agrimont",
+    "data": "1990",
+    "copie": 1,
+    "rating": 1,
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 262,
+    "titolo": "Alcune specie interessanti... e nuove proposte di studio",
+    "volume": "Primo contributo - XIX Comitato Scientifico Nazionale - Serina - Bergamo",
+    "autori": "Autori vari",
+    "editore": "A.M.B. Gruppo di Trento",
+    "data": "1986",
+    "copie": 1,
+    "rating": 1,
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 263,
+    "titolo": "Alcune specie interessanti... e nuove proposte di studio",
+    "volume": "Secondo contributo - XIX Comitato Scientifico Nazionale - Serina - Bergamo",
+    "autori": "Autori vari",
+    "editore": "A.M.B. Gruppo di Trento",
+    "data": "1986",
+    "copie": 1,
+    "rating": 1,
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 264,
+    "titolo": "Andar per funghi nel parco...",
+    "volume": null,
+    "autori": "Mario Valoti",
+    "editore": "Consorzio Parco Ticino",
+    "data": "1992",
+    "copie": 1,
+    "rating": 1,
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 265,
+    "titolo": "I funghi freschi, secchi e conservati nella pratica ispettiva",
+    "volume": null,
+    "autori": "Nando Togni, Filiberto Fiandri",
+    "editore": "Gruppo Naturalistico Modenese",
+    "data": "1986",
+    "copie": 1,
+    "rating": 1,
+    "tags": [
+      "Formazione",
+      "Commestibilità"
+    ],
+    "note": null
+  },
+  {
+    "id": 266,
+    "titolo": "Funghi di Lombardia",
+    "volume": null,
+    "autori": "Mario Valoti",
+    "editore": "Edizioni Cesare Ferrari - Clusone",
+    "data": "1980",
+    "copie": 1,
+    "rating": 1,
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null
+  },
+  {
+    "id": 267,
+    "titolo": "Cento funghi da conoscere",
+    "volume": null,
+    "autori": "Alberto Sessi",
+    "editore": "Regione Lombardia",
+    "data": "1976",
+    "copie": 1,
+    "rating": 1,
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null
+  },
+  {
+    "id": 268,
+    "titolo": "Disciplina per la raccolta dei funghi nella provincia di Bregamo",
+    "volume": null,
+    "autori": "Autori vari",
+    "editore": "Editrice Cesare Ferrari - Clusone",
+    "data": "1985",
+    "copie": 2,
+    "tags": [
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
+  },
+  {
+    "id": 269,
+    "titolo": "I funghi",
+    "volume": "quando e dove trovarli, quali raccogliere, ome mangiarli",
+    "autori": "Carlo Serafin",
+    "editore": "Edagricole",
+    "data": "1977",
+    "copie": 1,
+    "tags": [],
+    "note": null,
+    "rating": 1
+  },
+  {
+    "id": 270,
+    "titolo": "Il libro dei fungi",
+    "volume": null,
+    "autori": "Hans Haas, Heinz Schrempp",
+    "editore": "farnco muzzio & c. editore",
+    "data": "1980",
+    "copie": 1,
+    "rating": 1,
+    "tags": [],
+    "note": null
+  },
+  {
+    "id": 271,
+    "titolo": "Fondamenti di micologia",
+    "volume": null,
+    "autori": "Angelo Rambelli",
+    "editore": "Zanichelli",
+    "data": "1981",
+    "copie": 1,
+    "rating": 1,
     "tags": [],
     "note": null
   }
