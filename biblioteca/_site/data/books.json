@@ -1138,6 +1138,7 @@
     "editore": "A.M.B. Gruppo di Crema",
     "data": "2024",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -1180,7 +1181,7 @@
     "editore": "Mycoflora",
     "data": "2000",
     "tags": [],
-    "rating": 1,
+    "rating": 3,
     "note": null
   },
   {
@@ -1192,7 +1193,7 @@
     "editore": "Edizioni Candusso",
     "data": "2002",
     "tags": [],
-    "rating": 1,
+    "rating": 3,
     "note": null
   },
   {
@@ -1204,6 +1205,7 @@
     "editore": "A.M.B. Gruppo di Trento",
     "data": "1979",
     "tags": [
+      "A.M.B.",
       "RealtàLocali",
       "Historia"
     ],
@@ -1443,6 +1445,7 @@
     "editore": "Fondazione Giustiniani Bandini",
     "data": "2002",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -1584,6 +1587,7 @@
     "editore": "A.M.B. Gruppo di Brescia",
     "data": "2015",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -1598,6 +1602,7 @@
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "1999",
     "tags": [
+      "A.M.B.",
       "Monografia"
     ],
     "rating": 1,
@@ -1612,7 +1617,8 @@
     "editore": "A.M.B. Gruppo di Verona",
     "data": "2000",
     "tags": [
-      "RealtàLocali"
+      "RealtàLocali",
+      "A.M.B."
     ],
     "rating": 1,
     "note": ""
@@ -1652,6 +1658,7 @@
     "editore": "A.M.B. Gruppo di Trento",
     "data": "1080",
     "tags": [
+      "A.M.B.",
       "Formazione"
     ],
     "rating": 1,
@@ -1678,6 +1685,7 @@
     "editore": "A.M.B. Gruppo di Asti",
     "data": "2011",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -1744,6 +1752,7 @@
     "editore": "A.M.B. Gruppo di Tradate",
     "data": "2001",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -1881,6 +1890,7 @@
     "editore": "A.M.B. Gruppo di Busto Arsizio",
     "data": "",
     "tags": [
+      "A.M.B.",
       "RealtàLocali",
       "Formazione",
       "Commestibilità"
@@ -1950,9 +1960,7 @@
     "autori": "Roberto Fontenla, Mario Gottardi",
     "editore": "Edizioni Candusso",
     "data": "2003",
-    "tags": [
-      "Monografia"
-    ],
+    "tags": [],
     "rating": 3,
     "note": null
   },
@@ -2003,6 +2011,7 @@
     "editore": "A.M.B. Gruppo Molisano",
     "data": "2010",
     "tags": [
+      "A.M.B.",
       "RealtàLocali",
       "Monografia"
     ],
@@ -2277,9 +2286,11 @@
     "volume": "",
     "copie": 1,
     "autori": "Giacomo Lazzari",
-    "editore": "A. M. B. - Trento",
+    "editore": "A.M.B. - Trento",
     "data": "1985",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 1,
     "note": ""
   },
@@ -2333,6 +2344,7 @@
     "editore": "A.M.B. Gruppo di Pesaro",
     "data": "2003",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -2564,6 +2576,7 @@
     "editore": "A.M.B. Gruppi di Galbiate e Rogeno",
     "data": "2013",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -2641,10 +2654,11 @@
     "titolo": "Censimento dei funghi della provincia di Varese",
     "volume": "",
     "copie": 1,
-    "autori": "A. M. B. - Gruppo di Varese",
+    "autori": "A.M.B. - Gruppo di Varese",
     "editore": "Nicolini Editore",
     "data": "2000",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -2817,9 +2831,10 @@
     "volume": "",
     "copie": 1,
     "autori": "Italo Milanesi",
-    "editore": "A. M. B.",
+    "editore": "A.M.B.",
     "data": "2015",
     "tags": [
+      "A.M.B.",
       "Formazione",
       "Commestibilità"
     ],
@@ -2832,9 +2847,11 @@
     "volume": "Tomo Terzo - I generi Hohenbuehelia e Resupinatus in Europa",
     "copie": 1,
     "autori": "Giovanni Consiglio, Ledo Setti",
-    "editore": "A. M. B. - C. S. M.",
+    "editore": "A.M.B. - C. S. M.",
     "data": "2018",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 3,
     "note": ""
   },
@@ -3184,6 +3201,7 @@
     "editore": "A.M.B. Gruppo di Villa d’Ogna",
     "data": "2011",
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "rating": 1,
@@ -3240,7 +3258,9 @@
     "autori": "Pier Giovanni Jamoni",
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "2008",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 2,
     "note": ""
   },
@@ -3420,7 +3440,9 @@
     "autori": "Carlo Papetti, Giovanni Consiglio, Giampaolo Simonini",
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "2000",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 1,
     "note": ""
   },
@@ -3432,7 +3454,9 @@
     "autori": "Carlo Papetti, Giovanni Consiglio",
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "2001",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 1,
     "note": ""
   },
@@ -3444,7 +3468,9 @@
     "autori": "Carlo Papetti, Giovanni Consiglio",
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "2009",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 1,
     "note": ""
   },
@@ -3456,7 +3482,9 @@
     "autori": "Gianfranco Medardi",
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "2006",
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "rating": 1,
     "note": ""
   },
@@ -3712,7 +3740,7 @@
     "volume": "ANNO LXVIII",
     "copie": 1,
     "autori": null,
-    "editore": "Associazione Micologica Bresadola",
+    "editore": "A.M.B.",
     "data": "2024",
     "tags": [
       "A.M.B.",
@@ -3799,16 +3827,19 @@
     "rating": 1,
     "tags": [
       "Formazione"
-    ]
+    ],
+    "note": null
   },
   {
     "id": 218,
     "titolo": "Gastromiceti",
-    "editore": "A. M. B. - Gruppo Micologico Parmense \"G. Passerini\"",
+    "editore": "A.M.B. - Gruppo Micologico Parmense \"G. Passerini\"",
     "data": "1980",
     "copie": 2,
     "rating": 1,
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "note": "traduzione da: Michael - Hennig: Handbuch\nPilat: Flora CSR",
     "volume": null,
     "autori": null
@@ -3821,17 +3852,24 @@
     "editore": "Edizioni Candusso",
     "data": "2006",
     "copie": 1,
-    "tags": [],
+    "tags": [
+      "Monografia"
+    ],
+    "rating": 3,
     "note": null
   },
   {
     "id": 220,
     "titolo": "Il Genere Lactarius",
     "autori": "Zopito Casalena",
-    "editore": "A. M. B. - Gruppo di Vigevano",
+    "editore": "A.M.B. - Gruppo di Vigevano",
     "data": "1992",
     "copie": 1,
-    "tags": []
+    "tags": [
+      "A.M.B."
+    ],
+    "rating": 1,
+    "note": null
   },
   {
     "id": 221,
@@ -3840,7 +3878,8 @@
     "data": "1989",
     "copie": 1,
     "tags": [],
-    "rating": 1
+    "rating": 1,
+    "note": null
   },
   {
     "id": 222,
@@ -3849,7 +3888,9 @@
     "editore": "Regione Lombardia Agricoltura",
     "data": "2009",
     "copie": 1,
-    "tags": []
+    "tags": [],
+    "rating": 1,
+    "note": null
   },
   {
     "id": 223,
@@ -3872,7 +3913,8 @@
     "data": "1987",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 225,
@@ -3882,7 +3924,10 @@
     "editore": "A.M.B. Fondazione Centro Studi Micologici",
     "data": "1994",
     "copie": 2,
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
+    "rating": 1,
     "note": null
   },
   {
@@ -3894,6 +3939,7 @@
     "data": "2001",
     "copie": 1,
     "tags": [],
+    "rating": 1,
     "note": null
   },
   {
@@ -3906,6 +3952,7 @@
     "copie": 1,
     "rating": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null
@@ -3919,7 +3966,8 @@
     "data": "2003",
     "copie": 2,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 229,
@@ -3930,7 +3978,8 @@
     "data": "1977",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 230,
@@ -3953,7 +4002,9 @@
     "data": null,
     "copie": 2,
     "rating": 1,
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "note": null
   },
   {
@@ -3979,7 +4030,8 @@
     "data": "1999",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 234,
@@ -3990,7 +4042,8 @@
     "data": "1972",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 235,
@@ -4067,7 +4120,8 @@
     "data": "2013",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 241,
@@ -4078,7 +4132,8 @@
     "data": "2013",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 242,
@@ -4155,7 +4210,8 @@
     "data": null,
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 248,
@@ -4167,6 +4223,7 @@
     "copie": 1,
     "rating": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null
@@ -4179,8 +4236,12 @@
     "editore": "A.M.B. Gruppo di Asti",
     "data": "1992",
     "copie": 1,
-    "tags": [],
-    "note": null
+    "tags": [
+      "A.M.B.",
+      "RealtàLocali"
+    ],
+    "note": null,
+    "rating": 1
   },
   {
     "id": 250,
@@ -4233,6 +4294,7 @@
     "data": "1999",
     "copie": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null,
@@ -4247,6 +4309,7 @@
     "data": "2000",
     "copie": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null,
@@ -4261,6 +4324,7 @@
     "data": "2001",
     "copie": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null,
@@ -4275,6 +4339,7 @@
     "data": "2002",
     "copie": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null,
@@ -4289,6 +4354,7 @@
     "data": "2003",
     "copie": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null,
@@ -4303,6 +4369,7 @@
     "data": "2004",
     "copie": 1,
     "tags": [
+      "A.M.B.",
       "RealtàLocali"
     ],
     "note": null,
@@ -4317,7 +4384,8 @@
     "data": "2005",
     "copie": 1,
     "tags": [],
-    "note": null
+    "note": null,
+    "rating": 1
   },
   {
     "id": 260,
@@ -4354,7 +4422,9 @@
     "data": "1986",
     "copie": 1,
     "rating": 1,
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "note": null
   },
   {
@@ -4366,7 +4436,9 @@
     "data": "1986",
     "copie": 1,
     "rating": 1,
-    "tags": [],
+    "tags": [
+      "A.M.B."
+    ],
     "note": null
   },
   {
