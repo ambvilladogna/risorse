@@ -1199,18 +1199,17 @@
   {
     "id": 39,
     "titolo": "Omnia Bresadoliana Extracta",
-    "volume": "",
+    "volume": null,
     "copie": 1,
     "autori": "Jacobus Bresadola",
     "editore": "A.M.B. Gruppo di Trento",
     "data": "1979",
     "tags": [
       "A.M.B.",
-      "RealtàLocali",
       "Historia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 40,
@@ -2902,11 +2901,10 @@
     "editore": "Societa Micologica Carlo Benzoni",
     "data": "1991",
     "tags": [
-      "RealtàLocali",
       "Historia"
     ],
     "rating": 1,
-    "note": ""
+    "note": null
   },
   {
     "id": 167,
@@ -3357,7 +3355,7 @@
     "editore": "Saturnia Trento",
     "data": "1989",
     "tags": [],
-    "rating": 2,
+    "rating": 3,
     "note": null
   },
   {
@@ -3369,8 +3367,8 @@
     "editore": "Saturnia Trento",
     "data": "1976",
     "tags": [],
-    "rating": 2,
-    "note": ""
+    "rating": 3,
+    "note": null
   },
   {
     "id": 202,
@@ -3381,8 +3379,8 @@
     "editore": "Saturnia Trento",
     "data": "1976",
     "tags": [],
-    "rating": 2,
-    "note": ""
+    "rating": 3,
+    "note": null
   },
   {
     "id": 203,
@@ -3393,8 +3391,8 @@
     "editore": "Saturnia Trento",
     "data": "1976",
     "tags": [],
-    "rating": 2,
-    "note": ""
+    "rating": 3,
+    "note": null
   },
   {
     "id": 204,
@@ -3405,8 +3403,8 @@
     "editore": "Saturnia Trento",
     "data": "1976",
     "tags": [],
-    "rating": 2,
-    "note": ""
+    "rating": 3,
+    "note": null
   },
   {
     "id": 205,
@@ -3417,8 +3415,8 @@
     "editore": "Saturnia Trento",
     "data": "1976",
     "tags": [],
-    "rating": 2,
-    "note": ""
+    "rating": 3,
+    "note": null
   },
   {
     "id": 206,
@@ -3429,8 +3427,8 @@
     "editore": "Saturnia Trento",
     "data": "1976",
     "tags": [],
-    "rating": 2,
-    "note": ""
+    "rating": 3,
+    "note": null
   },
   {
     "id": 207,
@@ -4498,7 +4496,7 @@
   },
   {
     "id": 268,
-    "titolo": "Disciplina per la raccolta dei funghi nella provincia di Bregamo",
+    "titolo": "Disciplina per la raccolta dei funghi nella provincia di Bergamo",
     "volume": null,
     "autori": "Autori vari",
     "editore": "Editrice Cesare Ferrari - Clusone",
