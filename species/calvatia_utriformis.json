@@ -6,6 +6,14 @@
   "autoreCorrente": "(Bull.) Demoulin & Rebriev 2017",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-05-30",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero delle Capre, Castione della Presolana, Bergamo",
+      "localityCoordinates": "45.942530, 10.065178",
+      "habitat": "Prato alpino",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-06-09",
       "collector": "Pietro Centenari",
       "locality": "Monte Guglielmo",
@@ -16,7 +24,7 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "06-09",
+    "raccoltaPiuPrecoce": "05-30",
     "raccoltaPiuTarda": "06-09",
     "campioniPerMese": [
       {
@@ -32,7 +40,7 @@
         "apr": 0
       },
       {
-        "mag": 0
+        "mag": 1
       },
       {
         "giu": 1
@@ -58,8 +66,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 1,
-    "campioniRaccolti": 1,
+    "totaleCampioni": 2,
+    "campioniRaccolti": 2,
     "campioniExsiccata": 0
   }
 }
