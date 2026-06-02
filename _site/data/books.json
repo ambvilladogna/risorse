@@ -4543,5 +4543,20 @@
     "rating": 1,
     "tags": [],
     "note": null
+  },
+  {
+    "id": 272,
+    "titolo": "Piccoli micologi grandi scoperte",
+    "volume": "I funghi visti dagli alunni",
+    "autori": "Angela Grignani, Pierino Bigoni",
+    "editore": "A.M.B. Gruppo di Villa d'Ogna",
+    "data": "2026",
+    "copie": 1,
+    "rating": 2,
+    "tags": [
+      "Ricreativa",
+      "A.M.B."
+    ],
+    "note": "in occasione del 50° anno di costutuzione"
   }
 ]
