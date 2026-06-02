@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T00:12:32.378Z",
+  "generatedAt": "2026-06-02T00:12:15.711Z",
   "totalSpecies": 453,
   "totalSamples": 1130,
   "species": [
@@ -2982,13 +2982,11 @@
       }
     },
     {
-      "genus": "Calvatia",
-      "species": "utriformis",
-      "fullName": "Calvatia utriformis",
+      "genus": "Bovista",
+      "species": "plumbea",
+      "fullName": "Bovista plumbea",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lycoperdaceae",
-      "authority": "(Bull.) Jaap 1918",
-      "currentName": "Bovistella utriformis",
-      "currentAuthority": "(Bull.) Demoulin & Rebriev 2017",
+      "authority": "Pers. 1795",
       "totalSamples": 2,
       "monthlyCount": [
         0,
@@ -2996,10 +2994,10 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
         1,
-        0,
-        0,
-        0,
         0,
         0,
         0
@@ -3015,13 +3013,13 @@
         "determiner": "Pietro Centenari",
         "_tipo": "raccolto"
       },
-      "latestDate": "06-09",
-      "latestDayOfYear": 160,
+      "latestDate": "09-08",
+      "latestDayOfYear": 251,
       "latestSample": {
-        "collectionDate": "2025-06-09",
-        "collector": "Pietro Centenari",
-        "locality": "Monte Guglielmo",
-        "localityCoordinates": "45.755847, 10.168357",
+        "collectionDate": "2025-09-08",
+        "collector": "Pierino Bigoni",
+        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
+        "localityCoordinates": "45.93408, 10.00331",
         "habitat": "Prato",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
@@ -3113,6 +3111,52 @@
         "locality": "Parco avventura in Pineta, Clusone",
         "localityCoordinates": "45.880916, 9.919919",
         "habitat": "Bosco misto pino abete e latifoglie",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      }
+    },
+    {
+      "genus": "Calvatia",
+      "species": "utriformis",
+      "fullName": "Calvatia utriformis",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lycoperdaceae",
+      "authority": "(Bull.) Jaap 1918",
+      "currentName": "Bovistella utriformis",
+      "currentAuthority": "(Bull.) Demoulin & Rebriev 2017",
+      "totalSamples": 1,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "06-09",
+      "earliestDayOfYear": 160,
+      "earliestSample": {
+        "collectionDate": "2025-06-09",
+        "collector": "Pietro Centenari",
+        "locality": "Monte Guglielmo",
+        "localityCoordinates": "45.755847, 10.168357",
+        "habitat": "Prato",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "06-09",
+      "latestDayOfYear": 160,
+      "latestSample": {
+        "collectionDate": "2025-06-09",
+        "collector": "Pietro Centenari",
+        "locality": "Monte Guglielmo",
+        "localityCoordinates": "45.755847, 10.168357",
+        "habitat": "Prato",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
@@ -11663,50 +11707,6 @@
         "locality": "Casnigo",
         "localityCoordinates": "45.815912, 9.868141",
         "habitat": "Betulla",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Bovista",
-      "species": "plumbea",
-      "fullName": "Bovista plumbea",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Lycoperdaceae",
-      "authority": "Pers. 1795",
-      "totalSamples": 1,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "09-08",
-      "earliestDayOfYear": 251,
-      "earliestSample": {
-        "collectionDate": "2025-09-08",
-        "collector": "Pierino Bigoni",
-        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-        "localityCoordinates": "45.93408, 10.00331",
-        "habitat": "Prato",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "09-08",
-      "latestDayOfYear": 251,
-      "latestSample": {
-        "collectionDate": "2025-09-08",
-        "collector": "Pierino Bigoni",
-        "locality": "Strada per le baite del Moschel, Oltressenda Alta",
-        "localityCoordinates": "45.93408, 10.00331",
-        "habitat": "Prato",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       }
