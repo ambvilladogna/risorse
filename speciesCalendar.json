@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-02T00:12:15.711Z",
+  "generatedAt": "2026-06-03T00:12:24.744Z",
   "totalSpecies": 453,
   "totalSamples": 1130,
   "species": [
@@ -4669,11 +4669,11 @@
       "latestDayOfYear": 305,
       "latestSample": {
         "collectionDate": "2025-10-31",
-        "collector": "Rossi Luigi",
+        "collector": "Luigi Rossi",
         "locality": "Fogarolo, Rovetta",
         "localityCoordinates": "45.845982, 9.960523",
         "habitat": "Bosco misto abete e latifoglie",
-        "determiner": "Rossi luigi",
+        "determiner": "Luigi Rossi",
         "_tipo": "raccolto"
       }
     },
