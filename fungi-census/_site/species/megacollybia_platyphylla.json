@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-03",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero della Val Sanguigno, Novazza, Valgoglio, Bergamo",
+      "localityCoordinates": "45.971245, 9.902736",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-08-04",
       "collector": "Fabio Locatelli",
       "locality": "Ripa, Gromo",
@@ -24,7 +32,7 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "06-21",
+    "raccoltaPiuPrecoce": "06-03",
     "raccoltaPiuTarda": "08-04",
     "campioniPerMese": [
       {
@@ -43,7 +51,7 @@
         "mag": 0
       },
       {
-        "giu": 1
+        "giu": 2
       },
       {
         "lug": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
