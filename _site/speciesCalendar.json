@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T00:12:24.744Z",
+  "generatedAt": "2026-06-04T00:12:07.703Z",
   "totalSpecies": 453,
-  "totalSamples": 1130,
+  "totalSamples": 1131,
   "species": [
     {
       "genus": "Flammulina",
@@ -3026,6 +3026,50 @@
       }
     },
     {
+      "genus": "Megacollybia",
+      "species": "platyphylla",
+      "fullName": "Megacollybia platyphylla",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
+      "authority": "(Pers.) Kotl. & Pouzar 1972",
+      "totalSamples": 3,
+      "monthlyCount": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "earliestDate": "06-03",
+      "earliestDayOfYear": 154,
+      "earliestSample": {
+        "collectionDate": "2026-06-03",
+        "collector": "Pietro Centenari",
+        "locality": "Sentiero della Val Sanguigno, Novazza, Valgoglio, Bergamo",
+        "localityCoordinates": "45.971245, 9.902736",
+        "habitat": "Bosco misto abete e latifoglie",
+        "determiner": "Pierino Bigoni",
+        "_tipo": "raccolto"
+      },
+      "latestDate": "08-04",
+      "latestDayOfYear": 216,
+      "latestSample": {
+        "collectionDate": "2025-08-04",
+        "collector": "Fabio Locatelli",
+        "locality": "Ripa, Gromo",
+        "localityCoordinates": "45.976347, 9.928513",
+        "habitat": "Faggio",
+        "determiner": "Fabio Locatelli",
+        "_tipo": "raccolto"
+      }
+    },
+    {
       "genus": "Amanita",
       "species": "excelsa var. excelsa",
       "fullName": "Amanita excelsa var. excelsa",
@@ -4048,50 +4092,6 @@
         "localityCoordinates": "45.970802, 9.963785",
         "habitat": "Ceppaie abete bianco e rosso",
         "determiner": "Pierino Bigoni  e Gianni Giana",
-        "_tipo": "raccolto"
-      }
-    },
-    {
-      "genus": "Megacollybia",
-      "species": "platyphylla",
-      "fullName": "Megacollybia platyphylla",
-      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales",
-      "authority": "(Pers.) Kotl. & Pouzar 1972",
-      "totalSamples": 2,
-      "monthlyCount": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0
-      ],
-      "earliestDate": "06-21",
-      "earliestDayOfYear": 172,
-      "earliestSample": {
-        "collectionDate": "2025-06-21",
-        "collector": "Pierino Bigoni",
-        "locality": "Spiazzi, Gromo",
-        "localityCoordinates": "45.970802, 9.963785",
-        "habitat": "Abete bianco e abete rosso",
-        "determiner": "Pierino Bigoni",
-        "_tipo": "raccolto"
-      },
-      "latestDate": "08-04",
-      "latestDayOfYear": 216,
-      "latestSample": {
-        "collectionDate": "2025-08-04",
-        "collector": "Fabio Locatelli",
-        "locality": "Ripa, Gromo",
-        "localityCoordinates": "45.976347, 9.928513",
-        "habitat": "Faggio",
-        "determiner": "Fabio Locatelli",
         "_tipo": "raccolto"
       }
     },
