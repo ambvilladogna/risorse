@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T14:33:58.296Z",
+  "generatedAt": "2026-06-06T00:11:51.624Z",
   "corpus": [
     {
       "type": "genus",
@@ -78,6 +78,14 @@
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
         "Craterellus tubaeformis"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Cerioporus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
       ]
     },
     {
@@ -456,6 +464,14 @@
     },
     {
       "type": "genus",
+      "value": "Polyporus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
+      ]
+    },
+    {
+      "type": "genus",
       "value": "Porphyrellus",
       "matchSpecies": [
         "Porphyrellus porphyrosporus"
@@ -768,6 +784,14 @@
       "matchSpecies": [
         "Cantharellus tubaeformis",
         "Craterellus tubaeformis"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Cerioporus squamosus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
       ]
     },
     {
@@ -1388,6 +1412,14 @@
     },
     {
       "type": "species",
+      "value": "Polyporus squamosus",
+      "matchSpecies": [
+        "Cerioporus squamosus",
+        "Polyporus squamosus"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Porphyrellus porphyrosporus",
       "matchSpecies": [
         "Porphyrellus porphyrosporus"
@@ -1915,8 +1947,10 @@
       "type": "famiglia",
       "value": "Polyporaceae",
       "matchSpecies": [
+        "Cerioporus squamosus",
         "Ganoderma adspersum",
         "Perenniporia fraxinea",
+        "Polyporus squamosus",
         "Pycnoporus cinnabarinus",
         "Trametes cinnabarina",
         "Trametes versicolor",
@@ -2172,9 +2206,11 @@
       "type": "ordine",
       "value": "Polyporales",
       "matchSpecies": [
+        "Cerioporus squamosus",
         "Ganoderma adspersum",
         "Ischnoderma benzoinum",
         "Perenniporia fraxinea",
+        "Polyporus squamosus",
         "Pycnoporus cinnabarinus",
         "Trametes cinnabarina",
         "Trametes versicolor",
@@ -2235,6 +2271,7 @@
         "Cantharellus amethysteus",
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
+        "Cerioporus squamosus",
         "Clavulina coralloides",
         "Clavulina cristata",
         "Clavulina rugosa",
@@ -2313,6 +2350,7 @@
         "Pluteus atromarginatus",
         "Pluteus cervinus",
         "Pluteus exiguus",
+        "Polyporus squamosus",
         "Porphyrellus porphyrosporus",
         "Porpolomopsis calyptriformis",
         "Prunulus roseus",
@@ -2422,6 +2460,7 @@
         "Cantharellus amethysteus",
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
+        "Cerioporus squamosus",
         "Clavulina coralloides",
         "Clavulina cristata",
         "Clavulina rugosa",
@@ -2500,6 +2539,7 @@
         "Pluteus atromarginatus",
         "Pluteus cervinus",
         "Pluteus exiguus",
+        "Polyporus squamosus",
         "Porphyrellus porphyrosporus",
         "Porpolomopsis calyptriformis",
         "Prunulus roseus",
@@ -2569,6 +2609,7 @@
         "Cantharellus amethysteus",
         "Cantharellus romagnesianus",
         "Cantharellus tubaeformis",
+        "Cerioporus squamosus",
         "Clavulina coralloides",
         "Clavulina cristata",
         "Clavulina rugosa",
@@ -2651,6 +2692,7 @@
         "Pluteus atromarginatus",
         "Pluteus cervinus",
         "Pluteus exiguus",
+        "Polyporus squamosus",
         "Porphyrellus porphyrosporus",
         "Porpolomopsis calyptriformis",
         "Prunulus roseus",

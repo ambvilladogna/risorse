@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-05",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Su legno morto",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-04-20",
       "collector": "Pierino Bigoni",
       "locality": "S.Lorenzo Villa d'Ogna",
@@ -99,7 +107,7 @@
         "mag": 0
       },
       {
-        "giu": 0
+        "giu": 1
       },
       {
         "lug": 0
@@ -122,8 +130,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 9,
-    "campioniRaccolti": 9,
+    "totaleCampioni": 10,
+    "campioniRaccolti": 10,
     "campioniExsiccata": 0
   }
 }
