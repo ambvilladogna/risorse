@@ -1,8 +1,8 @@
 {
   "title": "Pineta della Selva",
-  "generatedAt": "2026-05-21T09:01:56.987Z",
-  "totalSpecies": 117,
-  "totalSamples": 164,
+  "generatedAt": "2026-06-06T00:11:51.592Z",
+  "totalSpecies": 118,
+  "totalSamples": 167,
   "species": [
     {
       "genus": "Amanita",
@@ -688,6 +688,15 @@
       "fullName": "Pluteus exiguus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Pluteaceae",
       "authority": "(Pat.) Sacc. 1887"
+    },
+    {
+      "genus": "Polyporus",
+      "species": "squamosus",
+      "fullName": "Polyporus squamosus",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Polyporales > famiglia: Polyporaceae",
+      "authority": "(Huds.) Fr. 1821",
+      "currentName": "Cerioporus squamosus",
+      "currentAuthority": "(Huds.) Quél. 1886"
     },
     {
       "genus": "Porphyrellus",
