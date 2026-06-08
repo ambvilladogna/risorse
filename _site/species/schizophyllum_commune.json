@@ -6,6 +6,22 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-07",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero di Blum, Rovetta, Bergamo",
+      "localityCoordinates": "45.905974, 9.983795",
+      "habitat": "Ramo secco di faggio",
+      "determiner": "Pietro Centenari"
+    },
+    {
+      "collectionDate": "2026-06-07",
+      "collector": "Pietro Centenari",
+      "locality": "Verso Monte Blum - Sentiero \"del Bot\", Rovetta, Bergamo",
+      "localityCoordinates": "45.901085, 9.985730",
+      "habitat": "Ramo secco di faggio",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2026-05-09",
       "collector": "Pietro Centenari",
       "locality": "via Masù e Pret, Aprico, Fino del Monte, Bergamo",
@@ -51,7 +67,7 @@
         "mag": 1
       },
       {
-        "giu": 1
+        "giu": 3
       },
       {
         "lug": 0
@@ -74,8 +90,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 3,
-    "campioniRaccolti": 3,
+    "totaleCampioni": 5,
+    "campioniRaccolti": 5,
     "campioniExsiccata": 0
   }
 }

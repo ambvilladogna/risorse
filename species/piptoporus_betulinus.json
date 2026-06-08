@@ -6,6 +6,14 @@
   "autoreCorrente": "(Bull.) B.K. Cui, M.L. Han & Y.C. Dai 2016",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-07",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero di Blum, Rovetta, Bergamo",
+      "localityCoordinates": "45.901555, 9.983594",
+      "habitat": "Ramo secco di betulla",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2026-05-09",
       "collector": "Pietro Centenari",
       "locality": "Via del Latte, Rusio, Castione della Presolana, Bergamo",
@@ -75,7 +83,7 @@
         "mag": 1
       },
       {
-        "giu": 0
+        "giu": 1
       },
       {
         "lug": 0
@@ -98,8 +106,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 6,
-    "campioniRaccolti": 6,
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
     "campioniExsiccata": 0
   }
 }

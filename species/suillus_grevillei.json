@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-07",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero di Blum, Rovetta, Bergamo",
+      "localityCoordinates": "45.900943, 9.984713",
+      "habitat": "Larice",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-12-03",
       "collector": "Fabio Locatelli",
       "locality": "Fino del monte",
@@ -56,7 +64,7 @@
   ],
   "campioniExsiccata": [],
   "fenologia": {
-    "raccoltaPiuPrecoce": "08-26",
+    "raccoltaPiuPrecoce": "06-07",
     "raccoltaPiuTarda": "12-03",
     "campioniPerMese": [
       {
@@ -75,7 +83,7 @@
         "mag": 0
       },
       {
-        "giu": 0
+        "giu": 1
       },
       {
         "lug": 0
@@ -98,8 +106,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 6,
-    "campioniRaccolti": 6,
+    "totaleCampioni": 7,
+    "campioniRaccolti": 7,
     "campioniExsiccata": 0
   }
 }
