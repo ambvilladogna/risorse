@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-07",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero \"del Bot\", Rovetta, Bergamo",
+      "localityCoordinates": "45.903423, 9.981883",
+      "habitat": "A terra su pacciame",
+      "determiner": "Pietro Centenari"
+    },
+    {
       "collectionDate": "2025-12-22",
       "collector": "Fabio Locatelli",
       "locality": "Pineta della Selva, Clusone",
@@ -107,7 +115,7 @@
         "mag": 1
       },
       {
-        "giu": 1
+        "giu": 2
       },
       {
         "lug": 0
@@ -130,8 +138,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 10,
-    "campioniRaccolti": 10,
+    "totaleCampioni": 11,
+    "campioniRaccolti": 11,
     "campioniExsiccata": 0
   }
 }
