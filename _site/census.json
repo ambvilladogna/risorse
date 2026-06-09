@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-08T00:12:38.040Z",
-  "totalSpecies": 453,
-  "totalSamples": 1074,
+  "generatedAt": "2026-06-09T00:11:56.691Z",
+  "totalSpecies": 454,
+  "totalSamples": 1075,
   "species": [
     {
       "genus": "Abortiporus",
@@ -650,6 +650,15 @@
       "fullName": "Clitopilus prunulus",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Entolomataceae",
       "authority": "(Scop.) P. Kumm. 1871"
+    },
+    {
+      "genus": "Collybia",
+      "species": "aquosa",
+      "fullName": "Collybia aquosa",
+      "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+      "authority": "(Bull.) P. Kumm. 1871",
+      "currentName": "Gymnopus aquosus",
+      "currentAuthority": "(Bull.) Antonín & Noordel. 1997"
     },
     {
       "genus": "Collybia",

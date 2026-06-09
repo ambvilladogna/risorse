@@ -1,0 +1,65 @@
+{
+  "nomeCompleto": "Collybia aquosa",
+  "autore": "(Bull.) P. Kumm. 1871",
+  "filogenesi": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Omphalotaceae",
+  "nomeCorrente": "Gymnopus aquosus",
+  "autoreCorrente": "(Bull.) Antonín & Noordel. 1997",
+  "campioniRaccolti": [
+    {
+      "collectionDate": "2026-06-07",
+      "collector": "Pietro Centenari",
+      "locality": "Sentiero \"del Bot\", Rovetta, Bergamo",
+      "localityCoordinates": "45.901342, 9.981841",
+      "habitat": "A terra su pacciame",
+      "determiner": "Pietro Centenari"
+    }
+  ],
+  "campioniExsiccata": [],
+  "fenologia": {
+    "raccoltaPiuPrecoce": "06-07",
+    "raccoltaPiuTarda": "06-07",
+    "campioniPerMese": [
+      {
+        "gen": 0
+      },
+      {
+        "feb": 0
+      },
+      {
+        "mar": 0
+      },
+      {
+        "apr": 0
+      },
+      {
+        "mag": 0
+      },
+      {
+        "giu": 1
+      },
+      {
+        "lug": 0
+      },
+      {
+        "ago": 0
+      },
+      {
+        "set": 0
+      },
+      {
+        "ott": 0
+      },
+      {
+        "nov": 0
+      },
+      {
+        "dic": 0
+      }
+    ]
+  },
+  "statistiche": {
+    "totaleCampioni": 1,
+    "campioniRaccolti": 1,
+    "campioniExsiccata": 0
+  }
+}

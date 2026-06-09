@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T05:44:09.172Z",
+  "generatedAt": "2026-06-09T00:11:56.891Z",
   "corpus": [
     {
       "type": "genus",
@@ -432,6 +432,7 @@
       "value": "Collybia",
       "matchSpecies": [
         "Clitocybe cerussata",
+        "Collybia aquosa",
         "Collybia butyracea",
         "Collybia cirrhata",
         "Collybia confluens",
@@ -445,6 +446,7 @@
         "Collybia sordida",
         "Collybiopsis confluens",
         "Collybiopsis peronata",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Lepista irina",
         "Lepista nuda",
@@ -818,7 +820,9 @@
       "type": "genus",
       "value": "Gymnopus",
       "matchSpecies": [
+        "Collybia aquosa",
         "Collybia kuehneriana",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Gymnopus hariolorum",
         "Gymnopus ocior"
@@ -2841,6 +2845,14 @@
     },
     {
       "type": "species",
+      "value": "Collybia aquosa",
+      "matchSpecies": [
+        "Collybia aquosa",
+        "Gymnopus aquosus"
+      ]
+    },
+    {
+      "type": "species",
       "value": "Collybia butyracea",
       "matchSpecies": [
         "Collybia butyracea",
@@ -3636,6 +3648,14 @@
       "value": "Gymnopilus penetrans",
       "matchSpecies": [
         "Gymnopilus penetrans"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Gymnopus aquosus",
+      "matchSpecies": [
+        "Collybia aquosa",
+        "Gymnopus aquosus"
       ]
     },
     {
@@ -6718,6 +6738,7 @@
       "type": "famiglia",
       "value": "Omphalotaceae",
       "matchSpecies": [
+        "Collybia aquosa",
         "Collybia butyracea",
         "Collybia confluens",
         "Collybia distorta",
@@ -6726,6 +6747,7 @@
         "Collybia peronata",
         "Collybiopsis confluens",
         "Collybiopsis peronata",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Gymnopus hariolorum",
         "Gymnopus ocior",
@@ -7234,6 +7256,7 @@
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
+        "Collybia aquosa",
         "Collybia butyracea",
         "Collybia cirrhata",
         "Collybia confluens",
@@ -7308,6 +7331,7 @@
         "Flammulina velutipes var. lactea",
         "Galerina stylifera",
         "Gymnopilus penetrans",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Gymnopus hariolorum",
         "Gymnopus ocior",
@@ -7982,6 +8006,7 @@
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
+        "Collybia aquosa",
         "Collybia butyracea",
         "Collybia cirrhata",
         "Collybia confluens",
@@ -8079,6 +8104,7 @@
         "Gomphus clavatus",
         "Guepinia helvelloides",
         "Gymnopilus penetrans",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Gymnopus hariolorum",
         "Gymnopus ocior",
@@ -8648,6 +8674,7 @@
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
+        "Collybia aquosa",
         "Collybia butyracea",
         "Collybia cirrhata",
         "Collybia confluens",
@@ -8747,6 +8774,7 @@
         "Gomphus clavatus",
         "Guepinia helvelloides",
         "Gymnopilus penetrans",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Gymnopus hariolorum",
         "Gymnopus ocior",
@@ -9179,6 +9207,7 @@
         "Clitocybe subspadicea",
         "Clitopaxillus alexandri",
         "Clitopilus prunulus",
+        "Collybia aquosa",
         "Collybia butyracea",
         "Collybia cirrhata",
         "Collybia confluens",
@@ -9285,6 +9314,7 @@
         "Gomphus clavatus",
         "Guepinia helvelloides",
         "Gymnopilus penetrans",
+        "Gymnopus aquosus",
         "Gymnopus erythropus",
         "Gymnopus hariolorum",
         "Gymnopus ocior",
