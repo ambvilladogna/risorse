@@ -6,14 +6,6 @@
   "autoreCorrente": "(Pers.) Gillet 1876",
   "campioniRaccolti": [
     {
-      "collectionDate": "2026-06-07",
-      "collector": "Pietro Centenari",
-      "locality": "Sentiero \"del Bot\", Rovetta, Bergamo",
-      "localityCoordinates": "45.901342, 9.981841",
-      "habitat": "A terra su pacciame",
-      "determiner": "Pietro Centenari"
-    },
-    {
       "collectionDate": "2026-05-18",
       "collector": "Fabio Locatelli",
       "locality": "Schilpario",
@@ -67,7 +59,7 @@
         "mag": 1
       },
       {
-        "giu": 1
+        "giu": 0
       },
       {
         "lug": 0
@@ -90,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }

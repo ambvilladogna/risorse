@@ -6,14 +6,6 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
-      "collectionDate": "2026-06-07",
-      "collector": "Pietro Centenari",
-      "locality": "Sentiero di Blum, Rovetta, Bergamo",
-      "localityCoordinates": "45.901671, 9.983794",
-      "habitat": "Ramo secco di betulla",
-      "determiner": "Pietro Centenari"
-    },
-    {
       "collectionDate": "2026-03-02",
       "collector": "Antonio Guana",
       "locality": "Ardesio",
@@ -67,7 +59,7 @@
         "mag": 0
       },
       {
-        "giu": 1
+        "giu": 0
       },
       {
         "lug": 0
@@ -90,8 +82,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 5,
-    "campioniRaccolti": 5,
+    "totaleCampioni": 4,
+    "campioniRaccolti": 4,
     "campioniExsiccata": 0
   }
 }
