@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T00:11:56.758Z",
+  "generatedAt": "2026-06-10T00:11:59.437Z",
   "totalSpecies": 454,
   "totalSamples": 1144,
   "species": [
@@ -1273,8 +1273,8 @@
       "earliestSample": {
         "collectionDate": "2026-03-15",
         "collector": "Pierino Bigoni",
-        "locality": "Basilè",
-        "localityCoordinates": "39.809603, 16.163285",
+        "locality": "Basilè, Oltressenda Alta",
+        "localityCoordinates": "45.923091, 9.949536",
         "habitat": "Su tronco morto di latifoglie",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
@@ -18653,7 +18653,7 @@
       "latestDayOfYear": 352,
       "latestSample": {
         "collectionDate": "2025-12-17",
-        "collector": "Luciano",
+        "collector": "Luciano Imberti",
         "locality": "Monte Bue, Cene",
         "localityCoordinates": "45.785822, 9.846521",
         "habitat": "Bosco latifoglie",
