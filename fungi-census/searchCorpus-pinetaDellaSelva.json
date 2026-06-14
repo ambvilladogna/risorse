@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T00:11:51.624Z",
+  "generatedAt": "2026-06-14T00:12:09.892Z",
   "corpus": [
     {
       "type": "genus",
@@ -201,6 +201,13 @@
       "value": "Flammulina",
       "matchSpecies": [
         "Flammulina velutipes"
+      ]
+    },
+    {
+      "type": "genus",
+      "value": "Fuligo",
+      "matchSpecies": [
+        "Fuligo septica"
       ]
     },
     {
@@ -983,6 +990,13 @@
       "value": "Flammulina velutipes",
       "matchSpecies": [
         "Flammulina velutipes"
+      ]
+    },
+    {
+      "type": "species",
+      "value": "Fuligo septica",
+      "matchSpecies": [
+        "Fuligo septica"
       ]
     },
     {
@@ -1936,6 +1950,13 @@
     },
     {
       "type": "famiglia",
+      "value": "Physaridae",
+      "matchSpecies": [
+        "Fuligo septica"
+      ]
+    },
+    {
+      "type": "famiglia",
       "value": "Pluteaceae",
       "matchSpecies": [
         "Pluteus atromarginatus",
@@ -2204,6 +2225,13 @@
     },
     {
       "type": "ordine",
+      "value": "Physarida",
+      "matchSpecies": [
+        "Fuligo septica"
+      ]
+    },
+    {
+      "type": "ordine",
       "value": "Polyporales",
       "matchSpecies": [
         "Cerioporus squamosus",
@@ -2400,6 +2428,7 @@
       "type": "classe",
       "value": "Myxogastrea",
       "matchSpecies": [
+        "Fuligo septica",
         "Lycogala epidendrum"
       ]
     },
@@ -2423,6 +2452,7 @@
       "type": "phylum",
       "value": "Amoebozoa",
       "matchSpecies": [
+        "Fuligo septica",
         "Lycogala epidendrum"
       ]
     },
@@ -2736,6 +2766,7 @@
       "type": "regno",
       "value": "Protozoa",
       "matchSpecies": [
+        "Fuligo septica",
         "Lycogala epidendrum"
       ]
     }

@@ -6,6 +6,14 @@
   "autoreCorrente": null,
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-12",
+      "collector": "Pierino Bigoni",
+      "locality": "Pineta della Selva, Clusone",
+      "localityCoordinates": "45.88196, 9.91806",
+      "habitat": "Su legno marcescente",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2026-06-07",
       "collector": "Pietro Centenari",
       "locality": "Verso Monte Blum - Sentiero \"del Bot\", Rovetta, Bergamo",
@@ -43,7 +51,7 @@
         "mag": 0
       },
       {
-        "giu": 2
+        "giu": 3
       },
       {
         "lug": 0
@@ -66,8 +74,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 2,
-    "campioniRaccolti": 2,
+    "totaleCampioni": 3,
+    "campioniRaccolti": 3,
     "campioniExsiccata": 0
   }
 }
