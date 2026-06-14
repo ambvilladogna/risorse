@@ -1,8 +1,8 @@
 {
   "title": "Pineta della Selva",
-  "generatedAt": "2026-06-06T00:11:51.592Z",
-  "totalSpecies": 118,
-  "totalSamples": 167,
+  "generatedAt": "2026-06-14T00:12:09.863Z",
+  "totalSpecies": 119,
+  "totalSamples": 169,
   "species": [
     {
       "genus": "Amanita",
@@ -302,6 +302,13 @@
       "fullName": "Flammulina velutipes",
       "lineage": "regno: Fungi > phylum: Basidiomycota > classe: Agaricomycetes > ordine: Agaricales > famiglia: Physalacriaceae",
       "authority": "(Curtis) Singer 1951"
+    },
+    {
+      "genus": "Fuligo",
+      "species": "septica",
+      "fullName": "Fuligo septica",
+      "lineage": "regno: Protozoa > phylum: Amoebozoa > classe: Myxogastrea > ordine: Physarida > famiglia: Physaridae",
+      "authority": "(L.) F.H. Wigg. 1780"
     },
     {
       "genus": "Ganoderma",
