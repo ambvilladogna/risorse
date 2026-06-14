@@ -1,32 +1,7 @@
-<!DOCTYPE html>
-<html lang="it">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <!-- Shared CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/variables.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/reset.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/layout.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/components.css">
-
-    <!-- Page-specific CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/aggiornamentiNomenclatura.css">
-</head>
-
-<body>
-    {% include header.html %}
-
-    <div id="top" class="container">
-        {{ content }}
-    </div>
-
-    <!-- Floating nav -->
-    <a href="#top" class="back-to-top">↑ Torna all'inizio</a>
-
-    {% include footer.html %}
-    <script src="{{ site.baseurl }}/shared/js/common.js"></script>
-</body>
-
-</html>
+---
+layout: default
+---
+<div id="top" class="container">
+  {{ content }}
+</div>
+<a href="#top" class="back-to-top">↑ Torna all'inizio</a>

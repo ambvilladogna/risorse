@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Aggiornamenti Nomenclatura
+extra_css: aggiornamentiNomenclatura
 ---
 
 <section class="section section--alt" id="resources" style="min-height: 600px;">
@@ -12,7 +13,7 @@ title: Aggiornamenti Nomenclatura
     <p>&nbsp</p>
     
     <!-- Group reports by year -->
-    {% assign reports_by_year = site.reports | group_by: "year" | sort: "name" | reverse %}
+    {% assign reports_by_year = site.reportsAggiornamentiNomenclatura | group_by: "year" | sort: "name" | reverse %}
     
     {% for year_group in reports_by_year %}
       <h2>{{ year_group.name }}</h2>

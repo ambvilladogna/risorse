@@ -10,16 +10,14 @@ theme: null
 
 # Collections for reports
 collections:
-  reports:
-    relative_directory: "aggiornamentiNomenclatura"
+  reportsAggiornamentiNomenclatura:
     output: true
     permalink: aggiornamentiNomenclatura/reports/:name.html
 
 # Default values for reports
 defaults:
   - scope:
-      path: ":baseurl"
-      type: "reports"
+      type: "reportsAggiornamentiNomenclatura"
     values:
       layout: "report"
 
