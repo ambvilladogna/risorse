@@ -39,11 +39,14 @@
 
 .header__nav {
     display: flex;
+    align-items: center;
     gap: var(--spacing-lg);
     list-style: none;
 }
 
 .header__nav a {
+    display: flex;
+    align-items: center;
     color: var(--color-text);
     font-size: var(--font-size-base);
     transition: color var(--transition-fast);
