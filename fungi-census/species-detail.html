@@ -1,0 +1,88 @@
+---
+layout: default
+title: Dettagli Specie
+extra_css: fungiCensusSpecies
+extra_ext_css: https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+extra_head_ext_script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+extra_head_ext_script_1: https://cdn.jsdelivr.net/npm/chart.js
+extra_script: fungiCensusSpeciesDetail
+extra_script_1: fungiCensusUtils
+extra_script_2: fungiCensusGeoFilter
+---
+
+<section class="section section--alt">
+    <div class="container">
+        <!-- Species header -->
+        <div class="species-header">
+            <div>
+                <span class="species-title"> <em id="genus-name"></em> <em id="species-name"></em> </span>
+                <span class="species-authority" id="species-authority"></span>
+            </div>
+            <div class="species-details" id="species-details">
+                <div>
+                    <span class="species-authority" id="synonym"></span>
+                    <span class="species-title"> <em id="nomeCorrente"></em></span>
+                    <span class="species-authority" id="autoreCorrente"></span>
+                </div>
+                <div>
+                    <span class="species-authority" id="filogenesi"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Total samples count -->
+        <div class="content-block">
+            <div class="section-content">
+                <div class="total-samples" id="total-samples">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seasonality section -->
+        <div class="content-block">
+            <div class="section-header">
+                Stagionalità
+            </div>
+            <div class="section-content">
+                <div class="seasonality-content" id="seasonality-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map section -->
+        <div class="content-block">
+            <div class="section-header">
+                Distribuzione Geografica
+            </div>
+            <div class="section-content">
+                <div id="map" style="height: 500px; border-radius: 8px;"></div>
+            </div>
+        </div>
+
+        <!-- Exsiccata list -->
+        <div class="content-block">
+            <div class="section-header">
+                Campioni Exsiccata
+            </div>
+            <div class="section-content">
+                <div id="exsiccata-list">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Caricamento dati in corso...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Top back button -->
+        <a class="back-to-search" onclick="goBack()">Torna alla pagina di ricerca</a>
+    </div>
+</section>
