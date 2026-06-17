@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T00:12:09.730Z",
+  "generatedAt": "2026-06-16T19:09:40.964Z",
   "totalSpecies": 454,
-  "totalSamples": 1146,
+  "totalSamples": 1147,
   "species": [
     {
       "genus": "Flammulina",
@@ -3747,14 +3747,14 @@
       "authority": "Schaeff. 1774",
       "currentName": "Suillellus luridus",
       "currentAuthority": "(Schaeff.) Murrill 1909",
-      "totalSamples": 8,
+      "totalSamples": 9,
       "monthlyCount": [
         0,
         0,
         0,
         0,
         0,
-        3,
+        4,
         2,
         1,
         1,
@@ -3765,11 +3765,11 @@
       "earliestDate": "06-16",
       "earliestDayOfYear": 167,
       "earliestSample": {
-        "collectionDate": "2025-06-16",
-        "collector": "Angelo Fraschina",
-        "locality": "Spiazzi, Gromo",
-        "localityCoordinates": "45.970802, 9.963785",
-        "habitat": "Bosco misto abete bianco e abete rosso",
+        "collectionDate": "2026-06-16",
+        "collector": "Antonio Guana",
+        "locality": "Ardesio",
+        "localityCoordinates": "45.937512, 9.931158",
+        "habitat": "Bosco misto abete e latifoglie",
         "determiner": "Pierino Bigoni",
         "_tipo": "raccolto"
       },
