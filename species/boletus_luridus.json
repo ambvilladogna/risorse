@@ -6,6 +6,14 @@
   "autoreCorrente": "(Schaeff.) Murrill 1909",
   "campioniRaccolti": [
     {
+      "collectionDate": "2026-06-16",
+      "collector": "Antonio Guana",
+      "locality": "Ardesio",
+      "localityCoordinates": "45.937512, 9.931158",
+      "habitat": "Bosco misto abete e latifoglie",
+      "determiner": "Pierino Bigoni"
+    },
+    {
       "collectionDate": "2025-10-09",
       "collector": "Pierino Bigoni",
       "locality": "Pineta della Selva, Clusone",
@@ -91,7 +99,7 @@
         "mag": 0
       },
       {
-        "giu": 3
+        "giu": 4
       },
       {
         "lug": 2
@@ -114,8 +122,8 @@
     ]
   },
   "statistiche": {
-    "totaleCampioni": 8,
-    "campioniRaccolti": 8,
+    "totaleCampioni": 9,
+    "campioniRaccolti": 9,
     "campioniExsiccata": 0
   }
 }
