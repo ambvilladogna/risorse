@@ -64,6 +64,9 @@
     .header__nav a {
         font-size: var(--font-size-small);
     }
+    .header__logo {
+        font-size: 1.5rem;
+    }
 }
 /* ============================================
    SECTION: FOOTER

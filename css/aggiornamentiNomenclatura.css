@@ -10,7 +10,7 @@
 .page-header__title {
     color: #2c3e50;
     font-family: var(--font-family-heading);
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h3);
     line-height: var(--line-height-heading);
     margin-bottom: var(--spacing-md);
 }
@@ -43,7 +43,7 @@
 
 .summary-box__title {
     font-family: var(--font-family-heading);
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h3);
     color: #34495e;
     margin-bottom: var(--spacing-md);
     border-bottom: 2px solid #95a5a6;
@@ -138,7 +138,7 @@
 
 .toc__title {
     font-family: var(--font-family-heading);
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h3);
     color: #34495e;
     margin-bottom: var(--spacing-md);
     border-bottom: 2px solid #95a5a6;
@@ -171,7 +171,7 @@
 .content-section__title {
     color: #34495e;
     font-family: var(--font-family-heading);
-    font-size: var(--font-size-h2);
+    font-size: var(--font-size-h3);
     line-height: var(--line-height-heading);
     margin-bottom: var(--spacing-lg);
     border-bottom: 2px solid #95a5a6;
