@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     // hysteresys to prevent flickering when scrolling around the threshold
-    if (!isScrolled && scrollTop > 60) {
+    if (!isScrolled && scrollTop > 80) {
         isScrolled = true;
         header.classList.add('header--scrolled');
         header.addEventListener('transitionend', updateHeaderHeight, { once: true });
@@ -26,7 +26,7 @@ window.addEventListener('scroll', () => {
         header.classList.remove('header--scrolled');
         header.addEventListener('transitionend', updateHeaderHeight, { once: true });
     }
-    // In the dead zone (10–60px): do nothing
+    // In the dead zone (10–80px): do nothing
 });
 
 // Update on window resize

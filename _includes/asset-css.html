@@ -1,0 +1,9 @@
+{%- for item in include.list -%}
+  {%- if item contains '//' -%}
+<link rel="stylesheet" href="{{ item }}">
+  {%- elsif item contains '/' -%}
+<link rel="stylesheet" href="{{ item | relative_url }}">
+  {%- else -%}
+<link rel="stylesheet" href="{{ '/css/' | append: item | append: '.css' | relative_url }}">
+  {%- endif -%}
+{%- endfor -%}

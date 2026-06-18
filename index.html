@@ -1,216 +1,98 @@
-<!DOCTYPE html>
-<html lang="it">
+---
+layout: home
+title: Risorse
+css: 
+  - risorse
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risorse - Home</title>
-    <link rel="stylesheet" href="shared/css/variables.css">
-    <link rel="stylesheet" href="shared/css/reset.css">
-    <link rel="stylesheet" href="shared/css/layout.css">
-    <link rel="stylesheet" href="shared/css/components.css">
-    <link rel="stylesheet" href="styles/risorse.css">
-    <link rel="icon" type="image/webp" href="img/logo.webp" />
-</head>
-
-<body>
-    <header class="header">
-        <div class="container header__container">
-            <div class="header__logo">Risorse</div>
-            <div class="header__nav"><a href="https://www.ambvilladogna.it/index.html">A.M.B. Gruppo di Villa d'Ogna</a>
-            </div>
-        </div>
-    </header>
-
-
-    <!-- ============================================
+<!-- ============================================
          RESOURCES SECTION
          Uses component: .card, .grid
          This pattern can be reused in subtrees
          ============================================ -->
-    <section class="section section--alt" id="resources">
-        <div class="container">
-            <div class="grid grid--2col">
-                <!-- Resource Card: Aggiornamenti Nomenclatura -->
-                <div class="card" onclick="window.location.href='./aggiornamenti-nomenclatura/_site/index.html'">
-                    <img src="img/nomenclatura.webp" alt="Aggiornamenti Nomenclatura" class="card__image">
-                    <h3 class="card__title">Aggiornamenti Nomenclatura</h3>
-                    <p class="card__description">
-                        Aggiornamenti trimestrali tratti da Index Fungorum relativi alle specie contenute nel censimento
-                        delle specie fungine della Valseriana.
-                    </p>
-                    <div class="card__meta">
-                        <strong>Attivo</strong>
-                    </div>
+<section class="section section--alt" id="resources">
+    <div class="container">
+        <div class="grid grid--2col">
+            <!-- Resource Card: Aggiornamenti Nomenclatura -->
+            <a class="card" href="{{ site.baseurl }}/aggiornamentiNomenclatura/index.html">
+                <img src="{{ site.baseurl }}/img/nomenclatura.webp" alt="Aggiornamenti Nomenclatura"
+                    class="card__image">
+                <h3 class="card__title">Aggiornamenti Nomenclatura</h3>
+                <p class="card__description">
+                    Aggiornamenti trimestrali tratti da Index Fungorum relativi alle specie contenute nel censimento
+                    delle specie fungine della Valseriana.
+                </p>
+                <div class="card__meta">
+                    <strong>Attivo</strong>
                 </div>
+            </a>
 
-                <!-- Resource Card: Biblioteca -->
-                <div class="card" onclick="window.location.href='./biblioteca/_site/index.html'">
-                    <img src="img/biblioteca.webp" alt="Biblioteca" class="card__image">
-                    <h3 class="card__title">Biblioteca</h3>
-                    <p class="card__description">
-                        Il catalogo della biblioteca micologica del gruppo di Villa d'Ogna. Attualmente in fase di
-                        sviluppo, offre pagine in bozza per illustrare l'interfaccia e le possibilità di filtraggio dei
-                        testi.
-                    </p>
-                    <div class="card__meta">
-                        <strong>In fase di sviluppo</strong>
-                    </div>
+            <!-- Resource Card: Biblioteca -->
+            <a class="card" href="{{ site.baseurl }}/biblioteca/index.html">
+                <img src="{{ site.baseurl }}/img/biblioteca.webp" alt="Biblioteca" class="card__image">
+                <h3 class="card__title">Biblioteca</h3>
+                <p class="card__description">
+                    Il catalogo della biblioteca micologica del gruppo di Villa d'Ogna.
+                </p>
+                <div class="card__meta">
+                    <strong>Attivo</strong>
                 </div>
+            </a>
 
-                <!-- Resource Card: Calendario delle Specie -->
-                <div class="card" onclick="window.location.href='./fungi-census/_site/species-calendar.html'">
-                    <img src="img/calendar.webp" alt="Calendario delle Specie" class="card__image">
-                    <h3 class="card__title">Calendario delle Specie</h3>
-                    <p class="card__description">
-                        Il calendario delle specie fungine della Valseriana.
-                        Mostra le specie in ordine di comparsa durante l'anno, con informazioni sui campionamenti e la loro distribuzione stagionale. 
-                    </p>
-                    <div class="card__meta">
-                        <strong>Attivo</strong>
-                    </div>
+            <!-- Resource Card: Calendario delle Specie -->
+            <a class="card" href="{{ site.baseurl }}/fungi-census/species-calendar.html">
+                <img src="{{ site.baseurl }}/img/calendar.webp" alt="Calendario delle Specie" class="card__image">
+                <h3 class="card__title">Calendario delle Specie</h3>
+                <p class="card__description">
+                    Il calendario delle specie fungine della Valseriana.
+                    Mostra le specie in ordine di comparsa durante l'anno, con informazioni sui campionamenti e la loro
+                    distribuzione stagionale.
+                </p>
+                <div class="card__meta">
+                    <strong>Attivo</strong>
                 </div>
+            </a>
 
-                <!-- Resource Card: Fungi Census -->
-                <div class="card" onclick="window.location.href='./fungi-census/_site/index.html'">
-                    <img src="img/database.webp" alt="Fungi Census" class="card__image">
-                    <h3 class="card__title">Specie fungine della Valseriana</h3>
-                    <p class="card__description">
-                        Il censimento delle specie fungine della Valseriana.
-                        Include funzionalità di ricerca e visualizzazioni dettagliate delle specie.
-                    </p>
-                    <div class="card__meta">
-                        <strong>Attivo</strong>
-                    </div>
+            <!-- Resource Card: Chiavi Dicotomiche -->
+            <a class="card" href="{{ site.baseurl }}/chiaviDicotomiche/index.html">
+                <img src="{{ site.baseurl }}/img/dichotomousKeys.webp" alt="Chiavi Dicotomiche" class="card__image">
+                <h3 class="card__title">Chiavi Dicotomiche</h3>
+                <p class="card__description">
+                    Chiavi dicotomiche per l'identificazione delle specie fungine della Valseriana.
+                </p>
+                <div class="card__meta">
+                    <strong>In fase di sviluppo</strong>
                 </div>
+            </a>
 
-                <!-- Resource Card: Pineta della Selva -->
-                <div class="card"
-                    onclick="window.location.href='./fungi-census/_site/index.html?area=pinetaDellaSelva'">
-                    <img src="img/database.webp" alt="Fungi Census" class="card__image">
-                    <h3 class="card__title">Specie fungine della Pineta della Selva</h3>
-                    <p class="card__description">
-                        Una vista sul censimento delle specie fungine della Valseriana limitata alla Pineta della Selva,
-                        tra Clusone, Piario e Villa d'Ogna, una zona di particolare interesse per la sua biodiversità e
-                        per la presenza di specie rare.
-                        Include funzionalità di ricerca e visualizzazioni dettagliate delle specie.
-                    </p>
-                    <div class="card__meta">
-                        <strong>In fase di sviluppo</strong>
-                    </div>
+            <!-- Resource Card: Pineta della Selva -->
+            <a class="card" href="{{ site.baseurl }}/fungi-census/index.html?area=pinetaDellaSelva">
+                <img src="{{ site.baseurl }}/img/database.webp" alt="Fungi Census" class="card__image">
+                <h3 class="card__title">Specie fungine della Pineta della Selva</h3>
+                <p class="card__description">
+                    Una vista sul censimento delle specie fungine della Valseriana limitata alla Pineta della Selva,
+                    tra Clusone, Piario e Villa d'Ogna, una zona di particolare interesse per la sua biodiversità e
+                    per la presenza di specie rare.
+                    Include funzionalità di ricerca e visualizzazioni dettagliate delle specie.
+                </p>
+                <div class="card__meta">
+                    <strong>Attivo</strong>
                 </div>
+            </a>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================
-         ABOUT SECTION
-         ============================================
-    <section class="section" id="about">
-        <div class="container">
-            <h3
-                style="font-family: var(--font-family-heading); font-size: var(--font-size-h2); margin-bottom: var(--spacing-lg);">
-                Come Funziona
-            </h3>
-            <p>
-                <i>INFORMAZIONI PER GLI SVILUPPATORI</i>
-            </p>
-            <p></p>
-            <p>
-                Questa pagina di risorse fornisce accesso a database e strumenti specifici. Ogni risorsa opera in
-                modo indipendente con il proprio flusso di generazione dati, pur condividendo un framework di
-                progettazione comune per garantire la coerenza.
-            </p>
-            <p>&nbsp</p>
-
-            <div class="grid grid--3col">
-                <div>
-                    <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-sm);">
-                        Risorse Indipendenti
-                    </h3>
-                    <p>
-                        Ogni risorsa mantiene il proprio repository e può funzionare in modo indipendente
-                        con il proprio flusso di distribuzione.
-                    </p>
+            <!-- Resource Card: Fungi Census -->
+            <a class="card" href="{{ site.baseurl }}/fungi-census/index.html">
+                <img src="{{ site.baseurl }}/img/database.webp" alt="Fungi Census" class="card__image">
+                <h3 class="card__title">Specie fungine della Valseriana</h3>
+                <p class="card__description">
+                    Il censimento delle specie fungine della Valseriana.
+                    Include funzionalità di ricerca e visualizzazioni dettagliate delle specie.
+                </p>
+                <div class="card__meta">
+                    <strong>Attivo</strong>
                 </div>
-                <div>
-                    <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-sm);">
-                        Componenti UI Condivisi
-                    </h3>
-                    <p>
-                        Elementi e stili UI comuni sono condivisi tra le risorse per garantire
-                        un'esperienza utente coerente.
-                    </p>
-                </div>
-                <div>
-                    <h3 style="color: var(--color-primary); margin-bottom: var(--spacing-sm);">
-                        Architettura Modulare
-                    </h3>
-                    <p>
-                        Costruita usando subtrees per massima flessibilità, permettendo alle risorse di essere
-                        incorporate in siti web più grandi o utilizzate in modo autonomo.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-     -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__container">
-                <div class="footer__section">
-                    <h3>Informazioni</h3>
-                    <ul>
-                        <li><a href="https://www.ambvilladogna.it/index.html">Home page</a></li>
-                        <li><a href="https://www.ambvilladogna.it/html/chi_siamo.html">Chi siamo</a></li>
-                        <li><a href="https://www.ambvilladogna.it/html/contatti.html">Contatti</a></li>
-                    </ul>
-                </div>
-                <div class="footer__section">
-                    <h3>Risorse</h3>
-                    <ul>
-                        <li><a href="https://ambvilladogna.github.io/risorse/">Risorse Home</a></li>
-                        <li><a
-                                href="https://ambvilladogna.github.io/risorse/aggiornamenti-nomenclatura/_site/index.html">Aggiornamenti
-                                Nomenclatura</a>
-                        <li><a href="https://ambvilladogna.github.io/risorse/biblioteca/_site/index.html">Biblioteca</a>
-                        </li>
-                        <li><a href="https://ambvilladogna.github.io/risorse/fungi-census/_site/index.html">Specie
-                                fungine
-                                della Valseriana</a></li>
-                        </li>
-                        <li><a href="https://ambvilladogna.github.io/risorse/fungi-census/_site/index.html">Specie
-                                fungine
-                                della Pineta di Clusone</a></li>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__section">
-                    <h3>Social</h3>
-                    <ul>
-                        <li><a href="https://www.facebook.com/gruppomicologicovilladogna">Facebook</a></li>
-                    </ul>
-                </div>
-            </div>
+            </a>
 
         </div>
-        <div class="footer__bottom">
-            <p>2026 - Associazione Micologica Bresadola - Gruppo di Villa d'Ogna</p>
-        </div>
-    </footer>
-
-    <script src="shared/js/common.js"></script>
-    <script>
-        /**
-         * Card click handler - can be used for analytics or custom behavior
-         */
-        document.addEventListener('DOMContentLoaded', function () {
-            // Optional: Add custom behavior for card clicks
-            // Already handled with onclick in HTML for simplicity
-        });
-    </script>
-</body>
-
-</html>
+    </div>
+</section>

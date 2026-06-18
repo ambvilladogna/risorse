@@ -1,6 +1,17 @@
 ---
-layout: species
+layout: default
 title: Dettagli Specie
+css: 
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+  - fungiCensusSpecies
+scripts:
+  head: 
+    - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+    - https://cdn.jsdelivr.net/npm/chart.js
+  body: 
+    - fungiCensusUtils
+    - fungiCensusGeoFilter
+    - fungiCensusSpeciesDetail
 ---
 
 <section class="section section--alt">

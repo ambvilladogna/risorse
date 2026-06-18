@@ -1,0 +1,33 @@
+title: Risorse - A.M.B. gruppo di Villa d'Ogna
+description: Aggiornamenti trimestrali tratti da Index Fungorum riferiti alle specie contenute nel Censimento delle specie di AMB Villa
+baseurl: "/newRisorse"
+url: ""
+
+markdown: kramdown
+
+# IMPORTANT: Tell Jekyll not to use a theme
+theme: null
+
+# Collections for reports
+collections:
+  reportsAggiornamentiNomenclatura:
+    output: true
+    permalink: aggiornamentiNomenclatura/reports/:name.html
+
+# Default values for reports
+defaults:
+  - scope:
+      type: "reportsAggiornamentiNomenclatura"
+    values:
+      layout: "report"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - .github
+  - .git
+  - .vscode
+  - node_modules
+  - vendor

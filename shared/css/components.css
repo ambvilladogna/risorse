@@ -39,11 +39,14 @@
 
 .header__nav {
     display: flex;
+    align-items: center;
     gap: var(--spacing-lg);
     list-style: none;
 }
 
 .header__nav a {
+    display: flex;
+    align-items: center;
     color: var(--color-text);
     font-size: var(--font-size-base);
     transition: color var(--transition-fast);
@@ -60,6 +63,9 @@
     }
     .header__nav a {
         font-size: var(--font-size-small);
+    }
+    .header__logo {
+        font-size: 1.5rem;
     }
 }
 /* ============================================
@@ -147,6 +153,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    color: inherit;
+    text-decoration: none;
 }
 
 .card:hover {
