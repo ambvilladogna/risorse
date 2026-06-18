@@ -11,10 +11,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/layout.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/components.css">
 
-    <!-- Page-specific CSS -->
-    {% if page.extra_css %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.extra_css }}.css">
-    {% endif %}
+    {% include asset-css.html list=page.css %}
+    {% include asset-js.html list=page.scripts.head %}
 </head>
 
 <body>
@@ -25,6 +23,7 @@
     {% include footer.html %}
 
     <script src="{{ site.baseurl }}/shared/js/common.js"></script>
+    {% include asset-js.html list=page.scripts.body %}
 </body>
 
 </html>

@@ -1,0 +1,11 @@
+{%- for entry in include.list -%}
+  {%- assign item = entry.src | default: entry -%}
+  {%- if item contains '//' -%}
+    {%- assign url = item -%}
+  {%- elsif item contains '/' -%}
+    {%- assign url = item | relative_url -%}
+  {%- else -%}
+    {%- assign url = '/js/' | append: item | append: '.js' | relative_url -%}
+  {%- endif -%}
+<script src="{{ url }}"{% if entry.defer %} defer{% endif %}{% if entry.async %} async{% endif %}{% if entry.type %} type="{{ entry.type }}"{% endif %}></script>
+{%- endfor -%}

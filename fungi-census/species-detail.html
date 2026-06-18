@@ -1,13 +1,17 @@
 ---
 layout: default
 title: Dettagli Specie
-extra_css: fungiCensusSpecies
-extra_ext_css: https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
-extra_head_ext_script: https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
-extra_head_ext_script_1: https://cdn.jsdelivr.net/npm/chart.js
-extra_script: fungiCensusSpeciesDetail
-extra_script_1: fungiCensusUtils
-extra_script_2: fungiCensusGeoFilter
+css: 
+  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+  - fungiCensusSpecies
+scripts:
+  head: 
+    - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+    - https://cdn.jsdelivr.net/npm/chart.js
+  body: 
+    - fungiCensusUtils
+    - fungiCensusGeoFilter
+    - fungiCensusSpeciesDetail
 ---
 
 <section class="section section--alt">

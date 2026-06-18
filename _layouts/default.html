@@ -11,25 +11,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/layout.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/shared/css/components.css">
 
-    <!-- Page-specific CSS -->
-    {% if page.extra_ext_css %}
-    <link rel="stylesheet" href="{{ page.extra_ext_css }}">
-    {% endif %}
-    {% if page.extra_css %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.extra_css }}.css">
-    {% endif %}
-    {% if page.extra_css_1 %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.extra_css_1 }}.css">
-    {% endif %}
-    {% if page.extra_css_2 %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ page.extra_css_2 }}.css">
-    {% endif %}
-    {% if page.extra_head_ext_script %}
-    <script src="{{ page.extra_head_ext_script }}"></script>
-    {% endif %}
-    {% if page.extra_head_ext_script_1 %}
-    <script src="{{ page.extra_head_ext_script_1 }}"></script>
-    {% endif %}
+    {% include asset-css.html list=page.css %}
+    {% include asset-js.html list=page.scripts.head %}
 </head>
 
 <body>
@@ -40,16 +23,7 @@
     {% include footer.html %}
 
     <script src="{{ site.baseurl }}/shared/js/common.js"></script>
-    <!-- Page-specific JavaScripts -->
-    {% if page.extra_script %}
-    <script src="{{ site.baseurl }}/js/{{ page.extra_script }}.js"></script>
-    {% endif %}
-    {% if page.extra_script_1 %}
-    <script src="{{ site.baseurl }}/js/{{ page.extra_script_1 }}.js"></script>
-    {% endif %}
-    {% if page.extra_script_2 %}
-    <script src="{{ site.baseurl }}/js/{{ page.extra_script_2 }}.js"></script>
-    {% endif %}
+    {% include asset-js.html list=page.scripts.body %}
 </body>
 
 </html>
