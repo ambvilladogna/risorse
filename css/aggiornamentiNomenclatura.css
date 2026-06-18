@@ -1,14 +1,22 @@
+/* OVERRIDE: Custom color palette for dichotomous key theme */
+:root {
+    --color-primary: #2c3e50;
+    --color-primary-light: #4da0f3;
+    --color-accent: #0055aa;
+    --color-bg-alt: #ecf0f1;
+}
+
 /* ============================================
    SECTION: HEADER
    ============================================ */
 
 .page-header {
     padding: var(--spacing-xl) 0;
-    border-bottom: 3px solid #3498db;
+    border-bottom: 3px solid var(--color-accent);
 }
 
 .page-header__title {
-    color: #2c3e50;
+    color: var(--color-primary);
     font-family: var(--font-family-heading);
     font-size: var(--font-size-h3);
     line-height: var(--line-height-heading);
@@ -35,7 +43,7 @@
    ============================================ */
 
 .summary-box {
-    background-color: #ecf0f1;
+    background-color: var(--color-bg-alt);
     padding: var(--spacing-lg);
     border-radius: var(--border-radius);
     margin: var(--spacing-lg) 0;
@@ -44,9 +52,9 @@
 .summary-box__title {
     font-family: var(--font-family-heading);
     font-size: var(--font-size-h3);
-    color: #34495e;
+    color: var(--color-primary);
     margin-bottom: var(--spacing-md);
-    border-bottom: 2px solid #95a5a6;
+    border-bottom: 2px solid var(--color-border);
     padding-bottom: var(--spacing-sm);
 }
 
@@ -61,7 +69,7 @@
 }
 
 .summary-box__item a {
-    color: #2980b9;
+    color: var(--color-accent);
     text-decoration: none;
     font-weight: 500;
 }
@@ -99,7 +107,7 @@
 }
 
 .highlight-box {
-    background: #f5f0e8;
+    background: var(--color-bg);
     border: 1px solid #c8b880;
     border-left: 4px solid #8a6c20;
     padding: 1rem 1.2rem;
@@ -130,7 +138,7 @@
    ============================================ */
 
 .toc {
-    background-color: #e8f4f8;
+    background-color: var(--color-bg-alt);
     padding: var(--spacing-lg);
     border-radius: var(--border-radius);
     margin: var(--spacing-lg) 0;
@@ -139,9 +147,9 @@
 .toc__title {
     font-family: var(--font-family-heading);
     font-size: var(--font-size-h3);
-    color: #34495e;
+    color: var(--color-primary);
     margin-bottom: var(--spacing-md);
-    border-bottom: 2px solid #95a5a6;
+    border-bottom: 2px solid var(--color-border);
     padding-bottom: var(--spacing-sm);
 }
 
@@ -151,7 +159,7 @@
 }
 
 .toc__link {
-    color: #2980b9;
+    color: var(--color-accent);
     text-decoration: none;
     font-weight: 500;
 }
@@ -169,12 +177,12 @@
 }
 
 .content-section__title {
-    color: #34495e;
+    color: var(--color-primary);
     font-family: var(--font-family-heading);
     font-size: var(--font-size-h3);
     line-height: var(--line-height-heading);
     margin-bottom: var(--spacing-lg);
-    border-bottom: 2px solid #95a5a6;
+    border-bottom: 2px solid var(--color-border);
     padding-bottom: var(--spacing-sm);
 }
 
@@ -187,19 +195,19 @@
     padding: var(--spacing-lg);
     border: 1px solid var(--color-border);
     border-radius: var(--border-radius);
-    background-color: #fafafa;
+    background-color: var(--color-bg-alt);
 }
 
 .update-entry__title {
     font-size: 1.4em;
-    color: #16a085;
+    color: var(--color-text);
     font-family: var(--font-family-heading);
     margin-top: 0;
     margin-bottom: var(--spacing-md);
 }
 
 .update-entry__title a {
-    color: #16a085;
+    color: var(--color-accent);
     text-decoration: none;
 }
 
@@ -247,8 +255,8 @@
     position: fixed;
     bottom: 30px;
     right: 30px;
-    background-color: #3498db;
-    color: white;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
     padding: 12px 20px;
     border-radius: 25px;
     text-decoration: none;
@@ -259,8 +267,48 @@
 }
 
 .back-to-top:hover {
-    background-color: #2980b9;
-    color: white;
+    background-color: var(--color-primary-light);
+    color: var(--color-text);
+}
+
+/* Floating Navigation Buttons */
+.floating-nav {
+    position: fixed;
+    bottom: 30px;
+    /* Above footer */
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 999;
+}
+
+.nav-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    box-shadow: var(--box-shadow);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: var(--color-text);
+    background: var(--color-primary-light);
+    transform: scale(1.1);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.nav-button:active {
+    transform: scale(0.95);
 }
 
 /* ============================================
