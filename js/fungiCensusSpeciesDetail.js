@@ -35,7 +35,7 @@ function formatSampleDetails(sample) {
 }
 
 function formatDayAndMonth(dateString) {
-    const [day, month] = dateString.split('-');
+    const [month, day] = dateString.split('-');
     const months = [
         '',
         'gennaio',
@@ -250,7 +250,7 @@ const computeFenologiaAndStatistiche = (campioniRaccolti = [], campioniExsiccata
         if (!date) return null;
         const day = date.getDate().toString().padStart(2, '0');
         const month = (date.getMonth() + 1).toString().padStart(2, '0');
-        return `${day}-${month}`;
+        return `${month}-${day}`;
     };
 
     return {
