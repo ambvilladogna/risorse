@@ -40,3 +40,19 @@ document.querySelector('.back-to-top')?.addEventListener('click', (e) => {
         behavior: 'smooth'
     });
 });
+
+// ── HTML escaping ────────────────────────────────────────────────────────────
+// All data coming from JSON files maintained in separate repos must be treated 
+// as untrusted text whenever it's interpolated into an innerHTML template.
+// This never touches values inserted via .textContent, which are already safe.
+const ESCAPE_MAP = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+    '': '&#x60;'
+};
+function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, ch => (ESCAPE_MAP[ch]));
+}

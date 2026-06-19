@@ -93,7 +93,7 @@ function initializeFilters() {
     totalCount.textContent = books.length;
 
     tagsContainer.innerHTML = config.tags.map(tag =>
-        `<button class="tag-filter" data-tag="${tag.label}">${tag.label}</button>`
+        `<button class="tag-filter" data-tag="${escapeHtml(tag.label)}">${escapeHtml(tag.label)}</button>`
     ).join('');
 }
 
@@ -145,7 +145,7 @@ function _buildNoteHtml(note) {
             <button class="card-note__toggle" aria-label="Mostra nota">
                 <span class="card-note__icon">✎</span><span class="card-note__label">Nota</span>
             </button>
-            <div class="card-note__body" hidden>${note}</div>
+            <div class="card-note__body" hidden>${escapeHtml(note)}</div>
         </div>
     `;
 }
@@ -168,7 +168,7 @@ function _buildBookCard(book) {
     const card = document.createElement('div');
     card.className = 'book-card';
 
-    const volumeDisplay = book.volume ? `<div class="book-volume">${book.volume}</div>` : '';
+    const volumeDisplay = book.volume ? `<div class="book-volume">${escapeHtml(book.volume)}</div>` : '';
     const ratingStars = getRatingStars(book.rating);
 
     // add "copie" tag if multiple copies
@@ -179,20 +179,20 @@ function _buildBookCard(book) {
 
     const tagsHtml = displayTags.length > 0
         ? `<div class="book-tags">${displayTags.map(tag =>
-            `<span class="${tag.includes('copie') ? 'copies-tag' : 'tag'}">${tag}</span>`
+            `<span class="${tag.includes('copie') ? 'copies-tag' : 'tag'}">${escapeHtml(tag)}</span>`
         ).join('')}</div>`
         : '';
 
     card.innerHTML = `
         <div class="book-header">
-            <div class="book-series">${book.titolo}</div>
+            <div class="book-series">${escapeHtml(book.titolo)}</div>
             ${ratingStars}
         </div>
         ${volumeDisplay}
         <div class="book-meta">
-            ${book.autori ? `<div class="meta-row"><span class="meta-label">Autori:</span><span class="meta-value">${book.autori}</span></div>` : ''}
-            ${book.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${book.editore}</span></div>` : ''}
-            ${book.data ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${book.data}</span></div>` : ''}
+            ${book.autori ? `<div class="meta-row"><span class="meta-label">Autori:</span><span class="meta-value">${escapeHtml(book.autori)}</span></div>` : ''}
+            ${book.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${escapeHtml(book.editore)}</span></div>` : ''}
+            ${book.data ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${escapeHtml(book.data)}</span></div>` : ''}
         </div>
         ${tagsHtml}
         ${_buildNoteHtml(book.note)}
@@ -210,15 +210,15 @@ function _buildRivistaCard(rivista) {
 
     // Volume line: "Anno IV · N° 9"
     const volumeParts = [];
-    if (rivista.volume) volumeParts.push(rivista.volume);
-    if (rivista.issue_number != null) volumeParts.push(`N° ${rivista.issue_number}`);
+    if (rivista.volume) volumeParts.push(escapeHtml(rivista.volume));
+    if (rivista.issue_number != null) volumeParts.push(`N° ${escapeHtml(rivista.issue_number)}`);
     const volumeDisplay = volumeParts.length > 0
         ? `<div class="book-volume">${volumeParts.join(' · ')}</div>`
         : '';
 
     // Period/date line
     const periodoDisplay = rivista.period
-        ? `<div class="rivista-period">${rivista.period}</div>`
+        ? `<div class="rivista-period">${escapeHtml(rivista.period)}</div>`
         : '';
 
     // Article count badge
@@ -234,7 +234,7 @@ function _buildRivistaCard(rivista) {
     }
     const tagsHtml = displayTags.length > 0
         ? `<div class="book-tags">${displayTags.map(tag =>
-            `<span class="${tag.includes('copie') ? 'copies-tag' : 'tag'}">${tag}</span>`
+            `<span class="${tag.includes('copie') ? 'copies-tag' : 'tag'}">${escapeHtml(tag)}</span>`
         ).join('')}</div>`
         : '';
 
@@ -242,15 +242,15 @@ function _buildRivistaCard(rivista) {
 
     card.innerHTML = `
         <div class="book-header">
-            <div class="book-series">${rivista.titolo}</div>
+            <div class="book-series">${escapeHtml(rivista.titolo)}</div>
             ${ratingStars}
         </div>
         ${volumeDisplay}
         ${periodoDisplay}
         <div class="book-meta">
-            ${rivista.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${rivista.editore}</span></div>` : ''}
-            ${rivista.data && !rivista.period ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${rivista.data}</span></div>` : ''}
-            <!-- ${rivista.print_date ? `<div class="meta-row"><span class="meta-label">Stampa:</span><span class="meta-value">${rivista.print_date}</span></div>` : ''} -->
+            ${rivista.editore ? `<div class="meta-row"><span class="meta-label">Editore:</span><span class="meta-value">${escapeHtml(rivista.editore)}</span></div>` : ''}
+            ${rivista.data && !rivista.period ? `<div class="meta-row"><span class="meta-label">Anno:</span><span class="meta-value">${escapeHtml(rivista.data)}</span></div>` : ''}
+            <!-- ${rivista.print_date ? `<div class="meta-row"><span class="meta-label">Stampa:</span><span class="meta-value">${escapeHtml(rivista.print_date)}</span></div>` : ''} -->
         </div>
         ${tagsHtml}
         ${noteHtml}
@@ -376,21 +376,21 @@ const rivistaPanel = (() => {
                 const li = document.createElement('li');
                 li.className = 'rivista-article';
 
-                const authorsText = (art.authors || []).join(', ');
+                const authorsText = escapeHtml((art.authors || []).join(', '));
                 const tagsHtml = (art.tags || []).length > 0
                     ? `<div class="rivista-article__tags">${art.tags.map(t =>
-                        `<span class="rivista-article__tag">${t}</span>`
+                        `<span class="rivista-article__tag">${escapeHtml(t)}</span>`
                     ).join('')}</div>`
                     : '';
                 const rubricaHtml = art.rubrica && art.rubrica !== art.title
-                    ? `<span class="rivista-article__rubrica">${art.rubrica}</span>`
+                    ? `<span class="rivista-article__rubrica">${escapeHtml(art.rubrica)}</span>`
                     : '';
 
                 li.innerHTML = `
-                    <div class="rivista-article__page">p. ${art.page_start ?? '—'}</div>
+                    <div class="rivista-article__page">p. ${escapeHtml(art.page_start ?? '—')}</div>
                     <div class="rivista-article__body">
                         ${rubricaHtml}
-                        <div class="rivista-article__title">${art.title}</div>
+                        <div class="rivista-article__title">${escapeHtml(art.title)}</div>
                         ${authorsText ? `<div class="rivista-article__authors">${authorsText}</div>` : ''}
                         ${tagsHtml}
                     </div>

@@ -21,7 +21,7 @@
     const subTitle = document.getElementById('sub-title');
     const totalCount = document.getElementById('total-count');
 
-    const area = getUrlParameter('area');
+    const area = escapeHtml(getUrlParameter('area') || '');
     try {
         let speciesFile = '/fungi-census/census.json';
         let corpusFile = '/fungi-census/searchCorpus.json';
@@ -88,8 +88,8 @@
             if (colonIndex !== -1) {
                 const prefix = part.substring(0, colonIndex + 2);          // e.g. "Famiglia: "
                 const taxonName = part.substring(colonIndex + 2).trim();   // e.g. "Agaricaceae"
-                const onclickAttr = `onclick="performTaxonSearch('${taxonName}','${prefix.slice(0, -2).trim()}')"`;
-                return `${prefix}<span class="taxon-link" ${onclickAttr}>${taxonName}</span>`;
+                const onclickAttr = `onclick="performTaxonSearch('${escapeHtml(taxonName)}','${prefix.slice(0, -2).trim()}')"`;
+                return `${prefix}<span class="taxon-link" ${onclickAttr}>${escapeHtml(taxonName)}</span>`;
             }
             return part;
         }).join(' > ');
@@ -117,18 +117,18 @@
             if (species.currentName && species.currentName !== species.fullName) {
                 synonymInfo = `
                         <div class="synonym-info">
-                            <span class="synonym-label">Sinonimo di:</span> <em>${species.currentName}</em> ${species.currentAuthority}
+                            <span class="synonym-label">Sinonimo di:</span> <em>${escapeHtml(species.currentName)}</em> ${escapeHtml(species.currentAuthority)}
                         </div>
                     `;
             }
 
-            const genusLink = `<span class="taxon-link" onclick="performTaxonSearch('${species.genus}','genus')">${species.genus}</span>`;
-            const speciesLink = `<span class="taxon-link" onclick="handleSpeciesClick('${species.genus}','${species.species}')">${species.species}</span>`;
+            const genusLink = `<span class="taxon-link" onclick="performTaxonSearch('${escapeHtml(species.genus)}','genus')">${escapeHtml(species.genus)}</span>`;
+            const speciesLink = `<span class="taxon-link" onclick="handleSpeciesClick('${escapeHtml(species.genus)}','${escapeHtml(species.species)}')">${escapeHtml(species.species)}</span>`;
             const lineageWithLinks = createLineageWithLinks(species.lineage);
 
             return `
                     <div class="species-item">
-                        <div class="species-name"><em>${genusLink} ${speciesLink}</em> ${species.authority}</div>
+                        <div class="species-name"><em>${genusLink} ${speciesLink}</em> ${escapeHtml(species.authority)}</div>
                         <div class="species-lineage">${lineageWithLinks}</div>
                         ${synonymInfo}
                     </div>
@@ -181,13 +181,13 @@
             html += `<div class="dropdown-group-label">${TYPE_LABEL[type]}</div>`;
             groups[type].forEach(item => {
                 const italic = type === 'genus' || type === 'species';
-                const label = italic ? `<em>${item.value}</em>` : item.value;
+                const label = italic ? `<em>${escapeHtml(item.value)}</em>` : item.value;
                 const n = item.matchSpecies.length;
                 html += `
-          <div class="dropdown-item" data-value="${item.value}" data-type="${item.type}" role="option">
-            <span class="type-badge type-badge--${type}">${TYPE_LABEL[type]}</span>
-            <span class="dropdown-item-label">${label}</span>
-            <span class="dropdown-item-count">${n} sp.</span>
+          <div class="dropdown-item" data-value="${escapeHtml(item.value)}" data-type="${escapeHtml(item.type)}" role="option">
+            <span class="type-badge type-badge--${type}">${escapeHtml(TYPE_LABEL[type])}</span>
+            <span class="dropdown-item-label">${escapeHtml(label)}</span>
+            <span class="dropdown-item-count">${escapeHtml(n)} sp.</span>
           </div>`;
             });
         });
@@ -219,11 +219,11 @@
 
         if (activeFilter) {
             const italic = type === 'genus' || type === 'species';
-            const label = italic ? `<em>${value}</em>` : value;
-            activePillText.innerHTML = `${TYPE_LABEL[type]}: ${label}`;
+            const label = italic ? `<em>${escapeHtml(value)}</em>` : escapeHtml(value);
+            activePillText.innerHTML = `${escapeHtml(TYPE_LABEL[type])}: ${escapeHtml(label)}`;
             // avoid duplicate count display
             // const n = activeFilter.matchSpecies.length;
-            // activeCount.textContent = `— ${n} speci${n === 1 ? 'e' : 'e'}`;
+            // activeCount.textContent = `— ${escapeHtml(n)} specie`;
             activePill.classList.add('visible');
         }
 
@@ -301,7 +301,7 @@
 
 function handleSpeciesClick(genus, species) {
     // Navigate to species detail page with parameters
-    const area = getUrlParameter('area');
+    const area = escapeHtml(getUrlParameter('area') || '');
     if (area) {
         window.location.href = `./species-detail.html?genus=${encodeURIComponent(genus)}&species=${encodeURIComponent(species)}&area=${encodeURIComponent(area)}`;
     } else {
