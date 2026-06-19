@@ -56,6 +56,18 @@
     color: var(--color-primary);
 }
 
+.header__home_svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: var(--color-primary);
+    stroke-width: 2;
+}
+
+.header__home_svg:hover {
+    stroke: var(--color-primary-light);
+}
+
 @media (max-width: 768px) {
     .header__nav {
         gap: var(--spacing-sm);
