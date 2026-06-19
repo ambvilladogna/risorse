@@ -35,7 +35,7 @@ function formatSampleDetails(sample) {
 }
 
 function formatDayAndMonth(dateString) {
-    const [month, day] = dateString.split('-');
+    const [day, month] = dateString.split('-');
     const months = [
         '',
         'gennaio',
@@ -235,7 +235,7 @@ const computeFenologiaAndStatistiche = (campioniRaccolti = [], campioniExsiccata
 
         const date = new Date(collectionDate);
         if (isNaN(date.getTime())) return;
-
+        
         const month = date.getMonth(); // 0-based
         monthlyCount[month][monthNames[month]]++;
 

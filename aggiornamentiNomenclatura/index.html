@@ -2,7 +2,7 @@
 layout: default
 title: Aggiornamenti Nomenclatura
 css:
-  - risorse
+- risorse
 ---
 
 <section class="section section--alt" id="resources" style="min-height: 600px;">
@@ -11,13 +11,14 @@ css:
         href="{{ site.baseurl }}/fungi-census" target="_blank" rel="noopener noreferrer">Censimento delle specie di AMB
         Villa d'Ogna</a>
     </p>
-    <p>&nbsp</p>
 
     <!-- Group reports by year -->
     {% assign reports_by_year = site.reportsAggiornamentiNomenclatura | group_by: "year" | sort: "name" | reverse %}
 
     {% for year_group in reports_by_year %}
+    <p>&nbsp</p>
     <h2>{{ year_group.name }}</h2>
+    <p>&nbsp</p>
     <div class="grid grid--2col">
       {% assign sorted_reports = year_group.items | sort: "date" | reverse %}
       {% for report in sorted_reports %}
