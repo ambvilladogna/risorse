@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Dettagli Specie
-css: 
+css:
   - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
   - fungiCensusSpecies
 scripts:
-  head: 
+  head:
     - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
     - https://cdn.jsdelivr.net/npm/chart.js
-  body: 
+  body:
     - fungiCensusUtils
     - fungiCensusGeoFilter
     - fungiCensusSpeciesDetail
@@ -87,6 +87,14 @@ scripts:
         </div>
 
         <!-- Top back button -->
-        <a class="back-to-search" onclick="goBack()">Torna alla pagina di ricerca</a>
+        <div class="floating-nav">
+            <a onclick="goBack()" class="nav-button" title="Torna alla ricerca" 
+                aria-label="Home">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+            </a>
+        </div>
     </div>
 </section>
