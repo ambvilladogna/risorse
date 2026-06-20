@@ -1,0 +1,50 @@
+/* Floating Navigation Buttons */
+.floating-nav {
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2000;
+}
+
+.nav-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    box-shadow: var(--box-shadow);
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: var(--color-text);
+    background: var(--color-primary-light);
+    transform: scale(1.1);
+    box-shadow: var(--box-shadow-hover);
+}
+
+.nav-button:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+    .floating-nav {
+        right: 10px;
+    }
+
+    .nav-button {
+        width: 45px;
+        height: 45px;
+        font-size: 1.1rem;
+    }
+}

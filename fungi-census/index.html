@@ -2,6 +2,7 @@
 layout: default
 title: Censimento delle specie
 css: 
+  - floatingNav
   - fungiCensusSearch
   - fungiCensusSearchFilter
 scripts:
@@ -10,7 +11,7 @@ scripts:
     - fungiCensusSearch
 ---
 
-<section class="section section--alt">
+<section id="top"class="section section--alt">
     <div class="container">
         <p>&nbsp;</p>
         <h1 id="sub-title" class="sub-title hidden"></h1>
@@ -46,5 +47,8 @@ scripts:
                 <div class="no-results">Caricamento dei dati in corso...</div>
             </div>
         </div>
+    </div>
+    <div class="floating-nav">
+        <a href="#top" class="nav-button" title="Torna su" aria-label="Scroll to top">↑</a>
     </div>
 </section>

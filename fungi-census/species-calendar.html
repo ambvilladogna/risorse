@@ -2,6 +2,7 @@
 layout: default
 title: Calendario delle specie
 css: 
+  - floatingNav
   - fungiCensusCalendar
   - fungiCensusSearchFilter
 scripts:
@@ -10,7 +11,7 @@ scripts:
   - fungiCensusCalendar
 ---
 
-<section class="section section--alt">
+<section id="top" class="section section--alt">
     <div class="container">
 
         <!-- ── Filter ──────────────────────────────────────────────────── -->
@@ -45,6 +46,9 @@ scripts:
         <div id="calendar-container">
             <p class="no-species">Caricamento in corso…</p>
         </div>
+    </div>
+    <div class="floating-nav">
+        <a href="#top" class="nav-button" title="Torna su" aria-label="Scroll to top">↑</a>
     </div>
 </section>
 

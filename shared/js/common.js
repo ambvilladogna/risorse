@@ -32,15 +32,6 @@ window.addEventListener('scroll', () => {
 // Update on window resize
 window.addEventListener('resize', updateHeaderHeight);
 
-// Handle back-to-top button with proper offset
-document.querySelector('.back-to-top')?.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
-
 // ── HTML escaping ────────────────────────────────────────────────────────────
 // All data coming from JSON files maintained in separate repos must be treated 
 // as untrusted text whenever it's interpolated into an innerHTML template.
