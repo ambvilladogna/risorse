@@ -1,7 +1,6 @@
 # Risorse — A.M.B. Gruppo di Villa d'Ogna
 
-Sito Jekyll pubblicato su GitHub Pages all'indirizzo `https://ambvilladogna.github.io/risorse/`
-(linkato come sezione "Risorse" dal sito principale `ambvilladogna.it`).
+Sito Jekyll pubblicato su GitHub Pages all'indirizzo `https://ambvilladogna.github.io/risorse/`.
 
 Contiene quattro strumenti per i soci e i visitatori:
 
@@ -186,19 +185,6 @@ Regola pratica per chi tocca questi file in futuro:
   una nuova in un file JS specifico, controllare se serve davvero o se
   basta richiamare quella di `common.js` (è globale, nessun modulo da
   importare).
-
-### Piccole inconsistenze note (da sistemare quando si ha tempo)
-
-- `_config.yml` definisce `layout: "report"` come default per la collection
-  `reportsAggiornamentiNomenclatura`, ma non esiste nessun
-  `_layouts/report.html` — ogni report nel front matter sovrascrive
-  esplicitamente con `layout: reportAggiornamentiNomenclatura`, quindi il
-  default in `_config.yml` non viene mai usato. Si può correggere il
-  default o rimuoverlo, è innocuo ma fuorviante.
-- `_includes/chiaviDicotomicheHeader.html` non è referenziato da nessun
-  layout o pagina (le pagine chiavi usano `pageHeaderChiaviRussule.html` /
-  `pageHeaderChiaviBoletales.html`). Sembra un residuo di una versione
-  precedente dell'header — verificare se è sicuro rimuoverlo.
 
 ---
 
