@@ -124,7 +124,7 @@ function addSamplesToMap(samples) {
         if (samplesAtLocation.length > 1) {
             popupContent += `
                         <div class="popup-header">
-                            <strong>${samplesAtLocation.length} campioni in questa località</strong>
+                            <strong>${escapeHtml(samplesAtLocation.length)} campioni in questa località</strong>
                         </div>
                     `;
         }
@@ -137,7 +137,7 @@ function addSamplesToMap(samples) {
             }
             popupContent += `
                             <div class="sample-item">
-                                ${formatSampleDetails(sample)}
+                                ${escapeHtml(formatSampleDetails(sample))}
                             </div>
                         `;
         });
@@ -269,9 +269,9 @@ const computeFenologiaAndStatistiche = (campioniRaccolti = [], campioniExsiccata
 
 // Load species data
 async function loadSpeciesData() {
-    const genus = getUrlParameter('genus');
-    const species = getUrlParameter('species');
-    const area = getUrlParameter('area');
+    const genus = escapeHtml(getUrlParameter('genus') || '');
+    const species = escapeHtml(getUrlParameter('species') || '');
+    const area = escapeHtml(getUrlParameter('area') || '');
     const filename = getSpeciesFilename(genus, species);
 
     // Update page title and header
@@ -362,7 +362,7 @@ function displayTotalSamples(count) {
     const totalSamplesDiv = document.getElementById('total-samples');
     totalSamplesDiv.innerHTML = `
                 <div>
-                    <span class="count-number">${count}</span>
+                    <span class="count-number">${escapeHtml(count)}</span>
                     <span class="count-label">campioni</span>
                 </div>
             `;
@@ -384,7 +384,7 @@ function displaySeasonality(data) {
             html += `
                 <div class="season-item">
                     <h4>Raccolta più precoce</h4>
-                    <p>${formatDayAndMonth(data.fenologia.raccoltaPiuPrecoce)}</p>
+                    <p>${escapeHtml(formatDayAndMonth(data.fenologia.raccoltaPiuPrecoce))}</p>
                 </div>
             `;
         }
@@ -393,7 +393,7 @@ function displaySeasonality(data) {
             html += `
                 <div class="season-item">
                     <h4>Raccolta più tardiva</h4>
-                    <p>${formatDayAndMonth(data.fenologia.raccoltaPiuTarda)}</p>
+                    <p>${escapeHtml(formatDayAndMonth(data.fenologia.raccoltaPiuTarda))}</p>
                 </div>
             `;
         }
@@ -442,9 +442,9 @@ function displayExsiccataList(exsiccataList) {
     exsiccataList.forEach((sample, index) => {
         html += `
                     <div class="exsiccata-item">
-                        <div class="exsiccata-number">${index + 1}</div>
+                        <div class="exsiccata-number">${escapeHtml(index + 1)}</div>
                         <div class="exsiccata-details">
-                            ${formatSampleDetails(sample)}
+                            ${escapeHtml(formatSampleDetails(sample))}
                         </div>
                     </div>
                 `;

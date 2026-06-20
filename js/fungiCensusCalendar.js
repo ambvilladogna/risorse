@@ -65,7 +65,7 @@
     function formatDate(isoDate) {
         if (!isoDate) return '—';
         const [y, m, d] = isoDate.split('-');
-        return `${d}/${m}/${y}`;
+        return `${escapeHtml(d)}/${escapeHtml(m)}/${escapeHtml(y)}`;
     }
 
     function buildMonthBars(monthlyCount) {
@@ -74,9 +74,9 @@
             const pct = Math.round((count / max) * 100);
             const hasData = count > 0 ? 'has-data' : '';
             return `
-        <div class="month-bar-wrap" title="${MONTHS[i].abbr}: ${count}">
+        <div class="month-bar-wrap" title="${escapeHtml(MONTHS[i].abbr)}: ${count}">
           <div class="month-bar ${hasData}" style="height:${pct}%"></div>
-          <span class="month-bar-label">${MONTHS[i].abbr.charAt(0)}</span>
+          <span class="month-bar-label">${escapeHtml(MONTHS[i].abbr.charAt(0))}</span>
         </div>`;
         }).join('');
     }
@@ -121,8 +121,8 @@
             return `
         <div class="month-section">
           <div class="month-header">
-            <div class="month-icon">${m.abbr}</div>
-            <h2 class="month-title">${m.full}</h2>
+            <div class="month-icon">${escapeHtml(m.abbr)}</div>
+            <h2 class="month-title">${escapeHtml(m.full)}</h2>
             <span class="month-count">${count} ${count === 1 ? 'specie' : 'specie'}</span>
           </div>
           ${cardsHTML}
@@ -143,10 +143,10 @@
         const originalIdx = allSpecies.indexOf(sp);
         const day = dayOfMonth(sp[dateKey]);
         return `
-      <div class="card species-card" data-idx="${originalIdx}" role="button" tabindex="0" aria-label="Dettagli ${sp.fullName}">
+      <div class="card species-card" data-idx="${originalIdx}" role="button" tabindex="0" aria-label="Dettagli ${escapeHtml(sp.fullName)}">
         <div class="card-row">
           <span class="dayOfMonth" aria-label="Giorno ${day}">${day}</span>
-          <span class="species-name">${sp.fullName}</span>
+          <span class="species-name">${escapeHtml(sp.fullName)}</span>
         </div>
       </div>`;
     }
@@ -190,14 +190,14 @@
         let html = '';
         TYPE_ORDER.forEach(type => {
             if (!groups[type].length) return;
-            html += `<div class="dropdown-group-label">${TYPE_LABEL[type]}</div>`;
+            html += `<div class="dropdown-group-label">${escapeHtml(TYPE_LABEL[type])}</div>`;
             groups[type].forEach(item => {
                 const italic = type === 'genus' || type === 'species';
-                const label = italic ? `<em>${item.value}</em>` : item.value;
+                const label = italic ? `<em>${escapeHtml(item.value)}</em>` : escapeHtml(item.value);
                 const n = item.matchSpecies.length;
                 html += `
-          <div class="dropdown-item" data-value="${item.value}" data-type="${item.type}" role="option">
-            <span class="type-badge type-badge--${type}">${TYPE_LABEL[type]}</span>
+          <div class="dropdown-item" data-value="${escapeHtml(item.value)}" data-type="${escapeHtml(item.type)}" role="option">
+            <span class="type-badge type-badge--${escapeHtml(type)}">${escapeHtml(TYPE_LABEL[type])}</span>
             <span class="dropdown-item-label">${label}</span>
             <span class="dropdown-item-count">${n} sp.</span>
           </div>`;
@@ -231,8 +231,8 @@
 
         if (activeFilter) {
             const italic = type === 'genus' || type === 'species';
-            const label = italic ? `<em>${value}</em>` : value;
-            activePillText.innerHTML = `${TYPE_LABEL[type]}: ${label}`;
+            const label = italic ? `<em>${escapeHtml(value)}</em>` : escapeHtml(value);
+            activePillText.innerHTML = `${escapeHtml(TYPE_LABEL[type])}: ${label}`;
             const n = activeFilter.matchSpecies.length;
             activeCount.textContent = `— ${n} speci${n === 1 ? 'e' : 'e'}`;
             activePill.classList.add('visible');
@@ -351,19 +351,23 @@
     function renderSampleBlock(containerId, label, sample) {
         const el = document.getElementById(containerId);
         if (!sample || !sample.collectionDate) {
-            el.innerHTML = `<div class="sample-block"><strong>${label}</strong><p>—</p></div>`;
+            el.innerHTML = `<div class="sample-block"><strong>${escapeHtml(label)}</strong><p>—</p></div>`;
             return;
         }
         const [lat, lon] = sample.localityCoordinates.split(',').map(s => s.trim());
+        // Clean up geographic inputs used directly inside attribute contexts
+        const safeLat = encodeURIComponent(lat);
+        const safeLon = encodeURIComponent(lon);
+
         el.innerHTML = `
       <div class="sample-block">
-        <h4 class="sample-label">${label}</h4>
+        <h4 class="sample-label">${escapeHtml(label)}</h4>
         <dl class="sample-dl">
           <dt>Data</dt>          <dd>${formatDate(sample.collectionDate)}</dd>
-          <dt>Legit</dt>         <dd>${sample.collector || '—'}</dd>
-          <dt>Determinatore</dt> <dd>${sample.determiner || '—'}</dd>
-          <dt>Località</dt>      <dd><a href="https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}&zoom=14" target="_blank" rel="noopener">${sample.locality}</a></dd>
-          <dt>Habitat</dt>       <dd>${sample.habitat || '—'}</dd>
+          <dt>Legit</dt>         <dd>${escapeHtml(sample.collector || '—')}</dd>
+          <dt>Determinatore</dt> <dd>${escapeHtml(sample.determiner || '—')}</dd>
+          <dt>Località</dt>      <dd><a href="https://www.openstreetmap.org/?mlat=${safeLat}&mlon=${safeLon}&zoom=14" target="_blank" rel="noopener">${escapeHtml(sample.locality)}</a></dd>
+          <dt>Habitat</dt>       <dd>${escapeHtml(sample.habitat || '—')}</dd>
         </dl>
       </div>`;
     }
