@@ -19,7 +19,7 @@ defaults:
   - scope:
       type: "reportsAggiornamentiNomenclatura"
     values:
-      layout: "report"
+      layout: "reportsAggiornamentiNomenclatura"
 
 exclude:
   - Gemfile
