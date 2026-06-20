@@ -7,5 +7,5 @@
   {%- else -%}
     {%- assign url = '/js/' | append: item | append: '.js' | relative_url -%}
   {%- endif -%}
-<script src="{{ url }}"{% if entry.defer %} defer{% endif %}{% if entry.async %} async{% endif %}{% if entry.type %} type="{{ entry.type }}"{% endif %}></script>
+<script src="{{ url }}"{% if entry.defer %} defer{% endif %}{% if entry.async %} async{% endif %}{% if entry.type %} type="{{ entry.type }}"{% endif %}{% if entry.integrity %} integrity="{{ entry.integrity }}" crossorigin="{{ entry.crossorigin | default: 'anonymous' }}" referrerpolicy="{{ entry.referrerpolicy | default: 'no-referrer' }}"{% endif %}></script>
 {%- endfor -%}

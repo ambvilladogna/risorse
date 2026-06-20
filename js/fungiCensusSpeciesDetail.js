@@ -2,9 +2,11 @@ let map;
 let seasonalityChart;
 
 const getSpeciesFilename = (genus, species) => {
-    const cleanGenus = genus.toLowerCase().replace(/[\s.]/g, '_');
-    const cleanSpecies = species.toLowerCase().replace(/[\s.]/g, '_');
-    const filename = `${cleanGenus}_${cleanSpecies}.json`;
+    const sanitize = s => s
+        .toLowerCase()
+        .replace(/[\s.]/g, '_')
+        .replace(/[^a-z0-9_-]/g, '');   // whitelist: solo alfanumerici, underscore, trattino
+    const filename = `${sanitize(genus)}_${sanitize(species)}.json`;
     return filename.replace(/_+/g, '_');
 };
 
@@ -269,9 +271,9 @@ const computeFenologiaAndStatistiche = (campioniRaccolti = [], campioniExsiccata
 
 // Load species data
 async function loadSpeciesData() {
-    const genus = escapeHtml(getUrlParameter('genus') || '');
-    const species = escapeHtml(getUrlParameter('species') || '');
-    const area = escapeHtml(getUrlParameter('area') || '');
+    const genus = getUrlParameter('genus') || '';
+    const species = getUrlParameter('species') || '';
+    const area = getUrlParameter('area') || '';
     const filename = getSpeciesFilename(genus, species);
 
     // Update page title and header

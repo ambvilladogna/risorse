@@ -74,9 +74,9 @@
             const pct = Math.round((count / max) * 100);
             const hasData = count > 0 ? 'has-data' : '';
             return `
-        <div class="month-bar-wrap" title="${escapeHtml(MONTHS[i].abbr)}: ${count}">
+        <div class="month-bar-wrap" title="${MONTHS[i].abbr}: ${count}">
           <div class="month-bar ${hasData}" style="height:${pct}%"></div>
-          <span class="month-bar-label">${escapeHtml(MONTHS[i].abbr.charAt(0))}</span>
+          <span class="month-bar-label">${MONTHS[i].abbr.charAt(0)}</span>
         </div>`;
         }).join('');
     }
@@ -121,8 +121,8 @@
             return `
         <div class="month-section">
           <div class="month-header">
-            <div class="month-icon">${escapeHtml(m.abbr)}</div>
-            <h2 class="month-title">${escapeHtml(m.full)}</h2>
+            <div class="month-icon">${m.abbr}</div>
+            <h2 class="month-title">${m.full}</h2>
             <span class="month-count">${count} ${count === 1 ? 'specie' : 'specie'}</span>
           </div>
           ${cardsHTML}
@@ -190,14 +190,14 @@
         let html = '';
         TYPE_ORDER.forEach(type => {
             if (!groups[type].length) return;
-            html += `<div class="dropdown-group-label">${escapeHtml(TYPE_LABEL[type])}</div>`;
+            html += `<div class="dropdown-group-label">${TYPE_LABEL[type]}</div>`;
             groups[type].forEach(item => {
                 const italic = type === 'genus' || type === 'species';
                 const label = italic ? `<em>${escapeHtml(item.value)}</em>` : escapeHtml(item.value);
                 const n = item.matchSpecies.length;
                 html += `
           <div class="dropdown-item" data-value="${escapeHtml(item.value)}" data-type="${escapeHtml(item.type)}" role="option">
-            <span class="type-badge type-badge--${escapeHtml(type)}">${escapeHtml(TYPE_LABEL[type])}</span>
+            <span class="type-badge type-badge--${escapeHtml(type)}">${TYPE_LABEL[type]}</span>
             <span class="dropdown-item-label">${label}</span>
             <span class="dropdown-item-count">${n} sp.</span>
           </div>`;
@@ -232,9 +232,9 @@
         if (activeFilter) {
             const italic = type === 'genus' || type === 'species';
             const label = italic ? `<em>${escapeHtml(value)}</em>` : escapeHtml(value);
-            activePillText.innerHTML = `${escapeHtml(TYPE_LABEL[type])}: ${label}`;
+            activePillText.innerHTML = `${TYPE_LABEL[type]}: ${label}`;
             const n = activeFilter.matchSpecies.length;
-            activeCount.textContent = `— ${n} speci${n === 1 ? 'e' : 'e'}`;
+            activeCount.textContent = `— ${n} specie`;
             activePill.classList.add('visible');
         }
 

@@ -2,12 +2,16 @@
 layout: default
 title: Dettagli Specie
 css:
-  - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+  - href: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css
+    integrity: sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==
   - fungiCensusSpecies
 scripts:
   head:
-    - https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
-    - https://cdn.jsdelivr.net/npm/chart.js
+    - src: https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet-src.min.js
+      integrity: sha512-3/WyQrhTdqSVmSifQS62akgtNBhZha2lS44TnoN9Jk3J01FvsKK4suVmz6t5FtccGb5iJw58GoFhBjPE5EPc8Q==
+    - src: https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.umd.min.js
+      integrity: sha512-Y51n9mtKTVBh3Jbx5pZSJNDDMyY+yGe77DGtBPzRlgsf/YLCh13kSZ3JmfHGzYFCmOndraf0sQgfM654b7dJ3w==
+      
   body:
     - fungiCensusUtils
     - fungiCensusGeoFilter

@@ -1,9 +1,11 @@
-{%- for item in include.list -%}
+{%- for entry in include.list -%}
+  {%- assign item = entry.href | default: entry -%}
   {%- if item contains '//' -%}
-<link rel="stylesheet" href="{{ item }}">
+    {%- assign url = item -%}
   {%- elsif item contains '/' -%}
-<link rel="stylesheet" href="{{ item | relative_url }}">
+    {%- assign url = item | relative_url -%}
   {%- else -%}
-<link rel="stylesheet" href="{{ '/css/' | append: item | append: '.css' | relative_url }}">
+    {%- assign url = '/css/' | append: item | append: '.css' | relative_url -%}
   {%- endif -%}
+<link rel="stylesheet" href="{{ url }}"{% if entry.integrity %} integrity="{{ entry.integrity }}" crossorigin="{{ entry.crossorigin | default: 'anonymous' }} referrerpolicy={{ entry.referrerpolicy | default: 'no-referrer' }}"{% endif %}>
 {%- endfor -%}

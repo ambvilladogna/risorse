@@ -81,18 +81,30 @@
         return allSpecies.filter(sp => allowed.has(sp.fullName));
     }
 
-    // Create clickable lineage with taxon links
-    function createLineageWithLinks(lineage) {
-        return lineage.split(' > ').map(part => {
+    // Build the lineage breadcrumb as DOM nodes (no innerHTML/inline handlers),
+    // attaching a click listener on each taxon span via addEventListener.
+    function appendLineageWithLinks(container, lineage) {
+        const parts = lineage.split(' > ');
+        parts.forEach((part, i) => {
             const colonIndex = part.indexOf(':');
             if (colonIndex !== -1) {
                 const prefix = part.substring(0, colonIndex + 2);          // e.g. "Famiglia: "
                 const taxonName = part.substring(colonIndex + 2).trim();   // e.g. "Agaricaceae"
-                const onclickAttr = `onclick="performTaxonSearch('${escapeHtml(taxonName)}','${prefix.slice(0, -2).trim()}')"`;
-                return `${prefix}<span class="taxon-link" ${onclickAttr}>${escapeHtml(taxonName)}</span>`;
+                const taxonType = prefix.slice(0, -2).trim();
+
+                container.append(prefix);
+
+                const span = document.createElement('span');
+                span.className = 'taxon-link';
+                span.textContent = taxonName;
+                span.addEventListener('click', () => performTaxonSearch(taxonName, taxonType));
+                container.appendChild(span);
+            } else {
+                container.append(part);
             }
-            return part;
-        }).join(' > ');
+
+            if (i < parts.length - 1) container.append(' > ');
+        });
     }
 
     // ── Render ─────────────────────────────────────────────────────────────────
@@ -107,36 +119,70 @@
         container.scrollTop = 0;
         resultsCount.textContent = `Risultati: ${filteredSpecies.length}`;
 
+        speciesList.innerHTML = '';
+
         if (filteredSpecies.length === 0) {
             speciesList.innerHTML = '<div class="no-results">Nessuna specie trovata con i criteri selezionati</div>';
             return;
         }
 
-        const html = filteredSpecies.map(species => {
-            let synonymInfo = '';
+        filteredSpecies.forEach(species => {
+            const item = document.createElement('div');
+            item.className = 'species-item';
+
+            // Name line: <em>genusLink speciesLink</em> authority
+            const nameDiv = document.createElement('div');
+            nameDiv.className = 'species-name';
+
+            const em = document.createElement('em');
+
+            const genusLink = document.createElement('span');
+            genusLink.className = 'taxon-link';
+            genusLink.textContent = species.genus;
+            genusLink.addEventListener('click', () => performTaxonSearch(species.genus, 'genus'));
+
+            const speciesLink = document.createElement('span');
+            speciesLink.className = 'taxon-link';
+            speciesLink.textContent = species.species;
+            speciesLink.addEventListener('click', () => handleSpeciesClick(species.genus, species.species));
+
+            em.appendChild(genusLink);
+            em.append(' ');
+            em.appendChild(speciesLink);
+
+            nameDiv.appendChild(em);
+            nameDiv.append(` ${species.authority || ''}`);
+
+            // Lineage line
+            const lineageDiv = document.createElement('div');
+            lineageDiv.className = 'species-lineage';
+            appendLineageWithLinks(lineageDiv, species.lineage);
+
+            item.appendChild(nameDiv);
+            item.appendChild(lineageDiv);
+
+            // Synonym info, if any
             if (species.currentName && species.currentName !== species.fullName) {
-                synonymInfo = `
-                        <div class="synonym-info">
-                            <span class="synonym-label">Sinonimo di:</span> <em>${escapeHtml(species.currentName)}</em> ${escapeHtml(species.currentAuthority)}
-                        </div>
-                    `;
+                const synonymDiv = document.createElement('div');
+                synonymDiv.className = 'synonym-info';
+
+                const label = document.createElement('span');
+                label.className = 'synonym-label';
+                label.textContent = 'Sinonimo di:';
+
+                const em2 = document.createElement('em');
+                em2.textContent = species.currentName;
+
+                synonymDiv.appendChild(label);
+                synonymDiv.append(' ');
+                synonymDiv.appendChild(em2);
+                synonymDiv.append(` ${species.currentAuthority || ''}`);
+
+                item.appendChild(synonymDiv);
             }
 
-            const genusLink = `<span class="taxon-link" onclick="performTaxonSearch('${escapeHtml(species.genus)}','genus')">${escapeHtml(species.genus)}</span>`;
-            const speciesLink = `<span class="taxon-link" onclick="handleSpeciesClick('${escapeHtml(species.genus)}','${escapeHtml(species.species)}')">${escapeHtml(species.species)}</span>`;
-            const lineageWithLinks = createLineageWithLinks(species.lineage);
-
-            return `
-                    <div class="species-item">
-                        <div class="species-name"><em>${genusLink} ${speciesLink}</em> ${escapeHtml(species.authority)}</div>
-                        <div class="species-lineage">${lineageWithLinks}</div>
-                        ${synonymInfo}
-                    </div>
-                `;
-        }).join('');
-
-        speciesList.innerHTML = html;
-
+            speciesList.appendChild(item);
+        });
     }
 
     // ── Filter / autocomplete ──────────────────────────────────────────────────
@@ -181,12 +227,12 @@
             html += `<div class="dropdown-group-label">${TYPE_LABEL[type]}</div>`;
             groups[type].forEach(item => {
                 const italic = type === 'genus' || type === 'species';
-                const label = italic ? `<em>${escapeHtml(item.value)}</em>` : item.value;
+                const label = italic ? `<em>${escapeHtml(item.value)}</em>` : escapeHtml(item.value);
                 const n = item.matchSpecies.length;
                 html += `
           <div class="dropdown-item" data-value="${escapeHtml(item.value)}" data-type="${escapeHtml(item.type)}" role="option">
-            <span class="type-badge type-badge--${type}">${escapeHtml(TYPE_LABEL[type])}</span>
-            <span class="dropdown-item-label">${escapeHtml(label)}</span>
+            <span class="type-badge type-badge--${type}">${TYPE_LABEL[type]}</span>
+            <span class="dropdown-item-label">${label}</span>
             <span class="dropdown-item-count">${escapeHtml(n)} sp.</span>
           </div>`;
             });
@@ -220,7 +266,7 @@
         if (activeFilter) {
             const italic = type === 'genus' || type === 'species';
             const label = italic ? `<em>${escapeHtml(value)}</em>` : escapeHtml(value);
-            activePillText.innerHTML = `${escapeHtml(TYPE_LABEL[type])}: ${escapeHtml(label)}`;
+            activePillText.innerHTML = `${TYPE_LABEL[type]}: ${label}`;
             // avoid duplicate count display
             // const n = activeFilter.matchSpecies.length;
             // activeCount.textContent = `— ${escapeHtml(n)} specie`;
