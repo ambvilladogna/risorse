@@ -338,6 +338,10 @@
 
     window.performTaxonSearch = function (value, type) {
         applyFilter(value, type);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     };
 
     // ── Init ───────────────────────────────────────────────────────────────────
