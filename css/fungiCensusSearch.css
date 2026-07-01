@@ -2,6 +2,11 @@
    PAGE-SPECIFIC STYLES
    ============================================ */
 
+/* OVERRIDE: Custom section padding */
+.section {
+    padding: var(--spacing-xs) 0;
+}
+
 /* Search Section */
 .search-section {
     background: var(--color-bg);
@@ -136,6 +141,14 @@ input:focus {
 /* override btn style to keep btn height consistent with input fields */
 .btn {
     padding: 11px 16px;
+}
+
+.hint {
+    font-size: var(--font-size-small);
+    font-style: italic;
+    color: var(--color-text-light);
+    margin-top: var(--spacing-sm);
+    text-align: center;
 }
 
 /* Results Section */
